@@ -1,0 +1,118 @@
+slug: magnesium-side-effects-and-safety
+title: Magnesium Side Effects and Safety
+categoryId: magnesium
+excerpt: >
+  Conservative safety context from NIH materials — common GI effects, kidney disease cautions, medication interactions,
+  sensitive populations, and emergency guidance — not medical advice.
+body: |
+  ## Introduction
+
+  Magnesium is an essential mineral with established dietary reference values and documented supplement safety
+  considerations. This page summarizes **general safety context** from cited NIH and FDA sources. It does not replace
+  advice from a qualified healthcare professional.
+
+  ## Common side effects at high supplemental intakes
+
+  According to NIH health-professional materials, **very high intakes of magnesium from dietary supplements or
+  medications** can cause diarrhea, nausea, and abdominal cramping. Forms such as magnesium carbonate, chloride,
+  gluconate, and oxide are more frequently associated with laxative effects than some other forms — but individual
+  tolerance varies.
+
+  Magnesium citrate is commonly associated with GI tolerance considerations and may be more likely to cause loose stools
+  for some people, especially at higher supplemental intakes. This is general context — not a reason to use any
+  supplement for bowel symptoms without medical guidance.
+
+  ## Kidney disease and hypermagnesemia risk
+
+  NIH materials emphasize that people with **impaired kidney function or kidney disease** are at greater risk of
+  **hypermagnesemia** (elevated blood magnesium) when using magnesium supplements or magnesium-containing medications.
+  If you manage kidney disease, consult a qualified healthcare professional before using magnesium supplements.
+
+  ## Medication interactions
+
+  NIH health-professional summaries describe interactions between magnesium and several drug classes, including:
+
+  - **Bisphosphonates** — magnesium may reduce absorption if taken too close together
+  - **Some antibiotics** (tetracyclines, fluoroquinolones) — spacing doses may be important
+  - **Diuretics** — can affect magnesium balance
+  - **Proton pump inhibitors (PPIs)** — long-term use may affect magnesium status
+
+  This list is not complete. Consult a qualified healthcare professional or pharmacist about your specific medications.
+
+  ## Sensitive populations
+
+  Seek professional guidance before use if you are:
+
+  - **Pregnant or nursing** — magnesium needs change during pregnancy and lactation; follow clinician guidance
+  - **Under 18** — pediatric dosing and suitability differ from adult products
+  - **Managing a medical condition** — including diabetes, cardiovascular conditions, or gastrointestinal disorders
+  - **Preparing for surgery** — disclose all supplements to your surgical team
+
+  ## What magnesium supplements are not
+
+  Dietary supplements are not FDA-approved to diagnose, cure, or prevent disease. SuppCheckr does not describe magnesium
+  as a medical therapy. Avoid products whose marketing implies disease outcomes or universal safety claims.
+
+  SuppCheckr does not rank magnesium products for sleep, anxiety, constipation, blood pressure, migraines, cognition, or
+  any medical condition.
+
+  ## Emergency disclaimer
+
+  Seek **immediate medical attention** (call emergency services or go to an emergency department) for symptoms such as
+  severe allergic reaction, difficulty breathing, chest pain, irregular heartbeat, extreme weakness, or other sudden
+  severe symptoms — whether or not you recently took a supplement. For suspected supplement-related adverse events,
+  contact a healthcare professional promptly.
+
+  According to FDA materials, consumers and healthcare professionals can report serious adverse events associated with
+  dietary supplements through FDA safety reporting systems. See FDA dietary supplement resources for current reporting
+  instructions.
+
+  ## Product label changes
+
+  Product labels, warnings, dosages, and formulas can change. Always read the current Supplement Facts panel and
+  manufacturer warnings before use.
+
+  ## Related reading
+
+  - [Magnesium ingredient reference](/ingredients/magnesium)
+  - [Magnesium dosage guide](/guides/magnesium-dosage-guide)
+  - [What is magnesium?](/guides/what-is-magnesium)
+  - [How to choose a magnesium supplement](/guides/how-to-choose-a-magnesium-supplement)
+relatedGuideSlugs:
+  - magnesium-dosage-guide
+  - what-is-magnesium
+sources:
+  - id: nih-magnesium-hp-safety
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-magnesium-consumer-safety
+    title: Magnesium — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-safety
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-06-26'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4C draft magnesium safety context guide

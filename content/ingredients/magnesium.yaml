@@ -1,0 +1,87 @@
+id: magnesium
+slug: magnesium
+name: Magnesium
+commonForms:
+  - Magnesium glycinate / bisglycinate
+  - Magnesium citrate
+  - Magnesium malate
+  - Magnesium oxide
+  - Magnesium L-threonate
+  - Magnesium chloride
+  - Magnesium taurate
+categories:
+  - magnesium
+aliases:
+  - Elemental magnesium
+  - Dietary magnesium
+evidenceSummary: >
+  Magnesium is an essential mineral involved in many normal body processes. According to NIH Office of Dietary
+  Supplements materials, magnesium is found in foods and is also sold in several supplemental forms — glycinate,
+  citrate, malate, oxide, and others. Supplement labels may list compound names, chelate weights, or elemental
+  magnesium amounts; comparing products requires checking how much elemental magnesium each serving provides.
+  Research has examined magnesium intake in population and clinical contexts; individual needs and tolerance vary.
+  SuppCheckr summarizes label and product-comparison information — not medical advice. SuppCheckr does not rank
+  magnesium products for sleep, anxiety, constipation, blood pressure, migraines, cognition, or any medical condition.
+typicalDosageRange: >
+  NIH health-professional materials publish Recommended Dietary Allowances (RDAs) and Adequate Intakes (AIs) for
+  magnesium by age, sex, and life stage, and note a Tolerable Upper Intake Level (UL) for supplemental magnesium in
+  adults (350 mg/day from supplements and medications — not including magnesium from food). Product serving sizes and
+  elemental magnesium per serving differ widely by form and brand. Dietary intake from food plus supplemental intake
+  should be considered together. This page does not prescribe a dose. Consult a qualified healthcare professional before
+  starting or changing magnesium supplements, especially if pregnant, nursing, under 18, taking medication, managing
+  kidney disease, or managing a medical condition.
+safetyNotes: >
+  According to NIH materials, very high intakes of magnesium from supplements or medications can cause diarrhea, nausea,
+  and abdominal cramping; some forms (such as carbonate, chloride, gluconate, and oxide) are more commonly associated
+  with laxative effects than others. People with impaired kidney function or kidney disease may be at risk of
+  hypermagnesemia and should consult a qualified healthcare professional before using magnesium supplements. Magnesium
+  supplements are not a substitute for medical care. Product labels, warnings, dosages, and formulas can change — verify
+  the current label before use.
+interactions: >
+  NIH health-professional materials describe magnesium interactions with several medication classes, including
+  bisphosphonates, some antibiotics, diuretics, and proton pump inhibitors (PPIs). This summary is not a complete
+  interaction list. Consult a qualified healthcare professional or pharmacist if you take prescription medications,
+  especially if you manage kidney disease or a chronic medical condition.
+relatedProductIds: []
+relatedGuideSlugs:
+  - what-is-magnesium
+  - how-to-choose-a-magnesium-supplement
+  - magnesium-glycinate-vs-citrate
+  - magnesium-dosage-guide
+  - magnesium-side-effects-and-safety
+  - types-of-magnesium
+sources:
+  - id: nih-magnesium-hp
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-magnesium-consumer
+    title: Magnesium — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-overview
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-06-26'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4C draft general magnesium ingredient hub replacing placeholder glycinate entry

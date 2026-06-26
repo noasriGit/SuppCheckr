@@ -1,0 +1,113 @@
+slug: what-is-magnesium
+title: What Is Magnesium?
+categoryId: magnesium
+excerpt: >
+  A conservative overview of magnesium as an essential mineral, dietary vs supplemental sources, why supplement labels
+  can be confusing, and how SuppCheckr evaluates magnesium products — not medical advice.
+body: |
+  ## Introduction
+
+  Magnesium is an essential mineral your body needs for many normal processes. It is found in foods and also sold as
+  dietary supplements in several chemical forms. SuppCheckr explains magnesium in educational guides and compares
+  supplement labels when product reviews are available — we do not provide medical advice.
+
+  ## What magnesium is
+
+  According to NIH Office of Dietary Supplements consumer materials, magnesium is a cofactor in hundreds of enzyme
+  systems and is involved in protein synthesis, muscle and nerve function, blood glucose control, and blood pressure
+  regulation (among other roles). The body stores most magnesium in bone; smaller amounts are in soft tissues and
+  fluids.
+
+  ## Dietary magnesium vs supplemental magnesium
+
+  NIH materials note that magnesium is present in many foods — including green leafy vegetables, nuts, seeds, legumes,
+  whole grains, and fortified cereals — and that drinking water can contribute small amounts. Many people in the United
+  States do not meet recommended intake from food alone, according to national survey data summarized by NIH.
+
+  Dietary supplements add magnesium on top of food intake. When comparing products or thinking about total intake,
+  consider both food sources and any supplements you use. SuppCheckr does not estimate your personal dietary intake.
+
+  ## Why magnesium supplement labels can be confusing
+
+  A common source of confusion is the difference between **compound weight** and **elemental magnesium**:
+
+  - Labels may list a chelate or salt name (for example, magnesium bisglycinate or magnesium citrate) with a weight in
+    milligrams.
+  - The Supplement Facts panel should also show how much **elemental magnesium** (often listed simply as "Magnesium")
+    each serving provides — that is the number most relevant for dose and value comparisons.
+
+  If a label discloses only compound weight without elemental magnesium, dose transparency is limited. SuppCheckr
+  weights elemental magnesium disclosure heavily when reviewing magnesium products.
+
+  Different forms (glycinate, citrate, oxide, malate, and others) may have different label positioning and tolerability
+  considerations for some people. See our [types of magnesium guide](/guides/types-of-magnesium) for form context
+  without product recommendations.
+
+  ## What magnesium supplements are not
+
+  Dietary supplements are not drugs and are not FDA-approved to diagnose, cure, or prevent disease. According to FDA
+  overview materials, supplement manufacturers may not make disease claims on labels. SuppCheckr does not describe
+  magnesium supplements as medical therapies.
+
+  ## How SuppCheckr approaches magnesium products
+
+  When magnesium product reviews are published, SuppCheckr will compare publicly available label information in our
+  [magnesium category hub](/supplements/magnesium): form disclosure, **elemental magnesium per serving**, other
+  ingredients, third-party testing documentation, and dated manual price context (including price per 100 mg elemental
+  magnesium). Scores reflect label transparency and sourcing — not proof that a product will work for you.
+
+  SuppCheckr does **not** rank magnesium products for sleep, anxiety, constipation, blood pressure, migraines,
+  cognition, or any medical condition.
+
+  ## Safety reminder
+
+  Consult a qualified healthcare professional before starting or changing magnesium supplements, especially if pregnant,
+  nursing, under 18, taking medications, managing kidney disease, managing a medical condition, or preparing for surgery.
+  Product labels, warnings, dosages, and formulas can change.
+
+  ## Related reading
+
+  - [Magnesium ingredient reference](/ingredients/magnesium)
+  - [How to choose a magnesium supplement](/guides/how-to-choose-a-magnesium-supplement)
+  - [Magnesium dosage guide](/guides/magnesium-dosage-guide)
+  - [Magnesium side effects and safety](/guides/magnesium-side-effects-and-safety)
+  - [Types of magnesium](/guides/types-of-magnesium)
+relatedGuideSlugs:
+  - how-to-choose-a-magnesium-supplement
+  - magnesium-dosage-guide
+  - types-of-magnesium
+sources:
+  - id: nih-magnesium-consumer
+    title: Magnesium — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-magnesium-hp
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-overview
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-06-26'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4C draft introductory magnesium guide

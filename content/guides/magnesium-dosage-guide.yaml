@@ -1,0 +1,102 @@
+slug: magnesium-dosage-guide
+title: Magnesium Dosage Guide
+categoryId: magnesium
+excerpt: >
+  How to read magnesium serving sizes and elemental magnesium on labels, dietary vs supplemental intake context, and
+  upper-limit background from NIH materials — not personalized medical advice.
+body: |
+  ## Introduction
+
+  Magnesium products use different serving sizes and elemental magnesium amounts per serving. This guide explains how to
+  read label dose information and summarizes **general intake reference values** from NIH Office of Dietary Supplements
+  materials. It is not a prescription or personal dosing recommendation.
+
+  ## Elemental magnesium vs compound weight
+
+  Always check the Supplement Facts panel for **elemental magnesium** (often listed as "Magnesium" with a milligram
+  amount). Compound names such as magnesium bisglycinate, magnesium citrate, or magnesium oxide may appear with
+  separate weights that do not equal elemental magnesium. SuppCheckr comparisons use elemental magnesium per serving,
+  not compound weight alone.
+
+  ## Reading the Supplement Facts panel
+
+  When comparing products, check:
+
+  1. **Serving size** — capsule count, scoop size, etc.
+  2. **Elemental magnesium per serving** — the mg amount listed as magnesium
+  3. **Servings per container** — needed for price-per-serving and price-per-100-mg-elemental math
+
+  If magnesium is listed inside a proprietary blend without a specific elemental amount, dose transparency is limited.
+
+  ## Dietary reference values (context only)
+
+  According to NIH health-professional materials, Recommended Dietary Allowances (RDAs) and Adequate Intakes (AIs) for
+  magnesium vary by age, sex, pregnancy, and lactation. For example, many adults have an RDA of roughly 310–420 mg/day
+  from **food and beverages combined** — check the NIH fact sheet tables for your life stage.
+
+  These values describe total dietary intake targets, not a instruction to take a specific supplement dose.
+
+  ## Supplemental upper limit (context only)
+
+  NIH materials also publish a **Tolerable Upper Intake Level (UL)** for **supplemental** magnesium from supplements
+  and medications — **350 mg/day for adults** (not including magnesium naturally present in food). Exceeding the UL
+  from supplements may increase the risk of diarrhea and other GI effects for some people.
+
+  Total intake includes food, fortified foods, supplements, and some medications (such as certain antacids and
+  laxatives that contain magnesium). This guide does not calculate your personal total intake.
+
+  ## Product labels vs reference tables
+
+  Supplement labels suggest a serving size for the product; that serving may or may not align with your dietary needs.
+  Follow the product label unless a qualified healthcare professional advises otherwise. Labels, warnings, and formulas
+  can change — verify the current label before use.
+
+  ## Who should talk to a healthcare professional first
+
+  Consult a qualified healthcare professional before starting or changing magnesium supplements, especially if you are:
+
+  - Pregnant or nursing
+  - Under 18
+  - Taking prescription medications (including diuretics, antibiotics, bisphosphonates, or PPIs — see NIH interaction
+    summaries)
+  - Managing kidney disease or impaired kidney function
+  - Managing any medical condition or preparing for surgery
+
+  ## Related reading
+
+  - [Magnesium ingredient reference](/ingredients/magnesium)
+  - [What is magnesium?](/guides/what-is-magnesium)
+  - [Magnesium side effects and safety](/guides/magnesium-side-effects-and-safety)
+  - [How to choose a magnesium supplement](/guides/how-to-choose-a-magnesium-supplement)
+relatedGuideSlugs:
+  - what-is-magnesium
+  - magnesium-side-effects-and-safety
+  - how-to-choose-a-magnesium-supplement
+sources:
+  - id: nih-magnesium-hp-dose
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-magnesium-consumer-dose
+    title: Magnesium — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4C draft magnesium dosage education guide

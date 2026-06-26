@@ -1,0 +1,101 @@
+slug: magnesium-glycinate-vs-citrate
+title: Magnesium Glycinate vs. Citrate
+categoryId: magnesium
+excerpt: >
+  A high-level, source-aware comparison of glycinate/bisglycinate and citrate magnesium on labels and in common retail
+  positioning — educational only, no product recommendations.
+body: |
+  ## Introduction
+
+  Magnesium supplements are sold in many chemical forms. Two of the most common in retail products are **magnesium
+  glycinate / bisglycinate** and **magnesium citrate**. This guide explains label and positioning differences at a
+  high level for label literacy. It does not recommend one form for every reader or for any medical condition.
+
+  ## Magnesium glycinate / bisglycinate
+
+  Glycinate and bisglycinate (sometimes written bis-glycinate) refer to magnesium bound to the amino acid glycine.
+  Labels may list a chelate or trademark ingredient name (for example, Albion TRAACS) alongside the form.
+
+  **Common market positioning:** Magnesium glycinate/bisglycinate is commonly marketed as a chelated form and is often
+  chosen by consumers looking for a gentler-feeling supplement, but individual tolerance varies and marketing claims
+  should be verified carefully.
+
+  SuppCheckr does not describe glycinate as a sleep aid, anxiety remedy, or medical therapy. When comparing products,
+  check **elemental magnesium per serving** on the Supplement Facts panel — not compound weight alone.
+
+  ## Magnesium citrate
+
+  Magnesium citrate is magnesium combined with citric acid. It is widely sold as a general magnesium supplement.
+
+  **Common market positioning:** Magnesium citrate is commonly associated with GI tolerance considerations and may be
+  more likely to cause loose stools for some people, especially at higher supplemental intakes, according to NIH
+  materials on magnesium side effects. Users seeking help for bowel symptoms should consult a qualified healthcare
+  professional — SuppCheckr does not describe citrate as a constipation remedy.
+
+  ## Label comparison tips
+
+  When reading labels, compare the same metrics for both forms:
+
+  | Factor | Glycinate / bisglycinate | Citrate |
+  | --- | --- | --- |
+  | Common label names | Magnesium bisglycinate, glycinate chelate | Magnesium citrate |
+  | Key dose line | Elemental magnesium (mg) per serving | Elemental magnesium (mg) per serving |
+  | Compound weight | May show chelate mg separately | May show citrate salt weight separately |
+  | Marketing themes | "Gentle," chelated, evening wellness | General magnesium; sometimes GI-adjacent copy |
+
+  Always use **elemental magnesium per serving** for apples-to-apples dose and value math — see our
+  [dosage guide](/guides/magnesium-dosage-guide).
+
+  ## Why form alone does not determine outcomes
+
+  NIH consumer materials note that some forms (aspartate, citrate, lactate, and chloride) are described as more easily
+  absorbed than others in general reference context — but that is not a guarantee of personal tolerance or suitability.
+  Individual responses vary. Neither form should be selected based on disease-outcome marketing alone.
+
+  ## No product recommendations here
+
+  This guide does not rank products or suggest a form for sleep, anxiety, digestion, or any medical purpose. SuppCheckr
+  does not rank magnesium products for medical conditions.
+
+  Consult a qualified healthcare professional before starting or changing magnesium supplements, especially if pregnant,
+  nursing, under 18, taking medications, managing kidney disease, or managing a medical condition. Product labels,
+  warnings, dosages, and formulas can change.
+
+  ## Related reading
+
+  - [Magnesium ingredient reference](/ingredients/magnesium)
+  - [Types of magnesium](/guides/types-of-magnesium)
+  - [What is magnesium?](/guides/what-is-magnesium)
+  - [How to choose a magnesium supplement](/guides/how-to-choose-a-magnesium-supplement)
+relatedGuideSlugs:
+  - what-is-magnesium
+  - types-of-magnesium
+  - how-to-choose-a-magnesium-supplement
+sources:
+  - id: nih-magnesium-hp-forms
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-magnesium-consumer-forms
+    title: Magnesium — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4C draft glycinate vs citrate form-comparison guide
