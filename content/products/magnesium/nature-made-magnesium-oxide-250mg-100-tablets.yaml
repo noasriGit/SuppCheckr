@@ -1,0 +1,200 @@
+id: magnesium-nature-made-magnesium-oxide-250mg-100
+slug: nature-made-magnesium-oxide-250mg-100-tablets
+name: Nature Made Magnesium Oxide 250 mg Tablets (100 Tablets)
+brandId: nature-made
+categoryId: magnesium
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Nature Made Magnesium Oxide 250 mg 100 tablets — product photo pending
+    attribution: Placeholder image; label sourced from Target listing Supplement Facts
+  label:
+    src: null
+    attribution: https://www.target.com/p/nature-made-magnesium-250mg-muscle-bone-nerve-and-heart-health-tablets-100ct/-/A-91641244
+supplementFacts:
+  servingSize: 1 tablet
+  servingsPerContainer: 100
+  ingredients:
+    - name: Magnesium (as magnesium oxide)
+      amount: 250 mg
+      dailyValue: null
+  otherIngredients:
+    - Cellulose gel
+    - Croscarmellose sodium
+    - Stearic acid
+    - Hypromellose
+    - Magnesium stearate
+    - Silicone dioxide
+    - Color added
+    - Polyethylene glycol
+    - Triethyl citrate
+    - Polysorbate 80
+  allergens: []
+pricing:
+  msrp: 4.49
+  currency: USD
+  pricePerServing: 0.04
+  pricePerActiveDose: 0.018
+  lastManualUpdate: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-26'
+retailers:
+  - retailerId: target
+    url: https://www.target.com/p/nature-made-magnesium-250mg-muscle-bone-nerve-and-heart-health-tablets-100ct/-/A-91641244
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: unknown
+  details: >
+    No USP Verified or other third-party certification database entry for this SKU was verified in Phase 4D-2. Retailer
+    copy and brand marketing were not treated as verification.
+  sources: []
+additives:
+  - Cellulose gel
+  - Croscarmellose sodium
+  - Color added
+  - Polyethylene glycol
+  - Polysorbate 80
+flags:
+  thirdPartyTested: false
+  additiveFree: false
+rating:
+  profileId: default
+  criteriaScores:
+    ingredientTransparency: 88
+    doseTransparency: 92
+    evidenceAlignment: 78
+    formulaQuality: 70
+    thirdPartyTesting: 45
+    priceValue: 95
+    additives: 55
+    labelClarity: 90
+    brandTransparency: 75
+  overallScore: 77
+pros:
+  - Supplement Facts on the cited Target listing show 250 mg magnesium (elemental) as magnesium oxide per 1-tablet serving.
+  - Lowest observed price per 100 mg elemental magnesium among the five draft cluster products at the cited price check.
+  - Single-form oxide label with straightforward one-tablet serving size.
+cons:
+  - According to NIH ODS materials, some magnesium forms including oxide are more commonly associated with laxative effects at higher supplemental intakes; individual GI tolerance varies.
+  - Tablet includes multiple excipients and color additives versus simpler capsule formulas in this cluster.
+  - No verified third-party testing or USP certification documentation captured for this SKU in Phase 4D-2.
+  - Retailer marketing includes heart, bone, and nerve wellness copy — SuppCheckr summarizes label facts, not condition support.
+bestFor:
+  - Buyers comparing a common budget oxide example using label-stated elemental magnesium and dated price per 100 mg elemental.
+avoidIf:
+  - You require verified third-party testing or USP certification documentation before purchase.
+  - You prefer a formula with fewer tablet excipients or a non-oxide magnesium form.
+  - You have kidney disease or take medications — consult a qualified healthcare professional before use (per label caution and NIH context).
+labelTransparencyNotes: >
+  Locked UPC 031604012694 / TCIN 91641244 — 100 tablets. Target listing Supplement Facts match Phase 4D-1 research for 250 mg
+  elemental magnesium as magnesium oxide per tablet and 100 servings per bottle. Label caution advises consultation if you
+  have kidney disease or take medication.
+evidenceNotes: >
+  Draft SuppCheckr score uses the default scoring profile — a dedicated magnesium rubric is still needed before
+  publication. Oxide value framing uses elemental mg and dated price only — not absorption superiority or dismissal of the form.
+relatedProductIds:
+  - magnesium-klean-athlete-klean-magnesium
+  - magnesium-nutricost-magnesium-citrate-120
+  - magnesium-now-foods-magnesium-malate-1300-180
+  - magnesium-pure-encapsulations-citrate-malate-180
+comparisonGroupIds: []
+claims:
+  - id: nature-made-mag-label-form-oxide
+    text: The cited Supplement Facts list magnesium as magnesium oxide.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-nature-made-magnesium-oxide-250mg-100-tablets
+  - id: nature-made-mag-label-elemental-250mg
+    text: The cited Supplement Facts show 250 mg magnesium (elemental) per 1-tablet serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-nature-made-magnesium-oxide-250mg-100-tablets
+  - id: nature-made-mag-price-retailer
+    text: Target listed Nature Made Magnesium Oxide 250 mg 100 tablets at $4.49 on 2026-06-26.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nature-made-magnesium-oxide-250mg-100-tablets
+  - id: nature-made-mag-price-per-serving
+    text: Price per serving is $0.04 based on $4.49 divided by 100 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nature-made-magnesium-oxide-250mg-100-tablets
+      - editorial-price-per-100mg-elemental-nature-made-magnesium-oxide-250mg-100-tablets
+  - id: nature-made-mag-price-per-100mg-elemental
+    text: >
+      Price per 100 mg elemental magnesium is $0.018 based on $0.04 per serving divided by 250 mg elemental magnesium
+      per serving, scaled to 100 mg (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nature-made-magnesium-oxide-250mg-100-tablets
+      - editorial-price-per-100mg-elemental-nature-made-magnesium-oxide-250mg-100-tablets
+  - id: nature-made-mag-oxide-gi-safety
+    text: >
+      According to NIH ODS materials, very high supplemental magnesium intakes can cause diarrhea and other GI effects;
+      forms such as oxide are commonly associated with laxative effects — general safety context only.
+    claimType: safety_context
+    claimRiskLevel: medium
+    citationIds:
+      - nih-magnesium-hp-nature-made-oxide
+sources:
+  - id: label-nature-made-magnesium-oxide-250mg-100-tablets
+    title: Nature Made Magnesium Oxide 250 mg 100 tablets — Supplement Facts (Target listing)
+    publisher: Target / Nature Made
+    url: https://www.target.com/p/nature-made-magnesium-250mg-muscle-bone-nerve-and-heart-health-tablets-100ct/-/A-91641244
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - nature-made-mag-label-form-oxide
+      - nature-made-mag-label-elemental-250mg
+  - id: retailer-nature-made-magnesium-oxide-250mg-100-tablets
+    title: Nature Made Magnesium Oxide 250 mg 100 tablets — Target listing (price)
+    publisher: Target
+    url: https://www.target.com/p/nature-made-magnesium-250mg-muscle-bone-nerve-and-heart-health-tablets-100ct/-/A-91641244
+    accessDate: '2026-06-26'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - nature-made-mag-price-retailer
+      - nature-made-mag-price-per-serving
+      - nature-made-mag-price-per-100mg-elemental
+  - id: editorial-price-per-100mg-elemental-nature-made-magnesium-oxide-250mg-100-tablets
+    title: SuppCheckr price-per-serving and price-per-100-mg-elemental calculation
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - nature-made-mag-price-per-serving
+      - nature-made-mag-price-per-100mg-elemental
+  - id: nih-magnesium-hp-nature-made-oxide
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds:
+      - nature-made-mag-oxide-gi-safety
+affiliate:
+  enabled: false
+seo:
+  title: Nature Made Magnesium Oxide 250 mg Review | SuppCheckr
+  description: >
+    Draft SuppCheckr review of Nature Made Magnesium Oxide 250 mg (100 tablets) with oxide label facts, GI context, and
+    dated price per 100 mg elemental magnesium.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4D-2 draft magnesium product review YAML (budget oxide slot)

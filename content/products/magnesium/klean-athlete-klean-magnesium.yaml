@@ -1,0 +1,190 @@
+id: magnesium-klean-athlete-klean-magnesium
+slug: klean-athlete-klean-magnesium
+name: Klean Athlete Klean Magnesium (90 Vegetarian Capsules)
+brandId: klean-athlete
+categoryId: magnesium
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Klean Athlete Klean Magnesium 90 vegetarian capsules — product photo pending
+    attribution: Placeholder image; label sourced from brand product page
+  label:
+    src: null
+    attribution: https://www.kleanathlete.com/klean-magnesium.html
+supplementFacts:
+  servingSize: 1 vegetarian capsule
+  servingsPerContainer: 90
+  ingredients:
+    - name: Magnesium (as magnesium glycinate)
+      amount: 120 mg
+      dailyValue: null
+  otherIngredients:
+    - Hypromellose (vegetarian capsule)
+    - Rice flour
+    - Magnesium stearate
+  allergens: []
+pricing:
+  msrp: 26.5
+  currency: USD
+  pricePerServing: 0.29
+  pricePerActiveDose: 0.24
+  lastManualUpdate: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-26'
+retailers:
+  - retailerId: klean-athlete
+    url: https://www.kleanathlete.com/klean-magnesium.html
+    isPrimary: true
+certifications:
+  - NSF Certified for Sport
+thirdPartyTesting:
+  status: verified
+  details: >
+    Klean Magnesium is listed on the NSF Certified for Sport product database (listing id 1281622) for the 90-capsule
+    unflavored capsule SKU with a 1-capsule serving size. Elemental magnesium amount is taken from the brand Supplement
+    Facts panel cited below.
+  sources:
+    - cert-klean-magnesium-nsf
+    - label-klean-athlete-klean-magnesium
+additives:
+  - Rice flour
+  - Magnesium stearate
+flags:
+  thirdPartyTested: true
+  additiveFree: false
+rating:
+  profileId: default
+  criteriaScores:
+    ingredientTransparency: 92
+    doseTransparency: 88
+    evidenceAlignment: 85
+    formulaQuality: 95
+    thirdPartyTesting: 95
+    priceValue: 35
+    additives: 90
+    labelClarity: 88
+    brandTransparency: 85
+  overallScore: 83
+pros:
+  - Third-party tested — NSF Certified for Sport listing captured for this SKU (90 vegetarian capsules, 1-capsule serving).
+  - Supplement Facts on the brand page list magnesium as magnesium glycinate with 120 mg elemental magnesium per capsule.
+  - Single primary magnesium form on the label; capsule count and serving size are straightforward.
+cons:
+  - Higher observed price per 100 mg elemental magnesium than budget citrate or oxide options in this draft cluster.
+  - 120 mg elemental magnesium per capsule is a lower per-serving dose than some glycinate products that list 200 mg per serving.
+  - Brand marketing includes athlete and wellness positioning — SuppCheckr does not mirror sleep, anxiety, or recovery outcome claims.
+bestFor:
+  - Buyers who prioritize a glycinate-form label with a verifiable NSF Certified for Sport listing for this SKU.
+avoidIf:
+  - You need the lowest price per 100 mg elemental magnesium in this cluster.
+  - You require a higher elemental magnesium amount per single-capsule serving without taking additional capsules.
+labelTransparencyNotes: >
+  Locked SKU KA202599-90 / UPC 310539035521 — 90 vegetarian capsules. Brand product page Supplement Facts list 120 mg
+  magnesium (elemental) as magnesium glycinate per 1-capsule serving and 90 servings per container. Label directions
+  allow 1–4 capsules daily; SuppCheckr price math uses the 1-capsule serving size shown on Supplement Facts.
+evidenceNotes: >
+  Draft SuppCheckr score uses the default scoring profile — a dedicated magnesium rubric is still needed before
+  publication. Scores reflect label clarity and NSF listing documentation, not personal medical suitability.
+relatedProductIds:
+  - magnesium-nutricost-magnesium-citrate-120
+  - magnesium-now-foods-magnesium-malate-1300-180
+  - magnesium-pure-encapsulations-citrate-malate-180
+  - magnesium-nature-made-magnesium-oxide-250mg-100
+comparisonGroupIds: []
+claims:
+  - id: klean-mag-label-form-glycinate
+    text: The brand Supplement Facts list magnesium as magnesium glycinate.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-klean-athlete-klean-magnesium
+  - id: klean-mag-label-elemental-120mg
+    text: The brand Supplement Facts show 120 mg magnesium (elemental) per 1-capsule serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-klean-athlete-klean-magnesium
+  - id: klean-mag-price-retailer
+    text: KleanAthlete.com listed Klean Magnesium at $26.50 on 2026-06-26.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-klean-athlete-klean-magnesium
+  - id: klean-mag-price-per-serving
+    text: Price per serving is $0.29 based on $26.50 divided by 90 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-klean-athlete-klean-magnesium
+      - editorial-price-per-100mg-elemental-klean-athlete-klean-magnesium
+  - id: klean-mag-price-per-100mg-elemental
+    text: >
+      Price per 100 mg elemental magnesium is $0.24 based on $0.29 per serving divided by 120 mg elemental magnesium per
+      serving, scaled to 100 mg (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-klean-athlete-klean-magnesium
+      - editorial-price-per-100mg-elemental-klean-athlete-klean-magnesium
+  - id: klean-mag-nsf-verified
+    text: NSF Certified for Sport product database lists Klean Athlete Klean Magnesium (90 capsules, 1-capsule serving).
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - cert-klean-magnesium-nsf
+sources:
+  - id: label-klean-athlete-klean-magnesium
+    title: Klean Magnesium — brand product page Supplement Facts
+    publisher: Klean Athlete
+    url: https://www.kleanathlete.com/klean-magnesium.html
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - klean-mag-label-form-glycinate
+      - klean-mag-label-elemental-120mg
+  - id: retailer-klean-athlete-klean-magnesium
+    title: Klean Magnesium product page (price)
+    publisher: Klean Athlete
+    url: https://www.kleanathlete.com/klean-magnesium.html
+    accessDate: '2026-06-26'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - klean-mag-price-retailer
+      - klean-mag-price-per-serving
+      - klean-mag-price-per-100mg-elemental
+  - id: cert-klean-magnesium-nsf
+    title: NSF Certified for Sport — Klean Magnesium
+    publisher: NSF International
+    url: https://www.nsfsport.com/certified-products/listing-detail.php?id=1281622
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds:
+      - klean-mag-nsf-verified
+  - id: editorial-price-per-100mg-elemental-klean-athlete-klean-magnesium
+    title: SuppCheckr price-per-serving and price-per-100-mg-elemental calculation
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - klean-mag-price-per-serving
+      - klean-mag-price-per-100mg-elemental
+affiliate:
+  enabled: false
+seo:
+  title: Klean Athlete Klean Magnesium Review | SuppCheckr
+  description: >
+    Draft SuppCheckr review of Klean Athlete Klean Magnesium (90 veg caps) with glycinate label facts, NSF Certified for
+    Sport citation, and dated manual pricing per 100 mg elemental magnesium.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4D-2 draft magnesium product review YAML (glycinate slot)

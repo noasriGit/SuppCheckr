@@ -1,0 +1,42 @@
+id: pure-encapsulations
+slug: pure-encapsulations
+name: Pure Encapsulations
+website: https://www.pureencapsulations.com
+description: >
+  Pure Encapsulations is a dietary supplement brand selling hypoallergenic-oriented formulas through practitioners and
+  retailers. SuppCheckr summarizes publicly available label and retailer information — not brand endorsements.
+logo: /images/brands/placeholder.svg
+categories:
+  - magnesium
+transparencyNotes: >
+  Pure Encapsulations publishes brand quality positioning on its website. For the Magnesium (citrate/malate) 180-capsule
+  SKU in Phase 4D-2, Supplement Facts were sourced from a retailer listing because a dedicated official product page URL
+  was not confirmed at draft time.
+testingNotes: >
+  No verifiable third-party testing certificate or program listing for the Magnesium (citrate/malate) 180-capsule SKU was
+  captured in Phase 4D-2.
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-pure-encapsulations-site
+    title: Pure Encapsulations official website
+    publisher: Pure Encapsulations
+    url: https://www.pureencapsulations.com
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4D-2 draft brand record for Pure Encapsulations magnesium review

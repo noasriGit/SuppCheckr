@@ -1,0 +1,182 @@
+id: magnesium-pure-encapsulations-citrate-malate-180
+slug: pure-encapsulations-magnesium-citrate-malate-180
+name: Pure Encapsulations Magnesium (Citrate/Malate) (180 Capsules)
+brandId: pure-encapsulations
+categoryId: magnesium
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Pure Encapsulations Magnesium citrate/malate 180 capsules — product photo pending
+    attribution: Placeholder image; label sourced from Vitacost listing (official brand product URL not confirmed)
+  label:
+    src: null
+    attribution: https://www.vitacost.com/pure-encapsulations-magnesium-180-capsules
+supplementFacts:
+  servingSize: 1 capsule
+  servingsPerContainer: 180
+  ingredients:
+    - name: Magnesium (as magnesium citrate/malate)
+      amount: 120 mg
+      dailyValue: null
+  otherIngredients:
+    - Vegetarian capsule (cellulose, water)
+    - Ascorbyl palmitate
+  allergens: []
+pricing:
+  msrp: 34.8
+  currency: USD
+  pricePerServing: 0.19
+  pricePerActiveDose: 0.16
+  lastManualUpdate: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-26'
+retailers:
+  - retailerId: vitacost
+    url: https://www.vitacost.com/pure-encapsulations-magnesium-180-capsules
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: unknown
+  details: >
+    No verifiable third-party testing certificate or recognized program listing for this SKU was captured in Phase 4D-2.
+    Label facts are sourced from a retailer listing because a dedicated official Pure Encapsulations product page URL for
+    this SKU was not confirmed at draft time.
+  sources: []
+additives:
+  - Ascorbyl palmitate
+flags:
+  thirdPartyTested: false
+  additiveFree: false
+rating:
+  profileId: default
+  criteriaScores:
+    ingredientTransparency: 85
+    doseTransparency: 88
+    evidenceAlignment: 78
+    formulaQuality: 82
+    thirdPartyTesting: 45
+    priceValue: 55
+    additives: 80
+    labelClarity: 85
+    brandTransparency: 72
+  overallScore: 74
+pros:
+  - Supplement Facts on the cited listing show 120 mg magnesium (elemental) as magnesium citrate/malate per 1-capsule serving.
+  - Transparent mixed-form label — both citrate and malate are named, with total elemental magnesium stated (no per-form mg split).
+  - One-capsule serving size simplifies dose and price-per-serving comparisons within this draft cluster.
+cons:
+  - Label source is a retailer listing; official Pure Encapsulations product page for this SKU was not confirmed in Phase 4D-2.
+  - Combined citrate/malate form does not disclose separate elemental amounts per salt on the label.
+  - Higher observed price per 100 mg elemental magnesium than budget citrate or oxide options in this cluster.
+  - Retailer marketing copy includes cardiometabolic and neurocognitive positioning — SuppCheckr does not repeat those as product benefits.
+bestFor:
+  - Buyers who want a mixed citrate/malate label with clear total elemental magnesium per capsule when a dedicated malate-only SKU is not required.
+avoidIf:
+  - You require an official brand-hosted Supplement Facts image as the sole label source.
+  - You need verified third-party testing documentation before purchase.
+  - You want the lowest price per 100 mg elemental magnesium in this cluster.
+labelTransparencyNotes: >
+  Locked UPC 766298004365 / SKU MCM1 — 180 capsules. Supplement Facts on the cited Vitacost listing match Target listing
+  facts checked in Phase 4D-1 research (120 mg elemental per capsule). Per-form elemental magnesium is not split on the
+  label. Label directions allow 1–4 capsules daily with food.
+evidenceNotes: >
+  Draft SuppCheckr score uses the default scoring profile — a dedicated magnesium rubric is still needed before
+  publication. This product occupies the V1 threonate fallback slot; no magnesium L-threonate product review is included.
+relatedProductIds:
+  - magnesium-klean-athlete-klean-magnesium
+  - magnesium-nutricost-magnesium-citrate-120
+  - magnesium-now-foods-magnesium-malate-1300-180
+  - magnesium-nature-made-magnesium-oxide-250mg-100
+comparisonGroupIds: []
+claims:
+  - id: pe-mag-label-form-citrate-malate
+    text: The cited Supplement Facts list magnesium as magnesium citrate/malate.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-pure-encapsulations-magnesium-citrate-malate-180
+  - id: pe-mag-label-elemental-120mg
+    text: The cited Supplement Facts show 120 mg magnesium (elemental) per 1-capsule serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-pure-encapsulations-magnesium-citrate-malate-180
+  - id: pe-mag-price-retailer
+    text: Vitacost listed Pure Encapsulations Magnesium (citrate/malate) 180 capsules at $34.80 on 2026-06-26.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-pure-encapsulations-magnesium-citrate-malate-180
+  - id: pe-mag-price-per-serving
+    text: Price per serving is $0.19 based on $34.80 divided by 180 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-pure-encapsulations-magnesium-citrate-malate-180
+      - editorial-price-per-100mg-elemental-pure-encapsulations-magnesium-citrate-malate-180
+  - id: pe-mag-price-per-100mg-elemental
+    text: >
+      Price per 100 mg elemental magnesium is $0.16 based on $0.19 per serving divided by 120 mg elemental magnesium per
+      serving, scaled to 100 mg (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-pure-encapsulations-magnesium-citrate-malate-180
+      - editorial-price-per-100mg-elemental-pure-encapsulations-magnesium-citrate-malate-180
+  - id: pe-mag-label-source-confidence
+    text: >
+      Supplement Facts for this draft were sourced from a Vitacost retailer listing; an official Pure Encapsulations
+      product page URL for this SKU was not confirmed at Phase 4D-2 draft time.
+    claimType: editorial_opinion
+    claimRiskLevel: low
+    citationIds:
+      - label-pure-encapsulations-magnesium-citrate-malate-180
+sources:
+  - id: label-pure-encapsulations-magnesium-citrate-malate-180
+    title: Pure Encapsulations Magnesium (Citrate/Malate) 180 caps — Supplement Facts (Vitacost listing)
+    publisher: Vitacost / Pure Encapsulations
+    url: https://www.vitacost.com/pure-encapsulations-magnesium-180-capsules
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - pe-mag-label-form-citrate-malate
+      - pe-mag-label-elemental-120mg
+      - pe-mag-label-source-confidence
+  - id: retailer-pure-encapsulations-magnesium-citrate-malate-180
+    title: Pure Encapsulations Magnesium 180 capsules — Vitacost listing (price)
+    publisher: Vitacost
+    url: https://www.vitacost.com/pure-encapsulations-magnesium-180-capsules
+    accessDate: '2026-06-26'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - pe-mag-price-retailer
+      - pe-mag-price-per-serving
+      - pe-mag-price-per-100mg-elemental
+  - id: editorial-price-per-100mg-elemental-pure-encapsulations-magnesium-citrate-malate-180
+    title: SuppCheckr price-per-serving and price-per-100-mg-elemental calculation
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - pe-mag-price-per-serving
+      - pe-mag-price-per-100mg-elemental
+affiliate:
+  enabled: false
+seo:
+  title: Pure Encapsulations Magnesium Citrate/Malate Review | SuppCheckr
+  description: >
+    Draft SuppCheckr review of Pure Encapsulations Magnesium (citrate/malate) 180 caps with mixed-form label facts,
+    retailer-sourced Supplement Facts note, and dated price per 100 mg elemental magnesium.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4D-2 draft magnesium product review YAML (mixed-form threonate fallback slot)

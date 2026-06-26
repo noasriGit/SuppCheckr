@@ -1,0 +1,42 @@
+id: nature-made
+slug: nature-made
+name: Nature Made
+website: https://www.naturemade.com
+description: >
+  Nature Made is a mainstream vitamin and supplement brand sold through drugstores, mass retailers, and online channels.
+  SuppCheckr summarizes publicly available label and retailer information — not brand endorsements.
+logo: /images/brands/placeholder.svg
+categories:
+  - magnesium
+transparencyNotes: >
+  Nature Made product facts for the Magnesium Oxide 250 mg 100-tablet SKU were sourced from a Target retailer listing with
+  Supplement Facts in Phase 4D-2. USP Verified status was not confirmed from an official certification database at draft
+  time.
+testingNotes: >
+  No USP Verified or other third-party certification database entry for the Magnesium Oxide 250 mg 100-tablet SKU was
+  verified in Phase 4D-2.
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-nature-made-site
+    title: Nature Made official website
+    publisher: Nature Made
+    url: https://www.naturemade.com
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4D-2 draft brand record for Nature Made magnesium review

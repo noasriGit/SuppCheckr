@@ -1,0 +1,202 @@
+id: magnesium-nutricost-magnesium-citrate-120
+slug: nutricost-magnesium-citrate-120
+name: Nutricost Magnesium Citrate Capsules (120 Capsules)
+brandId: nutricost
+categoryId: magnesium
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Nutricost Magnesium Citrate 120 capsules — product photo pending
+    attribution: Placeholder image; label sourced from Nutricost product page
+  label:
+    src: null
+    attribution: https://nutricost.com/products/nutricost-magnesium-citrate-capsules
+supplementFacts:
+  servingSize: 4 capsules
+  servingsPerContainer: 30
+  ingredients:
+    - name: Magnesium (as magnesium citrate)
+      amount: 420 mg
+      dailyValue: null
+  otherIngredients:
+    - Hypromellose (vegetarian capsule)
+    - Rice flour
+    - Magnesium stearate
+  allergens: []
+pricing:
+  msrp: 13.97
+  currency: USD
+  pricePerServing: 0.47
+  pricePerActiveDose: 0.11
+  lastManualUpdate: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-26'
+retailers:
+  - retailerId: nutricost
+    url: https://nutricost.com/products/nutricost-magnesium-citrate-capsules
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: claimed
+  details: >
+    Nutricost product and brand pages describe third-party testing at a marketing level. No public batch COA or
+    certificate URL matched to this SKU was verified in Phase 4D-2.
+  sources:
+    - brand-nutricost-magnesium-citrate-120-page
+additives:
+  - Rice flour
+  - Magnesium stearate
+flags:
+  thirdPartyTested: false
+  additiveFree: false
+rating:
+  profileId: default
+  criteriaScores:
+    ingredientTransparency: 90
+    doseTransparency: 85
+    evidenceAlignment: 82
+    formulaQuality: 88
+    thirdPartyTesting: 55
+    priceValue: 78
+    additives: 85
+    labelClarity: 85
+    brandTransparency: 70
+  overallScore: 80
+pros:
+  - Supplement Facts on the Nutricost product page list 420 mg elemental magnesium as magnesium citrate per 4-capsule serving.
+  - Among the lower observed price-per-100-mg-elemental values in this draft cluster at the cited price check.
+  - Magnesium citrate form is clearly identified on the label.
+cons:
+  - Four capsules per serving may be less convenient than one-capsule or one-tablet servings.
+  - Third-party testing is marketed but not verified with a captured certificate URL for this SKU.
+  - According to NIH ODS materials, supplemental magnesium at higher intakes can cause GI effects in some people; individual tolerance varies.
+bestFor:
+  - Buyers looking for a citrate-form label with explicit elemental magnesium disclosure and a lower observed price per 100 mg elemental.
+avoidIf:
+  - You require verified third-party certification documentation before purchase.
+  - You prefer a single-capsule serving without taking four capsules.
+labelTransparencyNotes: >
+  Locked 120-capsule SKU (30 servings at 4 capsules per serving). Nutricost also sells 60- and 240-capsule sizes — confirm
+  bottle count before purchase. Elemental magnesium is stated on the cited Supplement Facts panel.
+evidenceNotes: >
+  Draft SuppCheckr score uses the default scoring profile — a dedicated magnesium rubric is still needed before
+  publication. Citrate GI tolerance context is general NIH background, not a product treatment claim.
+relatedProductIds:
+  - magnesium-klean-athlete-klean-magnesium
+  - magnesium-now-foods-magnesium-malate-1300-180
+  - magnesium-pure-encapsulations-citrate-malate-180
+  - magnesium-nature-made-magnesium-oxide-250mg-100
+comparisonGroupIds: []
+claims:
+  - id: nutricost-mag-label-form-citrate
+    text: The Nutricost Supplement Facts list magnesium as magnesium citrate.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-nutricost-magnesium-citrate-120
+  - id: nutricost-mag-label-elemental-420mg
+    text: The Nutricost Supplement Facts show 420 mg magnesium (elemental) per 4-capsule serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-nutricost-magnesium-citrate-120
+  - id: nutricost-mag-price-retailer
+    text: Nutricost.com listed the 120 Capsules variant at $13.97 on 2026-06-26.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nutricost-magnesium-citrate-120
+  - id: nutricost-mag-price-per-serving
+    text: Price per serving is $0.47 based on $13.97 divided by 30 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nutricost-magnesium-citrate-120
+      - editorial-price-per-100mg-elemental-nutricost-magnesium-citrate-120
+  - id: nutricost-mag-price-per-100mg-elemental
+    text: >
+      Price per 100 mg elemental magnesium is $0.11 based on $0.47 per serving divided by 420 mg elemental magnesium per
+      serving, scaled to 100 mg (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nutricost-magnesium-citrate-120
+      - editorial-price-per-100mg-elemental-nutricost-magnesium-citrate-120
+  - id: nutricost-mag-testing-claimed
+    text: Nutricost brand materials state third-party testing; SuppCheckr has not verified a public certificate URL for this SKU.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - brand-nutricost-magnesium-citrate-120-page
+  - id: nutricost-mag-citrate-gi-safety
+    text: >
+      According to NIH ODS materials, very high supplemental magnesium intakes can cause diarrhea and other GI effects;
+      forms such as oxide are commonly associated with laxative effects — general safety context only.
+    claimType: safety_context
+    claimRiskLevel: medium
+    citationIds:
+      - nih-magnesium-hp-nutricost-citrate
+sources:
+  - id: label-nutricost-magnesium-citrate-120
+    title: Nutricost Magnesium Citrate Capsules — Supplement Facts (brand product page)
+    publisher: Nutricost
+    url: https://nutricost.com/products/nutricost-magnesium-citrate-capsules
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - nutricost-mag-label-form-citrate
+      - nutricost-mag-label-elemental-420mg
+  - id: retailer-nutricost-magnesium-citrate-120
+    title: Nutricost Magnesium Citrate Capsules 120 count — product page (price)
+    publisher: Nutricost
+    url: https://nutricost.com/products/nutricost-magnesium-citrate-capsules
+    accessDate: '2026-06-26'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - nutricost-mag-price-retailer
+      - nutricost-mag-price-per-serving
+      - nutricost-mag-price-per-100mg-elemental
+  - id: brand-nutricost-magnesium-citrate-120-page
+    title: Nutricost Magnesium Citrate — third-party tested marketing copy
+    publisher: Nutricost
+    url: https://nutricost.com/products/nutricost-magnesium-citrate-capsules
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - nutricost-mag-testing-claimed
+  - id: editorial-price-per-100mg-elemental-nutricost-magnesium-citrate-120
+    title: SuppCheckr price-per-serving and price-per-100-mg-elemental calculation
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - nutricost-mag-price-per-serving
+      - nutricost-mag-price-per-100mg-elemental
+  - id: nih-magnesium-hp-nutricost-citrate
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds:
+      - nutricost-mag-citrate-gi-safety
+affiliate:
+  enabled: false
+seo:
+  title: Nutricost Magnesium Citrate 120 Caps Review | SuppCheckr
+  description: >
+    Draft SuppCheckr review of Nutricost Magnesium Citrate (120 caps) with citrate label facts, claimed testing context,
+    and dated price per 100 mg elemental magnesium.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4D-2 draft magnesium product review YAML (citrate slot)
