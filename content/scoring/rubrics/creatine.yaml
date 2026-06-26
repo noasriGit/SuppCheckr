@@ -1,0 +1,80 @@
+profileId: creatine
+categoryId: creatine
+label: Creatine scoring rubric
+disclaimer: >
+  Scores reflect label transparency, formula clarity, third-party testing evidence,
+  and price/value based on publicly available information. Scores do not prove
+  effectiveness, safety for any individual, medical suitability, or specific outcomes.
+criteria:
+  doseTransparency:
+    anchors:
+      - score: 0
+        description: Creatine amount per serving missing, hidden in a blend, or not monohydrate when labeled as such.
+      - score: 50
+        description: Creatine grams per serving stated but serving math is unclear, unusually low per serving, or form disclosure is ambiguous.
+      - score: 100
+        description: Creatine monohydrate grams per serving clearly stated; serving size and servings per container support straightforward dose comparison.
+  thirdPartyTesting:
+    anchors:
+      - score: 0
+        description: No testing claim and no verifiable third-party certification or COA reference found.
+      - score: 50
+        description: Brand claims testing or lists a certification without clear public verification link.
+      - score: 100
+        description: Verifiable third-party testing or recognized certification documented with a citable source.
+  priceValue:
+    anchors:
+      - score: 0
+        description: Price unavailable or cannot compute price per serving / per 5g creatine equivalent.
+      - score: 50
+        description: Price checkable but per-serving or per-5g value is mid-range with limited context.
+      - score: 100
+        description: Manual price dated; price per serving and per 5g creatine equivalent clearly computed and competitive within cluster context.
+  ingredientTransparency:
+    anchors:
+      - score: 0
+        description: Form not disclosed as monohydrate or ingredient naming is vague/proprietary.
+      - score: 50
+        description: Monohydrate listed but naming or form details lack clarity.
+      - score: 100
+        description: Creatine monohydrate explicitly named; no misleading form language on label.
+  formulaQuality:
+    anchors:
+      - score: 0
+        description: Many non-creatine actives, proprietary blends, or unnecessary complexity for a monohydrate product.
+      - score: 50
+        description: Mostly creatine with some non-essential additives or flavor system.
+      - score: 100
+        description: Single-ingredient or minimal formula aligned with straightforward monohydrate use.
+  labelClarity:
+    anchors:
+      - score: 0
+        description: Supplement Facts difficult to read, incomplete, or missing key fields.
+      - score: 50
+        description: Core fields present but allergens, other ingredients, or serving details need interpretation.
+      - score: 100
+        description: Serving size, creatine amount, other ingredients, and allergens clearly presented.
+  additives:
+    anchors:
+      - score: 0
+        description: Numerous fillers, sweeteners, or undeclared-style additive concerns on label.
+      - score: 50
+        description: Some flavoring, sweeteners, or anti-caking agents disclosed.
+      - score: 100
+        description: No added sweeteners/fillers or minimal disclosed excipients appropriate to format (e.g., capsule shell).
+  evidenceAlignment:
+    anchors:
+      - score: 0
+        description: Product marketing or formula misaligned with common creatine monohydrate evidence context.
+      - score: 50
+        description: Monohydrate form acceptable but marketing overstates benefits or uses non-comparable forms in copy.
+      - score: 100
+        description: Monohydrate product aligned with commonly studied creatine monohydrate context; no exaggerated claims on label/listing.
+  brandTransparency:
+    anchors:
+      - score: 0
+        description: Limited public brand information, unclear contact, or opaque manufacturing/testing statements.
+      - score: 50
+        description: Basic brand information available; testing or quality statements partially documented.
+      - score: 100
+        description: Brand website and public materials clearly document product, contact, and relevant quality/testing information.

@@ -1,26 +1,39 @@
 {
-  "name": "suppcheckr-tmp",
+  "name": "suppcheckr",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run validate:content && npm run lint:content && next build",
+    "prebuild": "npm run validate:content && npm run lint:content",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "lint:content": "tsx scripts/lint-risky-terms.ts",
+    "check": "npm run typecheck && npm run lint && npm run test && npm run validate:content && npm run lint:content"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "js-yaml": "^4.1.0",
     "next": "16.2.9",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.3.1",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/js-yaml": "^4.0.9",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.20.3",
+    "typescript": "^5",
+    "vitest": "^3.2.4"
   }
 }

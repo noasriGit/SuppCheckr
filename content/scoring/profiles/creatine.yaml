@@ -1,0 +1,14 @@
+id: creatine
+categoryId: creatine
+label: Creatine scoring profile
+notes: Creatine profile — emphasizes dose transparency and third-party testing. See content/scoring/rubrics/creatine.yaml for editor rubric anchors.
+criteriaWeights:
+  ingredientTransparency: 11
+  doseTransparency: 17
+  evidenceAlignment: 9
+  formulaQuality: 10
+  thirdPartyTesting: 15
+  priceValue: 13
+  additives: 9
+  labelClarity: 10
+  brandTransparency: 6

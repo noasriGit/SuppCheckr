@@ -1,0 +1,89 @@
+id: creatine-monohydrate
+slug: creatine-monohydrate
+name: Creatine Monohydrate
+commonForms:
+  - Creatine monohydrate
+categories:
+  - creatine
+aliases:
+  - CM
+  - Creatine monohydrate powder
+evidenceSummary: >
+  Creatine monohydrate is the most widely studied and commonly used supplemental form of creatine. According to NIH
+  Office of Dietary Supplements materials, creatine supplements may help improve performance during repeated short
+  bursts of high-intensity effort when used alongside appropriate training. Research has examined creatine in sport and
+  exercise contexts; individual responses vary. SuppCheckr summarizes label and product-comparison information — not
+  medical advice.
+typicalDosageRange: >
+  NIH health-professional materials describe common research protocols that include a short-term loading phase (often
+  about 20 g/day split into smaller doses for roughly 5–7 days) followed by a maintenance intake (often about 3–5
+  g/day), or lower daily doses without a loading phase. Product labels and serving sizes differ. Consult a qualified
+  healthcare professional before changing supplement use, especially if pregnant, nursing, under 18, taking medication,
+  or managing a medical condition.
+safetyNotes: >
+  According to NIH consumer-oriented materials, creatine has been studied for short- and longer-term use in healthy
+  adults, with commonly reported issues such as weight gain related to water retention and occasional digestive
+  discomfort in some people. Creatine is not a substitute for medical care. People with kidney disease or other medical
+  conditions should consult a qualified healthcare professional before use.
+interactions: >
+  Based on publicly available NIH and consensus summaries, creatine is widely studied in healthy active populations, but
+  interactions with medications or conditions are not fully covered here. Consult a qualified healthcare professional if
+  you take prescription medications or manage a chronic condition.
+relatedProductIds:
+  - creatine-nutricost-500g
+  - creatine-optimum-nutrition-600g
+  - creatine-klean-athlete-klean-creatine
+  - creatine-now-sports-capsules-120
+  - creatine-bulksupplements-1kg
+relatedGuideSlugs:
+  - what-is-creatine
+  - how-to-choose-a-creatine-supplement
+  - creatine-dosage-guide
+  - creatine-safety-and-side-effects
+  - creatine-monohydrate-vs-hcl
+sources:
+  - id: nih-exercise-consumer-creatine
+    title: Dietary Supplements for Exercise and Athletic Performance — Consumer
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-exercise-hp-creatine
+    title: Dietary Supplements for Exercise and Athletic Performance — Health Professional
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: issn-creatine-position-stand
+    title: 'ISSN position stand: safety and efficacy of creatine supplementation'
+    publisher: Journal of the International Society of Sports Nutrition (via PubMed)
+    url: https://pubmed.ncbi.nlm.nih.gov/28615996/
+    accessDate: '2026-06-26'
+    sourceType: consensus_body
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-overview
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-06-26'
+    sourceType: FDA
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2C draft ingredient page with cited educational context
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

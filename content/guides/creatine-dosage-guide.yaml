@@ -1,0 +1,91 @@
+slug: creatine-dosage-guide
+title: Creatine Dosage Guide
+categoryId: creatine
+excerpt: >
+  A conservative summary of common creatine dosing patterns described in NIH materials and how to read dose information
+  on supplement labels — not personalized medical advice.
+body: |
+  ## Introduction
+
+  Creatine products use different serving sizes and grams per serving. This guide summarizes
+  **common research protocols** described in NIH Office of Dietary Supplements materials and
+  explains how to read label dose information. It is not a prescription or personal dosing
+  recommendation.
+
+  ## Common research protocols (context only)
+
+  According to NIH health-professional materials, many studies have used:
+
+  - A **loading phase** of about **20 g/day** creatine (often split into four doses) for
+    roughly **5–7 days**, followed by a **maintenance** intake of about **3–5 g/day**, or
+  - **Lower daily doses** (about **3–6 g/day**) for several weeks **without** a loading phase
+
+  Some protocols adjust amounts by body weight. Individual products may suggest different
+  serving sizes on the label. Follow the product label unless a qualified healthcare
+  professional advises otherwise.
+
+  ## Reading the Supplement Facts panel
+
+  When comparing products, check:
+
+  1. **Serving size** — one scoop, capsule count, etc.
+  2. **Creatine monohydrate amount per serving** — usually listed in grams or milligrams
+  3. **Servings per container** — needed for price-per-serving math
+
+  If creatine is listed inside a proprietary blend without a specific amount, dose
+  transparency is limited — SuppCheckr flags that in reviews.
+
+  ## Loading vs. maintenance on product labels
+
+  Some labels describe a loading phase and a maintenance phase; others list one serving size
+  only. There is no single label format required by law for creatine. Compare products using
+  the same metric: **grams of creatine monohydrate per serving**.
+
+  ## Who should talk to a healthcare professional first
+
+  Consult a qualified healthcare professional before starting or changing creatine use,
+  especially if you are pregnant, nursing, under 18, take prescription medications, have
+  kidney disease, or manage any medical condition.
+
+  ## Related reading
+
+  - [Creatine monohydrate ingredient reference](/ingredients/creatine-monohydrate)
+  - [What is creatine?](/guides/what-is-creatine)
+  - [Creatine safety and side effects](/guides/creatine-safety-and-side-effects)
+  - [How to choose a creatine supplement](/guides/how-to-choose-a-creatine-supplement)
+relatedGuideSlugs:
+  - what-is-creatine
+  - creatine-safety-and-side-effects
+  - how-to-choose-a-creatine-supplement
+sources:
+  - id: nih-exercise-hp-creatine-dose
+    title: Dietary Supplements for Exercise and Athletic Performance — Health Professional
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-exercise-consumer-creatine-dose
+    title: Dietary Supplements for Exercise and Athletic Performance — Consumer
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2C draft dosage education guide
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

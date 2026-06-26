@@ -1,26 +1,122 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0b1120;
+  --foreground: #cbd5e1;
+  --heading: #f1f5f9;
+  --surface: #141c2b;
+  --surface-elevated: #1a2436;
+  --border: #2a3649;
+  --border-subtle: #1e293b;
+  --primary: #2dd4bf;
+  --primary-hover: #14b8a6;
+  --primary-muted: #0d9488;
+  --accent: #2dd4bf;
+  --accent-foreground: #042f2e;
+  --success: #34d399;
+  --warning: #fbbf24;
+  --warning-bg: #422006;
+  --warning-border: #78350f;
+  --warning-text: #fde68a;
+  --danger: #f87171;
+  --danger-bg: #450a0a;
+  --danger-border: #7f1d1d;
+  --danger-text: #fecaca;
+  --muted: #94a3b8;
+  --muted-foreground: #64748b;
+  --link: #2dd4bf;
+  --link-hover: #5eead4;
+  --input-bg: #141c2b;
+  --input-border: #334155;
+  --table-header: #1a2436;
+  --table-row-border: #1e293b;
+  --placeholder-banner-bg: #422006;
+  --legal-draft-banner-bg: #450a0a;
+  --ad-placeholder-bg: #111827;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-heading: var(--heading);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-border: var(--border);
+  --color-border-subtle: var(--border-subtle);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-muted: var(--primary-muted);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-warning-bg: var(--warning-bg);
+  --color-warning-border: var(--warning-border);
+  --color-warning-text: var(--warning-text);
+  --color-danger: var(--danger);
+  --color-danger-bg: var(--danger-bg);
+  --color-danger-border: var(--danger-border);
+  --color-danger-text: var(--danger-text);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-link: var(--link);
+  --color-link-hover: var(--link-hover);
+  --color-input-bg: var(--input-bg);
+  --color-input-border: var(--input-border);
+  --color-table-header: var(--table-header);
+  --color-table-row-border: var(--table-row-border);
+  --color-ad-placeholder-bg: var(--ad-placeholder-bg);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.prose h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--heading);
+}
+
+.prose h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--heading);
+}
+
+.prose p,
+.prose li {
+  color: var(--foreground);
+}
+
+.prose strong {
+  color: var(--heading);
+}
+
+.prose a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: var(--link-hover);
 }

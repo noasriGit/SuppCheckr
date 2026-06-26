@@ -1,0 +1,99 @@
+slug: creatine-safety-and-side-effects
+title: Creatine Safety and Side Effects
+categoryId: creatine
+excerpt: >
+  Conservative safety context from NIH and sports-nutrition consensus sources — common reports, who should seek medical
+  advice, and what supplements are not.
+body: |
+  ## Introduction
+
+  Creatine is one of the most studied supplement ingredients in sport and exercise research.
+  This page summarizes **general safety context** from cited sources. It does not replace
+  advice from a qualified healthcare professional.
+
+  ## What research summaries commonly report
+
+  According to NIH consumer-oriented materials, creatine supplementation has been studied
+  in healthy adults for weeks, months, and longer periods in research settings. Commonly
+  discussed effects include **weight gain related to water retention** and occasional
+  **digestive discomfort** or **muscle cramping** in some individuals.
+
+  An International Society of Sports Nutrition position stand (cited below) reviews short-
+  and longer-term supplementation studies in various populations. Individual tolerance and
+  medical context vary.
+
+  ## Hydration and kidney questions
+
+  People sometimes ask about hydration or kidney function. NIH materials focus on general
+  safety in healthy adults in research contexts; they are not a substitute for medical
+  evaluation. If you have **kidney disease** or related conditions, consult a qualified
+  healthcare professional before using creatine.
+
+  ## Who should consult a healthcare professional first
+
+  Seek professional guidance before use if you are:
+
+  - Pregnant or nursing
+  - Under 18
+  - Taking prescription medications
+  - Managing diabetes, kidney disease, or other chronic conditions
+
+  ## What creatine supplements are not
+
+  Dietary supplements are not FDA-approved to mitigate disease. SuppCheckr does not describe
+  creatine as a medical therapy. Avoid products whose marketing implies disease treatment or
+  unrealistic outcome promises.
+
+  ## Reporting problems
+
+  According to FDA materials, consumers and healthcare professionals can report serious
+  adverse events associated with dietary supplements through FDA's safety reporting systems.
+  See FDA dietary supplement resources for current reporting instructions.
+
+  ## Related reading
+
+  - [Creatine monohydrate ingredient reference](/ingredients/creatine-monohydrate)
+  - [Creatine dosage guide](/guides/creatine-dosage-guide)
+  - [What is creatine?](/guides/what-is-creatine)
+relatedGuideSlugs:
+  - creatine-dosage-guide
+  - what-is-creatine
+sources:
+  - id: nih-exercise-consumer-safety
+    title: Dietary Supplements for Exercise and Athletic Performance — Consumer
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: issn-creatine-safety-position
+    title: 'ISSN position stand: safety and efficacy of creatine supplementation'
+    publisher: Journal of the International Society of Sports Nutrition (via PubMed)
+    url: https://pubmed.ncbi.nlm.nih.gov/28615996/
+    accessDate: '2026-06-26'
+    sourceType: consensus_body
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-safety
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-06-26'
+    sourceType: FDA
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2C draft safety context guide
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

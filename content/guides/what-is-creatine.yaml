@@ -1,0 +1,91 @@
+slug: what-is-creatine
+title: What Is Creatine?
+categoryId: creatine
+excerpt: >
+  A conservative overview of creatine as a dietary supplement ingredient, how it is commonly used in research and sport
+  contexts, and what SuppCheckr compares on product labels — not medical advice.
+body: |
+  ## Introduction
+
+  Creatine is a compound found in the body and in some foods. It is also sold as a dietary
+  supplement, most often as **creatine monohydrate**. SuppCheckr explains creatine in
+  educational guides and compares supplement labels — we do not provide medical advice.
+
+  ## What creatine is
+
+  According to NIH Office of Dietary Supplements consumer materials, the body produces some
+  creatine and additional creatine can come from animal-based foods. Supplemental creatine
+  is commonly used in exercise and sport nutrition contexts. Research has examined creatine
+  for short, high-intensity efforts such as weight training or sprinting; it is not mainly
+  studied for long endurance events.
+
+  ## How creatine is commonly used in supplements
+
+  Most creatine supplements on the market use **creatine monohydrate**. NIH health-professional
+  materials note that creatine monohydrate is the most widely used and studied supplemental
+  form. Other forms exist; see our guide on [creatine monohydrate vs. HCL](/guides/creatine-monohydrate-vs-hcl)
+  for a high-level comparison without product recommendations.
+
+  ## What creatine supplements are not
+
+  Dietary supplements are not drugs and are not FDA-approved to diagnose or mitigate disease.
+  According to FDA overview materials, supplement manufacturers may not make disease-treatment
+  claims. SuppCheckr does not describe creatine as a medical treatment.
+
+  ## How SuppCheckr approaches creatine products
+
+  SuppCheckr compares publicly available label information for creatine monohydrate drafts in our
+  [creatine category hub](/supplements/creatine): form disclosure, grams per serving, other ingredients,
+  third-party testing documentation, and dated manual price context. See the
+  [comparison table](/supplements/creatine/compare) for side-by-side draft reviews. Scores reflect
+  transparency and value — not proof that a product will work for you.
+
+  ## Related reading
+
+  - [Creatine monohydrate ingredient reference](/ingredients/creatine-monohydrate)
+  - [How to choose a creatine supplement](/guides/how-to-choose-a-creatine-supplement)
+  - [Creatine dosage guide](/guides/creatine-dosage-guide)
+  - [Creatine safety and side effects](/guides/creatine-safety-and-side-effects)
+relatedGuideSlugs:
+  - how-to-choose-a-creatine-supplement
+  - creatine-dosage-guide
+  - creatine-monohydrate-vs-hcl
+sources:
+  - id: nih-exercise-consumer-creatine
+    title: Dietary Supplements for Exercise and Athletic Performance — Consumer
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-exercise-hp-creatine
+    title: Dietary Supplements for Exercise and Athletic Performance — Health Professional
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-overview
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-06-26'
+    sourceType: FDA
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2C draft educational guide
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

@@ -1,0 +1,127 @@
+slug: creatine-monohydrate-vs-hcl
+title: Creatine Monohydrate vs. HCL
+categoryId: creatine
+excerpt: >
+  A high-level, source-aware comparison of creatine monohydrate and creatine HCL on labels and in research summaries —
+  educational only, no product recommendations.
+body: >
+  ## Introduction
+
+
+  Creatine supplements are sold in several chemical forms. The two most discussed in retail
+
+  products are **creatine monohydrate** and **creatine hydrochloride (HCL)**. This guide
+
+  explains differences at a high level for label literacy. SuppCheckr's first product review
+
+  cluster focuses on **monohydrate** for consistent comparison.
+
+
+  ## Creatine monohydrate
+
+
+  According to NIH health-professional materials, **creatine monohydrate** is the most widely
+
+  used and studied form in supplements. It is a specific, well-defined ingredient on labels
+
+  and is commonly used in research protocols described by NIH.
+
+
+  ## Creatine HCL
+
+
+  Creatine HCL (hydrochloride) is a different salt form sold for solubility or dosing
+
+  convenience in some products. NIH materials focused on exercise performance primarily
+
+  discuss monohydrate dosing and evidence context. There is less broad consensus literature
+
+  centered on HCL compared with monohydrate in the sources cited here.
+
+
+  ## Label comparison tips
+
+
+  When reading labels:
+
+
+  | Factor | Monohydrate | HCL |
+
+  | --- | --- | --- |
+
+  | Common label name | Creatine monohydrate | Creatine HCL / hydrochloride |
+
+  | Research context in NIH materials | Extensively discussed | Less central in cited NIH summaries |
+
+  | Dose comparison | Often discussed in grams of monohydrate | Milligram amounts differ — do not assume equal potency
+  by weight |
+
+
+  Always compare **grams of creatine per serving** using the Supplement Facts panel, not
+
+  marketing claims about absorption.
+
+
+  ## Why SuppCheckr starts with monohydrate reviews
+
+
+  Our creatine scoring profile emphasizes dose transparency and evidence alignment with
+
+  commonly studied monohydrate contexts. Reviewing monohydrate products first supports
+
+  apples-to-apples label comparison. HCL and other forms may be added in later expansion
+
+  phases.
+
+
+  ## No product recommendations here
+
+
+  This guide does not rank products or suggest a form for every reader. Consult a qualified
+
+  healthcare professional for personal medical questions.
+
+
+  ## Related reading
+
+
+  - [Creatine monohydrate ingredient reference](/ingredients/creatine-monohydrate)
+
+  - [What is creatine?](/guides/what-is-creatine)
+
+  - [How to choose a creatine supplement](/guides/how-to-choose-a-creatine-supplement)
+relatedGuideSlugs:
+  - what-is-creatine
+  - how-to-choose-a-creatine-supplement
+sources:
+  - id: nih-exercise-hp-forms
+    title: Dietary Supplements for Exercise and Athletic Performance — Health Professional
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-exercise-consumer-forms
+    title: Dietary Supplements for Exercise and Athletic Performance — Consumer
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2C draft form-comparison guide without product picks
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

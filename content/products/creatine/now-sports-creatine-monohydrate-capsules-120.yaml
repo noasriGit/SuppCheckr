@@ -1,0 +1,194 @@
+id: creatine-now-sports-capsules-120
+slug: now-sports-creatine-monohydrate-capsules-120
+name: NOW Sports Creatine Monohydrate 750 mg Veg Capsules (120 Capsules)
+brandId: now-foods
+categoryId: creatine
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: NOW Sports Creatine Monohydrate 750 mg capsules — product photo pending
+    attribution: Placeholder image; label sourced from brand page
+  label:
+    src: null
+    attribution: https://www.nowfoods.com/products/sports-nutrition/creatine-monohydrate-750-mg-veg-capsules
+supplementFacts:
+  servingSize: 6 veg capsules
+  servingsPerContainer: 20
+  ingredients:
+    - name: Creatine Monohydrate
+      amount: 4.5 g (4,500 mg)
+      dailyValue: null
+  otherIngredients:
+    - Hypromellose (cellulose capsule)
+    - Stearic acid (vegetable source)
+  allergens: []
+pricing:
+  msrp: 11.62
+  currency: USD
+  pricePerServing: 0.58
+  pricePerActiveDose: 0.65
+  lastManualUpdate: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-26'
+retailers:
+  - retailerId: vitacost
+    url: https://www.vitacost.com/now-sports-creatine-monohydrate-informed-sport-certified-750-mg-120-capsules
+    isPrimary: true
+certifications:
+  - Informed Sport
+thirdPartyTesting:
+  status: verified
+  details: >
+    NOW Foods documents Informed Sport certification for this product on the brand product page. Serving provides 4.5 g
+    creatine monohydrate (six 750 mg capsules).
+  sources:
+    - source-now-brand-label
+    - source-now-informed-sport-seal
+additives:
+  - Hypromellose (capsule)
+  - Stearic acid
+flags:
+  thirdPartyTested: true
+  additiveFree: false
+rating:
+  profileId: creatine
+  criteriaScores:
+    ingredientTransparency: 90
+    doseTransparency: 78
+    evidenceAlignment: 91
+    formulaQuality: 75
+    thirdPartyTesting: 88
+    priceValue: 40
+    additives: 72
+    labelClarity: 80
+    brandTransparency: 82
+  overallScore: 77
+pros:
+  - Capsule format for buyers who prefer pills over mixing powder.
+  - Clear label states 4.5 g creatine monohydrate per six-capsule serving.
+  - Third-party tested — Informed Sport seal documented on NOW product page.
+cons:
+  - Serving provides 4.5 g creatine, not 5 g — compare using price-per-5g normalization.
+  - Six capsules per serving may be inconvenient versus one scoop powders.
+  - Higher normalized price per 5 g creatine than most powders in this draft cluster.
+bestFor:
+  - Buyers who want creatine monohydrate in capsule form with Informed Sport documentation on the brand page.
+avoidIf:
+  - You want exactly 5 g creatine per serving without taking six capsules.
+  - You prioritize the lowest price per 5 g creatine equivalent.
+labelTransparencyNotes: >
+  Brand and Vitacost listings show 4.5 g creatine monohydrate per six-capsule serving and 20 servings per 120-capsule
+  bottle. Label directions include loading-phase language.
+evidenceNotes: >
+  Monohydrate form in capsules aligns with studied creatine context. Dose scoring reflects 4.5 g per serving versus
+  common 5 g powder servings.
+relatedProductIds:
+  - creatine-nutricost-500g
+  - creatine-optimum-nutrition-600g
+  - creatine-klean-athlete-klean-creatine
+  - creatine-bulksupplements-1kg
+comparisonGroupIds:
+  - creatine-monohydrate-compared
+claims:
+  - id: now-label-form-monohydrate
+    text: The brand Supplement Facts list creatine monohydrate.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - source-now-brand-label
+  - id: now-label-serving-4-5g
+    text: The brand Supplement Facts show 4.5 g creatine monohydrate per six-capsule serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - source-now-brand-label
+  - id: now-price-retailer
+    text: Vitacost listed this SKU at $11.62 on 2026-06-26.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-now-retailer-price
+  - id: now-price-per-serving
+    text: Price per serving is $0.58 based on $11.62 divided by 20 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-now-retailer-price
+      - editorial-now-price-math
+  - id: now-price-per-5g
+    text: >
+      Price per 5 g creatine equivalent is $0.65 based on $11.62 divided by total creatine grams (20 servings × 4.5 g =
+      90 g), then scaled to 5 g (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-now-retailer-price
+      - editorial-now-price-math
+  - id: now-informed-sport-verified
+    text: NOW product page documents Informed Sport certification for this SKU.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - source-now-informed-sport-seal
+      - source-now-brand-label
+sources:
+  - id: source-now-brand-label
+    title: NOW Sports Creatine Monohydrate 750 mg Veg Capsules — brand product page
+    publisher: NOW Foods
+    url: https://www.nowfoods.com/products/sports-nutrition/creatine-monohydrate-750-mg-veg-capsules
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - now-label-form-monohydrate
+      - now-label-serving-4-5g
+      - now-informed-sport-verified
+  - id: source-now-retailer-price
+    title: NOW Sports Creatine Monohydrate 750 mg — Vitacost listing
+    publisher: Vitacost
+    url: https://www.vitacost.com/now-sports-creatine-monohydrate-informed-sport-certified-750-mg-120-capsules
+    accessDate: '2026-06-26'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - now-price-retailer
+      - now-price-per-serving
+      - now-price-per-5g
+  - id: source-now-informed-sport-seal
+    title: NOW — Informed Sport seal information
+    publisher: NOW Foods
+    url: https://www.nowfoods.com/quality-safety/seals-certificates/informed-sport
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds:
+      - now-informed-sport-verified
+  - id: editorial-now-price-math
+    title: SuppCheckr price-per-serving and price-per-5g calculation (4.5 g serving normalization)
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - now-price-per-serving
+      - now-price-per-5g
+affiliate:
+  enabled: false
+seo:
+  title: NOW Sports Creatine Monohydrate Capsules Review | SuppCheckr
+  description: >
+    Draft SuppCheckr review of NOW Sports Creatine Monohydrate 750 mg veg capsules with 4.5 g per serving, Informed
+    Sport citation, and normalized price-per-5g math.
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2D draft product review YAML
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

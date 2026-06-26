@@ -1,0 +1,119 @@
+id: creatine
+slug: creatine
+name: Creatine
+pluralName: Creatine Monohydrate Supplements
+description: >
+  SuppCheckr compares creatine monohydrate supplement labels, doses, third-party testing documentation, and dated manual
+  pricing — not medical outcomes or personal suitability.
+shortDescription: >
+  Published category hub for creatine monohydrate powders and capsules. First product cluster focuses on monohydrate only;
+  other forms are covered in guides.
+featured: true
+relatedCategories:
+  - protein-powder
+  - electrolytes
+relatedGuides:
+  - what-is-creatine
+  - how-to-choose-a-creatine-supplement
+  - creatine-dosage-guide
+  - creatine-safety-and-side-effects
+  - creatine-monohydrate-vs-hcl
+buyersGuideSlug: how-to-choose-a-creatine-supplement
+scoringProfileId: creatine
+ingredientSlug: creatine-monohydrate
+intro: >
+  Creatine monohydrate is the most common supplemental form of creatine and the form most often studied in exercise and
+  sport nutrition research. According to NIH Office of Dietary Supplements materials, creatine supplements may help
+  improve performance during repeated short bursts of high-intensity effort when used alongside appropriate training —
+  but individual responses vary and supplements are not medical treatments.
+evaluationSummary: >
+  SuppCheckr scores creatine products using the creatine scoring profile: ingredient and dose transparency on the label,
+  alignment with commonly studied monohydrate context, formula simplicity, third-party testing documentation (verified
+  vs. marketing-only claims), dated manual price value (including price per 5 g creatine equivalent), additives, label
+  clarity, and brand transparency. Scores reflect label and sourcing quality — not personal outcomes.
+clusterScopeNote: >
+  This creatine product cluster includes five creatine monohydrate products (powders and one capsule SKU).
+  Creatine HCL, blends, and flavored stacks are discussed in guides but are not part of this comparison table yet.
+buyingConsiderations:
+  - >-
+    Confirm the label lists creatine monohydrate and grams per serving; serving sizes differ (some capsules provide less
+    than 5 g per serving).
+  - >-
+    Check whether third-party testing is verified (certificate or recognized program listing) or only claimed in
+    marketing copy.
+  - Compare value using price per 5 g creatine equivalent when servings are not exactly 5 g.
+  - Review other ingredients and capsule excipients if you prefer single-ingredient powders.
+  - Use dated manual prices as context only — check current price at the retailer before buying.
+  - >-
+    Consult a qualified healthcare professional before starting or changing supplements, especially if pregnant,
+    nursing, under 18, or managing a medical condition.
+faq:
+  - question: Why does SuppCheckr focus on creatine monohydrate first?
+    answer: >
+      NIH health-professional materials note that creatine monohydrate is the most widely used and studied supplemental
+      form. SuppCheckr starts comparisons there before expanding to other forms covered in our creatine guides.
+  - question: Does a higher SuppCheckr score mean a product will work for me?
+    answer: >
+      No. Scores summarize label transparency, testing documentation, and dated price context using our methodology —
+      not personal medical suitability or performance outcomes.
+  - question: Are prices on SuppCheckr live retailer prices?
+    answer: >
+      No. Product and comparison pages use manually observed prices with a last-checked date. Wording directs readers to
+      check current price at the retailer.
+featuredProductIds:
+  - creatine-optimum-nutrition-600g
+  - creatine-klean-athlete-klean-creatine
+  - creatine-nutricost-500g
+  - creatine-bulksupplements-1kg
+  - creatine-now-sports-capsules-120
+sources:
+  - id: cat-nih-exercise-consumer
+    title: Dietary Supplements for Exercise and Athletic Performance — Consumer
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cat-nih-exercise-hp
+    title: Dietary Supplements for Exercise and Athletic Performance — Health Professional
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cat-fda-dietary-supplements
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-06-26'
+    sourceType: FDA
+    supportsClaimIds: []
+  - id: cat-suppcheckr-methodology
+    title: SuppCheckr scoring methodology
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds: []
+seo:
+  title: Creatine Monohydrate Supplements — Compare & Review | SuppCheckr
+  description: >
+    SuppCheckr category hub for creatine monohydrate products, guides, and comparison methodology. Compare label
+    transparency, dosage clarity, testing status, and dated manual value — not medical advice.
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 2E draft category content with guides, FAQ, and product cluster links
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

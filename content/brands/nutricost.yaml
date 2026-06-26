@@ -1,0 +1,46 @@
+id: nutricost
+slug: nutricost
+name: Nutricost
+website: https://nutricost.com
+description: >
+  Nutricost is a value-oriented supplement brand selling vitamins, minerals, and sports nutrition products through its
+  website and major retailers.
+logo: /images/brands/placeholder.svg
+categories:
+  - creatine
+transparencyNotes: >
+  Nutricost publishes product pages with Supplement Facts-style information and states that products are made in
+  GMP-compliant facilities. Third-party testing is marketed on some SKUs; verify batch-specific documentation when
+  available.
+testingNotes: >
+  Retail listings for Performance creatine monohydrate describe third-party testing at a marketing level. No batch COA
+  URL captured in Phase 2D for Nutricost creatine.
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-nutricost-site
+    title: Nutricost official website
+    publisher: Nutricost
+    url: https://nutricost.com
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2D draft brand record for Nutricost creatine reviews
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

@@ -1,0 +1,25 @@
+# EMPTY TEMPLATE — do not publish. Replace all placeholders before review_ready.
+
+slug: REPLACE-guide-slug
+title: REPLACE Guide Title
+categoryId: creatine
+excerpt: ""
+
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+
+editorial:
+  lastUpdated: YYYY-MM-DD
+  lastReviewed: YYYY-MM-DD
+  reviewedBy: REPLACE-editor-id
+  updateLog: []
+
+body: |
+  # REPLACE heading
+
+  REPLACE outline only — write real copy in Phase 2C after approval.
+
+sources: []
+# Published requires ≥2 real sources (see citation-id-conventions.md)

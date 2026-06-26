@@ -1,0 +1,46 @@
+id: now-foods
+slug: now-foods
+name: NOW Foods
+website: https://www.nowfoods.com
+description: >
+  NOW Foods manufactures dietary supplements and natural products, including NOW Sports creatine capsules and powders
+  sold through health retailers.
+logo: /images/brands/placeholder.svg
+categories:
+  - creatine
+transparencyNotes: >
+  NOW publishes Supplement Facts panels on product pages and documents quality seals such as Informed Sport for selected
+  sports products.
+testingNotes: >
+  NOW Sports Creatine Monohydrate 750 mg veg capsules are marketed with Informed Sport certification on the brand
+  product page cited in Phase 2D.
+certifications:
+  - Informed Sport
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-now-informed-sport-seal
+    title: NOW — Informed Sport seal information
+    publisher: NOW Foods
+    url: https://www.nowfoods.com/quality-safety/seals-certificates/informed-sport
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2D draft brand record for NOW Sports creatine reviews
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

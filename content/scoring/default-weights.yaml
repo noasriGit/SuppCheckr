@@ -1,0 +1,14 @@
+id: default
+categoryId: null
+label: Default SuppCheckr weights
+notes: Base scoring weights. Category profiles override these values.
+criteriaWeights:
+  ingredientTransparency: 12
+  doseTransparency: 12
+  evidenceAlignment: 11
+  formulaQuality: 11
+  thirdPartyTesting: 12
+  priceValue: 12
+  additives: 9
+  labelClarity: 10
+  brandTransparency: 11

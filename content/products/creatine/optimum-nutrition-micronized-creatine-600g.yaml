@@ -1,0 +1,194 @@
+id: creatine-optimum-nutrition-600g
+slug: optimum-nutrition-micronized-creatine-600g
+name: Optimum Nutrition Micronized Creatine Powder (600 g / 120 Servings, Unflavored)
+brandId: optimum-nutrition
+categoryId: creatine
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Optimum Nutrition Micronized Creatine 600 g — product photo pending
+    attribution: Placeholder image; label sourced from cited PDF listing
+  label:
+    src: null
+    attribution: https://www.gnc.com/on/demandware.static/-/Sites-GNC2-Library/default/v1628678849372/pdf/352340_lbl.pdf
+supplementFacts:
+  servingSize: 1 rounded teaspoon (5 g)
+  servingsPerContainer: 120
+  ingredients:
+    - name: Creatine Monohydrate
+      amount: 5 g
+      dailyValue: null
+  otherIngredients: []
+  allergens: []
+pricing:
+  msrp: 29.99
+  currency: USD
+  pricePerServing: 0.25
+  pricePerActiveDose: 0.25
+  lastManualUpdate: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-26'
+retailers:
+  - retailerId: vitacost
+    url: https://www.vitacost.com/optimum-nutrition-micronized-creatine-powder-unflavored
+    isPrimary: true
+certifications:
+  - Informed Choice
+thirdPartyTesting:
+  status: verified
+  details: >
+    Optimum Nutrition lists Micronized Creatine Powder in the Informed Choice program, and the Informed Choice product
+    search lists certified batches for this product name.
+  sources:
+    - source-on-informed-choice-product
+    - source-on-support-informed-choice
+additives: []
+flags:
+  thirdPartyTested: true
+  additiveFree: true
+rating:
+  profileId: creatine
+  criteriaScores:
+    ingredientTransparency: 92
+    doseTransparency: 95
+    evidenceAlignment: 93
+    formulaQuality: 98
+    thirdPartyTesting: 88
+    priceValue: 75
+    additives: 98
+    labelClarity: 85
+    brandTransparency: 80
+  overallScore: 90
+pros:
+  - Simple formula — cited label lists creatine monohydrate with no other ingredients.
+  - Clear label states 5 g creatine monohydrate per serving.
+  - Third-party tested — Informed Choice product search lists this product (see cited sources).
+cons:
+  - Mid-tier observed price per 5 g compared with budget and bulk options in this cluster.
+  - Multiple container sizes exist; this draft locks the 600 g / 120-serving SKU.
+bestFor:
+  - Buyers seeking a mainstream monohydrate powder with a simple label and Informed Choice documentation.
+avoidIf:
+  - You want the lowest observed price per 5 g in this cluster.
+  - You prefer capsules over powder.
+labelTransparencyNotes: >
+  Vitacost listing for the 600 g SKU shows 120 servings at 5 g creatine monohydrate per serving. GNC-hosted label PDF
+  shows the same structure for the large tub format.
+evidenceNotes: |
+  Monohydrate form aligns with commonly studied creatine context. Score does not predict individual response.
+relatedProductIds:
+  - creatine-nutricost-500g
+  - creatine-klean-athlete-klean-creatine
+  - creatine-now-sports-capsules-120
+  - creatine-bulksupplements-1kg
+comparisonGroupIds:
+  - creatine-monohydrate-compared
+claims:
+  - id: on-label-form-monohydrate
+    text: The cited label lists creatine monohydrate as the sole ingredient.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - source-on-label-pdf
+  - id: on-label-serving-5g
+    text: The cited label shows 5 g creatine monohydrate per serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - source-on-label-pdf
+  - id: on-price-retailer
+    text: Vitacost listed the 600 g SKU at $29.99 on 2026-06-26.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-on-retailer-price
+  - id: on-price-per-serving
+    text: Price per serving is $0.25 based on $29.99 divided by 120 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-on-retailer-price
+      - editorial-on-price-math
+  - id: on-price-per-5g
+    text: Price per 5 g creatine equivalent is $0.25 based on 5 g per serving.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-on-retailer-price
+      - editorial-on-price-math
+  - id: on-informed-choice-verified
+    text: Informed Choice product search lists Optimum Nutrition Micronized Creatine Powder as a certified product.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - source-on-informed-choice-product
+      - source-on-support-informed-choice
+sources:
+  - id: source-on-label-pdf
+    title: Optimum Nutrition Micronized Creatine Powder label PDF
+    publisher: Optimum Nutrition / GNC-hosted PDF
+    url: https://www.gnc.com/on/demandware.static/-/Sites-GNC2-Library/default/v1628678849372/pdf/352340_lbl.pdf
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - on-label-form-monohydrate
+      - on-label-serving-5g
+  - id: source-on-retailer-price
+    title: Optimum Nutrition Micronized Creatine Powder — Vitacost listing (600 g)
+    publisher: Vitacost
+    url: https://www.vitacost.com/optimum-nutrition-micronized-creatine-powder-unflavored
+    accessDate: '2026-06-26'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - on-price-retailer
+      - on-price-per-serving
+      - on-price-per-5g
+  - id: source-on-informed-choice-product
+    title: Informed Choice — Micronized Creatine Powder (Optimum Nutrition)
+    publisher: Informed Choice
+    url: https://choice.wetestyoutrust.com/supplement-search/optimum-nutrition/micronized-creatine-powder
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds:
+      - on-informed-choice-verified
+  - id: source-on-support-informed-choice
+    title: ON Support — Informed Choice certified products
+    publisher: Optimum Nutrition
+    url: >-
+      https://support.optimumnutrition.com/en/support/solutions/articles/80000803058-are-your-products-informed-choice-certified-
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds:
+      - on-informed-choice-verified
+  - id: editorial-on-price-math
+    title: SuppCheckr price-per-serving and price-per-5g calculation
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - on-price-per-serving
+      - on-price-per-5g
+affiliate:
+  enabled: false
+seo:
+  title: Optimum Nutrition Micronized Creatine 600 g Review | SuppCheckr
+  description: >
+    Draft SuppCheckr review of Optimum Nutrition Micronized Creatine Powder (600 g) focusing on label clarity, Informed
+    Choice documentation, and dated price context.
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2D draft product review YAML
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

@@ -1,0 +1,47 @@
+id: optimum-nutrition
+slug: optimum-nutrition
+name: Optimum Nutrition
+website: https://www.optimumnutrition.com
+description: >
+  Optimum Nutrition (ON) is a sports nutrition brand owned by Glanbia Performance Nutrition, widely sold through
+  specialty retailers and e-commerce.
+logo: /images/brands/placeholder.svg
+categories:
+  - creatine
+transparencyNotes: >
+  ON states that ingredients are tested for purity and potency and that Micronized Creatine Powder participates in the
+  Informed Choice banned-substance testing program.
+testingNotes: >
+  ON support documentation lists Micronized Creatine Powder among Informed Choice certified products. Batch-level
+  verification is available through the Informed Choice product search.
+certifications:
+  - Informed Choice
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-on-support-informed-choice
+    title: ON Support — Are your products Informed Choice certified?
+    publisher: Optimum Nutrition
+    url: >-
+      https://support.optimumnutrition.com/en/support/solutions/articles/80000803058-are-your-products-informed-choice-certified-
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2D draft brand record for Optimum Nutrition creatine reviews
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

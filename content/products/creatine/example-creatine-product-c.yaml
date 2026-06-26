@@ -1,0 +1,73 @@
+id: demo-creatine-c
+slug: example-creatine-product-c
+name: Example Creatine Product C
+brandId: sample-supplement-brand
+categoryId: creatine
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: "Demo product image placeholder"
+    attribution: "SuppCheckr demo"
+  label: null
+supplementFacts:
+  servingSize: "5 g"
+  servingsPerContainer: 30
+  ingredients:
+    - name: Creatine Monohydrate
+      amount: "5 g"
+  otherIngredients: []
+  allergens: []
+pricing:
+  msrp: 0
+  currency: USD
+  pricePerServing: 0
+  lastManualUpdate: "2026-06-01"
+  lastPriceCheckedAt: "2026-06-01"
+retailers:
+  - retailerId: amazon
+    url: "#amazon-placeholder"
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: not_claimed
+  details: "Demo placeholder."
+  sources: []
+additives: [none]
+flags:
+  thirdPartyTested: false
+  additiveFree: true
+rating:
+  profileId: creatine
+  criteriaScores:
+    ingredientTransparency: 0
+    doseTransparency: 0
+    evidenceAlignment: 0
+    formulaQuality: 0
+    thirdPartyTesting: 0
+    priceValue: 0
+    additives: 0
+    labelClarity: 0
+    brandTransparency: 0
+  overallScore: 0
+pros: ["Demo pro placeholder"]
+cons: ["Demo con placeholder"]
+bestFor: ["Template testing only"]
+avoidIf: ["Do not use for purchasing decisions"]
+labelTransparencyNotes: "Placeholder."
+evidenceNotes: "Placeholder."
+relatedProductIds: [demo-creatine-a, demo-creatine-d]
+comparisonGroupIds: [demo-creatine-compared]
+claims: []
+sources: []
+affiliate:
+  enabled: false
+seo: {}
+status: archived
+isPlaceholder: true
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: "2026-06-01"
+  lastReviewed: "2026-06-01"
+  reviewedBy: demo-reviewer
+  updateLog: []

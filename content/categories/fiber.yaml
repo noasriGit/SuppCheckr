@@ -1,0 +1,21 @@
+id: fiber
+slug: fiber
+name: Fiber
+pluralName: Fiber Supplements
+description: "Category shell placeholder."
+shortDescription: "Template shell — content coming in Phase 2."
+featured: false
+relatedCategories: []
+relatedGuides: []
+buyersGuideSlug: null
+scoringProfileId: default
+seo: {}
+status: placeholder
+isPlaceholder: true
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: "2026-06-01"
+  lastReviewed: "2026-06-01"
+  reviewedBy: demo-reviewer
+  updateLog: []

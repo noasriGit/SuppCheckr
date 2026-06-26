@@ -1,0 +1,119 @@
+id: creatine-monohydrate-compared
+slug: creatine-monohydrate-compared
+type: category_ranking
+title: Creatine Monohydrate Products Compared
+categoryId: creatine
+subtitle: >
+  Side-by-side draft comparison of five creatine monohydrate products using SuppCheckr scoring criteria and dated manual
+  pricing. Default sort reflects overall score — not medical suitability or personal performance outcomes.
+productIds:
+  - creatine-optimum-nutrition-600g
+  - creatine-klean-athlete-klean-creatine
+  - creatine-nutricost-500g
+  - creatine-bulksupplements-1kg
+  - creatine-now-sports-capsules-120
+comparisonFields:
+  - overallScore
+  - pricePerActiveDose
+  - pricePerServing
+  - thirdPartyTesting
+  - servingSize
+methodologyNote: >
+  Scores use the creatine scoring profile (ingredient and dose transparency, evidence alignment, formula quality,
+  third-party testing documentation, dated price value, additives, label clarity, brand transparency). Table order
+  defaults to overall score high to low. Narrow criterion labels below each product name reflect specific supported
+  attributes — not broad recommendations. See /methodology for weight details.
+orderingNote: >
+  Default table order is based on SuppCheckr weighted criteria scores, not a ranking of which product is right for every
+  person. Filter and re-sort by price or testing status to match your own priorities.
+priceCheckedAt: '2026-06-26'
+productCriterionLabels:
+  - productId: creatine-optimum-nutrition-600g
+    labels:
+      - third-party tested
+      - simple formula
+      - clear label
+  - productId: creatine-klean-athlete-klean-creatine
+    labels:
+      - third-party tested
+      - simple formula
+  - productId: creatine-nutricost-500g
+    labels:
+      - simple formula
+      - clear label
+  - productId: creatine-bulksupplements-1kg
+    labels:
+      - lowest price per 5 g
+      - bulk value option
+      - simple formula
+  - productId: creatine-now-sports-capsules-120
+    labels:
+      - capsule format
+      - third-party tested
+caveats:
+  - >-
+    Nutricost and BulkSupplements third-party testing remains claimed unless a batch COA or recognized certificate URL
+    is captured.
+  - >-
+    NOW Sports capsules provide 4.5 g creatine monohydrate per six-capsule serving; price per 5 g is normalized in
+    product YAML and the table.
+  - >-
+    BulkSupplements label includes 5 g Supplement Facts serving and separate 7 g direction language — see product review
+    for context.
+  - Optimum Nutrition entry is scoped to the 600 g / 120-serving unflavored SKU only.
+  - All prices are manually observed on 2026-06-26 — check current price at the retailer.
+filtersEnabled: true
+defaultSort: overallScore
+sources:
+  - id: cmp-suppcheckr-methodology
+    title: SuppCheckr scoring methodology
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds: []
+  - id: cmp-nih-exercise-hp
+    title: NIH ODS — Exercise and Athletic Performance (Health Professional)
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cmp-on-informed-choice
+    title: Informed Choice — Optimum Nutrition Micronized Creatine Powder
+    publisher: Informed Choice
+    url: https://choice.wetestyoutrust.com/supplement-search/optimum-nutrition/micronized-creatine-powder
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds: []
+  - id: cmp-klean-nsf
+    title: NSF Certified for Sport — Klean Athlete Klean Creatine
+    publisher: NSF International
+    url: https://www.nsfsport.com/certified-products/listing-detail.php?id=1780369
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds: []
+  - id: cmp-now-informed-sport
+    title: NOW — Informed Sport seal information
+    publisher: NOW Foods
+    url: https://www.nowfoods.com/quality-safety/seals-certificates/informed-sport
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2E draft comparison for five creatine monohydrate products
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

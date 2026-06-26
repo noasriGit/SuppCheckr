@@ -1,0 +1,45 @@
+id: klean-athlete
+slug: klean-athlete
+name: Klean Athlete
+website: https://www.kleanathlete.com
+description: >
+  Klean Athlete is a sports nutrition brand focused on products marketed to athletes, with several SKUs carrying NSF
+  Certified for Sport certification.
+logo: /images/brands/placeholder.svg
+categories:
+  - creatine
+transparencyNotes: >
+  Klean Athlete publishes Supplement Facts panels and product PDFs for Klean Creatine and links to NSF Certified for
+  Sport program information.
+testingNotes: |
+  Klean Creatine is listed on the NSF Certified for Sport product database as of the cited access date.
+certifications:
+  - NSF Certified for Sport
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-klean-nsf-listing
+    title: NSF Certified for Sport — Klean Athlete Klean Creatine
+    publisher: NSF International
+    url: https://www.nsfsport.com/certified-products/listing-detail.php?id=1780369
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2D draft brand record for Klean Athlete creatine reviews
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

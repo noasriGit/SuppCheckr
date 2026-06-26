@@ -1,0 +1,25 @@
+slug: demo-guide-shell
+title: "Demo Guide Shell — How SuppCheckr Templates Work"
+categoryId: creatine
+excerpt: "Placeholder guide structure for Phase 1 infrastructure."
+body: |
+  This is a placeholder guide shell. Phase 2 will add real editorial content here.
+
+  SuppCheckr guides will follow source standards and include conservative, cited language.
+sources:
+  - id: cite-guide-demo-1
+    title: "Placeholder editorial reference"
+    publisher: "Example Publisher"
+    url: https://example.com/placeholder-guide-source
+    accessDate: "2026-06-01"
+    sourceType: internal_editorial
+    supportsClaimIds: []
+status: archived
+isPlaceholder: true
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: "2026-06-01"
+  lastReviewed: "2026-06-01"
+  reviewedBy: demo-reviewer
+  updateLog: []

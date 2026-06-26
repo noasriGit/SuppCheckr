@@ -1,0 +1,185 @@
+id: creatine-klean-athlete-klean-creatine
+slug: klean-athlete-klean-creatine
+name: Klean Athlete Klean Creatine
+brandId: klean-athlete
+categoryId: creatine
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Klean Athlete Klean Creatine — product photo pending
+    attribution: Placeholder image; label sourced from brand page
+  label:
+    src: null
+    attribution: https://www.kleanathlete.com/klean-creatine.html
+supplementFacts:
+  servingSize: 1 scoop (approx. 5 g)
+  servingsPerContainer: 60
+  ingredients:
+    - name: Creatine Monohydrate
+      amount: 5 g
+      dailyValue: null
+  otherIngredients: []
+  allergens: []
+pricing:
+  msrp: 34.5
+  currency: USD
+  pricePerServing: 0.58
+  pricePerActiveDose: 0.58
+  lastManualUpdate: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-26'
+retailers:
+  - retailerId: klean-athlete
+    url: https://www.kleanathlete.com/klean-creatine.html
+    isPrimary: true
+certifications:
+  - NSF Certified for Sport
+thirdPartyTesting:
+  status: verified
+  details: >
+    Klean Creatine is listed on the NSF Certified for Sport product database with a 5 g serving size and unflavored
+    powder form.
+  sources:
+    - source-klean-nsf-listing
+    - source-klean-brand-label
+additives: []
+flags:
+  thirdPartyTested: true
+  additiveFree: true
+rating:
+  profileId: creatine
+  criteriaScores:
+    ingredientTransparency: 94
+    doseTransparency: 95
+    evidenceAlignment: 93
+    formulaQuality: 98
+    thirdPartyTesting: 95
+    priceValue: 45
+    additives: 98
+    labelClarity: 90
+    brandTransparency: 85
+  overallScore: 88
+pros:
+  - Third-party tested — NSF Certified for Sport listing captured for this product.
+  - Simple formula — brand Supplement Facts show creatine monohydrate only.
+  - Clear label states 5 g creatine monohydrate per scoop on the brand page.
+cons:
+  - Higher observed price per serving and per 5 g than budget and bulk options in this cluster.
+  - Premium positioning may not fit buyers optimizing strictly for lowest cost per gram.
+bestFor:
+  - Buyers who prioritize documented NSF Certified for Sport testing with a single-ingredient monohydrate label.
+avoidIf:
+  - You need the lowest observed price per 5 g creatine in this cluster.
+  - You prefer capsules or flavored products.
+labelTransparencyNotes: >
+  Brand product page Supplement Facts panel lists 5 g creatine monohydrate per scoop and approximately 60 servings per
+  container (~315 g).
+evidenceNotes: >
+  Monohydrate form aligns with commonly studied creatine context. NSF listing documents testing/certification context,
+  not medical suitability.
+relatedProductIds:
+  - creatine-nutricost-500g
+  - creatine-optimum-nutrition-600g
+  - creatine-now-sports-capsules-120
+  - creatine-bulksupplements-1kg
+comparisonGroupIds:
+  - creatine-monohydrate-compared
+claims:
+  - id: klean-label-form-monohydrate
+    text: The brand Supplement Facts list creatine monohydrate as the only ingredient.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - source-klean-brand-label
+  - id: klean-label-serving-5g
+    text: The brand Supplement Facts show 5 g creatine monohydrate per serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - source-klean-brand-label
+  - id: klean-price-retailer
+    text: KleanAthlete.com listed Klean Creatine at $34.50 on 2026-06-26.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-klean-retailer-price
+  - id: klean-price-per-serving
+    text: Price per serving is $0.58 based on $34.50 divided by 60 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-klean-retailer-price
+      - editorial-klean-price-math
+  - id: klean-price-per-5g
+    text: Price per 5 g creatine equivalent is $0.58 based on 5 g per serving.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-klean-retailer-price
+      - editorial-klean-price-math
+  - id: klean-nsf-verified
+    text: NSF Certified for Sport product database lists Klean Athlete Klean Creatine.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - source-klean-nsf-listing
+sources:
+  - id: source-klean-brand-label
+    title: Klean Creatine — brand product page Supplement Facts
+    publisher: Klean Athlete
+    url: https://www.kleanathlete.com/klean-creatine.html
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - klean-label-form-monohydrate
+      - klean-label-serving-5g
+  - id: source-klean-retailer-price
+    title: Klean Creatine product page (price)
+    publisher: Klean Athlete
+    url: https://www.kleanathlete.com/klean-creatine.html
+    accessDate: '2026-06-26'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - klean-price-retailer
+      - klean-price-per-serving
+      - klean-price-per-5g
+  - id: source-klean-nsf-listing
+    title: NSF Certified for Sport — Klean Athlete Klean Creatine
+    publisher: NSF International
+    url: https://www.nsfsport.com/certified-products/listing-detail.php?id=1780369
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds:
+      - klean-nsf-verified
+  - id: editorial-klean-price-math
+    title: SuppCheckr price-per-serving and price-per-5g calculation
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - klean-price-per-serving
+      - klean-price-per-5g
+affiliate:
+  enabled: false
+seo:
+  title: Klean Athlete Klean Creatine Review | SuppCheckr
+  description: >
+    Draft SuppCheckr review of Klean Athlete Klean Creatine with NSF Certified for Sport citation, label facts, and
+    dated manual pricing.
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2D draft product review YAML
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

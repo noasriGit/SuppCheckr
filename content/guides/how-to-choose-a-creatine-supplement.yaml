@@ -1,0 +1,116 @@
+slug: how-to-choose-a-creatine-supplement
+title: How to Choose a Creatine Supplement
+categoryId: creatine
+excerpt: >
+  Label-focused factors to compare creatine supplements — form disclosure, dose clarity, formula simplicity, testing
+  statements, and price context — without product rankings.
+body: |
+  ## Introduction
+
+  Creatine supplements are widely available. This guide explains what to look for on labels
+  and listings based on publicly available information. It does **not** rank products or
+  recommend a single option for everyone.
+
+  ## Start with the form on the label
+
+  For apples-to-apples comparison, many buyers look for **creatine monohydrate** clearly
+  named on the Supplement Facts panel. NIH materials note that creatine monohydrate is the
+  most widely studied supplemental form. Other forms (such as HCL) are discussed in our
+  [monohydrate vs. HCL guide](/guides/creatine-monohydrate-vs-hcl).
+
+  ## Check dose transparency
+
+  Look for:
+
+  - **Creatine amount per serving** (grams or milligrams)
+  - **Serving size** (e.g., one scoop, one capsule)
+  - **Servings per container**
+
+  SuppCheckr weights dose transparency heavily in creatine scoring because value and
+  usefulness depend on knowing how much creatine each serving provides.
+
+  ## Review other ingredients and additives
+
+  Some products contain only creatine monohydrate. Others add flavors, sweeteners, or
+  anti-caking agents. A simpler formula is not automatically better for everyone, but it
+  can be easier to compare across products.
+
+  ## Look for third-party testing statements
+
+  Some brands publish third-party testing or certification information (for example NSF,
+  Informed Sport, or USP programs where applicable). SuppCheckr records whether testing is
+  **verified** (with a citable source), **claimed**, **unknown**, or **not claimed** —
+  based on publicly available documentation, not marketing slogans.
+
+  ## Compare price with context
+
+  Price per container alone can mislead. Consider:
+
+  - **Price per serving**
+  - **Price per 5 g creatine equivalent** (when grams per serving are clear)
+
+  Retail prices change. Always check the retailer for the current price before purchasing.
+
+  ## What to be cautious about on listings
+
+  Be skeptical of listings that imply disease treatment, unrealistic muscle-growth promises, or
+  universal safety claims. Dietary supplements are not FDA-approved drugs. Consult a
+  qualified healthcare professional if you have medical questions, especially if pregnant,
+  nursing, under 18, taking medication, or managing a medical condition.
+
+  ## How SuppCheckr compares products (methodology overview)
+
+  Our [methodology](/methodology) page explains scoring criteria: label transparency, dose
+  clarity, evidence alignment with monohydrate context, formula simplicity, third-party
+  testing, additives, and price/value. Scores help compare labels — they do not prove
+  effectiveness for any individual.
+
+  ## Related reading
+
+  - [Creatine monohydrate ingredient reference](/ingredients/creatine-monohydrate)
+  - [What is creatine?](/guides/what-is-creatine)
+  - [Creatine dosage guide](/guides/creatine-dosage-guide)
+  - [Creatine category overview](/supplements/creatine) (draft hub — not yet published)
+relatedGuideSlugs:
+  - what-is-creatine
+  - creatine-dosage-guide
+  - creatine-monohydrate-vs-hcl
+sources:
+  - id: nih-exercise-hp-creatine
+    title: Dietary Supplements for Exercise and Athletic Performance — Health Professional
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-overview
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-06-26'
+    sourceType: FDA
+    supportsClaimIds: []
+  - id: editorial-suppcheckr-methodology
+    title: SuppCheckr methodology (editorial framework)
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2C draft buyer-education guide without product rankings
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

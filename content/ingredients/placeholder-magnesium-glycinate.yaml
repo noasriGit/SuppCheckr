@@ -1,0 +1,22 @@
+id: placeholder-magnesium-glycinate
+slug: placeholder-magnesium-glycinate
+name: Placeholder Magnesium Glycinate
+commonForms: [Magnesium Bisglycinate]
+categories: [magnesium]
+aliases: []
+evidenceSummary: "Placeholder evidence summary."
+typicalDosageRange: "Placeholder dosage range."
+safetyNotes: "Placeholder safety notes."
+interactions: "Placeholder interaction notes."
+relatedProductIds: []
+relatedGuideSlugs: []
+sources: []
+status: placeholder
+isPlaceholder: true
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: "2026-06-01"
+  lastReviewed: "2026-06-01"
+  reviewedBy: demo-reviewer
+  updateLog: []

@@ -1,0 +1,23 @@
+id: example-nutrition-co
+slug: example-nutrition-co
+name: Example Nutrition Co.
+website: https://example.com
+description: "Second demo brand placeholder."
+logo: /images/brands/placeholder.svg
+categories: [creatine]
+transparencyNotes: "Placeholder transparency notes."
+testingNotes: "Placeholder testing notes."
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources: []
+status: archived
+isPlaceholder: true
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: "2026-06-01"
+  lastReviewed: "2026-06-01"
+  reviewedBy: demo-reviewer
+  updateLog: []

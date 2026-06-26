@@ -1,0 +1,91 @@
+# EMPTY TEMPLATE — do not publish. Replace all placeholders before review_ready.
+# See content/templates/product-research-checklist.md before filling.
+
+id: REPLACE-product-id
+slug: REPLACE-product-slug
+name: REPLACE Product Name
+brandId: REPLACE-brand-id
+categoryId: creatine
+
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+
+editorial:
+  lastUpdated: YYYY-MM-DD
+  lastReviewed: YYYY-MM-DD
+  reviewedBy: REPLACE-editor-id
+  updateLog: []
+
+images:
+  product:
+    src: /images/products/REPLACE.jpg
+    alt: REPLACE product image alt text
+    attribution: REPLACE attribution
+  label:
+    src: /images/products/REPLACE-label.jpg
+    attribution: REPLACE label source
+
+supplementFacts:
+  servingSize: "REPLACE e.g. 1 scoop (5 g)"
+  servingsPerContainer: 0
+  ingredients:
+    - name: Creatine Monohydrate
+      amount: "REPLACE e.g. 5 g"
+      dailyValue: null
+  otherIngredients: []
+  allergens: []
+
+pricing:
+  msrp: 0
+  currency: USD
+  pricePerServing: 0
+  pricePerActiveDose: 0
+  lastManualUpdate: YYYY-MM-DD
+  lastPriceCheckedAt: YYYY-MM-DD
+
+retailers:
+  - retailerId: amazon
+    url: "https://REPLACE-retailer-url"
+    isPrimary: true
+
+certifications: []
+thirdPartyTesting:
+  status: unknown
+  details: ""
+  sources: []
+
+additives: []
+flags: {}
+
+rating:
+  profileId: creatine
+  criteriaScores:
+    ingredientTransparency: 0
+    doseTransparency: 0
+    evidenceAlignment: 0
+    formulaQuality: 0
+    thirdPartyTesting: 0
+    priceValue: 0
+    additives: 0
+    labelClarity: 0
+    brandTransparency: 0
+  overallScore: 0
+
+pros: []
+cons: []
+bestFor: []
+avoidIf: []
+labelTransparencyNotes: ""
+evidenceNotes: ""
+relatedProductIds: []
+comparisonGroupIds: []
+
+claims: []
+sources: []
+
+affiliate:
+  enabled: false
+
+seo: {}

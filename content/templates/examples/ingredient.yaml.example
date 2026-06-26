@@ -1,0 +1,33 @@
+# EMPTY TEMPLATE — do not publish. Replace all placeholders before review_ready.
+
+id: REPLACE-ingredient-id
+slug: creatine-monohydrate
+name: Creatine Monohydrate
+
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+
+editorial:
+  lastUpdated: YYYY-MM-DD
+  lastReviewed: YYYY-MM-DD
+  reviewedBy: REPLACE-editor-id
+  updateLog: []
+
+commonForms:
+  - Creatine monohydrate
+aliases: []
+categories:
+  - creatine
+
+evidenceSummary: ""
+typicalDosageRange: ""
+safetyNotes: ""
+interactions: ""
+
+relatedProductIds: []
+relatedGuideSlugs: []
+
+sources: []
+# Published requires ≥2 sources including NIH, PubMed, National_Academies, or consensus_body

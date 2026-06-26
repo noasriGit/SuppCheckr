@@ -1,0 +1,44 @@
+id: bulksupplements
+slug: bulksupplements
+name: BulkSupplements.com
+website: https://www.bulksupplements.com
+description: |
+  BulkSupplements.com sells bulk ingredient-style supplement powders and capsules direct to consumers online.
+logo: /images/brands/placeholder.svg
+categories:
+  - creatine
+transparencyNotes: >
+  BulkSupplements product pages include serving-size guidance and a Supplement Facts-style panel for creatine
+  monohydrate powder variants.
+testingNotes: >
+  Marketing copy references third-party testing and cGMP manufacturing. No NSF/Informed certificate URL captured for
+  creatine monohydrate in Phase 2D.
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-bulksupplements-site
+    title: BulkSupplements.com official website
+    publisher: BulkSupplements.com
+    url: https://www.bulksupplements.com
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2D draft brand record for BulkSupplements creatine reviews
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

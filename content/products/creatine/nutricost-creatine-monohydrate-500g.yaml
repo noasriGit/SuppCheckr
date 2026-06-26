@@ -1,0 +1,183 @@
+id: creatine-nutricost-500g
+slug: nutricost-creatine-monohydrate-500g
+name: Nutricost Creatine Monohydrate Powder (500 g, Unflavored)
+brandId: nutricost
+categoryId: creatine
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Nutricost Creatine Monohydrate Powder 500 g — product photo pending
+    attribution: Placeholder image; label sourced from retailer listing cited below
+  label:
+    src: null
+    attribution: https://www.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-1-1-lb-500-g/131935
+supplementFacts:
+  servingSize: 1 scoop (5 g)
+  servingsPerContainer: 100
+  ingredients:
+    - name: Creatine Monohydrate (micronized)
+      amount: 5 g
+      dailyValue: null
+  otherIngredients: []
+  allergens: []
+pricing:
+  msrp: 23.97
+  currency: USD
+  pricePerServing: 0.24
+  pricePerActiveDose: 0.24
+  lastManualUpdate: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-26'
+retailers:
+  - retailerId: nutricost
+    url: https://nutricost.com/products/nutricost-creatine-monohydrate-powder-500-grams
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: claimed
+  details: >
+    Nutricost and retailer listings describe third-party testing at a marketing level. No batch COA or certificate URL
+    was captured in Phase 2D.
+  sources:
+    - source-nutricost-retailer-testing-claim
+additives: []
+flags:
+  thirdPartyTested: false
+  additiveFree: true
+rating:
+  profileId: creatine
+  criteriaScores:
+    ingredientTransparency: 90
+    doseTransparency: 95
+    evidenceAlignment: 92
+    formulaQuality: 88
+    thirdPartyTesting: 55
+    priceValue: 92
+    additives: 90
+    labelClarity: 82
+    brandTransparency: 70
+  overallScore: 84
+pros:
+  - Clear label states 5 g creatine monohydrate per scoop on cited Supplement Facts.
+  - Simple single-ingredient formula on cited label (micronized creatine monohydrate).
+  - Among the lower observed price-per-5g values in this draft cluster at the cited retailer check.
+cons:
+  - Third-party testing is marketed but not verified with a captured certificate in Phase 2D.
+  - Nutricost sells many flavored creatine SKUs; buyers should confirm the unflavored 500 g SKU.
+bestFor:
+  - Buyers prioritizing a budget unflavored monohydrate powder with clear grams-per-serving on the label.
+avoidIf:
+  - You require verified third-party certification documentation before purchase.
+  - You need a non-powder format (see capsule options in this category).
+labelTransparencyNotes: >
+  The cited iHerb listing for Performance Creatine Monohydrate 500 g shows 5 g creatine monohydrate per 5 g scoop and
+  100 servings per container.
+evidenceNotes: >
+  Product form aligns with commonly studied creatine monohydrate context. SuppCheckr score reflects label and value
+  factors, not individual results.
+relatedProductIds:
+  - creatine-optimum-nutrition-600g
+  - creatine-klean-athlete-klean-creatine
+  - creatine-now-sports-capsules-120
+  - creatine-bulksupplements-1kg
+comparisonGroupIds:
+  - creatine-monohydrate-compared
+claims:
+  - id: nutricost-label-form-monohydrate
+    text: The cited Supplement Facts list creatine monohydrate (micronized) as the ingredient.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - source-nutricost-label-facts
+  - id: nutricost-label-serving-5g
+    text: The cited Supplement Facts show 5 g creatine monohydrate per serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - source-nutricost-label-facts
+  - id: nutricost-price-retailer
+    text: Nutricost.com listed the Unflavored / 500 G variant at $23.97 on 2026-06-26.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-nutricost-retailer-price
+  - id: nutricost-price-per-serving
+    text: Price per serving is $0.24 based on $23.97 divided by 100 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-nutricost-retailer-price
+      - editorial-nutricost-price-math
+  - id: nutricost-price-per-5g
+    text: Price per 5 g creatine equivalent is $0.24 based on the cited price and 5 g per serving.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-nutricost-retailer-price
+      - editorial-nutricost-price-math
+  - id: nutricost-brand-testing-claimed
+    text: Retail listing states third-party tested; SuppCheckr has not verified a certificate URL.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - source-nutricost-retailer-testing-claim
+sources:
+  - id: source-nutricost-label-facts
+    title: Nutricost Performance Creatine Monohydrate 500 g — Supplement Facts (retailer listing)
+    publisher: iHerb / Nutricost
+    url: https://www.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-1-1-lb-500-g/131935
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - nutricost-label-form-monohydrate
+      - nutricost-label-serving-5g
+  - id: source-nutricost-retailer-price
+    title: Nutricost Creatine Monohydrate Powder 500 g product page
+    publisher: Nutricost
+    url: https://nutricost.com/products/nutricost-creatine-monohydrate-powder-500-grams
+    accessDate: '2026-06-26'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - nutricost-price-retailer
+      - nutricost-price-per-serving
+      - nutricost-price-per-5g
+  - id: source-nutricost-retailer-testing-claim
+    title: Nutricost Performance Creatine Monohydrate 500 g listing (third-party tested claim)
+    publisher: iHerb / Nutricost
+    url: https://www.iherb.com/pr/nutricost-performance-creatine-monohydrate-unflavored-1-1-lb-500-g/131935
+    accessDate: '2026-06-26'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - nutricost-brand-testing-claimed
+  - id: editorial-nutricost-price-math
+    title: SuppCheckr price-per-serving and price-per-5g calculation
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - nutricost-price-per-serving
+      - nutricost-price-per-5g
+affiliate:
+  enabled: false
+seo:
+  title: Nutricost Creatine Monohydrate 500 g Review | SuppCheckr
+  description: >
+    Draft SuppCheckr review of Nutricost Creatine Monohydrate Powder (500 g, unflavored) by label transparency, dose
+    clarity, testing statements, and dated price context.
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2D draft product review YAML
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

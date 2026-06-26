@@ -1,0 +1,25 @@
+id: demo-creatine-compared
+slug: demo-creatine-compared
+type: category_ranking
+title: "Demo Creatine Supplements Compared"
+categoryId: creatine
+subtitle: "Placeholder comparison table for infrastructure testing."
+productIds: [demo-creatine-a, demo-creatine-b, demo-creatine-c, demo-creatine-d]
+comparisonFields:
+  - overallScore
+  - pricePerServing
+  - thirdPartyTesting
+  - additives
+methodologyNote: "See /methodology for scoring details. Demo data only."
+filtersEnabled: true
+defaultSort: overallScore
+sources: []
+status: archived
+isPlaceholder: true
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: "2026-06-01"
+  lastReviewed: "2026-06-01"
+  reviewedBy: demo-reviewer
+  updateLog: []

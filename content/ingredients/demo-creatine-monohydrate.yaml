@@ -1,0 +1,29 @@
+id: demo-creatine-monohydrate
+slug: demo-creatine-monohydrate
+name: Demo Creatine Monohydrate
+commonForms: [Creatine Monohydrate]
+categories: [creatine]
+aliases: []
+evidenceSummary: "Placeholder evidence summary — not final content."
+typicalDosageRange: "Placeholder dosage range."
+safetyNotes: "Placeholder safety notes."
+interactions: "Placeholder interaction notes."
+relatedProductIds: [demo-creatine-a, demo-creatine-b]
+relatedGuideSlugs: [demo-guide-shell]
+sources:
+  - id: cite-ingredient-demo-1
+    title: "Placeholder source document"
+    publisher: "Example Publisher"
+    url: https://example.com/placeholder-source
+    accessDate: "2026-06-01"
+    sourceType: internal_editorial
+    supportsClaimIds: []
+status: archived
+isPlaceholder: true
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: "2026-06-01"
+  lastReviewed: "2026-06-01"
+  reviewedBy: demo-reviewer
+  updateLog: []

@@ -1,0 +1,184 @@
+id: creatine-bulksupplements-1kg
+slug: bulksupplements-creatine-monohydrate-1kg
+name: BulkSupplements Creatine Monohydrate (Micronized) Powder (1 kg)
+brandId: bulksupplements
+categoryId: creatine
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: BulkSupplements Creatine Monohydrate 1 kg — product photo pending
+    attribution: Placeholder image; label sourced from brand product page
+  label:
+    src: null
+    attribution: https://www.bulksupplements.com/products/creatine-monohydrate
+supplementFacts:
+  servingSize: 2 tsp (about 5 g)
+  servingsPerContainer: 200
+  ingredients:
+    - name: Creatine Monohydrate (micronized)
+      amount: 5 g
+      dailyValue: null
+  otherIngredients: []
+  allergens: []
+pricing:
+  msrp: 31.97
+  currency: USD
+  pricePerServing: 0.16
+  pricePerActiveDose: 0.16
+  lastManualUpdate: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-26'
+retailers:
+  - retailerId: bulksupplements
+    url: https://www.bulksupplements.com/products/creatine-monohydrate
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: claimed
+  details: >
+    BulkSupplements marketing references third-party testing and cGMP manufacturing. No NSF, Informed Sport, or batch
+    COA URL was captured for this SKU in Phase 2D.
+  sources:
+    - source-bulk-brand-testing-claim
+additives: []
+flags:
+  thirdPartyTested: false
+  additiveFree: true
+rating:
+  profileId: creatine
+  criteriaScores:
+    ingredientTransparency: 90
+    doseTransparency: 88
+    evidenceAlignment: 92
+    formulaQuality: 95
+    thirdPartyTesting: 55
+    priceValue: 95
+    additives: 95
+    labelClarity: 78
+    brandTransparency: 65
+  overallScore: 83
+pros:
+  - Bulk value option — among the lowest observed price-per-5g values in this draft cluster.
+  - Simple formula — brand Supplement Facts list micronized creatine monohydrate with no other ingredients.
+  - Clear 5 g per serving on Supplement Facts (2 tsp ≈ 5 g).
+cons:
+  - Third-party testing is referenced in marketing but not verified with a captured certificate URL.
+  - Volume-based serving (teaspoon) and separate maintenance directions may reduce label clarity for some buyers.
+  - Bulk bag format may be less convenient than smaller tubs for first-time buyers.
+bestFor:
+  - Buyers prioritizing bulk container value with a single-ingredient monohydrate label.
+avoidIf:
+  - You require verified third-party certification documentation before purchase.
+  - You prefer capsules or pre-portioned scoops with simpler directions only.
+labelTransparencyNotes: >
+  Brand page lists 2 tsp ≈ 5 g on Supplement Facts and 200 servings for the 1 kg (CM1KG) variant at $31.97 on
+  2026-06-26. Suggested use also mentions a 7 g maintenance option.
+evidenceNotes: >
+  Monohydrate micronized powder aligns with commonly studied creatine context. Value scoring uses cited manual price at
+  draft time.
+relatedProductIds:
+  - creatine-nutricost-500g
+  - creatine-optimum-nutrition-600g
+  - creatine-klean-athlete-klean-creatine
+  - creatine-now-sports-capsules-120
+comparisonGroupIds:
+  - creatine-monohydrate-compared
+claims:
+  - id: bulk-label-form-monohydrate
+    text: The brand Supplement Facts list micronized creatine monohydrate.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - source-bulk-brand-label
+  - id: bulk-label-serving-5g
+    text: The brand Supplement Facts show about 5 g per serving (2 tsp).
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - source-bulk-brand-label
+  - id: bulk-price-retailer
+    text: BulkSupplements.com listed the 1 kg (CM1KG) variant at $31.97 on 2026-06-26.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-bulk-retailer-price
+  - id: bulk-price-per-serving
+    text: Price per serving is $0.16 based on $31.97 divided by 200 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-bulk-retailer-price
+      - editorial-bulk-price-math
+  - id: bulk-price-per-5g
+    text: Price per 5 g creatine equivalent is $0.16 based on 5 g per serving.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - source-bulk-retailer-price
+      - editorial-bulk-price-math
+  - id: bulk-testing-claimed
+    text: Brand marketing references third-party testing; no certificate URL captured in Phase 2D.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - source-bulk-brand-testing-claim
+sources:
+  - id: source-bulk-brand-label
+    title: BulkSupplements Creatine Monohydrate — product page Supplement Facts
+    publisher: BulkSupplements.com
+    url: https://www.bulksupplements.com/products/creatine-monohydrate
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - bulk-label-form-monohydrate
+      - bulk-label-serving-5g
+  - id: source-bulk-retailer-price
+    title: BulkSupplements Creatine Monohydrate 1 kg variant (CM1KG) price
+    publisher: BulkSupplements.com
+    url: https://www.bulksupplements.com/products/creatine-monohydrate
+    accessDate: '2026-06-26'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - bulk-price-retailer
+      - bulk-price-per-serving
+      - bulk-price-per-5g
+  - id: source-bulk-brand-testing-claim
+    title: BulkSupplements Creatine Monohydrate — third-party testing marketing copy
+    publisher: BulkSupplements.com
+    url: https://www.bulksupplements.com/products/creatine-monohydrate
+    accessDate: '2026-06-26'
+    sourceType: brand_label
+    supportsClaimIds:
+      - bulk-testing-claimed
+  - id: editorial-bulk-price-math
+    title: SuppCheckr price-per-serving and price-per-5g calculation
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - bulk-price-per-serving
+      - bulk-price-per-5g
+affiliate:
+  enabled: false
+seo:
+  title: BulkSupplements Creatine Monohydrate 1 kg Review | SuppCheckr
+  description: >
+    Draft SuppCheckr review of BulkSupplements micronized creatine monohydrate 1 kg powder with bulk value pricing,
+    label facts, and claimed testing context.
+status: published
+isPlaceholder: false
+noindex: false
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 2D draft product review YAML
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 2F-2B creatine cluster publication

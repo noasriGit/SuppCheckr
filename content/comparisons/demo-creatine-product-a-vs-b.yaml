@@ -1,0 +1,24 @@
+id: demo-head-to-head
+slug: demo-creatine-product-a-vs-b
+type: head_to_head
+title: "Demo Creatine Product A vs Demo Creatine Product B"
+categoryId: creatine
+subtitle: "Placeholder head-to-head comparison."
+productIds: [demo-creatine-a, demo-creatine-b]
+comparisonFields:
+  - overallScore
+  - pricePerServing
+  - thirdPartyTesting
+methodologyNote: "Demo comparison only."
+filtersEnabled: false
+defaultSort: overallScore
+sources: []
+status: archived
+isPlaceholder: true
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: "2026-06-01"
+  lastReviewed: "2026-06-01"
+  reviewedBy: demo-reviewer
+  updateLog: []
