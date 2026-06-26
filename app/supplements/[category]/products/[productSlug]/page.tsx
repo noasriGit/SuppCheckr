@@ -31,6 +31,7 @@ import {
   getGuideBySlug,
   isActiveContent,
 } from "@/lib/content/loader";
+import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 
 export async function generateStaticParams() {
   const params: { category: string; productSlug: string }[] = [];
@@ -89,6 +90,8 @@ export default async function ProductPage({
     .map((slug) => getGuideBySlug(slug))
     .filter((g) => g && g.status !== "archived");
 
+  const displayLabels = resolveCategoryDisplayLabels(category);
+
   return (
     <SidebarLayout
       sidebar={
@@ -145,7 +148,7 @@ export default async function ProductPage({
         />
 
         <section className="mt-6 rounded-lg border border-border bg-surface p-4 text-sm text-foreground">
-          <h2 className="font-semibold text-heading">Explore creatine content</h2>
+          <h2 className="font-semibold text-heading">{displayLabels.exploreCategoryHeading}</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5">
             <li>
               <Link
@@ -161,7 +164,7 @@ export default async function ProductPage({
                   href={`/supplements/${categorySlug}/compare`}
                   className="text-link hover:text-link-hover hover:underline"
                 >
-                  Compare all creatine monohydrate products
+                  {displayLabels.comparisonCtaLabel}
                 </Link>
               </li>
             )}
@@ -171,7 +174,7 @@ export default async function ProductPage({
                   href={`/ingredients/${category.ingredientSlug}`}
                   className="text-link hover:text-link-hover hover:underline"
                 >
-                  Creatine monohydrate ingredient reference
+                  {displayLabels.ingredientReferenceLabel}
                 </Link>
               </li>
             )}
@@ -193,7 +196,7 @@ export default async function ProductPage({
         <div className="mt-8 grid gap-8 lg:grid-cols-2">
           <div className="space-y-6">
             <ProductImage product={product} />
-            <SupplementFactsTable product={product} />
+            <SupplementFactsTable product={product} displayLabels={displayLabels} />
           </div>
           <div>
             <h2 className="text-lg font-semibold text-heading">Score breakdown</h2>
@@ -263,6 +266,7 @@ export default async function ProductPage({
                 categorySlug={categorySlug}
                 productCriterionLabels={criterionLabelMap}
                 priceCheckedAt={comparison?.priceCheckedAt}
+                displayLabels={displayLabels}
               />
             </div>
           </section>

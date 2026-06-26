@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Product } from "@/lib/schemas/product";
+import type { CategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
+import { defaultCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 import { ScoreBadge } from "@/components/rating/ScoreDisplay";
 
 export function ProductCard({
@@ -67,12 +69,14 @@ export function ProductImage({ product }: { product: Product }) {
 
 export function SupplementFactsTable({
   product,
+  displayLabels = defaultCategoryDisplayLabels,
 }: {
   product: Product;
+  displayLabels?: CategoryDisplayLabels;
 }) {
   const { supplementFacts, pricing } = product;
-  const creatineIngredient = supplementFacts.ingredients[0];
-  const pricePer5g = pricing.pricePerActiveDose ?? pricing.pricePerServing;
+  const activeIngredient = supplementFacts.ingredients[0];
+  const pricePerActiveDose = pricing.pricePerActiveDose ?? pricing.pricePerServing;
   const showNormalizedNote =
     pricing.pricePerActiveDose != null &&
     Math.abs(pricing.pricePerActiveDose - pricing.pricePerServing) > 0.001;
@@ -94,9 +98,9 @@ export function SupplementFactsTable({
           <dd className="font-medium text-foreground">{supplementFacts.servingsPerContainer}</dd>
         </div>
         <div>
-          <dt className="text-muted">Creatine per serving</dt>
+          <dt className="text-muted">{displayLabels.activeDoseLabel}</dt>
           <dd className="font-medium text-foreground">
-            {creatineIngredient ? `${creatineIngredient.name}: ${creatineIngredient.amount}` : "—"}
+            {activeIngredient ? `${activeIngredient.name}: ${activeIngredient.amount}` : "—"}
           </dd>
         </div>
         <div>
@@ -110,12 +114,12 @@ export function SupplementFactsTable({
           <dd className="font-medium text-foreground">${pricing.pricePerServing.toFixed(2)}</dd>
         </div>
         <div>
-          <dt className="text-muted">Price per 5 g creatine equivalent</dt>
+          <dt className="text-muted">{displayLabels.priceNormalizationDescription}</dt>
           <dd className="font-medium text-foreground">
-            ${pricePer5g.toFixed(2)}
+            ${pricePerActiveDose.toFixed(2)}
             {showNormalizedNote && (
               <span className="mt-1 block text-xs font-normal text-muted">
-                Normalized because this label serving is not exactly 5 g creatine.
+                {displayLabels.priceNormalizationNote}
               </span>
             )}
           </dd>

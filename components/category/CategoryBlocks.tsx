@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Category } from "@/lib/schemas/category";
 import type { Product } from "@/lib/schemas/product";
+import type { CategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
+import { defaultCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 import { ScoreBadge } from "@/components/rating/ScoreDisplay";
 
 export function CategoryCard({ category }: { category: Category }) {
@@ -30,9 +32,11 @@ export function CategoryCard({ category }: { category: Category }) {
 export function CategoryProductTable({
   products,
   categorySlug,
+  displayLabels = defaultCategoryDisplayLabels,
 }: {
   products: Pick<Product, "slug" | "name" | "isPlaceholder" | "status" | "rating" | "pricing">[];
   categorySlug: string;
+  displayLabels?: CategoryDisplayLabels;
 }) {
   if (products.length === 0) {
     return (
@@ -53,12 +57,14 @@ export function CategoryProductTable({
           <tr>
             <th scope="col" className="px-4 py-3 font-medium text-heading">Product</th>
             <th scope="col" className="px-4 py-3 font-medium text-heading">Score</th>
-            <th scope="col" className="px-4 py-3 font-medium text-heading">Price / 5 g</th>
+            <th scope="col" className="px-4 py-3 font-medium text-heading">
+              {displayLabels.priceNormalizationLabel}
+            </th>
           </tr>
         </thead>
         <tbody>
           {sorted.map((p) => {
-            const pricePer5g = p.pricing.pricePerActiveDose ?? p.pricing.pricePerServing;
+            const pricePerActiveDose = p.pricing.pricePerActiveDose ?? p.pricing.pricePerServing;
             return (
               <tr key={p.slug} className="border-t border-table-row-border">
                 <td className="px-4 py-3">
@@ -87,7 +93,7 @@ export function CategoryProductTable({
                   />
                 </td>
                 <td className="px-4 py-3 tabular-nums text-foreground">
-                  ${pricePer5g.toFixed(2)} <span className="text-muted">(dated)</span>
+                  ${pricePerActiveDose.toFixed(2)} <span className="text-muted">(dated)</span>
                 </td>
               </tr>
             );

@@ -9,6 +9,15 @@ relatedCategories: [electrolytes]
 relatedGuides: []
 buyersGuideSlug: null
 scoringProfileId: default
+activeDoseLabel: Elemental magnesium per serving
+priceNormalizationLabel: Price / 100 mg elemental
+priceNormalizationDescription: Price per 100 mg elemental magnesium
+priceNormalizationSortLabel: Price per 100 mg elemental magnesium
+priceNormalizationNote: Normalized because this label serving is not exactly 100 mg elemental magnesium.
+ingredientReferenceLabel: Magnesium ingredient reference
+ingredientPageLinkLabel: Magnesium ingredient reference
+comparisonCtaLabel: Compare all magnesium products
+exploreCategoryHeading: Explore magnesium content
 seo: {}
 status: placeholder
 isPlaceholder: true

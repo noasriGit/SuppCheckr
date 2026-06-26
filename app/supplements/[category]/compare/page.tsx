@@ -21,6 +21,7 @@ import {
   getCategoryComparison,
   getComparisons,
 } from "@/lib/content/loader";
+import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 
 export async function generateStaticParams() {
   const comparisons = getComparisons().filter(
@@ -69,6 +70,8 @@ export default async function CategoryComparePage({
   const criterionLabelMap = new Map(
     comparison.productCriterionLabels.map((entry) => [entry.productId, entry.labels]),
   );
+
+  const displayLabels = resolveCategoryDisplayLabels(category);
 
   return (
     <SidebarLayout
@@ -129,6 +132,7 @@ export default async function CategoryComparePage({
             categorySlug={categorySlug}
             productCriterionLabels={criterionLabelMap}
             priceCheckedAt={comparison.priceCheckedAt}
+            displayLabels={displayLabels}
           />
         </div>
 

@@ -21,6 +21,15 @@ relatedGuides:
 buyersGuideSlug: how-to-choose-a-creatine-supplement
 scoringProfileId: creatine
 ingredientSlug: creatine-monohydrate
+activeDoseLabel: Creatine per serving
+priceNormalizationLabel: Price / 5 g
+priceNormalizationDescription: Price per 5 g creatine equivalent
+priceNormalizationSortLabel: Price per 5 g creatine
+priceNormalizationNote: Normalized because this label serving is not exactly 5 g creatine.
+ingredientReferenceLabel: Creatine monohydrate ingredient reference
+ingredientPageLinkLabel: Creatine monohydrate ingredient page
+comparisonCtaLabel: Compare all creatine monohydrate products
+exploreCategoryHeading: Explore creatine content
 intro: >
   Creatine monohydrate is the most common supplemental form of creatine and the form most often studied in exercise and
   sport nutrition research. According to NIH Office of Dietary Supplements materials, creatine supplements may help

@@ -17,6 +17,7 @@ import {
   getBrands,
   getCategories,
 } from "@/lib/content/loader";
+import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 
 export async function generateStaticParams() {
   return getComparisons()
@@ -59,6 +60,7 @@ export default async function HeadToHeadPage({
   const category = comparison.categoryId
     ? getCategories().find((c) => c.id === comparison.categoryId)
     : undefined;
+  const displayLabels = resolveCategoryDisplayLabels(category);
 
   return (
     <PageContainer>
@@ -80,7 +82,8 @@ export default async function HeadToHeadPage({
         <ComparisonTable
           products={products}
           brands={brands}
-          categorySlug={category?.slug ?? "creatine"}
+          categorySlug={category?.slug}
+          displayLabels={displayLabels}
         />
       </div>
       <section className="mt-10 rounded-lg border border-dashed border-border bg-surface p-4 text-sm text-foreground">

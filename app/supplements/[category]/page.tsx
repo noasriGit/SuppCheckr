@@ -21,8 +21,10 @@ import {
   getCategories,
   getActiveProductsByCategory,
   getGuideBySlug,
+  getCategoryComparison,
   isIndexable,
 } from "@/lib/content/loader";
+import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 import { isReservedSlug } from "@/config/reserved-slugs";
 
 export async function generateStaticParams() {
@@ -69,6 +71,9 @@ export default async function CategoryPage({
     .map((slug) => getGuideBySlug(slug))
     .filter((g) => g && g.status !== "archived")
     .map((g) => ({ slug: g!.slug, title: g!.title }));
+
+  const displayLabels = resolveCategoryDisplayLabels(category);
+  const categoryComparison = getCategoryComparison(categorySlug);
 
   return (
     <SidebarLayout
@@ -121,7 +126,7 @@ export default async function CategoryPage({
                 href={`/ingredients/${category.ingredientSlug}`}
                 className="text-link hover:text-link-hover hover:underline"
               >
-                Creatine monohydrate ingredient page
+                {displayLabels.ingredientPageLinkLabel}
               </Link>
             ) : (
               "Ingredient link pending."
@@ -173,7 +178,7 @@ export default async function CategoryPage({
             <h2 className="text-xl font-semibold text-heading">
               {isIndexable(category) ? "Product reviews" : "Product reviews (draft)"}
             </h2>
-            {categorySlug === "creatine" && (
+            {categoryComparison && (
               <Link
                 href={`/supplements/${categorySlug}/compare`}
                 className="text-sm text-link hover:text-link-hover hover:underline"
@@ -182,7 +187,11 @@ export default async function CategoryPage({
               </Link>
             )}
           </div>
-          <CategoryProductTable products={products} categorySlug={categorySlug} />
+          <CategoryProductTable
+            products={products}
+            categorySlug={categorySlug}
+            displayLabels={displayLabels}
+          />
         </section>
 
         {category.faq.length > 0 && (

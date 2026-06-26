@@ -4,6 +4,8 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Product } from "@/lib/schemas/product";
 import type { Brand } from "@/lib/schemas/brand";
+import type { CategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
+import { defaultCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 import { ScoreBadge } from "@/components/rating/ScoreDisplay";
 import { MonetizationSafeZone } from "@/components/monetization/AdSlot";
 
@@ -27,12 +29,14 @@ export function ComparisonTable({
   categorySlug,
   productCriterionLabels,
   priceCheckedAt,
+  displayLabels = defaultCategoryDisplayLabels,
 }: {
   products: Product[];
   brands: Brand[];
   categorySlug?: string;
   productCriterionLabels?: Map<string, string[]>;
   priceCheckedAt?: string;
+  displayLabels?: CategoryDisplayLabels;
 }) {
   const [sortKey, setSortKey] = useState<SortKey>("overallScore");
   const [sortAsc, setSortAsc] = useState(false);
@@ -85,7 +89,7 @@ export function ComparisonTable({
             className={selectClass}
           >
             <option value="overallScore">SuppCheckr score</option>
-            <option value="pricePerActiveDose">Price per 5 g creatine</option>
+            <option value="pricePerActiveDose">{displayLabels.priceNormalizationSortLabel}</option>
             <option value="pricePerServing">Price per serving</option>
           </select>
         </label>
@@ -122,7 +126,9 @@ export function ComparisonTable({
               <th scope="col" className="px-4 py-3 font-medium text-heading">Product</th>
               <th scope="col" className="px-4 py-3 font-medium text-heading">Brand</th>
               <th scope="col" className="px-4 py-3 font-medium text-heading">Score</th>
-              <th scope="col" className="px-4 py-3 font-medium text-heading">Price / 5 g</th>
+              <th scope="col" className="px-4 py-3 font-medium text-heading">
+                {displayLabels.priceNormalizationLabel}
+              </th>
               <th scope="col" className="px-4 py-3 font-medium text-heading">Price / serving</th>
               <th scope="col" className="px-4 py-3 font-medium text-heading">Testing</th>
             </tr>
@@ -133,7 +139,7 @@ export function ComparisonTable({
               const href = categorySlug
                 ? `/supplements/${categorySlug}/products/${product.slug}`
                 : `#`;
-              const pricePer5g =
+              const pricePerActiveDose =
                 product.pricing.pricePerActiveDose ?? product.pricing.pricePerServing;
               const labels = productCriterionLabels?.get(product.id) ?? [];
 
@@ -178,7 +184,7 @@ export function ComparisonTable({
                     />
                   </td>
                   <td className="px-4 py-3 tabular-nums text-foreground">
-                    ${pricePer5g.toFixed(2)}
+                    ${pricePerActiveDose.toFixed(2)}
                   </td>
                   <td className="px-4 py-3 tabular-nums text-foreground">
                     ${product.pricing.pricePerServing.toFixed(2)}

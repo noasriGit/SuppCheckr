@@ -33,6 +33,15 @@ export const CategorySchema = GovernanceFieldsSchema.extend({
   featuredProductIds: z.array(z.string()).default([]),
   sources: z.array(CitationSchema).default([]),
   seo: SeoFieldsSchema.default({}),
+  activeDoseLabel: z.string().optional(),
+  priceNormalizationLabel: z.string().optional(),
+  priceNormalizationDescription: z.string().optional(),
+  priceNormalizationSortLabel: z.string().optional(),
+  priceNormalizationNote: z.string().optional(),
+  ingredientReferenceLabel: z.string().optional(),
+  ingredientPageLinkLabel: z.string().optional(),
+  comparisonCtaLabel: z.string().optional(),
+  exploreCategoryHeading: z.string().optional(),
 });
 
 export type Category = z.output<typeof CategorySchema>;
