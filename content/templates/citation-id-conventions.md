@@ -36,3 +36,41 @@ Stable citation IDs link claims to sources in YAML. Use lowercase kebab-case. Pr
 | `ftc-endorsement-guides` | FTC | Affiliate/monetization copy |
 
 Do **not** use `example.com` URLs in published content.
+
+---
+
+## Magnesium cluster starter set (Phase 4+ — add real URLs when drafting)
+
+Separate source categories when assigning IDs:
+
+| Category | ID pattern | sourceType | Used for claimTypes |
+|----------|------------|------------|---------------------|
+| **General evidence / safety** | `nih-magnesium-hp`, `nih-magnesium-consumer` | NIH | `health_context`, `safety_context` |
+| **Regulatory framing** | `fda-dietary-supplements-overview`, `ftc-endorsement-guides` | FDA, FTC | `health_context`, `safety_context`, monetization copy |
+| **Product label facts** | `label-{magnesium-product-slug}` | brand_label | `label_fact` |
+| **Brand claims (unverified)** | `brand-{magnesium-product-slug}-page` | brand_label | `brand_claim` |
+| **Retail price data** | `retailer-{magnesium-product-slug}` | retailer_listing | `price_fact` |
+| **Verified third-party testing** | `testing-{magnesium-product-slug}` | third_party_testing, certification_body | `brand_claim` (testing statements only when verified) |
+| **Editorial calculations** | `editorial-price-per-100mg-elemental-{product-slug}` | internal_editorial | `price_fact` |
+
+### Magnesium reference IDs
+
+| ID | sourceType | Purpose |
+|----|------------|---------|
+| `nih-magnesium-hp` | NIH | RDA/AI/UL, interactions, kidney disease, supplement safety |
+| `nih-magnesium-consumer` | NIH | Consumer-oriented magnesium overview |
+| `fda-dietary-supplements-overview` | FDA | Supplements are not FDA-approved to treat disease |
+| `ftc-endorsement-guides` | FTC | Endorsement/testimonial advertising boundaries |
+
+### Magnesium product ID examples (replace `{slug}` with product slug)
+
+| ID | sourceType | Purpose |
+|----|------------|---------|
+| `label-{magnesium-product-slug}` | brand_label | Supplement Facts — form, elemental mg, serving size |
+| `retailer-{magnesium-product-slug}` | retailer_listing | Dated manual price only — not evidence for health claims |
+| `testing-{magnesium-product-slug}` | third_party_testing | COA or program listing — use only when verification gate passes |
+| `cert-{magnesium-product-slug}-usp` | certification_body | USP Verified example pattern |
+| `cert-{magnesium-product-slug}-nsf` | certification_body | NSF Sport / NSF contents certified example pattern |
+| `editorial-price-per-100mg-elemental-{slug}` | internal_editorial | Documented calculation: price ÷ (elemental mg × servings) × 100 |
+
+**Do not** cite Amazon reviews, retailer Q&A, or blogs as `label_fact`, `health_context`, or verification for `testing-*` IDs.
