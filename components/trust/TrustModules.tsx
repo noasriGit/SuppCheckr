@@ -41,10 +41,13 @@ export function MedicalDisclaimer() {
 }
 
 export function AffiliateDisclosure({ compact = false }: { compact?: boolean }) {
+  const message = compact
+    ? "Affiliate links are disabled during prelaunch. Future affiliate links will be clearly disclosed."
+    : "Affiliate links are currently disabled during prelaunch. Future affiliate links, if enabled, will be disclosed clearly.";
+
   return (
     <p className={`text-foreground ${compact ? "text-xs" : "text-sm"}`}>
-      <strong className="text-heading">Affiliate disclosure:</strong> Some links may earn commissions at no
-      extra cost to you. Affiliate relationships do not determine SuppCheckr scores.{" "}
+      <strong className="text-heading">Affiliate disclosure:</strong> {message}{" "}
       <a href="/affiliate-disclosure" className="text-link underline hover:text-link-hover">
         Learn more
       </a>

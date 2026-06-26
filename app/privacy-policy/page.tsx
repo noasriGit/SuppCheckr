@@ -1,22 +1,152 @@
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { LegalPageLayout, ProseSection } from "@/components/legal/LegalPageLayout";
+import { siteConfig } from "@/config/site";
 
 export const metadata = buildPageMetadata({
   title: "Privacy Policy",
-  description: "SuppCheckr privacy policy placeholder.",
+  description:
+    "How SuppCheckr may collect, use, and protect information when you use the site.",
   path: "/privacy-policy",
 });
 
 export default function PrivacyPolicyPage() {
   return (
     <LegalPageLayout title="Privacy Policy" requiresLegalReview>
-      <ProseSection title="Draft placeholder">
-        This privacy policy is a structural placeholder and has not been reviewed by legal
-        counsel. Do not rely on it until finalized.
+      <ProseSection title="Overview">
+        <p>
+          SuppCheckr (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) operates{" "}
+          {siteConfig.url} as an informational supplement comparison and review site. This
+          Privacy Policy explains what information we may collect, how we may use it, and
+          choices that may be available to you.
+        </p>
+        <p className="mt-2">
+          This page is a draft prepared for later legal review. It is not a guarantee of
+          compliance with any specific privacy law.
+        </p>
       </ProseSection>
-      <ProseSection title="Data collection (placeholder)">
-        SuppCheckr may use privacy-friendly analytics and optional newsletter signup data.
-        Details will be finalized before public launch.
+
+      <ProseSection title="Information we may collect">
+        <p>Depending on how you use SuppCheckr, we may collect or receive:</p>
+        <ul className="mt-2 list-disc space-y-1 pl-5">
+          <li>
+            <strong>Information you provide voluntarily</strong>, such as your name and email
+            address if you sign up for a newsletter, submit a contact form, or request
+            corrections. These features may not be active on every page during prelaunch.
+          </li>
+          <li>
+            <strong>Basic technical information</strong>, such as browser type, device type,
+            operating system, pages viewed, referring URLs, approximate location derived
+            from IP address, timestamps, and server log data needed to operate and secure
+            the site.
+          </li>
+          <li>
+            <strong>Analytics data</strong>, if privacy-friendly analytics tools are enabled
+            in the future to understand traffic patterns and improve content. We intend to
+            avoid collecting unnecessary personal identifiers through analytics when
+            reasonably possible.
+          </li>
+          <li>
+            <strong>Advertising, affiliate, or cookie-related data</strong>, only if
+            monetization features such as affiliate links or ad scripts are enabled in the
+            future. As of the date below, live affiliate links and live ad scripts are
+            disabled on SuppCheckr.
+          </li>
+        </ul>
+      </ProseSection>
+
+      <ProseSection title="Cookies and local storage">
+        <p>
+          Like many websites, SuppCheckr may use cookies, local storage, or similar
+          technologies in your browser. These small files or stored values help the site
+          remember preferences, maintain basic functionality, measure performance, and—if
+          enabled in the future—support analytics or advertising tools.
+        </p>
+        <p className="mt-2">
+          You can usually control cookies through your browser settings. Blocking cookies
+          may affect some site features.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="How we may use information">
+        <p>We may use collected information to:</p>
+        <ul className="mt-2 list-disc space-y-1 pl-5">
+          <li>operate, maintain, and secure the website;</li>
+          <li>improve content, navigation, and user experience;</li>
+          <li>measure site performance and understand how pages are used;</li>
+          <li>detect, prevent, or respond to abuse, fraud, or security issues;</li>
+          <li>
+            respond if you contact us, request corrections, or subscribe to communications;
+          </li>
+          <li>comply with applicable legal obligations or enforce our terms.</li>
+        </ul>
+      </ProseSection>
+
+      <ProseSection title="Sharing and selling">
+        <p>
+          SuppCheckr does not sell personal information in the ordinary sense of exchanging
+          your contact details for money. We may use service providers that help us host,
+          analyze, or operate the site, and we may disclose information when required by law
+          or to protect rights, safety, and security.
+        </p>
+        <p className="mt-2">
+          If affiliate programs, ad networks, or similar monetization tools are enabled in
+          the future, certain data practices required by those tools may be treated as
+          &ldquo;sharing&rdquo; or &ldquo;selling&rdquo; under some U.S. state privacy
+          laws. If that happens, we intend to update this policy and provide any notices or
+          opt-out choices required by applicable law.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="Your privacy choices and state rights">
+        <p>
+          Depending on where you live and what laws apply, you may have rights to access,
+          delete, correct, or opt out of certain processing of personal information. Some
+          U.S. state laws also provide rights related to targeted advertising or profiling.
+        </p>
+        <p className="mt-2">
+          SuppCheckr has not implemented a full compliance program for laws such as the
+          California Consumer Privacy Act (CCPA/CPRA), Virginia CDPA, Colorado CPA, or the
+          EU General Data Protection Regulation (GDPR). If you believe a law applies to
+          you and wish to make a request, contact us using the information below and we
+          will respond as reasonably possible.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="Children">
+        <p>
+          SuppCheckr is intended for general audiences and is not directed at children
+          under 13. We do not knowingly collect personal information from children under 13.
+          If you believe we have received such information, please contact us so we can
+          review and delete it where appropriate.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="Data retention and security">
+        <p>
+          We retain information only as long as reasonably needed for the purposes described
+          above, unless a longer period is required by law. We use reasonable administrative,
+          technical, and organizational measures to protect information, but no website or
+          transmission method is completely secure.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="Changes to this policy">
+        <p>
+          We may update this Privacy Policy from time to time. When we do, we will revise
+          the &ldquo;Last updated&rdquo; date at the top of this page. Continued use of the
+          site after changes become effective means you accept the updated policy, subject
+          to applicable law.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="Contact">
+        <p>
+          For privacy-related questions or requests, contact us at{" "}
+          <a href={`mailto:${siteConfig.contactEmail}`} className="text-link underline">
+            {siteConfig.contactEmail}
+          </a>
+          .
+        </p>
       </ProseSection>
     </LegalPageLayout>
   );

@@ -5,7 +5,7 @@ import { EditorialDates } from "@/components/trust/TrustModules";
 export function LegalPageLayout({
   title,
   requiresLegalReview = false,
-  lastUpdated = "2026-06-01",
+  lastUpdated = "2026-06-26",
   children,
 }: {
   title: string;
