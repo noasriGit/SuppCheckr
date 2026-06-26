@@ -16,7 +16,10 @@ import { ScoringProfileSchema, type ScoringProfile } from "@/lib/schemas/scoring
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
-function readYamlDir<T>(subdir: string, schema: z.ZodType<T>): T[] {
+function readYamlDir<S extends z.ZodTypeAny>(
+  subdir: string,
+  schema: S,
+): z.output<S>[] {
   const dir = path.join(CONTENT_DIR, subdir);
   if (!fs.existsSync(dir)) return [];
 
@@ -28,7 +31,7 @@ function readYamlDir<T>(subdir: string, schema: z.ZodType<T>): T[] {
   });
 }
 
-function readYamlFile<T>(filePath: string, schema: z.ZodType<T>): T {
+function readYamlFile<S extends z.ZodTypeAny>(filePath: string, schema: S): z.output<S> {
   const raw = fs.readFileSync(filePath, "utf8");
   return schema.parse(loadYaml(raw));
 }
