@@ -49,18 +49,18 @@ flags:
   thirdPartyTested: false
   additiveFree: false
 rating:
-  profileId: default
+  profileId: magnesium
   criteriaScores:
-    ingredientTransparency: 90
-    doseTransparency: 85
-    evidenceAlignment: 82
-    formulaQuality: 88
-    thirdPartyTesting: 55
-    priceValue: 78
-    additives: 85
-    labelClarity: 85
-    brandTransparency: 70
-  overallScore: 80
+    ingredientTransparency: 88
+    doseTransparency: 82
+    evidenceAlignment: 80
+    formulaQuality: 85
+    thirdPartyTesting: 50
+    priceValue: 85
+    additives: 83
+    labelClarity: 84
+    brandTransparency: 68
+  overallScore: 79
 pros:
   - Supplement Facts on the Nutricost product page list 420 mg elemental magnesium as magnesium citrate per 4-capsule serving.
   - Among the lower observed price-per-100-mg-elemental values in this draft cluster at the cited price check.
@@ -78,8 +78,10 @@ labelTransparencyNotes: >
   Locked 120-capsule SKU (30 servings at 4 capsules per serving). Nutricost also sells 60- and 240-capsule sizes — confirm
   bottle count before purchase. Elemental magnesium is stated on the cited Supplement Facts panel.
 evidenceNotes: >
-  Draft SuppCheckr score uses the default scoring profile — a dedicated magnesium rubric is still needed before
-  publication. Citrate GI tolerance context is general NIH background, not a product treatment claim.
+  Draft SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: clear citrate form,
+  explicit 420 mg elemental magnesium per serving, and strong price per 100 mg elemental value — offset by
+  four-capsule serving size and third-party testing claimed but not verified with a captured certificate.
+  Citrate GI tolerance context is general NIH background, not a product treatment claim.
 relatedProductIds:
   - magnesium-klean-athlete-klean-magnesium
   - magnesium-now-foods-magnesium-malate-1300-180
@@ -192,10 +194,14 @@ isPlaceholder: false
 noindex: true
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-29'
+  lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4D-3 magnesium profile score re-audit
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created

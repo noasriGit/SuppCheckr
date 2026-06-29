@@ -47,18 +47,18 @@ flags:
   thirdPartyTested: false
   additiveFree: false
 rating:
-  profileId: default
+  profileId: magnesium
   criteriaScores:
-    ingredientTransparency: 85
-    doseTransparency: 88
-    evidenceAlignment: 78
-    formulaQuality: 82
-    thirdPartyTesting: 45
-    priceValue: 55
-    additives: 80
-    labelClarity: 85
-    brandTransparency: 72
-  overallScore: 74
+    ingredientTransparency: 78
+    doseTransparency: 85
+    evidenceAlignment: 72
+    formulaQuality: 80
+    thirdPartyTesting: 40
+    priceValue: 52
+    additives: 85
+    labelClarity: 78
+    brandTransparency: 65
+  overallScore: 71
 pros:
   - Supplement Facts on the cited listing show 120 mg magnesium (elemental) as magnesium citrate/malate per 1-capsule serving.
   - Transparent mixed-form label — both citrate and malate are named, with total elemental magnesium stated (no per-form mg split).
@@ -79,8 +79,11 @@ labelTransparencyNotes: >
   facts checked in Phase 4D-1 research (120 mg elemental per capsule). Per-form elemental magnesium is not split on the
   label. Label directions allow 1–4 capsules daily with food.
 evidenceNotes: >
-  Draft SuppCheckr score uses the default scoring profile — a dedicated magnesium rubric is still needed before
-  publication. This product occupies the V1 threonate fallback slot; no magnesium L-threonate product review is included.
+  Draft SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: transparent mixed
+  citrate/malate form with 120 mg elemental magnesium per capsule and one-capsule serving — offset by
+  retailer-sourced Supplement Facts (official brand page not confirmed), no per-form elemental mg split,
+  unknown testing, and higher price per 100 mg elemental than budget options. This product occupies the V1
+  threonate fallback slot; no magnesium L-threonate product review is included.
 relatedProductIds:
   - magnesium-klean-athlete-klean-magnesium
   - magnesium-nutricost-magnesium-citrate-120
@@ -172,10 +175,14 @@ isPlaceholder: false
 noindex: true
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-29'
+  lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4D-3 magnesium profile score re-audit
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created

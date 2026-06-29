@@ -52,17 +52,17 @@ flags:
   thirdPartyTested: false
   additiveFree: false
 rating:
-  profileId: default
+  profileId: magnesium
   criteriaScores:
-    ingredientTransparency: 90
-    doseTransparency: 90
-    evidenceAlignment: 80
-    formulaQuality: 88
-    thirdPartyTesting: 45
-    priceValue: 65
-    additives: 75
-    labelClarity: 88
-    brandTransparency: 80
+    ingredientTransparency: 88
+    doseTransparency: 88
+    evidenceAlignment: 75
+    formulaQuality: 85
+    thirdPartyTesting: 40
+    priceValue: 72
+    additives: 72
+    labelClarity: 92
+    brandTransparency: 78
   overallScore: 78
 pros:
   - Supplement Facts list magnesium malate with both compound weight (1000 mg malate) and 113 mg elemental magnesium per tablet.
@@ -81,9 +81,10 @@ labelTransparencyNotes: >
   Locked NOW SKU 1300 / UPC 733739013002 — 180 tablets. Brand page lists a suggested use of up to 3 tablets daily; SuppCheckr
   price normalization uses the 1-tablet Supplement Facts serving (113 mg elemental magnesium).
 evidenceNotes: >
-  Draft SuppCheckr score uses the default scoring profile — a dedicated magnesium rubric is still needed before
-  publication. Malate is paired with malic acid on the label as magnesium malate; SuppCheckr does not treat malate as an
-  energy or pain treatment.
+  Draft SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: malate form with both
+  compound weight (1000 mg malate) and 113 mg elemental magnesium disclosed on Supplement Facts, plus one-tablet
+  serving — offset by unknown third-party testing, brand energy/Krebs-cycle marketing risk, and lower elemental mg
+  per tablet. SuppCheckr does not treat malate as an energy or pain treatment.
 relatedProductIds:
   - magnesium-klean-athlete-klean-magnesium
   - magnesium-nutricost-magnesium-citrate-120
@@ -166,10 +167,14 @@ isPlaceholder: false
 noindex: true
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-29'
+  lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4D-3 magnesium profile score re-audit
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created

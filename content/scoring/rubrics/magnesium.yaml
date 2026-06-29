@@ -1,0 +1,139 @@
+profileId: magnesium
+categoryId: magnesium
+label: Magnesium scoring rubric
+disclaimer: >
+  Scores reflect label transparency (especially elemental magnesium disclosure), magnesium form
+  identification, formula clarity, third-party testing evidence, dated manual price per 100 mg
+  elemental magnesium, and claim conservatism based on publicly available information. Scores do
+  not prove effectiveness, absorption superiority for any form, safety for any individual, medical
+  suitability, or specific outcomes (sleep, anxiety, blood pressure, constipation, cognition, etc.).
+criteria:
+  doseTransparency:
+    anchors:
+      - score: 0
+        description: >
+          Elemental magnesium (mg) per serving missing, hidden in a proprietary blend, or only
+          compound/chelate weight disclosed without elemental mg.
+      - score: 50
+        description: >
+          Elemental magnesium stated but serving math is unclear, multi-capsule/tablet serving is
+          cumbersome without offsetting clarity, or mixed-form product lacks per-form breakdown
+          when label implies multiple salts.
+      - score: 100
+        description: >
+          Label-stated elemental magnesium (mg) per serving clearly disclosed; serving size and
+          servings per container support straightforward dose and price-per-100-mg-elemental comparison.
+  ingredientTransparency:
+    anchors:
+      - score: 0
+        description: >
+          Magnesium form not identified (e.g., generic "magnesium complex"), proprietary blend
+          without per-ingredient amounts, or vague chelate/trademark naming without form clarity.
+      - score: 50
+        description: >
+          Form partially named (e.g., "magnesium citrate/malate") but per-form elemental amounts
+          not split on a mixed-form label, or compound weight shown without clear elemental context.
+      - score: 100
+        description: >
+          Magnesium form explicitly named on Supplement Facts (glycinate, citrate, malate, oxide,
+          etc.); single-form products score highest; mixed-form products score well only when
+          total elemental mg and named forms are transparent.
+  labelClarity:
+    anchors:
+      - score: 0
+        description: >
+          Supplement Facts difficult to read, incomplete, missing key fields, or sourced only from
+          unverified secondary listings when official brand label is unavailable.
+      - score: 50
+        description: >
+          Core fields present but allergens, other ingredients, serving details, or SKU specificity
+          need interpretation; retailer-sourced label when brand-hosted Supplement Facts exist elsewhere.
+      - score: 100
+        description: >
+          Serving size, elemental magnesium amount, magnesium form, other ingredients, and allergens
+          clearly presented from an official brand label or equally authoritative source with locked SKU.
+  thirdPartyTesting:
+    anchors:
+      - score: 0
+        description: >
+          No testing claim and no verifiable third-party certification, COA, or recognized program
+          listing found for the specific SKU.
+      - score: 50
+        description: >
+          Brand or retailer claims third-party testing, USP Verified, or similar without a captured
+          certificate URL or recognized program listing matched to this SKU.
+      - score: 100
+        description: >
+          Verifiable third-party testing or recognized certification (e.g., NSF Certified for Sport,
+          USP Verified) documented with a citable source matched to the locked SKU.
+  priceValue:
+    anchors:
+      - score: 0
+        description: >
+          Price unavailable or cannot compute price per serving / per 100 mg elemental magnesium
+          from label-stated elemental mg.
+      - score: 50
+        description: >
+          Manual price dated; price per 100 mg elemental magnesium checkable but mid-range within
+          cluster context, or value premium not clearly offset by transparency/testing benefits.
+      - score: 100
+        description: >
+          Manual price dated; price per serving and price per 100 mg elemental magnesium clearly
+          computed from label-stated elemental mg and competitive within cluster context.
+          Comparison uses elemental mg only — not bioavailability or absorption assumptions.
+  formulaQuality:
+    anchors:
+      - score: 0
+        description: >
+          Proprietary magnesium blends, many non-magnesium actives, condition-specific stacks, or
+          unnecessary complexity for a straightforward magnesium supplement.
+      - score: 50
+        description: >
+          Mostly magnesium with some non-essential actives, flavor systems, or mixed-form complexity
+          without per-form mg split.
+      - score: 100
+        description: >
+          Single primary magnesium form with minimal formula complexity appropriate to format
+          (capsule/tablet/powder); transparent mixed-form acceptable when total elemental mg is clear.
+  additives:
+    anchors:
+      - score: 0
+        description: >
+          Numerous undeclared-style additive concerns, color additives, or sweetener/filler load
+          disproportionate to format.
+      - score: 50
+        description: >
+          Standard capsule/tablet excipients, anti-caking agents, or color additives disclosed on label.
+      - score: 100
+        description: >
+          Minimal disclosed excipients appropriate to format (e.g., vegetarian capsule shell only)
+          or additive-free powder.
+  evidenceAlignment:
+    anchors:
+      - score: 0
+        description: >
+          Product marketing or label copy misaligned with conservative magnesium evidence context;
+          aggressive sleep, anxiety, blood pressure, constipation, cognitive, or disease-outcome claims.
+      - score: 50
+        description: >
+          Form acceptable but brand marketing overstates benefits, uses high-claim-risk positioning
+          (e.g., L-threonate cognitive framing), or oxide/citrate framed with unsupported absolutes.
+      - score: 100
+        description: >
+          Label and editorial positioning aligned with general magnesium supplement context; no
+          exaggerated outcome claims. Oxide scored on clarity and caveats — not dismissed as useless.
+          L-threonate products are high claim-risk and excluded from V1 drafts.
+  brandTransparency:
+    anchors:
+      - score: 0
+        description: >
+          Limited public brand information, unclear contact, opaque manufacturing/testing statements,
+          or reliance on retailer label when official brand product page is missing without documentation.
+      - score: 50
+        description: >
+          Basic brand information available; testing or quality statements partially documented;
+          label sourced from retailer when brand-hosted page not confirmed.
+      - score: 100
+        description: >
+          Brand website and public materials clearly document product, contact, Supplement Facts,
+          and relevant quality/testing information for the locked SKU.

@@ -58,17 +58,17 @@ flags:
   thirdPartyTested: false
   additiveFree: false
 rating:
-  profileId: default
+  profileId: magnesium
   criteriaScores:
     ingredientTransparency: 88
-    doseTransparency: 92
-    evidenceAlignment: 78
-    formulaQuality: 70
-    thirdPartyTesting: 45
-    priceValue: 95
-    additives: 55
-    labelClarity: 90
-    brandTransparency: 75
+    doseTransparency: 90
+    evidenceAlignment: 72
+    formulaQuality: 68
+    thirdPartyTesting: 40
+    priceValue: 92
+    additives: 52
+    labelClarity: 85
+    brandTransparency: 72
   overallScore: 77
 pros:
   - Supplement Facts on the cited Target listing show 250 mg magnesium (elemental) as magnesium oxide per 1-tablet serving.
@@ -90,8 +90,10 @@ labelTransparencyNotes: >
   elemental magnesium as magnesium oxide per tablet and 100 servings per bottle. Label caution advises consultation if you
   have kidney disease or take medication.
 evidenceNotes: >
-  Draft SuppCheckr score uses the default scoring profile — a dedicated magnesium rubric is still needed before
-  publication. Oxide value framing uses elemental mg and dated price only — not absorption superiority or dismissal of the form.
+  Draft SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: clear oxide form, 250 mg
+  elemental magnesium per tablet, and lowest observed price per 100 mg elemental in this cluster — offset by
+  unknown USP/testing verification, multiple tablet excipients, Target-sourced label, and oxide GI caveats.
+  Oxide value framing uses elemental mg and dated price only — not absorption superiority or dismissal of the form.
 relatedProductIds:
   - magnesium-klean-athlete-klean-magnesium
   - magnesium-nutricost-magnesium-citrate-120
@@ -190,10 +192,14 @@ isPlaceholder: false
 noindex: true
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-29'
+  lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4D-3 magnesium profile score re-audit
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created

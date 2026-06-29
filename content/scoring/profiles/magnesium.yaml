@@ -1,0 +1,19 @@
+id: magnesium
+categoryId: magnesium
+label: Magnesium scoring profile
+notes: >
+  Magnesium profile — emphasizes elemental magnesium dose transparency, form identification,
+  label clarity, testing verification, and claim conservatism. Price/value is computed as price
+  per 100 mg elemental magnesium (label-stated elemental mg per serving — not compound or
+  chelate weight, and not bioavailability assumptions). See content/scoring/rubrics/magnesium.yaml
+  for editor rubric anchors.
+criteriaWeights:
+  doseTransparency: 18
+  ingredientTransparency: 16
+  labelClarity: 14
+  evidenceAlignment: 12
+  thirdPartyTesting: 12
+  priceValue: 12
+  formulaQuality: 8
+  additives: 4
+  brandTransparency: 4
