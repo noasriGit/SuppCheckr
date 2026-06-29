@@ -1,0 +1,133 @@
+id: magnesium-supplements-compared
+slug: magnesium-supplements-compared
+type: category_ranking
+title: Magnesium Supplements Compared
+categoryId: magnesium
+subtitle: >
+  This comparison looks at label clarity, elemental magnesium disclosure, form transparency, testing status,
+  additives, and price per 100 mg label-stated elemental magnesium across five draft magnesium product reviews.
+  Default sort reflects SuppCheckr weighted scores — not medical recommendations and not suitability for any
+  specific condition.
+productIds:
+  - magnesium-klean-athlete-klean-magnesium
+  - magnesium-nutricost-magnesium-citrate-120
+  - magnesium-now-foods-magnesium-malate-1300-180
+  - magnesium-pure-encapsulations-citrate-malate-180
+  - magnesium-nature-made-magnesium-oxide-250mg-100
+comparisonFields:
+  - overallScore
+  - pricePerActiveDose
+  - pricePerServing
+  - thirdPartyTesting
+  - servingSize
+methodologyNote: >
+  Scores use the magnesium scoring profile (elemental magnesium dose transparency, ingredient/form clarity,
+  label clarity, evidence alignment and claim conservatism, third-party testing documentation, dated price per
+  100 mg elemental magnesium, formula quality, additives, and brand transparency). Table order defaults to
+  overall score high to low. Narrow criterion labels below each product name reflect specific supported
+  attributes — not broad recommendations or condition-specific winners. Scores are not medical recommendations
+  and do not determine which product is suitable for a specific condition. Consult a qualified healthcare
+  professional before using magnesium supplements, especially if pregnant, nursing, under 18, taking medication,
+  managing kidney disease, or managing a medical condition. See /methodology for weight details.
+orderingNote: >
+  Default table order is based on SuppCheckr weighted criteria scores, not a ranking of which product is right for
+  every person or any medical use case. SuppCheckr does not rank magnesium products for sleep, anxiety, constipation,
+  blood pressure, migraines, cognition, or memory. Filter and re-sort by price per 100 mg elemental magnesium or
+  testing status to match your own label and sourcing priorities.
+priceCheckedAt: '2026-06-26'
+productCriterionLabels:
+  - productId: magnesium-klean-athlete-klean-magnesium
+    labels:
+      - third-party tested
+      - glycinate form
+      - clear elemental mg
+  - productId: magnesium-nutricost-magnesium-citrate-120
+    labels:
+      - citrate form
+      - clear elemental mg
+      - lower price per 100 mg elemental
+  - productId: magnesium-now-foods-magnesium-malate-1300-180
+    labels:
+      - malate form
+      - compound + elemental disclosed
+      - one-tablet serving
+  - productId: magnesium-pure-encapsulations-citrate-malate-180
+    labels:
+      - mixed citrate/malate form
+      - one-capsule serving
+      - clear total elemental mg
+  - productId: magnesium-nature-made-magnesium-oxide-250mg-100
+    labels:
+      - oxide form
+      - clear elemental mg
+      - lower price per 100 mg elemental
+caveats:
+  - >-
+    Klean Athlete Klean Magnesium NSF Certified for Sport status is based on a captured NSF listing for the locked
+    90-capsule SKU — re-verify before publication. Higher price per 100 mg elemental than budget citrate or oxide
+    options; 120 mg elemental magnesium per capsule is lower than many one-capsule alternatives.
+  - >-
+    Nutricost Magnesium Citrate third-party testing remains claimed, not verified with a captured certificate URL for
+    this SKU. Four capsules per serving. Citrate GI tolerance context is general NIH background — not constipation
+    treatment framing.
+  - >-
+    NOW Magnesium Malate 1000 mg (SKU 1300) has no verifiable third-party testing captured in Phase 4D-2. Product name
+    refers to magnesium malate compound weight; Supplement Facts list 113 mg elemental magnesium per tablet. SuppCheckr
+    does not cite energy, fatigue, or pain outcomes from brand marketing.
+  - >-
+    Pure Encapsulations Magnesium (citrate/malate) Supplement Facts were sourced from a Vitacost retailer listing;
+    official brand-hosted product page for this SKU was not confirmed at draft time. No per-form elemental magnesium
+    split on the label. This product occupies the V1 threonate fallback slot — no magnesium L-threonate review is
+    included. Do not repeat cardiovascular or cognitive positioning from retailer copy.
+  - >-
+    Nature Made Magnesium Oxide 250 mg has no verified USP or third-party testing documentation captured in Phase 4D-2.
+    Label facts sourced from Target listing. Oxide value uses elemental mg and dated price only — not absorption
+    superiority, GI suitability guarantees, or "best for everyone" framing. Individual GI tolerance varies.
+  - >-
+    No magnesium L-threonate, Life Extension Neuro-Mag, Double Wood Magnesium L-Threonate, Nutricost Magnesium Complex,
+    or other unapproved alternates are included in this comparison.
+  - All prices are manually observed on 2026-06-26 — check current price at the retailer before purchase.
+filtersEnabled: true
+defaultSort: overallScore
+sources:
+  - id: cmp-mag-suppcheckr-methodology
+    title: SuppCheckr scoring methodology
+    publisher: SuppCheckr
+    url: https://suppcheckr.com/methodology
+    accessDate: '2026-06-26'
+    sourceType: internal_editorial
+    supportsClaimIds: []
+  - id: cmp-mag-nih-hp
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-06-26'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cmp-mag-klean-nsf
+    title: NSF Certified for Sport — Klean Athlete Klean Magnesium
+    publisher: NSF International
+    url: https://www.nsfsport.com/certified-products/listing-detail.php?id=1281622
+    accessDate: '2026-06-26'
+    sourceType: certification_body
+    supportsClaimIds: []
+  - id: cmp-mag-fda-dietary-supplements
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-06-26'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-06-26'
+  lastReviewed: '2026-06-26'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 4E draft magnesium category comparison for five approved product reviews

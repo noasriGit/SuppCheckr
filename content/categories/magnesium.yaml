@@ -4,11 +4,11 @@ name: Magnesium
 pluralName: Magnesium Supplements
 description: >
   SuppCheckr compares magnesium supplement labels, elemental magnesium per serving, third-party testing documentation,
-  and dated manual pricing — not medical outcomes or personal suitability. Magnesium cluster content is in draft; product
-  reviews and comparison table are not yet published.
+  and dated manual pricing — not medical outcomes or personal suitability. Magnesium cluster content is in draft; a
+  five-product comparison table exists in draft and is not yet published or indexed.
 shortDescription: >
   Draft category hub for magnesium supplements. Educational guides cover forms, dosage label reading, and safety context;
-  product reviews coming in a later phase.
+  draft product reviews and comparison table are available for editorial QA but not published.
 featured: true
 relatedCategories:
   - electrolytes
@@ -45,8 +45,9 @@ evaluationSummary: >
   products for sleep, anxiety, constipation, blood pressure, migraines, cognition, or any medical condition.
 clusterScopeNote: >
   Magnesium V1 planning targets five product reviews across distinct form buckets (glycinate, citrate, malate or
-  transparent mixed-form, conditional L-threonate or fallback, and budget oxide). Product YAML, comparison table, and
-  publication are deferred to later phases. Chloride, taurate, gummies, and topical products are guide-only for now.
+  transparent mixed-form, conditional L-threonate or fallback, and budget oxide). Draft product YAML and a draft
+  category comparison table (magnesium-supplements-compared) exist; publication and indexing are deferred to later phases.
+  Chloride, taurate, gummies, and topical products are guide-only for now. No L-threonate product review is included.
 buyingConsiderations:
   - >-
     Confirm the Supplement Facts panel lists elemental magnesium (mg) per serving — not compound or chelate weight alone.
@@ -108,6 +109,10 @@ editorial:
   lastReviewed: '2026-06-26'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-26'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4E draft comparison reference in category shell (draft/noindex)
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: updated
