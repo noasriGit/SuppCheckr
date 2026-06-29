@@ -29,7 +29,7 @@ pricing:
   pricePerServing: 0.47
   pricePerActiveDose: 0.11
   lastManualUpdate: '2026-06-26'
-  lastPriceCheckedAt: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-29'
 retailers:
   - retailerId: nutricost
     url: https://nutricost.com/products/nutricost-magnesium-citrate-capsules
@@ -198,6 +198,10 @@ editorial:
   lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4F QA — Nutricost.com price unchanged at $13.97; testing remains claimed
     - date: '2026-06-29'
       authorId: suppcheckr-editorial
       changeType: updated

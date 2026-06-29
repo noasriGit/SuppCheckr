@@ -127,3 +127,17 @@ Scores remain **draft** until Phase 4F QA. Magnesium content stays `status: draf
 **Recommended next phase:** Phase 4D-4 or 4E — Magnesium comparison YAML draft (when ready), then Phase 4F editorial QA before any publish decision.
 
 **Suggested commit message:** `Phase 4D-3: add magnesium scoring profile and score audit`
+
+---
+
+## Phase 4F QA completion (2026-06-29)
+
+Phase 4F editorial QA completed. See [`magnesium-phase-4f-qa-report-2026-06-26.md`](./magnesium-phase-4f-qa-report-2026-06-26.md) for full audit.
+
+**Summary:**
+
+- All draft/noindex boundaries confirmed; no score changes.
+- Pure Encapsulations Vitacost price updated to $36.50 ($0.17/100 mg elemental).
+- NSF listing for Klean Magnesium re-verified (id 1281622); price not re-checked (bot protection).
+- Nutricost, NOW, Nature Made prices confirmed unchanged.
+- **Recommendation:** Ready for Phase 4G publication prep with documented blockers (official PE label URL, brand-page draft filtering, publish-time Klean price/NSF re-check).

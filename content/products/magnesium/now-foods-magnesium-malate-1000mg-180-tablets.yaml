@@ -31,7 +31,7 @@ pricing:
   pricePerServing: 0.14
   pricePerActiveDose: 0.13
   lastManualUpdate: '2026-06-26'
-  lastPriceCheckedAt: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-29'
 retailers:
   - retailerId: now-foods
     url: https://www.nowfoods.com/products/supplements/magnesium-malate-1000-mg-tablets
@@ -171,6 +171,10 @@ editorial:
   lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4F QA — NOWFoods.com price unchanged at $25.99; SKU 1300 and label facts confirmed
     - date: '2026-06-29'
       authorId: suppcheckr-editorial
       changeType: updated

@@ -208,3 +208,11 @@ export function getIndexableBrands(): Brand[] {
 export function getIndexableComparisons(): Comparison[] {
   return getComparisons().filter(isIndexable);
 }
+
+/** Products shown on a brand hub: published brands list indexable products only; draft brands keep active preview products. */
+export function getBrandPageProducts(brand: Brand): Product[] {
+  return getProducts().filter((p) => {
+    if (p.brandId !== brand.id || p.isPlaceholder) return false;
+    return isIndexable(brand) ? isIndexable(p) : isActiveContent(p);
+  });
+}

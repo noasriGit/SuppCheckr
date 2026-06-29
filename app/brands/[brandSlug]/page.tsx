@@ -13,9 +13,10 @@ import { ProductCard } from "@/components/product/ProductBlocks";
 import {
   getBrands,
   getBrandBySlug,
-  getProducts,
   getCategories,
+  getBrandPageProducts,
   isActiveContent,
+  isIndexable,
 } from "@/lib/content/loader";
 
 export async function generateStaticParams() {
@@ -50,9 +51,7 @@ export default async function BrandPage({
   const brand = getBrandBySlug(brandSlug);
   if (!brand || !isActiveContent(brand) || brand.isPlaceholder) notFound();
 
-  const products = getProducts().filter(
-    (p) => p.brandId === brand.id && isActiveContent(p) && !p.isPlaceholder,
-  );
+  const products = getBrandPageProducts(brand);
 
   return (
     <PageContainer>
@@ -63,7 +62,7 @@ export default async function BrandPage({
           { label: brand.name },
         ]}
       />
-      {brand.status === "review_ready" && (
+      {!isIndexable(brand) && (
         <p className="mb-4 rounded-lg border border-warning-border bg-warning-bg px-4 py-2 text-sm text-warning-text">
           Draft brand profile — not indexed until publication.
         </p>
@@ -105,7 +104,11 @@ export default async function BrandPage({
       <section className="mt-10">
         <h2 className="text-lg font-semibold text-heading">Product reviews</h2>
         {products.length === 0 ? (
-          <p className="mt-4 text-sm text-muted">No active product reviews for this brand yet.</p>
+          <p className="mt-4 text-sm text-muted">
+            {isIndexable(brand)
+              ? "No published product reviews for this brand yet."
+              : "No active product reviews for this brand yet."}
+          </p>
         ) : (
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
             {products.map((product) => {

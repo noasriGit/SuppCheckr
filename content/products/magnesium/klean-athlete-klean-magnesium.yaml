@@ -157,7 +157,7 @@ sources:
     title: NSF Certified for Sport — Klean Magnesium
     publisher: NSF International
     url: https://www.nsfsport.com/certified-products/listing-detail.php?id=1281622
-    accessDate: '2026-06-26'
+    accessDate: '2026-06-29'
     sourceType: certification_body
     supportsClaimIds:
       - klean-mag-nsf-verified
@@ -186,6 +186,10 @@ editorial:
   lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4F QA — NSF listing id 1281622 re-verified; brand price not re-checked (page bot protection)
     - date: '2026-06-29'
       authorId: suppcheckr-editorial
       changeType: updated

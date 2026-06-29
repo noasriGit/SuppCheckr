@@ -34,7 +34,7 @@ orderingNote: >
   every person or any medical use case. SuppCheckr does not rank magnesium products for sleep, anxiety, constipation,
   blood pressure, migraines, cognition, or memory. Filter and re-sort by price per 100 mg elemental magnesium or
   testing status to match your own label and sourcing priorities.
-priceCheckedAt: '2026-06-26'
+priceCheckedAt: '2026-06-29'
 productCriterionLabels:
   - productId: magnesium-klean-athlete-klean-magnesium
     labels:
@@ -77,8 +77,9 @@ caveats:
   - >-
     Pure Encapsulations Magnesium (citrate/malate) Supplement Facts were sourced from a Vitacost retailer listing;
     official brand-hosted product page for this SKU was not confirmed at draft time. No per-form elemental magnesium
-    split on the label. This product occupies the V1 threonate fallback slot — no magnesium L-threonate review is
-    included. Do not repeat cardiovascular or cognitive positioning from retailer copy.
+    split on the label. Vitacost listed this SKU at $36.50 on 2026-06-29 ($0.17 per 100 mg elemental at cited check).
+    This product occupies the V1 threonate fallback slot — no magnesium L-threonate review is included. Do not repeat
+    cardiovascular or cognitive positioning from retailer copy.
   - >-
     Nature Made Magnesium Oxide 250 mg has no verified USP or third-party testing documentation captured in Phase 4D-2.
     Label facts sourced from Target listing. Oxide value uses elemental mg and dated price only — not absorption
@@ -86,7 +87,10 @@ caveats:
   - >-
     No magnesium L-threonate, Life Extension Neuro-Mag, Double Wood Magnesium L-Threonate, Nutricost Magnesium Complex,
     or other unapproved alternates are included in this comparison.
-  - All prices are manually observed on 2026-06-26 — check current price at the retailer before purchase.
+  - >-
+    All prices were manually observed on 2026-06-29 (Pure Encapsulations Vitacost) or confirmed unchanged from
+    2026-06-26 checks (Klean Athlete price not re-checked due to brand page bot protection) — verify current price at
+    the retailer before purchase.
 filtersEnabled: true
 defaultSort: overallScore
 sources:
@@ -123,10 +127,14 @@ isPlaceholder: false
 noindex: true
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-29'
+  lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4F QA — Pure Encapsulations Vitacost price refresh; price caveat updates
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created

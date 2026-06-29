@@ -23,12 +23,12 @@ supplementFacts:
     - Ascorbyl palmitate
   allergens: []
 pricing:
-  msrp: 34.8
+  msrp: 36.5
   currency: USD
-  pricePerServing: 0.19
-  pricePerActiveDose: 0.16
-  lastManualUpdate: '2026-06-26'
-  lastPriceCheckedAt: '2026-06-26'
+  pricePerServing: 0.2
+  pricePerActiveDose: 0.17
+  lastManualUpdate: '2026-06-29'
+  lastPriceCheckedAt: '2026-06-29'
 retailers:
   - retailerId: vitacost
     url: https://www.vitacost.com/pure-encapsulations-magnesium-180-capsules
@@ -104,13 +104,13 @@ claims:
     citationIds:
       - label-pure-encapsulations-magnesium-citrate-malate-180
   - id: pe-mag-price-retailer
-    text: Vitacost listed Pure Encapsulations Magnesium (citrate/malate) 180 capsules at $34.80 on 2026-06-26.
+    text: Vitacost listed Pure Encapsulations Magnesium (citrate/malate) 180 capsules at $36.50 on 2026-06-29.
     claimType: price_fact
     claimRiskLevel: low
     citationIds:
       - retailer-pure-encapsulations-magnesium-citrate-malate-180
   - id: pe-mag-price-per-serving
-    text: Price per serving is $0.19 based on $34.80 divided by 180 servings (editorial calculation).
+    text: Price per serving is $0.20 based on $36.50 divided by 180 servings (editorial calculation).
     claimType: price_fact
     claimRiskLevel: low
     citationIds:
@@ -118,7 +118,7 @@ claims:
       - editorial-price-per-100mg-elemental-pure-encapsulations-magnesium-citrate-malate-180
   - id: pe-mag-price-per-100mg-elemental
     text: >
-      Price per 100 mg elemental magnesium is $0.16 based on $0.19 per serving divided by 120 mg elemental magnesium per
+      Price per 100 mg elemental magnesium is $0.17 based on $0.20 per serving divided by 120 mg elemental magnesium per
       serving, scaled to 100 mg (editorial calculation).
     claimType: price_fact
     claimRiskLevel: low
@@ -138,7 +138,7 @@ sources:
     title: Pure Encapsulations Magnesium (Citrate/Malate) 180 caps — Supplement Facts (Vitacost listing)
     publisher: Vitacost / Pure Encapsulations
     url: https://www.vitacost.com/pure-encapsulations-magnesium-180-capsules
-    accessDate: '2026-06-26'
+    accessDate: '2026-06-29'
     sourceType: brand_label
     supportsClaimIds:
       - pe-mag-label-form-citrate-malate
@@ -148,7 +148,7 @@ sources:
     title: Pure Encapsulations Magnesium 180 capsules — Vitacost listing (price)
     publisher: Vitacost
     url: https://www.vitacost.com/pure-encapsulations-magnesium-180-capsules
-    accessDate: '2026-06-26'
+    accessDate: '2026-06-29'
     sourceType: retailer_listing
     supportsClaimIds:
       - pe-mag-price-retailer
@@ -179,6 +179,10 @@ editorial:
   lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4F QA price refresh — Vitacost $36.50; per-serving and per-100-mg-elemental recalculated
     - date: '2026-06-29'
       authorId: suppcheckr-editorial
       changeType: updated

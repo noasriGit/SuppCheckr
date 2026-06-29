@@ -20,7 +20,8 @@ export function CategoryCard({ category }: { category: Category }) {
           Shell placeholder
         </span>
       )}
-      {!category.isPlaceholder && category.status === "review_ready" && (
+      {!category.isPlaceholder &&
+        (category.status === "draft" || category.status === "review_ready") && (
         <span className="mt-3 inline-block rounded bg-warning-bg px-2 py-0.5 text-xs text-warning-text">
           Draft — not indexed
         </span>

@@ -36,7 +36,7 @@ pricing:
   pricePerServing: 0.04
   pricePerActiveDose: 0.018
   lastManualUpdate: '2026-06-26'
-  lastPriceCheckedAt: '2026-06-26'
+  lastPriceCheckedAt: '2026-06-29'
 retailers:
   - retailerId: target
     url: https://www.target.com/p/nature-made-magnesium-250mg-muscle-bone-nerve-and-heart-health-tablets-100ct/-/A-91641244
@@ -196,6 +196,10 @@ editorial:
   lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4F QA — Target price unchanged at $4.49; USP/testing remains unknown
     - date: '2026-06-29'
       authorId: suppcheckr-editorial
       changeType: updated
