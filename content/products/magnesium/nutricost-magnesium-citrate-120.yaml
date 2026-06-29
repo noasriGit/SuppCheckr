@@ -151,7 +151,7 @@ sources:
     title: Nutricost Magnesium Citrate Capsules 120 count — product page (price)
     publisher: Nutricost
     url: https://nutricost.com/products/nutricost-magnesium-citrate-capsules
-    accessDate: '2026-06-26'
+    accessDate: '2026-06-29'
     sourceType: retailer_listing
     supportsClaimIds:
       - nutricost-mag-price-retailer
@@ -198,6 +198,10 @@ editorial:
   lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4G prep — Nutricost.com 120-cap SKU re-confirmed at $13.97; no public COA; testing remains claimed
     - date: '2026-06-29'
       authorId: suppcheckr-editorial
       changeType: updated

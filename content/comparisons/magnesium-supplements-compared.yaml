@@ -81,16 +81,17 @@ caveats:
     This product occupies the V1 threonate fallback slot — no magnesium L-threonate review is included. Do not repeat
     cardiovascular or cognitive positioning from retailer copy.
   - >-
-    Nature Made Magnesium Oxide 250 mg has no verified USP or third-party testing documentation captured in Phase 4D-2.
-    Label facts sourced from Target listing. Oxide value uses elemental mg and dated price only — not absorption
-    superiority, GI suitability guarantees, or "best for everyone" framing. Individual GI tolerance varies.
+    Nature Made Magnesium Oxide 250 mg has no verified USP or third-party testing documentation. Phase 4G USP Verified
+    product search (2026-06-29) did not list this oxide SKU. Label facts sourced from Target listing. Oxide value uses
+    elemental mg and dated price only — not absorption superiority, GI suitability guarantees, or "best for everyone"
+    framing. Individual GI tolerance varies.
   - >-
     No magnesium L-threonate, Life Extension Neuro-Mag, Double Wood Magnesium L-Threonate, Nutricost Magnesium Complex,
     or other unapproved alternates are included in this comparison.
   - >-
-    All prices were manually observed on 2026-06-29 (Pure Encapsulations Vitacost) or confirmed unchanged from
-    2026-06-26 checks (Klean Athlete price not re-checked due to brand page bot protection) — verify current price at
-    the retailer before purchase.
+    Phase 4G price refresh (2026-06-29): Nutricost $13.97, NOW $25.99, Pure Encapsulations Vitacost $36.50, and Nature
+    Made Target $4.49 unchanged. Klean Athlete price ($26.50) not re-checked — brand page returned 403. Verify current
+    price at the retailer before purchase.
 filtersEnabled: true
 defaultSort: overallScore
 sources:
@@ -112,7 +113,7 @@ sources:
     title: NSF Certified for Sport — Klean Athlete Klean Magnesium
     publisher: NSF International
     url: https://www.nsfsport.com/certified-products/listing-detail.php?id=1281622
-    accessDate: '2026-06-26'
+    accessDate: '2026-06-29'
     sourceType: certification_body
     supportsClaimIds: []
   - id: cmp-mag-fda-dietary-supplements
@@ -131,6 +132,10 @@ editorial:
   lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4G prep — price refresh notes, NSF access date, Nature Made USP search caveat
     - date: '2026-06-29'
       authorId: suppcheckr-editorial
       changeType: updated

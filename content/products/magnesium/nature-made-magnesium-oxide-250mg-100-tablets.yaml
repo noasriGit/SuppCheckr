@@ -45,8 +45,9 @@ certifications: []
 thirdPartyTesting:
   status: unknown
   details: >
-    No USP Verified or other third-party certification database entry for this SKU was verified in Phase 4D-2. Retailer
-    copy and brand marketing were not treated as verification.
+    No USP Verified or other third-party certification database entry for this SKU was verified in Phase 4D-2. Phase 4G
+    USP Verified product search (magnesium oxide + Nature Made, 2026-06-29) listed citrate/glycinate Nature Made products
+    but not Magnesium Oxide 250 mg Tablets. Retailer copy and brand marketing were not treated as verification.
   sources: []
 additives:
   - Cellulose gel
@@ -157,7 +158,7 @@ sources:
     title: Nature Made Magnesium Oxide 250 mg 100 tablets — Target listing (price)
     publisher: Target
     url: https://www.target.com/p/nature-made-magnesium-250mg-muscle-bone-nerve-and-heart-health-tablets-100ct/-/A-91641244
-    accessDate: '2026-06-26'
+    accessDate: '2026-06-29'
     sourceType: retailer_listing
     supportsClaimIds:
       - nature-made-mag-price-retailer
@@ -196,6 +197,10 @@ editorial:
   lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4G prep — Target price unchanged at $4.49; USP database search found no oxide listing for this SKU
     - date: '2026-06-29'
       authorId: suppcheckr-editorial
       changeType: updated

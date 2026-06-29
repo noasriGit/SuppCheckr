@@ -189,6 +189,10 @@ editorial:
     - date: '2026-06-29'
       authorId: suppcheckr-editorial
       changeType: updated
+      summary: Phase 4G prep — NSF listing 1281622 re-verified (90 caps, 1-capsule serving); brand price not re-checked (403)
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
       summary: Phase 4F QA — NSF listing id 1281622 re-verified; brand price not re-checked (page bot protection)
     - date: '2026-06-29'
       authorId: suppcheckr-editorial

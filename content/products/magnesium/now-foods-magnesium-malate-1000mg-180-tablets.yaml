@@ -140,7 +140,7 @@ sources:
     title: NOW Magnesium Malate 1000 mg Tablets 180 count — product page (price)
     publisher: NOW Foods
     url: https://www.nowfoods.com/products/supplements/magnesium-malate-1000-mg-tablets
-    accessDate: '2026-06-26'
+    accessDate: '2026-06-29'
     sourceType: retailer_listing
     supportsClaimIds:
       - now-mag-malate-price-retailer
@@ -171,6 +171,10 @@ editorial:
   lastReviewed: '2026-06-29'
   reviewedBy: suppcheckr-editorial
   updateLog:
+    - date: '2026-06-29'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 4G prep — NOWFoods.com SKU 1300 re-confirmed at $25.99; 113 mg elemental from 1000 mg malate
     - date: '2026-06-29'
       authorId: suppcheckr-editorial
       changeType: updated
