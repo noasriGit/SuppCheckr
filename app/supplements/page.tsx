@@ -18,9 +18,9 @@ export default function SupplementsIndexPage() {
     <PageContainer>
       <h1 className="text-3xl font-bold text-heading">Supplement categories</h1>
       <p className="mt-3 max-w-2xl text-foreground">
-        SuppCheckr&apos;s first published category is Creatine monohydrate, with product
-        reviews, guides, and a comparison table live in prelaunch mode. Additional category
-        shells are in development and are not indexed until real content is published.
+        Creatine monohydrate and Magnesium are published with product reviews, guides, and
+        comparison tables. Additional category shells are not indexed until real content is
+        published.
       </p>
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {categories.map((cat) => (

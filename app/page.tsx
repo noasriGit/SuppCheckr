@@ -8,7 +8,6 @@ import { CategoryCard } from "@/components/category/CategoryBlocks";
 import { ProductCard } from "@/components/product/ProductBlocks";
 import { AdSlot } from "@/components/monetization/AdSlot";
 import { AffiliateDisclosure } from "@/components/trust/TrustModules";
-import { NewsletterSignup } from "@/components/forms/NewsletterSignup";
 import {
   getCategories,
   getBrands,
@@ -56,7 +55,7 @@ export default function HomePage() {
       <section className="border-b border-border bg-gradient-to-b from-surface-elevated to-background">
         <PageContainer className="py-12 md:py-16">
           <p className="text-sm font-medium uppercase tracking-wide text-primary">
-            {siteConfig.siteMode} mode
+            Evidence-aware supplement reviews
           </p>
           <h1 className="mt-3 max-w-3xl text-4xl font-bold tracking-tight text-heading md:text-5xl">
             {siteConfig.tagline}
@@ -65,9 +64,9 @@ export default function HomePage() {
             {siteConfig.description}
           </p>
           <p className="mt-3 max-w-2xl text-sm text-muted">
-            SuppCheckr has published its first evidence-aware Creatine monohydrate content
-            cluster in prelaunch mode. More supplement categories are planned. Product images
-            use label-first placeholders where product photos are not shown.
+            Published Creatine monohydrate and Magnesium content clusters include product
+            reviews, guides, ingredient references, and comparison tables. Product images use
+            label-first placeholders where brand product photos are not shown.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
@@ -75,6 +74,12 @@ export default function HomePage() {
               className="rounded-lg bg-primary-muted px-5 py-2.5 text-sm font-medium text-heading transition-colors hover:bg-primary-hover"
             >
               Browse Creatine reviews
+            </Link>
+            <Link
+              href="/supplements/magnesium"
+              className="rounded-lg border border-border px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-primary/40 hover:bg-surface"
+            >
+              Browse Magnesium reviews
             </Link>
             <Link
               href="/methodology"
@@ -104,8 +109,8 @@ export default function HomePage() {
         <section className="mb-10">
           <h2 className="text-xl font-semibold text-heading">Supplement categories</h2>
           <p className="mt-2 text-sm text-muted">
-            Creatine monohydrate is the first published category. Additional categories are
-            in development.
+            Creatine monohydrate and Magnesium are published with reviews, guides, and
+            comparisons. Additional categories are planned.
           </p>
           <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {categories.map((cat) => (
@@ -185,11 +190,11 @@ export default function HomePage() {
         </section>
 
         <section className="rounded-lg border border-border bg-surface p-6">
-          <h2 className="font-semibold text-heading">Newsletter (placeholder)</h2>
+          <h2 className="font-semibold text-heading">Email updates</h2>
           <p className="mt-2 text-sm text-foreground">
-            Email capture infrastructure for deal alerts, new reviews, and category updates.
+            Deal alerts, new reviews, and category updates will be available in a future
+            release. For now, use the contact page if you have corrections or questions.
           </p>
-          <NewsletterSignup />
         </section>
       </SidebarLayout>
     </>

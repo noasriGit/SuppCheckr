@@ -82,7 +82,7 @@ Use this before submitting an Amazon Associates application.
 - [x] Published supplement comparison content exists (Magnesium cluster)
 - [x] Clear site purpose on homepage and About page
 - [x] Editorial methodology and trust pages visible (`/methodology`, `/editorial-policy`, `/source-standards`)
-- [ ] Contact email functional and monitored (`CONTACT_EMAIL` / `hello@suppcheckr.com`)
+- [ ] Contact email functional and monitored (`CONTACT_EMAIL` / `help@suppcheckr.com`)
 - [ ] Site does not look unfinished on key landing and product pages (ongoing UX polish)
 
 ### Legal and disclosure pages (exist but need final review)
@@ -180,7 +180,7 @@ See `.env.example` and comments in `config/monetization.ts`.
 |--------------------|----------------|---------|
 | `SITE_MODE` | `prelaunch` | Controls crawlers, demo banners, legal review banners |
 | `AMAZON_ASSOCIATE_TAG` | *(unset / blank)* | Future Amazon tag — never commit a real value |
-| `CONTACT_EMAIL` | `hello@suppcheckr.com` (default) | Contact for Associates application |
+| `CONTACT_EMAIL` | `help@suppcheckr.com` (default) | Contact for Associates application |
 | `NEXT_PUBLIC_SITE_URL` | `https://suppcheckr.com` | Canonical site URL |
 | `affiliate.enabled` | `false` | Global affiliate switch (config file) |
 | `affiliate.disableGlobally` | `true` | Hard kill switch (config file) |

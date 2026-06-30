@@ -12,7 +12,8 @@ export default function EditorialPolicyPage() {
     <LegalPageLayout title="Editorial Policy">
       <ProseSection title="Independence">
         SuppCheckr editorial scores and comparisons are independent of advertising and
-        affiliate relationships. Draft placeholder — expand in Phase 2.
+        affiliate relationships. Sponsors and advertisers do not direct product scores,
+        rankings, testing-status notes, or editorial conclusions.
       </ProseSection>
       <ProseSection title="Updates">
         Content includes last updated and last reviewed dates. Material changes are logged.

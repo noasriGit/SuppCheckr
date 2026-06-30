@@ -40,7 +40,17 @@ export function Footer() {
           <p className="font-semibold text-heading">{siteConfig.name}</p>
           <p className="mt-2 text-sm text-foreground">{siteConfig.description}</p>
           <p className="mt-4 text-xs text-muted">
-            Informational content only. Not medical advice.
+            Informational content only. Not medical advice. Affiliate links are disabled
+            during prelaunch.
+          </p>
+          <p className="mt-2 text-xs text-muted">
+            Questions or corrections:{" "}
+            <a
+              href={`mailto:${siteConfig.contactEmail}`}
+              className="text-link hover:text-link-hover hover:underline"
+            >
+              {siteConfig.contactEmail}
+            </a>
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4 text-sm">

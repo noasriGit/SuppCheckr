@@ -10,7 +10,7 @@ import {
 export const metadata = buildPageMetadata({
   title: "Ingredient Library | SuppCheckr",
   description:
-    "Ingredient reference pages on SuppCheckr, including published Creatine monohydrate coverage.",
+    "Ingredient reference pages on SuppCheckr, including published Creatine monohydrate and Magnesium coverage.",
   path: "/ingredients",
   noindex: true,
 });
@@ -24,8 +24,8 @@ export default function IngredientsIndexPage() {
       <h1 className="text-3xl font-bold text-heading">Ingredients</h1>
       <p className="mt-3 max-w-2xl text-foreground">
         Published ingredient references are linked from category and guide pages. Creatine
-        monohydrate is the first published ingredient page. Placeholder ingredient shells
-        remain for future categories and are not indexed.
+        monohydrate and Magnesium are published. Unpublished ingredient shells remain for
+        future categories and are not indexed.
       </p>
       {published.length > 0 && (
         <section className="mt-8">

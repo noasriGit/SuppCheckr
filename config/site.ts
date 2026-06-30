@@ -4,9 +4,9 @@ export const siteConfig = {
   name: "SuppCheckr",
   tagline: "Check the supplement before you buy.",
   description:
-    "SuppCheckr is being built to compare supplements by label transparency, dosage clarity, testing, ingredients, and value.",
+    "SuppCheckr compares supplements by label transparency, dosage clarity, testing, ingredients, and value.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://suppcheckr.com",
-  contactEmail: process.env.CONTACT_EMAIL ?? "hello@suppcheckr.com",
+  contactEmail: process.env.CONTACT_EMAIL ?? "help@suppcheckr.com",
   siteMode: (process.env.SITE_MODE ?? "prelaunch") as SiteMode,
 } as const;
 
