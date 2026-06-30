@@ -2,7 +2,12 @@ import { describe, expect, it } from "vitest";
 import { computeWeightedScore, validateProfileWeights } from "@/lib/scoring/computeScore";
 import { buildAmazonLink } from "@/lib/affiliate/buildAmazonLink";
 import { isReservedSlug } from "@/config/reserved-slugs";
-import { shouldShowAdPlaceholder, shouldLoadLiveAds } from "@/config/monetization";
+import {
+  monetizationConfig,
+  isAffiliateEnabledForPath,
+  shouldShowAdPlaceholder,
+  shouldLoadLiveAds,
+} from "@/config/monetization";
 
 const mockProfile = {
   id: "default",
@@ -47,6 +52,11 @@ describe("scoring", () => {
 });
 
 describe("ads", () => {
+  it("keeps live ads disabled in prelaunch config", () => {
+    expect(monetizationConfig.ads.enabled).toBe(false);
+    expect(monetizationConfig.ads.loadScripts).toBe(false);
+  });
+
   it("shows placeholders when showPlaceholders is true and route is allowed", () => {
     expect(shouldShowAdPlaceholder("/")).toBe(true);
     expect(shouldShowAdPlaceholder("/privacy-policy")).toBe(false);
@@ -54,15 +64,37 @@ describe("ads", () => {
 
   it("does not load live ads when disabled", () => {
     expect(shouldLoadLiveAds("/")).toBe(false);
+    expect(shouldLoadLiveAds("/supplements/creatine")).toBe(false);
   });
 });
 
 describe("affiliate", () => {
+  it("keeps global affiliate disabled in prelaunch config", () => {
+    expect(monetizationConfig.affiliate.enabled).toBe(false);
+    expect(monetizationConfig.affiliate.disableGlobally).toBe(true);
+    expect(monetizationConfig.affiliate.amazonAssociateTag).toBe("");
+  });
+
+  it("does not enable affiliate links for any path when globally disabled", () => {
+    expect(isAffiliateEnabledForPath("/")).toBe(false);
+    expect(isAffiliateEnabledForPath("/supplements/creatine/products/example")).toBe(false);
+  });
+
   it("returns placeholder when disabled", () => {
     const link = buildAmazonLink({ url: "https://amazon.com/dp/TEST" });
     expect(link.isPlaceholder).toBe(true);
     expect(link.href).toBe("#amazon-placeholder");
     expect(link.rel).toContain("sponsored");
+  });
+
+  it("returns placeholder even when associateTag is passed but affiliate is disabled", () => {
+    const link = buildAmazonLink({
+      url: "https://amazon.com/dp/TEST",
+      associateTag: "example-tag-20",
+    });
+    expect(link.isPlaceholder).toBe(true);
+    expect(link.href).toBe("#amazon-placeholder");
+    expect(link.href).not.toContain("tag=");
   });
 });
 

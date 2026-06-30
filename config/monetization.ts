@@ -1,3 +1,16 @@
+/**
+ * Monetization controls — Phase 5B prelaunch defaults.
+ *
+ * AFFILIATE: Keep `enabled: false` and `disableGlobally: true` until Amazon
+ * Associates approval and an intentional activation phase. Set
+ * `AMAZON_ASSOCIATE_TAG` in deployment env only after approval (never commit).
+ *
+ * ADS: Keep `enabled: false` and `loadScripts: false` until ad programs are
+ * approved. Placeholders may remain visible via `showPlaceholders`.
+ *
+ * See: content/templates/monetization-readiness-checklist-2026-06-30.md
+ * See: .env.example
+ */
 export const monetizationConfig = {
   ads: {
     enabled: false,
