@@ -255,7 +255,7 @@ export default async function ProductPage({
 
         {comparisonProducts.length > 0 && (
           <section className="mt-10">
-            <h2 className="text-lg font-semibold text-heading">Compare in this cluster</h2>
+            <h2 className="text-lg font-semibold text-heading">Compare in this category</h2>
             <p className="mt-2 text-sm text-muted">
               Sorted by SuppCheckr score by default — not a personal recommendation.
             </p>
@@ -274,7 +274,7 @@ export default async function ProductPage({
 
         {related.length > 0 && (
           <section className="mt-10">
-            <h2 className="text-lg font-semibold text-heading">Related products in this cluster</h2>
+            <h2 className="text-lg font-semibold text-heading">Related products in this category</h2>
             <div className="mt-4 grid gap-4 sm:grid-cols-2">
               {related.map((p) => (
                 <ProductCard

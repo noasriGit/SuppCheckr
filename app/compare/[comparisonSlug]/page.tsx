@@ -86,8 +86,10 @@ export default async function HeadToHeadPage({
           displayLabels={displayLabels}
         />
       </div>
-      <section className="mt-10 rounded-lg border border-dashed border-border bg-surface p-4 text-sm text-foreground">
-        Verdict placeholder — non-medical editorial summary slot for Phase 2.
+      <section className="mt-10 rounded-lg border border-border bg-surface p-4 text-sm text-foreground">
+        SuppCheckr head-to-head comparisons focus on side-by-side criteria tables rather than a
+        single editorial verdict or medical recommendation. See individual product reviews for full
+        context.
       </section>
       <section className="mt-8">
         <SourcesList sources={comparison.sources} />

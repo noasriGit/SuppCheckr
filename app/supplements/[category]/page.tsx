@@ -111,7 +111,7 @@ export default async function CategoryPage({
 
         {category.clusterScopeNote && (
           <section className="mt-6 rounded-lg border border-border bg-surface p-4">
-            <h2 className="text-lg font-semibold text-heading">First product cluster scope</h2>
+            <h2 className="text-lg font-semibold text-heading">Coverage scope</h2>
             <p className="mt-2 text-sm leading-relaxed text-foreground">
               {category.clusterScopeNote}
             </p>
