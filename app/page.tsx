@@ -67,7 +67,7 @@ export default function HomePage() {
           <p className="mt-3 max-w-2xl text-sm text-muted">
             SuppCheckr has published its first evidence-aware Creatine monohydrate content
             cluster in prelaunch mode. More supplement categories are planned. Product images
-            may still show &ldquo;Product image pending.&rdquo;
+            use label-first placeholders where product photos are not shown.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link

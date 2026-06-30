@@ -4,6 +4,12 @@ import type { Product } from "@/lib/schemas/product";
 import type { CategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 import { defaultCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 import { ScoreBadge } from "@/components/rating/ScoreDisplay";
+import { ProductImagePlaceholder } from "@/components/product/ProductImagePlaceholder";
+import {
+  isPlaceholderProductImage,
+  resolveProductImageAlt,
+  resolveProductImageContext,
+} from "@/lib/product/productImageContext";
 
 export function ProductCard({
   product,
@@ -14,17 +20,40 @@ export function ProductCard({
   categorySlug: string;
   brandName: string;
 }) {
+  const usesPlaceholder = isPlaceholderProductImage(product.images.product.src);
+  const imageContext = resolveProductImageContext(product);
+
   return (
     <Link
       href={`/supplements/${categorySlug}/products/${product.slug}`}
       className="block rounded-lg border border-border bg-surface p-4 transition-colors hover:border-primary/40 hover:bg-surface-elevated"
     >
-      <div className="flex items-start justify-between gap-3">
-        <div>
-          <h3 className="font-medium text-heading">{product.name}</h3>
-          <p className="text-sm text-muted">{brandName}</p>
+      <div className="flex items-start gap-3">
+        <div
+          className="relative h-20 w-20 shrink-0 overflow-hidden rounded-md border border-border/80 bg-surface-elevated"
+          aria-hidden={usesPlaceholder}
+        >
+          {usesPlaceholder ? (
+            <ProductImagePlaceholder context={imageContext} size="sm" className="h-full rounded-none border-0" />
+          ) : (
+            <Image
+              src={product.images.product.src}
+              alt=""
+              width={80}
+              height={80}
+              className="h-full w-full object-contain p-1"
+            />
+          )}
         </div>
-        <ScoreBadge score={product.rating.overallScore} isDemo={product.isPlaceholder} size="sm" />
+        <div className="min-w-0 flex-1">
+          <div className="flex items-start justify-between gap-3">
+            <div className="min-w-0">
+              <h3 className="font-medium text-heading">{product.name}</h3>
+              <p className="text-sm text-muted">{brandName}</p>
+            </div>
+            <ScoreBadge score={product.rating.overallScore} isDemo={product.isPlaceholder} size="sm" />
+          </div>
+        </div>
       </div>
       {product.isPlaceholder && (
         <span className="mt-2 inline-block rounded bg-warning-bg px-2 py-0.5 text-xs text-warning-text">
@@ -40,27 +69,37 @@ export function ProductCard({
   );
 }
 
-function isPlaceholderImage(src: string): boolean {
-  return src.includes("placeholder");
-}
-
 export function ProductImage({ product }: { product: Product }) {
-  const pending = isPlaceholderImage(product.images.product.src);
+  const usesPlaceholder = isPlaceholderProductImage(product.images.product.src);
+  const imageContext = resolveProductImageContext(product);
+  const alt = resolveProductImageAlt(product, usesPlaceholder);
 
   return (
     <figure className="rounded-lg border border-border bg-surface p-4">
-      <div className="relative mx-auto flex aspect-square max-h-64 w-full max-w-xs items-center justify-center overflow-hidden rounded-md bg-surface-elevated">
-        <Image
-          src={product.images.product.src}
-          alt={product.images.product.alt}
-          width={320}
-          height={320}
-          className="h-auto max-h-full w-auto max-w-full object-contain opacity-80"
-        />
+      <div className="relative mx-auto aspect-square max-h-64 w-full max-w-xs overflow-hidden rounded-md">
+        {usesPlaceholder ? (
+          <ProductImagePlaceholder
+            context={imageContext}
+            size="lg"
+            className="h-full"
+            ariaLabel={alt}
+          />
+        ) : (
+          <div className="flex h-full items-center justify-center bg-surface-elevated">
+            <Image
+              src={product.images.product.src}
+              alt={alt}
+              width={320}
+              height={320}
+              className="h-auto max-h-full w-auto max-w-full object-contain"
+            />
+          </div>
+        )}
       </div>
-      {pending && (
-        <figcaption className="mt-3 text-center text-xs font-medium text-muted">
-          Product image pending
+      {usesPlaceholder && (
+        <figcaption className="mt-3 space-y-1 text-center text-xs text-muted">
+          <p className="font-medium text-foreground">Brand/product image not shown</p>
+          <p>Product photo not provided — review is based on label facts and cited sources.</p>
         </figcaption>
       )}
     </figure>

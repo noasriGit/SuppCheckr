@@ -22,8 +22,8 @@ export default function AboutPage() {
       <ProseSection title="Current status">
         The site is in {siteConfig.siteMode} mode. The first Creatine monohydrate content
         cluster — product reviews, guides, ingredient reference, and a comparison table — is
-        published. More supplement categories are planned. Product images may still show
-        &ldquo;Product image pending.&rdquo;
+        published. More supplement categories are planned. Product pages use label-first
+        placeholders where brand product photos are not shown.
       </ProseSection>
     </LegalPageLayout>
   );
