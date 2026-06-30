@@ -40,10 +40,12 @@ export default function PrivacyPolicyPage() {
             the site.
           </li>
           <li>
-            <strong>Analytics data</strong>, if privacy-friendly analytics tools are enabled
-            in the future to understand traffic patterns and improve content. We intend to
-            avoid collecting unnecessary personal identifiers through analytics when
-            reasonably possible.
+            <strong>Analytics data</strong>, such as pages viewed and referral information,
+            through privacy-oriented analytics tools (for example, Vercel Web Analytics) to
+            understand traffic patterns and improve content. Additional analytics or
+            advertising measurement tools may be enabled in the future. We intend to avoid
+            collecting unnecessary personal identifiers through analytics when reasonably
+            possible.
           </li>
           <li>
             <strong>Advertising, affiliate, or cookie-related data</strong>, only if
