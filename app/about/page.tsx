@@ -20,8 +20,8 @@ export default function AboutPage() {
 
       <ProseSection title="What we publish">
         SuppCheckr publishes evidence-aware supplement comparison content. Creatine monohydrate
-        and Magnesium clusters — product reviews, guides, ingredient references, and comparison
-        tables — are live. More supplement categories are planned. Each review explains how a
+        and Magnesium categories — product reviews, guides, ingredient references, and comparison
+        tables — are published on SuppCheckr. Additional supplement categories are planned. Each review explains how a
         product scores on transparency, testing, additives, and value using our{" "}
         <Link href="/methodology" className="text-link hover:text-link-hover hover:underline">
           review methodology

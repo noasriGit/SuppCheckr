@@ -23,8 +23,8 @@ export function SearchClient({ index }: { index: SearchIndexEntry[] }) {
     <PageContainer>
       <h1 className="text-3xl font-bold text-heading">Search</h1>
       <p className="mt-3 text-sm text-foreground">
-        Search published SuppCheckr pages and creatine cluster content. Draft legal pages and
-        archived demo content are excluded.
+        Search published SuppCheckr pages, including Creatine and Magnesium product reviews,
+        guides, comparisons, and ingredient references. Legal pages in review are excluded.
       </p>
       <div className="mt-6">
         <input

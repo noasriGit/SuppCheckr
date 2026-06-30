@@ -24,7 +24,7 @@ export const footerNav = {
     { label: "Compare", href: "/compare" },
     { label: "Ingredients", href: "/ingredients" },
     { label: "Brands", href: "/brands" },
-    { label: "Guides", href: "/guides/how-to-choose-a-creatine-supplement" },
+    { label: "Guides", href: "/guides" },
   ],
   trust: [
     { label: "About", href: "/about" },

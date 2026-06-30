@@ -8,7 +8,12 @@ export const seoTemplates = {
   supplementsIndex: {
     title: "Supplement Categories | SuppCheckr",
     description:
-      "Browse supplement categories on SuppCheckr. Creatine monohydrate and Magnesium are published with reviews, guides, and comparisons.",
+      "Browse published Creatine and Magnesium categories with ingredient references, guides, product reviews, and comparison tables.",
+  },
+  guidesIndex: {
+    title: "Supplement Guides | SuppCheckr",
+    description:
+      "Educational guides for Creatine and Magnesium — forms, label reading, dosage context, and safety notes.",
   },
   category: (name: string) => ({
     title: `${name} Supplements — Compare & Review | SuppCheckr`,
