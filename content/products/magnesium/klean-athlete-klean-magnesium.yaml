@@ -65,13 +65,21 @@ rating:
     brandTransparency: 85
   overallScore: 81
 pros:
-  - Third-party tested — NSF Certified for Sport listing captured for this SKU (90 vegetarian capsules, 1-capsule serving).
-  - Supplement Facts on the brand page list magnesium as magnesium glycinate with 120 mg elemental magnesium per capsule.
+  - >-
+    Third-party tested — NSF Certified for Sport listing captured for this SKU (90 vegetarian capsules, 1-capsule
+    serving).
+  - >-
+    Supplement Facts on the brand page list magnesium as magnesium glycinate with 120 mg elemental magnesium per
+    capsule.
   - Single primary magnesium form on the label; capsule count and serving size are straightforward.
 cons:
-  - Higher observed price per 100 mg elemental magnesium than budget citrate or oxide options in this draft cluster.
-  - 120 mg elemental magnesium per capsule is a lower per-serving dose than some glycinate products that list 200 mg per serving.
-  - Brand marketing includes athlete and wellness positioning — SuppCheckr does not mirror sleep, anxiety, or recovery outcome claims.
+  - Higher observed price per 100 mg elemental magnesium than budget citrate or oxide options in this five-product comparison set.
+  - >-
+    120 mg elemental magnesium per capsule is a lower per-serving dose than some glycinate products that list 200 mg per
+    serving.
+  - >-
+    Brand marketing includes athlete and wellness positioning — SuppCheckr does not mirror sleep, anxiety, or recovery
+    outcome claims.
 bestFor:
   - Buyers who prioritize a glycinate-form label with a verifiable NSF Certified for Sport listing for this SKU.
 avoidIf:
@@ -82,10 +90,10 @@ labelTransparencyNotes: >
   magnesium (elemental) as magnesium glycinate per 1-capsule serving and 90 servings per container. Label directions
   allow 1–4 capsules daily; SuppCheckr price math uses the 1-capsule serving size shown on Supplement Facts.
 evidenceNotes: >
-  Draft SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: NSF Certified for
-  Sport verification, clear glycinate form and 120 mg elemental magnesium per capsule, and simple capsule
-  formula — offset by higher price per 100 mg elemental magnesium and lower per-capsule dose than some
-  alternatives. Scores reflect label clarity and NSF listing documentation, not personal medical suitability.
+  SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: NSF Certified for Sport
+  verification, clear glycinate form and 120 mg elemental magnesium per capsule, and simple capsule formula — offset by
+  higher price per 100 mg elemental magnesium and lower per-capsule dose than some alternatives. Scores reflect label
+  clarity and NSF listing documentation, not personal medical suitability.
 relatedProductIds:
   - magnesium-nutricost-magnesium-citrate-120
   - magnesium-now-foods-magnesium-malate-1300-180
@@ -175,15 +183,15 @@ affiliate:
 seo:
   title: Klean Athlete Klean Magnesium Review | SuppCheckr
   description: >
-    Draft SuppCheckr review of Klean Athlete Klean Magnesium (90 veg caps) with glycinate label facts, NSF Certified for
+    SuppCheckr review of Klean Athlete Klean Magnesium (90 veg caps) with glycinate label facts, NSF Certified for
     Sport citation, and dated manual pricing per 100 mg elemental magnesium.
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-29'
-  lastReviewed: '2026-06-29'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-29'
@@ -202,3 +210,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4D-2 draft magnesium product review YAML (glycinate slot)
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

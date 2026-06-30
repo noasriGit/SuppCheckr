@@ -4,11 +4,10 @@ name: Magnesium
 pluralName: Magnesium Supplements
 description: >
   SuppCheckr compares magnesium supplement labels, elemental magnesium per serving, third-party testing documentation,
-  and dated manual pricing — not medical outcomes or personal suitability. Magnesium cluster content is in draft; a
-  five-product comparison table exists in draft and is not yet published or indexed.
+  and dated manual pricing — not medical outcomes or personal suitability.
 shortDescription: >
-  Draft category hub for magnesium supplements. Educational guides cover forms, dosage label reading, and safety context;
-  draft product reviews and comparison table are available for editorial QA but not published.
+  Published category hub for magnesium supplements. Educational guides cover forms, dosage label reading, and safety
+  context; five product reviews and a comparison table are available on SuppCheckr.
 featured: true
 relatedCategories:
   - electrolytes
@@ -33,35 +32,36 @@ comparisonCtaLabel: Compare all magnesium products
 exploreCategoryHeading: Explore magnesium content
 intro: >
   Magnesium is an essential mineral found in many foods and sold in several supplemental forms — glycinate, citrate,
-  malate, oxide, and others. According to NIH Office of Dietary Supplements materials, many people do not meet recommended
-  intake from food alone, but supplements add intake on top of diet and should be evaluated with label clarity in mind.
-  SuppCheckr educational guides explain forms and safety context; future product reviews will compare elemental magnesium
-  per serving, not compound weight alone.
+  malate, oxide, and others. According to NIH Office of Dietary Supplements materials, many people do not meet
+  recommended intake from food alone, but supplements add intake on top of diet and should be evaluated with label
+  clarity in mind. SuppCheckr educational guides explain forms and safety context; product reviews compare
+  elemental magnesium per serving, not compound weight alone.
 evaluationSummary: >
-  When magnesium product reviews are published, SuppCheckr will score products using label transparency (especially
-  elemental magnesium disclosure), form identification, formula simplicity, third-party testing documentation (verified vs.
-  marketing-only claims), dated manual price value (including price per 100 mg elemental magnesium), additives, and brand
-  transparency. Scores reflect label and sourcing quality — not personal outcomes. SuppCheckr does not rank magnesium
-  products for sleep, anxiety, constipation, blood pressure, migraines, cognition, or any medical condition.
+  SuppCheckr scores magnesium products using the magnesium scoring profile: label transparency (especially
+  elemental magnesium disclosure), form identification, formula simplicity, third-party testing documentation (verified
+  vs. marketing-only claims), dated manual price value (including price per 100 mg elemental magnesium), additives, and
+  brand transparency. Scores reflect label and sourcing quality — not personal outcomes. SuppCheckr does not rank
+  magnesium products for sleep, anxiety, constipation, blood pressure, migraines, cognition, or any medical condition.
 clusterScopeNote: >
-  Magnesium V1 planning targets five product reviews across distinct form buckets (glycinate, citrate, malate or
-  transparent mixed-form, conditional L-threonate or fallback, and budget oxide). Draft product YAML and a draft
-  category comparison table (magnesium-supplements-compared) exist; publication and indexing are deferred to later phases.
-  Chloride, taurate, gummies, and topical products are guide-only for now. No L-threonate product review is included.
+  This magnesium product cluster includes five product reviews across distinct form buckets (glycinate, citrate, malate,
+  transparent mixed-form fallback, and budget oxide). A category comparison table (magnesium-supplements-compared) covers
+  the same five SKUs. Chloride, taurate, gummies, and topical products are guide-only for now. No L-threonate product
+  review is included.
 buyingConsiderations:
   - >-
-    Confirm the Supplement Facts panel lists elemental magnesium (mg) per serving — not compound or chelate weight alone.
+    Confirm the Supplement Facts panel lists elemental magnesium (mg) per serving — not compound or chelate weight
+    alone.
   - Identify the magnesium form (glycinate, citrate, malate, oxide, etc.) and read marketing claims conservatively.
   - >-
     Check whether third-party testing is verified (certificate or recognized program listing) or only claimed in
     marketing copy.
   - Compare value using price per 100 mg elemental magnesium when servings are disclosed clearly.
   - >-
-    Consider total dietary magnesium from food plus any supplemental intake; NIH publishes RDAs and a supplemental UL for
-    adults.
+    Consider total dietary magnesium from food plus any supplemental intake; NIH publishes RDAs and a supplemental UL
+    for adults.
   - >-
-    Consult a qualified healthcare professional before starting or changing supplements, especially if pregnant, nursing,
-    under 18, taking medication, managing kidney disease, or managing a medical condition.
+    Consult a qualified healthcare professional before starting or changing supplements, especially if pregnant,
+    nursing, under 18, taking medication, managing kidney disease, or managing a medical condition.
 faq:
   - question: Why does SuppCheckr emphasize elemental magnesium on labels?
     answer: >
@@ -74,8 +74,9 @@ faq:
       not personal medical suitability or outcome guarantees.
   - question: Which magnesium form is best for sleep or anxiety?
     answer: >
-      SuppCheckr does not rank magnesium products for sleep, anxiety, or any medical condition. Our guides describe common
-      form differences for label literacy only. Consult a qualified healthcare professional for personal medical questions.
+      SuppCheckr does not rank magnesium products for sleep, anxiety, or any medical condition. Our guides describe
+      common form differences for label literacy only. Consult a qualified healthcare professional for personal medical
+      questions.
 featuredProductIds: []
 sources:
   - id: cat-nih-magnesium-consumer
@@ -100,13 +101,13 @@ sources:
     sourceType: FDA
     supportsClaimIds: []
 seo: {}
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
@@ -117,3 +118,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 4C draft category shell with guide links and magnesium ingredient reference
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

@@ -17,11 +17,11 @@ aliases:
 evidenceSummary: >
   Magnesium is an essential mineral involved in many normal body processes. According to NIH Office of Dietary
   Supplements materials, magnesium is found in foods and is also sold in several supplemental forms — glycinate,
-  citrate, malate, oxide, and others. Supplement labels may list compound names, chelate weights, or elemental
-  magnesium amounts; comparing products requires checking how much elemental magnesium each serving provides.
-  Research has examined magnesium intake in population and clinical contexts; individual needs and tolerance vary.
-  SuppCheckr summarizes label and product-comparison information — not medical advice. SuppCheckr does not rank
-  magnesium products for sleep, anxiety, constipation, blood pressure, migraines, cognition, or any medical condition.
+  citrate, malate, oxide, and others. Supplement labels may list compound names, chelate weights, or elemental magnesium
+  amounts; comparing products requires checking how much elemental magnesium each serving provides. Research has
+  examined magnesium intake in population and clinical contexts; individual needs and tolerance vary. SuppCheckr
+  summarizes label and product-comparison information — not medical advice. SuppCheckr does not rank magnesium products
+  for sleep, anxiety, constipation, blood pressure, migraines, cognition, or any medical condition.
 typicalDosageRange: >
   NIH health-professional materials publish Recommended Dietary Allowances (RDAs) and Adequate Intakes (AIs) for
   magnesium by age, sex, and life stage, and note a Tolerable Upper Intake Level (UL) for supplemental magnesium in
@@ -72,16 +72,20 @@ sources:
     accessDate: '2026-06-26'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4C draft general magnesium ingredient hub replacing placeholder glycinate entry
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

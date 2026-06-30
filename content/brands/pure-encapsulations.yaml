@@ -11,10 +11,10 @@ categories:
 transparencyNotes: >
   Pure Encapsulations publishes brand quality positioning on its website. For the Magnesium (citrate/malate) 180-capsule
   SKU in Phase 4D-2, Supplement Facts were sourced from a retailer listing because a dedicated official product page URL
-  was not confirmed at draft time.
+  was not confirmed when originally researched.
 testingNotes: >
-  No verifiable third-party testing certificate or program listing for the Magnesium (citrate/malate) 180-capsule SKU was
-  captured in Phase 4D-2.
+  No verifiable third-party testing certificate or program listing for the Magnesium (citrate/malate) 180-capsule SKU
+  was captured in Phase 4D-2.
 certifications: []
 controversyNotes: null
 transparencyScore: null
@@ -27,16 +27,20 @@ sources:
     accessDate: '2026-06-26'
     sourceType: brand_label
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4D-2 draft brand record for Pure Encapsulations magnesium review
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

@@ -39,7 +39,7 @@ retailers:
 certifications: []
 thirdPartyTesting:
   status: unknown
-  details: >
+  details: |
     No verifiable third-party testing certificate or recognized program listing for this SKU was captured in Phase 4D-2.
   sources: []
 additives:
@@ -65,26 +65,32 @@ rating:
     brandTransparency: 78
   overallScore: 78
 pros:
-  - Supplement Facts list magnesium malate with both compound weight (1000 mg malate) and 113 mg elemental magnesium per tablet.
+  - >-
+    Supplement Facts list magnesium malate with both compound weight (1000 mg malate) and 113 mg elemental magnesium per
+    tablet.
   - Single-form malate product with a one-tablet serving size on the cited label.
-  - Mid-range observed price per 100 mg elemental magnesium in this draft cluster.
+  - Mid-range observed price per 100 mg elemental magnesium in this five-product comparison set.
 cons:
   - Lower elemental magnesium per tablet (113 mg) than many one-capsule products in this cluster.
-  - Brand product page includes energy- and Krebs-cycle-adjacent marketing — SuppCheckr cites label facts only, not energy or fatigue outcomes.
+  - >-
+    Brand product page includes energy- and Krebs-cycle-adjacent marketing — SuppCheckr cites label facts only, not
+    energy or fatigue outcomes.
   - No verifiable third-party testing documentation captured for this SKU in Phase 4D-2.
 bestFor:
-  - Buyers who want a malate-form tablet with compound weight and elemental magnesium both disclosed on Supplement Facts.
+  - >-
+    Buyers who want a malate-form tablet with compound weight and elemental magnesium both disclosed on Supplement
+    Facts.
 avoidIf:
   - You require verified third-party certification documentation before purchase.
   - You need a higher elemental magnesium amount per single unit without taking additional tablets.
 labelTransparencyNotes: >
-  Locked NOW SKU 1300 / UPC 733739013002 — 180 tablets. Brand page lists a suggested use of up to 3 tablets daily; SuppCheckr
-  price normalization uses the 1-tablet Supplement Facts serving (113 mg elemental magnesium).
+  Locked NOW SKU 1300 / UPC 733739013002 — 180 tablets. Brand page lists a suggested use of up to 3 tablets daily;
+  SuppCheckr price normalization uses the 1-tablet Supplement Facts serving (113 mg elemental magnesium).
 evidenceNotes: >
-  Draft SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: malate form with both
-  compound weight (1000 mg malate) and 113 mg elemental magnesium disclosed on Supplement Facts, plus one-tablet
-  serving — offset by unknown third-party testing, brand energy/Krebs-cycle marketing risk, and lower elemental mg
-  per tablet. SuppCheckr does not treat malate as an energy or pain treatment.
+  SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: malate form with both compound
+  weight (1000 mg malate) and 113 mg elemental magnesium disclosed on Supplement Facts, plus one-tablet serving — offset
+  by unknown third-party testing, brand energy/Krebs-cycle marketing risk, and lower elemental mg per tablet. SuppCheckr
+  does not treat malate as an energy or pain treatment.
 relatedProductIds:
   - magnesium-klean-athlete-klean-magnesium
   - magnesium-nutricost-magnesium-citrate-120
@@ -160,15 +166,15 @@ affiliate:
 seo:
   title: NOW Magnesium Malate 1000 mg Tablets Review | SuppCheckr
   description: >
-    Draft SuppCheckr review of NOW Magnesium Malate 1000 mg (180 tablets, SKU 1300) with malate label facts and dated
+    SuppCheckr review of NOW Magnesium Malate 1000 mg (180 tablets, SKU 1300) with malate label facts and dated
     price per 100 mg elemental magnesium.
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-29'
-  lastReviewed: '2026-06-29'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-29'
@@ -187,3 +193,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4D-2 draft magnesium product review YAML (malate slot)
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

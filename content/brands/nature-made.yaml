@@ -9,9 +9,9 @@ logo: /images/brands/placeholder.svg
 categories:
   - magnesium
 transparencyNotes: >
-  Nature Made product facts for the Magnesium Oxide 250 mg 100-tablet SKU were sourced from a Target retailer listing with
-  Supplement Facts in Phase 4D-2. USP Verified status was not confirmed from an official certification database at draft
-  time.
+  Nature Made product facts for the Magnesium Oxide 250 mg 100-tablet SKU were sourced from a Target retailer listing
+  with Supplement Facts in Phase 4D-2. USP Verified status was not confirmed from an official certification database at
+  initial research.
 testingNotes: >
   No USP Verified or other third-party certification database entry for the Magnesium Oxide 250 mg 100-tablet SKU was
   verified in Phase 4D-2.
@@ -27,16 +27,20 @@ sources:
     accessDate: '2026-06-26'
     sourceType: brand_label
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4D-2 draft brand record for Nature Made magnesium review
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

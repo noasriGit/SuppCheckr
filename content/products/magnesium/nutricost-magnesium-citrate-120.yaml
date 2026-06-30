@@ -62,26 +62,32 @@ rating:
     brandTransparency: 68
   overallScore: 79
 pros:
-  - Supplement Facts on the Nutricost product page list 420 mg elemental magnesium as magnesium citrate per 4-capsule serving.
-  - Among the lower observed price-per-100-mg-elemental values in this draft cluster at the cited price check.
+  - >-
+    Supplement Facts on the Nutricost product page list 420 mg elemental magnesium as magnesium citrate per 4-capsule
+    serving.
+  - Among the lower observed price-per-100-mg-elemental values in this five-product comparison set at the cited price check.
   - Magnesium citrate form is clearly identified on the label.
 cons:
   - Four capsules per serving may be less convenient than one-capsule or one-tablet servings.
   - Third-party testing is marketed but not verified with a captured certificate URL for this SKU.
-  - According to NIH ODS materials, supplemental magnesium at higher intakes can cause GI effects in some people; individual tolerance varies.
+  - >-
+    According to NIH ODS materials, supplemental magnesium at higher intakes can cause GI effects in some people;
+    individual tolerance varies.
 bestFor:
-  - Buyers looking for a citrate-form label with explicit elemental magnesium disclosure and a lower observed price per 100 mg elemental.
+  - >-
+    Buyers looking for a citrate-form label with explicit elemental magnesium disclosure and a lower observed price per
+    100 mg elemental.
 avoidIf:
   - You require verified third-party certification documentation before purchase.
   - You prefer a single-capsule serving without taking four capsules.
 labelTransparencyNotes: >
-  Locked 120-capsule SKU (30 servings at 4 capsules per serving). Nutricost also sells 60- and 240-capsule sizes — confirm
-  bottle count before purchase. Elemental magnesium is stated on the cited Supplement Facts panel.
+  Locked 120-capsule SKU (30 servings at 4 capsules per serving). Nutricost also sells 60- and 240-capsule sizes —
+  confirm bottle count before purchase. Elemental magnesium is stated on the cited Supplement Facts panel.
 evidenceNotes: >
-  Draft SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: clear citrate form,
-  explicit 420 mg elemental magnesium per serving, and strong price per 100 mg elemental value — offset by
-  four-capsule serving size and third-party testing claimed but not verified with a captured certificate.
-  Citrate GI tolerance context is general NIH background, not a product treatment claim.
+  SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: clear citrate form, explicit 420
+  mg elemental magnesium per serving, and strong price per 100 mg elemental value — offset by four-capsule serving size
+  and third-party testing claimed but not verified with a captured certificate. Citrate GI tolerance context is general
+  NIH background, not a product treatment claim.
 relatedProductIds:
   - magnesium-klean-athlete-klean-magnesium
   - magnesium-now-foods-magnesium-malate-1300-180
@@ -124,7 +130,9 @@ claims:
       - retailer-nutricost-magnesium-citrate-120
       - editorial-price-per-100mg-elemental-nutricost-magnesium-citrate-120
   - id: nutricost-mag-testing-claimed
-    text: Nutricost brand materials state third-party testing; SuppCheckr has not verified a public certificate URL for this SKU.
+    text: >-
+      Nutricost brand materials state third-party testing; SuppCheckr has not verified a public certificate URL for this
+      SKU.
     claimType: brand_claim
     claimRiskLevel: medium
     citationIds:
@@ -187,15 +195,15 @@ affiliate:
 seo:
   title: Nutricost Magnesium Citrate 120 Caps Review | SuppCheckr
   description: >
-    Draft SuppCheckr review of Nutricost Magnesium Citrate (120 caps) with citrate label facts, claimed testing context,
+    SuppCheckr review of Nutricost Magnesium Citrate (120 caps) with citrate label facts, claimed testing context,
     and dated price per 100 mg elemental magnesium.
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-29'
-  lastReviewed: '2026-06-29'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-29'
@@ -214,3 +222,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4D-2 draft magnesium product review YAML (citrate slot)
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

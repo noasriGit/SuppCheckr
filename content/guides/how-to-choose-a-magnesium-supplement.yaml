@@ -4,92 +4,150 @@ categoryId: magnesium
 excerpt: >
   Label-focused factors to compare magnesium supplements — form, elemental magnesium, serving size, testing statements,
   additives, value, and conservative claim reading — without product rankings.
-body: |
+body: >
   ## Introduction
 
+
   Magnesium supplements are widely available in capsules, tablets, and powders. This guide explains what to look for on
+
   labels and listings based on publicly available information. It does **not** rank products or recommend a single
+
   option for everyone.
+
 
   ## Start with elemental magnesium on the label
 
+
   The most important number for comparison is usually **elemental magnesium per serving** on the Supplement Facts
+
   panel — not the compound or chelate weight alone. For example, a label might list "2,000 mg magnesium bisglycinate"
+
   but show "Magnesium 200 mg" as the amount that counts toward daily intake.
 
+
   If elemental magnesium is not clearly stated, dose transparency is limited. SuppCheckr will flag that in product
+
   reviews when they are published.
+
 
   ## Identify the form
 
+
   Check whether the label names a specific form — glycinate/bisglycinate, citrate, malate, oxide, L-threonate, or a
+
   mixed-form blend. Different forms may have different label positioning and tolerability considerations for some
+
   people. See our [types of magnesium guide](/guides/types-of-magnesium) and
+
   [glycinate vs. citrate guide](/guides/magnesium-glycinate-vs-citrate) for educational context.
 
+
   SuppCheckr does not rank products for sleep, anxiety, constipation, blood pressure, migraines, cognition, or any
+
   medical condition.
+
 
   ## Check serving size and servings per container
 
+
   Look for:
 
+
   - **Serving size** (e.g., two capsules, one scoop)
+
   - **Elemental magnesium per serving**
+
   - **Servings per container**
+
 
   These fields are needed for price-per-serving and **price per 100 mg elemental magnesium** comparisons.
 
+
   ## Review other ingredients and additives
 
+
   Some products contain only magnesium and a capsule shell. Others add flavors, sweeteners, anti-caking agents, or
+
   multiple magnesium forms. A simpler formula is not automatically better for everyone, but it can be easier to compare
+
   across products. Mixed-form products should disclose each form and total elemental magnesium — vague "magnesium
+
   complex" blends without amounts are difficult to evaluate.
+
 
   ## Look for third-party testing statements
 
-  Some brands publish third-party testing or certification information (for example NSF or USP programs where applicable).
+
+  Some brands publish third-party testing or certification information (for example NSF or USP programs where
+  applicable).
+
   SuppCheckr records whether testing is **verified** (with a citable source), **claimed**, **unknown**, or **not
+
   claimed** — based on publicly available documentation, not marketing slogans alone.
+
 
   ## Compare price with context
 
+
   Price per container alone can mislead. Consider:
 
+
   - **Price per serving**
+
   - **Price per 100 mg elemental magnesium** (when elemental mg per serving is clear)
 
+
   Magnesium oxide products often provide a high amount of label-stated elemental magnesium at a low cost, but
+
   cost-per-mg should be read alongside form, GI tolerance, and personal suitability caveats — oxide is not automatically
+
   the best value for everyone.
+
 
   Retail prices change. Always check the retailer for the current price before purchasing.
 
+
   ## Read marketing claims conservatively
 
+
   Be skeptical of listings that imply disease outcomes, universal safety, or condition-specific guarantees. According to
+
   FDA overview materials, dietary supplements are not FDA-approved drugs. Endorsement-style claims ("doctor
+
   recommended," influencer testimonials) require careful scrutiny; FTC endorsement guidance emphasizes that material
+
   connections and substantiation matter in advertising — SuppCheckr editorial rankings are independent of brand
+
   marketing.
 
+
   Consult a qualified healthcare professional if you have medical questions, especially if pregnant, nursing, under 18,
+
   taking medication, managing kidney disease, or managing a medical condition.
+
 
   ## How SuppCheckr compares products (methodology overview)
 
+
   Our [methodology](/methodology) page explains scoring criteria: label transparency, elemental dose clarity, formula
+
   simplicity, third-party testing, additives, and dated manual price value. Scores help compare labels — they do not
+
   prove effectiveness for any individual.
+
 
   ## Related reading
 
+
   - [Magnesium ingredient reference](/ingredients/magnesium)
+
   - [What is magnesium?](/guides/what-is-magnesium)
+
   - [Magnesium dosage guide](/guides/magnesium-dosage-guide)
+
   - [Magnesium side effects and safety](/guides/magnesium-side-effects-and-safety)
-  - [Magnesium category hub](/supplements/magnesium) (draft — not yet published)
+
+  - [Magnesium category hub](/supplements/magnesium)
 relatedGuideSlugs:
   - what-is-magnesium
   - magnesium-dosage-guide
@@ -111,7 +169,7 @@ sources:
     sourceType: FDA
     supportsClaimIds: []
   - id: ftc-endorsement-guides
-    title: "FTC's Endorsement Guides: What People Are Asking"
+    title: 'FTC''s Endorsement Guides: What People Are Asking'
     publisher: Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking
     accessDate: '2026-06-26'
@@ -124,16 +182,20 @@ sources:
     accessDate: '2026-06-26'
     sourceType: internal_editorial
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4C draft magnesium buyer-education guide without product rankings
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

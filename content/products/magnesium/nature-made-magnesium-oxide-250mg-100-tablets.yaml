@@ -46,8 +46,8 @@ thirdPartyTesting:
   status: unknown
   details: >
     No USP Verified or other third-party certification database entry for this SKU was verified in Phase 4D-2. Phase 4G
-    USP Verified product search (magnesium oxide + Nature Made, 2026-06-29) listed citrate/glycinate Nature Made products
-    but not Magnesium Oxide 250 mg Tablets. Retailer copy and brand marketing were not treated as verification.
+    USP Verified product search (magnesium oxide + Nature Made, 2026-06-29) listed citrate/glycinate Nature Made
+    products but not Magnesium Oxide 250 mg Tablets. Retailer copy and brand marketing were not treated as verification.
   sources: []
 additives:
   - Cellulose gel
@@ -72,29 +72,39 @@ rating:
     brandTransparency: 72
   overallScore: 77
 pros:
-  - Supplement Facts on the cited Target listing show 250 mg magnesium (elemental) as magnesium oxide per 1-tablet serving.
-  - Lowest observed price per 100 mg elemental magnesium among the five draft cluster products at the cited price check.
+  - >-
+    Supplement Facts on the cited Target listing show 250 mg magnesium (elemental) as magnesium oxide per 1-tablet
+    serving.
+  - Lowest observed price per 100 mg elemental magnesium among the five comparison-set products at the cited price check.
   - Single-form oxide label with straightforward one-tablet serving size.
 cons:
-  - According to NIH ODS materials, some magnesium forms including oxide are more commonly associated with laxative effects at higher supplemental intakes; individual GI tolerance varies.
+  - >-
+    According to NIH ODS materials, some magnesium forms including oxide are more commonly associated with laxative
+    effects at higher supplemental intakes; individual GI tolerance varies.
   - Tablet includes multiple excipients and color additives versus simpler capsule formulas in this cluster.
   - No verified third-party testing or USP certification documentation captured for this SKU in Phase 4D-2.
-  - Retailer marketing includes heart, bone, and nerve wellness copy — SuppCheckr summarizes label facts, not condition support.
+  - >-
+    Retailer marketing includes heart, bone, and nerve wellness copy — SuppCheckr summarizes label facts, not condition
+    support.
 bestFor:
-  - Buyers comparing a common budget oxide example using label-stated elemental magnesium and dated price per 100 mg elemental.
+  - >-
+    Buyers comparing a common budget oxide example using label-stated elemental magnesium and dated price per 100 mg
+    elemental.
 avoidIf:
   - You require verified third-party testing or USP certification documentation before purchase.
   - You prefer a formula with fewer tablet excipients or a non-oxide magnesium form.
-  - You have kidney disease or take medications — consult a qualified healthcare professional before use (per label caution and NIH context).
+  - >-
+    You have kidney disease or take medications — consult a qualified healthcare professional before use (per label
+    caution and NIH context).
 labelTransparencyNotes: >
-  Locked UPC 031604012694 / TCIN 91641244 — 100 tablets. Target listing Supplement Facts match Phase 4D-1 research for 250 mg
-  elemental magnesium as magnesium oxide per tablet and 100 servings per bottle. Label caution advises consultation if you
-  have kidney disease or take medication.
+  Locked UPC 031604012694 / TCIN 91641244 — 100 tablets. Target listing Supplement Facts match Phase 4D-1 research for
+  250 mg elemental magnesium as magnesium oxide per tablet and 100 servings per bottle. Label caution advises
+  consultation if you have kidney disease or take medication.
 evidenceNotes: >
-  Draft SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: clear oxide form, 250 mg
-  elemental magnesium per tablet, and lowest observed price per 100 mg elemental in this cluster — offset by
-  unknown USP/testing verification, multiple tablet excipients, Target-sourced label, and oxide GI caveats.
-  Oxide value framing uses elemental mg and dated price only — not absorption superiority or dismissal of the form.
+  SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: clear oxide form, 250 mg
+  elemental magnesium per tablet, and lowest observed price per 100 mg elemental in this cluster — offset by unknown
+  USP/testing verification, multiple tablet excipients, Target-sourced label, and oxide GI caveats. Oxide value framing
+  uses elemental mg and dated price only — not absorption superiority or dismissal of the form.
 relatedProductIds:
   - magnesium-klean-athlete-klean-magnesium
   - magnesium-nutricost-magnesium-citrate-120
@@ -186,15 +196,15 @@ affiliate:
 seo:
   title: Nature Made Magnesium Oxide 250 mg Review | SuppCheckr
   description: >
-    Draft SuppCheckr review of Nature Made Magnesium Oxide 250 mg (100 tablets) with oxide label facts, GI context, and
+    SuppCheckr review of Nature Made Magnesium Oxide 250 mg (100 tablets) with oxide label facts, GI context, and
     dated price per 100 mg elemental magnesium.
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-29'
-  lastReviewed: '2026-06-29'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-29'
@@ -213,3 +223,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4D-2 draft magnesium product review YAML (budget oxide slot)
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

@@ -103,16 +103,20 @@ sources:
     accessDate: '2026-06-26'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4C draft magnesium safety context guide
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

@@ -60,16 +60,26 @@ rating:
     brandTransparency: 65
   overallScore: 71
 pros:
-  - Supplement Facts on the cited listing show 120 mg magnesium (elemental) as magnesium citrate/malate per 1-capsule serving.
-  - Transparent mixed-form label — both citrate and malate are named, with total elemental magnesium stated (no per-form mg split).
-  - One-capsule serving size simplifies dose and price-per-serving comparisons within this draft cluster.
+  - >-
+    Supplement Facts on the cited listing show 120 mg magnesium (elemental) as magnesium citrate/malate per 1-capsule
+    serving.
+  - >-
+    Transparent mixed-form label — both citrate and malate are named, with total elemental magnesium stated (no per-form
+    mg split).
+  - One-capsule serving size simplifies dose and price-per-serving comparisons within this five-product comparison set.
 cons:
-  - Label source is a retailer listing; official Pure Encapsulations product page for this SKU was not confirmed in Phase 4D-2.
+  - >-
+    Label source is a retailer listing; official Pure Encapsulations product page for this SKU was not confirmed in
+    Phase 4D-2.
   - Combined citrate/malate form does not disclose separate elemental amounts per salt on the label.
   - Higher observed price per 100 mg elemental magnesium than budget citrate or oxide options in this cluster.
-  - Retailer marketing copy includes cardiometabolic and neurocognitive positioning — SuppCheckr does not repeat those as product benefits.
+  - >-
+    Retailer marketing copy includes cardiometabolic and neurocognitive positioning — SuppCheckr does not repeat those
+    as product benefits.
 bestFor:
-  - Buyers who want a mixed citrate/malate label with clear total elemental magnesium per capsule when a dedicated malate-only SKU is not required.
+  - >-
+    Buyers who want a mixed citrate/malate label with clear total elemental magnesium per capsule when a dedicated
+    malate-only SKU is not required.
 avoidIf:
   - You require an official brand-hosted Supplement Facts image as the sole label source.
   - You need verified third-party testing documentation before purchase.
@@ -79,11 +89,11 @@ labelTransparencyNotes: >
   facts checked in Phase 4D-1 research (120 mg elemental per capsule). Per-form elemental magnesium is not split on the
   label. Label directions allow 1–4 capsules daily with food.
 evidenceNotes: >
-  Draft SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: transparent mixed
-  citrate/malate form with 120 mg elemental magnesium per capsule and one-capsule serving — offset by
-  retailer-sourced Supplement Facts (official brand page not confirmed), no per-form elemental mg split,
-  unknown testing, and higher price per 100 mg elemental than budget options. This product occupies the V1
-  threonate fallback slot; no magnesium L-threonate product review is included.
+  SuppCheckr score uses the magnesium scoring profile (Phase 4D-3). Key drivers: transparent mixed citrate/malate
+  form with 120 mg elemental magnesium per capsule and one-capsule serving — offset by retailer-sourced Supplement Facts
+  (official brand page not confirmed), no per-form elemental mg split, unknown testing, and higher price per 100 mg
+  elemental than budget options. This product occupies the V1 threonate fallback slot; no magnesium L-threonate product
+  review is included.
 relatedProductIds:
   - magnesium-klean-athlete-klean-magnesium
   - magnesium-nutricost-magnesium-citrate-120
@@ -127,8 +137,8 @@ claims:
       - editorial-price-per-100mg-elemental-pure-encapsulations-magnesium-citrate-malate-180
   - id: pe-mag-label-source-confidence
     text: >
-      Supplement Facts for this draft were sourced from a Vitacost retailer listing; an official Pure Encapsulations
-      product page URL for this SKU was not confirmed at Phase 4D-2 draft time.
+      Supplement Facts for this product were sourced from a Vitacost retailer listing; an official Pure Encapsulations
+      product page URL for this SKU was not confirmed when originally researched.
     claimType: editorial_opinion
     claimRiskLevel: low
     citationIds:
@@ -168,15 +178,15 @@ affiliate:
 seo:
   title: Pure Encapsulations Magnesium Citrate/Malate Review | SuppCheckr
   description: >
-    Draft SuppCheckr review of Pure Encapsulations Magnesium (citrate/malate) 180 caps with mixed-form label facts,
+    SuppCheckr review of Pure Encapsulations Magnesium (citrate/malate) 180 caps with mixed-form label facts,
     retailer-sourced Supplement Facts note, and dated price per 100 mg elemental magnesium.
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-29'
-  lastReviewed: '2026-06-29'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-29'
@@ -195,3 +205,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4D-2 draft magnesium product review YAML (mixed-form threonate fallback slot)
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)

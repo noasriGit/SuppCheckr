@@ -4,99 +4,161 @@ categoryId: magnesium
 excerpt: >
   A reference overview of common magnesium supplement forms — glycinate, citrate, malate, oxide, L-threonate, chloride,
   taurate, and mixed-form products — with conservative label-reading context, not medical advice.
-body: |
+body: >
   ## Introduction
 
-  Magnesium supplements are sold as salts and chelates that differ in compound chemistry, label naming, and common retail
+
+  Magnesium supplements are sold as salts and chelates that differ in compound chemistry, label naming, and common
+  retail
+
   positioning. This guide describes major forms for **label literacy**. It does not recommend a form for any medical
+
   condition or rank products for sleep, anxiety, constipation, blood pressure, migraines, or cognition.
+
 
   Always compare **elemental magnesium per serving** on the Supplement Facts panel — not compound weight alone.
 
+
   ## Magnesium glycinate / bisglycinate
 
+
   Magnesium bound to glycine; labels may say glycinate, bisglycinate, or bis-glycinate chelate. Chelate or trademark
+
   names (for example, Albion TRAACS) may appear as label facts.
 
+
   **Common positioning:** Magnesium glycinate/bisglycinate is commonly marketed as a chelated form and is often chosen
+
   by consumers looking for a gentler-feeling supplement, but individual tolerance varies and marketing claims should be
+
   verified carefully. SuppCheckr does not endorse glycinate for sleep or anxiety.
+
 
   ## Magnesium citrate
 
+
   Magnesium combined with citric acid; widely available in capsules and tablets.
 
+
   **Common positioning:** Magnesium citrate is commonly associated with GI tolerance considerations and may be more
+
   likely to cause loose stools for some people, especially at higher supplemental intakes. Users seeking help for bowel
+
   symptoms should consult a qualified healthcare professional — citrate is not described here as a constipation remedy.
+
 
   ## Magnesium malate
 
+
   Magnesium paired with malic acid; sometimes marketed around energy or fatigue-adjacent wellness themes.
 
+
   **Label focus:** Identify malate on the Supplement Facts panel and confirm elemental magnesium per serving. SuppCheckr
+
   does not describe malate as a medical treatment for fatigue or any condition.
+
 
   ## Magnesium oxide
 
+
   A common inorganic salt; many budget and store-brand products use oxide because labels can list a relatively high
+
   elemental magnesium amount per unit.
 
+
   **Balanced framing:** Magnesium oxide often provides a high amount of label-stated elemental magnesium at a low cost,
+
   but cost-per-mg should be read alongside form, GI tolerance, and personal suitability caveats. NIH materials note that
+
   some magnesium salts are more commonly associated with laxative effects than others; individual tolerance varies.
+
   Oxide is not "useless," but it is also not automatically the best value for everyone.
+
 
   ## Magnesium L-threonate
 
+
   A form sometimes sold under trademark names such as Magtein. Magnesium L-threonate is often marketed around cognitive
+
   or brain-health positioning, but SuppCheckr does not treat those marketing claims as personal outcome guarantees.
 
+
   **High claim-risk form:** Do not interpret this guide as endorsing memory, cognition, dementia, Alzheimer's, or brain
+
   health outcomes. Research has examined this form in published studies, but SuppCheckr does not rank threonate products
+
   for cognitive benefits. V1 product reviews may or may not include a threonate SKU depending on label-clarity and
+
   claim-conservatism gates at shortlist time — see our [magnesium category hub](/supplements/magnesium) when published.
+
 
   ## Magnesium chloride
 
+
   Found in some oral supplements and in topical flakes, oils, and bath products. Oral and topical contexts differ;
+
   comparing topical products to oral supplementation outcomes is not straightforward.
+
 
   **V1 scope:** SuppCheckr covers chloride educationally in this guide; dedicated chloride product reviews are deferred.
 
+
   ## Magnesium taurate
+
 
   Magnesium bound to taurine; sometimes marketed with cardiovascular or blood-pressure-adjacent wellness themes.
 
+
   **High claim-risk positioning:** SuppCheckr does not describe taurate as lowering blood pressure, supporting heart
+
   disease, or preventing arrhythmia. V1 product reviews defer taurate due to cardiovascular claim risk.
+
 
   ## Mixed-form products
 
+
   Some products combine several forms ("full spectrum," "multi-form," or "complex" blends).
 
+
   **Label transparency:** Prefer labels that name each form and disclose total **elemental magnesium** — ideally with
+
   per-form amounts. Vague proprietary blends without elemental mg fail SuppCheckr shortlist gates. Mixed-form marketing
+
   does not prove superior absorption or multi-condition benefits.
+
 
   ## How SuppCheckr uses form information
 
+
   When magnesium product reviews are published, SuppCheckr records the form(s) listed on the Supplement Facts panel as
+
   label facts and compares elemental magnesium, testing documentation, and dated manual price (including price per 100
+
   mg elemental). Scores reflect transparency — not personal medical suitability.
+
 
   ## Safety reminder
 
+
   Consult a qualified healthcare professional before starting or changing magnesium supplements, especially if pregnant,
-  nursing, under 18, taking medications, managing kidney disease, managing a medical condition, or preparing for surgery.
+
+  nursing, under 18, taking medications, managing kidney disease, managing a medical condition, or preparing for
+  surgery.
+
   Product labels, warnings, dosages, and formulas can change.
+
 
   ## Related reading
 
+
   - [Magnesium ingredient reference](/ingredients/magnesium)
+
   - [Magnesium glycinate vs. citrate](/guides/magnesium-glycinate-vs-citrate)
+
   - [How to choose a magnesium supplement](/guides/how-to-choose-a-magnesium-supplement)
+
   - [Magnesium dosage guide](/guides/magnesium-dosage-guide)
+
   - [Magnesium side effects and safety](/guides/magnesium-side-effects-and-safety)
 relatedGuideSlugs:
   - magnesium-glycinate-vs-citrate
@@ -124,16 +186,20 @@ sources:
     accessDate: '2026-06-26'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-06-30'
+  lastReviewed: '2026-06-30'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 4C draft magnesium form reference guide
+    - date: '2026-06-30'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Magnesium cluster publication (explicit approval required before running this script)
