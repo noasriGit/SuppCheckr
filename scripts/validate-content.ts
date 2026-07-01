@@ -26,6 +26,7 @@ import {
   validatePublishedGuide,
   validatePublishedIngredient,
   validatePublishedProduct,
+  validateProductAffiliate,
 } from "@/lib/validation/publishedContent";
 
 let errors = 0;
@@ -131,6 +132,10 @@ for (const product of products) {
   reportClaimIssues(`Product ${product.id}`, product.claims, product.sources, strict);
 
   for (const msg of validatePublishedProduct(product)) {
+    error(msg);
+  }
+
+  for (const msg of validateProductAffiliate(product)) {
     error(msg);
   }
 

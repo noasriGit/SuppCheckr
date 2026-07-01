@@ -1,4 +1,5 @@
 import { monetizationConfig } from "@/config/monetization";
+import { isAmazonUrl, isValidAssociateTag } from "@/lib/affiliate/isAmazonUrl";
 
 export interface AmazonLinkOptions {
   url: string;
@@ -20,7 +21,8 @@ export function buildAmazonLink(options: AmazonLinkOptions): BuiltAffiliateLink 
     affiliate.disableGlobally ||
     !affiliate.enabled ||
     options.url.startsWith("#") ||
-    !tag
+    !isValidAssociateTag(tag) ||
+    !isAmazonUrl(options.url)
   ) {
     return {
       href: "#amazon-placeholder",

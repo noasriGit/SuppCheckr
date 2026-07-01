@@ -249,6 +249,7 @@ export default async function ProductPage({
             <AffiliateButton
               url={product.retailers[0]?.url ?? "#"}
               pathname={`/supplements/${categorySlug}/products/${productSlug}`}
+              affiliateEnabled={product.affiliate.enabled}
             />
           </div>
         </section>

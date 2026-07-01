@@ -27,15 +27,17 @@ export default function EditorialPolicyPage() {
         or disabled.
       </ProseSection>
 
-      <ProseSection title="Affiliate links during prelaunch">
-        Affiliate links are disabled during prelaunch. SuppCheckr does not earn commissions
-        from purchase links at this time. If affiliate relationships are enabled in the
-        future, they would be clearly disclosed and would not change editorial scoring or
+      <ProseSection title="Affiliate links">
+        SuppCheckr participates in the Amazon Associates Program. Some product pages may
+        include Amazon affiliate links that can earn commissions from qualifying purchases;
+        those links are clearly disclosed near the purchase button. Not every outbound
+        retailer link is an affiliate link — many products link directly to brand or
+        retailer websites. Affiliate relationships do not change editorial scoring or
         product inclusion decisions. See{" "}
         <Link href="/affiliate-disclosure" className="text-link hover:text-link-hover hover:underline">
           affiliate disclosure
         </Link>{" "}
-        for current status.
+        for details.
       </ProseSection>
 
       <ProseSection title="Source-first review process">

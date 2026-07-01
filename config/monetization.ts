@@ -1,14 +1,15 @@
 /**
- * Monetization controls — Phase 5B prelaunch defaults.
+ * Monetization controls — Phase 7A Amazon Associates activation.
  *
- * AFFILIATE: Keep `enabled: false` and `disableGlobally: true` until Amazon
- * Associates approval and an intentional activation phase. Set
- * `AMAZON_ASSOCIATE_TAG` in deployment env only after approval (never commit).
+ * AFFILIATE: Framework enabled after Amazon Associates approval. Per-product
+ * `affiliate.enabled` in YAML controls which products render tagged Amazon links.
+ * Set `AMAZON_ASSOCIATE_TAG` in deployment env (never commit a real tag).
+ * Links fail closed when the tag is missing or invalid.
  *
  * ADS: Keep `enabled: false` and `loadScripts: false` until ad programs are
  * approved. Placeholders may remain visible via `showPlaceholders`.
  *
- * See: content/templates/monetization-readiness-checklist-2026-06-30.md
+ * See: content/templates/phase-7a-amazon-associates-activation-report-2026-06-30.md
  * See: .env.example
  */
 export const monetizationConfig = {
@@ -33,8 +34,8 @@ export const monetizationConfig = {
     ],
   },
   affiliate: {
-    enabled: false,
-    disableGlobally: true,
+    enabled: true,
+    disableGlobally: false,
     disableRoutes: [] as string[],
     amazonAssociateTag: process.env.AMAZON_ASSOCIATE_TAG ?? "",
     defaultRel: "sponsored nofollow",
@@ -67,4 +68,10 @@ export function isAffiliateEnabledForPath(pathname: string): boolean {
   return !affiliate.disableRoutes.some(
     (route) => pathname === route || pathname.startsWith(`${route}/`),
   );
+}
+
+/** Global affiliate framework is on (per-product flags still required for live links). */
+export function isAffiliateFrameworkActive(): boolean {
+  const { affiliate } = monetizationConfig;
+  return affiliate.enabled && !affiliate.disableGlobally;
 }

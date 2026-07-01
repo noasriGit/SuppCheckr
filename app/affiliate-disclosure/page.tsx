@@ -4,7 +4,7 @@ import { LegalPageLayout, ProseSection } from "@/components/legal/LegalPageLayou
 export const metadata = buildPageMetadata({
   title: "Affiliate Disclosure",
   description:
-    "How SuppCheckr may use affiliate links in the future and how editorial independence is maintained.",
+    "How SuppCheckr uses Amazon affiliate links, how commissions work, and how editorial independence is maintained.",
   path: "/affiliate-disclosure",
 });
 
@@ -13,38 +13,44 @@ export default function AffiliateDisclosurePage() {
     <LegalPageLayout title="Affiliate Disclosure" requiresLegalReview>
       <ProseSection title="Current status">
         <p>
-          <strong>Affiliate links are currently disabled on SuppCheckr.</strong> Product
-          links and purchase buttons do not earn commissions at this time, and no affiliate
-          tracking tags are applied to outbound retailer links in the live site
-          configuration.
+          <strong>SuppCheckr participates in the Amazon Associates Program.</strong> Some
+          product pages may include Amazon affiliate links that can earn commissions from
+          qualifying purchases. Affiliate links are applied only to specific Amazon product
+          URLs that we have intentionally mapped — not to every outbound link on the site.
+        </p>
+        <p className="mt-2">
+          As an Amazon Associate I earn from qualifying purchases.
+        </p>
+        <p className="mt-2">
+          Commissions generally do not change the price you pay at the retailer. Pricing,
+          shipping, taxes, availability, and return policies are set by the retailer, not
+          SuppCheckr. We do not guarantee that any purchase will be eligible for a commission.
         </p>
       </ProseSection>
 
-      <ProseSection title="Future affiliate programs">
+      <ProseSection title="How affiliate links appear">
         <p>
-          If SuppCheckr is accepted into affiliate programs in the future, some product
-          links may become affiliate links. When enabled, SuppCheckr may earn a commission
-          from qualifying purchases made through those links.
+          When a product page uses an Amazon affiliate link, a short disclosure appears near
+          the purchase button (for example: &ldquo;Affiliate link: SuppCheckr may earn a
+          commission if you buy through this link.&rdquo;). Many published products still
+          link directly to brand or retailer websites — those are{" "}
+          <strong>not</strong> affiliate links unless clearly labeled.
         </p>
         <p className="mt-2">
-          Commissions, if enabled, generally do not change the price you pay at the
-          retailer. Pricing, shipping, taxes, availability, and return policies are set by
-          the retailer, not SuppCheckr.
-        </p>
-        <p className="mt-2">
-          SuppCheckr has not been approved for Amazon Associates as of the date below. We
-          do not use Amazon Associate tracking tags unless and until that program is
-          approved and intentionally enabled in site configuration.
+          SuppCheckr does not use Amazon product images, Amazon customer reviews, Amazon
+          Q&amp;A, or live Amazon pricing as editorial evidence. Manual prices shown on
+          SuppCheckr include a last-checked date; always confirm the current price on the
+          retailer&apos;s site before purchasing.
         </p>
       </ProseSection>
 
       <ProseSection title="Editorial independence">
         <p>
-          Affiliate relationships, if active in the future, should not determine SuppCheckr
-          scores, rankings, testing-status notes, product caveats, or editorial
-          conclusions. Our analysis is intended to remain independent and based on label
-          transparency, dosage clarity, testing status, additives, value, evidence
-          alignment, and other publicly available product information described in our{" "}
+          Affiliate relationships do not determine SuppCheckr scores, rankings,
+          testing-status notes, product caveats, or editorial conclusions. Our analysis
+          remains independent and based on label transparency, dosage clarity, testing
+          status, additives, value, evidence alignment, and other publicly available product
+          information described in our{" "}
           <a href="/methodology" className="text-link underline">
             Methodology
           </a>{" "}
@@ -54,23 +60,26 @@ export default function AffiliateDisclosurePage() {
           </a>
           .
         </p>
+        <p className="mt-2">
+          Amazon does not endorse SuppCheckr, and SuppCheckr does not represent that Amazon
+          approves or verifies our reviews.
+        </p>
       </ProseSection>
 
-      <ProseSection title="How disclosures will appear">
+      <ProseSection title="Other retailers and future programs">
         <p>
-          When affiliate links are enabled, SuppCheckr intends to disclose affiliate
-          relationships near relevant links or pages, including through short on-page
-          notices and this disclosure page. We may update this page when affiliate programs
-          go live.
+          Direct links to brand websites, Vitacost, Target, and other non-Amazon retailers
+          are ordinary outbound links unless explicitly labeled as affiliate links. SuppCheckr
+          may participate in additional affiliate or advertising programs in the future; this
+          page will be updated if that changes.
         </p>
       </ProseSection>
 
       <ProseSection title="Product information and pricing">
         <p>
-          Retail prices, promotions, and stock status can change quickly. SuppCheckr may
-          show manually checked prices with a last-checked date, or live pricing only if
-          an approved retailer API is in use. Always confirm the current price and product
-          details on the retailer&apos;s site before purchasing.
+          Retail prices, promotions, and stock status can change quickly. SuppCheckr may show
+          manually checked prices with a last-checked date. Always confirm the current price
+          and product details on the retailer&apos;s site before purchasing.
         </p>
       </ProseSection>
     </LegalPageLayout>

@@ -11,7 +11,7 @@ import {
   isPublishedEntity,
   validateProductScoreConsistency,
   validatePublishedComparison,
-  validatePublishedProduct,
+  validateProductAffiliate,
 } from "@/lib/validation/publishedContent";
 import type { Claim, Citation } from "@/lib/schemas/common";
 import type { Product } from "@/lib/schemas/product";
@@ -227,7 +227,7 @@ describe("foreign keys", () => {
 });
 
 describe("published product monetization gate", () => {
-  it("rejects affiliate.enabled on published products", () => {
+  it("rejects affiliate.enabled without a valid Amazon retailer URL", () => {
     const expectedScore = computeWeightedScore(baseScores, creatineProfile);
     const product = {
       id: "p1",
@@ -235,6 +235,13 @@ describe("published product monetization gate", () => {
       isPlaceholder: false,
       noindex: false,
       affiliate: { enabled: true },
+      retailers: [
+        {
+          retailerId: "nutricost",
+          url: "https://nutricost.com/products/example",
+          isPrimary: true,
+        },
+      ],
       editorial: {
         reviewedBy: "editor",
         lastReviewed: "2026-06-01",
@@ -276,8 +283,87 @@ describe("published product monetization gate", () => {
       },
     } as unknown as Product;
 
-    const errors = validatePublishedProduct(product);
-    expect(errors.some((e) => e.includes("affiliate.enabled must be false"))).toBe(true);
+    const errors = validateProductAffiliate(product);
+    expect(errors.some((e) => e.includes("valid Amazon product URL"))).toBe(true);
+  });
+
+  it("allows affiliate.enabled when Amazon retailer URL is present", () => {
+    const expectedScore = computeWeightedScore(baseScores, creatineProfile);
+    const product = {
+      id: "p1",
+      status: "published",
+      isPlaceholder: false,
+      noindex: false,
+      affiliate: { enabled: true },
+      retailers: [
+        {
+          retailerId: "amazon",
+          url: "https://www.amazon.com/dp/B00TEST123",
+          isPrimary: true,
+        },
+      ],
+      editorial: {
+        reviewedBy: "editor",
+        lastReviewed: "2026-06-01",
+        lastUpdated: "2026-06-01",
+        updateLog: [],
+      },
+      categoryId: "creatine",
+      rating: {
+        profileId: "creatine",
+        criteriaScores: baseScores,
+        overallScore: expectedScore,
+      },
+      sources: [
+        {
+          id: "s1",
+          title: "Label",
+          publisher: "Brand",
+          url: "https://brand.example/label",
+          accessDate: "2026-06-01",
+          sourceType: "brand_label",
+          supportsClaimIds: [],
+        },
+        {
+          id: "s2",
+          title: "Retailer",
+          publisher: "Store",
+          url: "https://store.example/product",
+          accessDate: "2026-06-01",
+          sourceType: "retailer_listing",
+          supportsClaimIds: [],
+        },
+      ],
+      pricing: {
+        lastPriceCheckedAt: "2026-06-01",
+        msrp: 10,
+        currency: "USD",
+        pricePerServing: 0.5,
+        lastManualUpdate: "2026-06-01",
+      },
+    } as unknown as Product;
+
+    const errors = validateProductAffiliate(product);
+    expect(errors).toEqual([]);
+  });
+
+  it("rejects affiliate.enabled on draft products", () => {
+    const product = {
+      id: "p1",
+      status: "draft",
+      isPlaceholder: false,
+      affiliate: { enabled: true },
+      retailers: [
+        {
+          retailerId: "amazon",
+          url: "https://www.amazon.com/dp/B00TEST123",
+          isPrimary: true,
+        },
+      ],
+    } as unknown as Product;
+
+    const errors = validateProductAffiliate(product);
+    expect(errors.some((e) => e.includes("draft"))).toBe(true);
   });
 });
 

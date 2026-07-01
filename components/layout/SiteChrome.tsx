@@ -40,8 +40,12 @@ export function Footer() {
           <p className="font-semibold text-heading">{siteConfig.name}</p>
           <p className="mt-2 text-sm text-foreground">{siteConfig.description}</p>
           <p className="mt-4 text-xs text-muted">
-            Informational content only. Not medical advice. Affiliate links are disabled
-            during prelaunch.
+            Informational content only. Not medical advice. Some product links may be Amazon
+            affiliate links; see our{" "}
+            <a href="/affiliate-disclosure" className="text-link hover:text-link-hover hover:underline">
+              Affiliate Disclosure
+            </a>
+            .
           </p>
           <p className="mt-2 text-xs text-muted">
             Questions or corrections:{" "}

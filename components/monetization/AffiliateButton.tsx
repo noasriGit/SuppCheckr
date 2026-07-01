@@ -1,8 +1,12 @@
 "use client";
 
 import { buildAmazonLink } from "@/lib/affiliate/buildAmazonLink";
-import { monetizationConfig, isAffiliateEnabledForPath } from "@/config/monetization";
-import { AffiliateDisclosure } from "@/components/trust/TrustModules";
+import { isAmazonUrl } from "@/lib/affiliate/isAmazonUrl";
+import {
+  monetizationConfig,
+  isAffiliateEnabledForPath,
+} from "@/config/monetization";
+import { AffiliateLinkDisclosure } from "@/components/trust/TrustModules";
 
 export const RETAILER_CTA_LABEL = "Check current price at retailer";
 
@@ -23,17 +27,22 @@ export function AffiliateButton({
   url,
   pathname = "/",
   label = RETAILER_CTA_LABEL,
+  affiliateEnabled = false,
 }: {
   url: string;
   pathname?: string;
   label?: string;
+  affiliateEnabled?: boolean;
 }) {
-  const affiliateEnabled = isAffiliateEnabledForPath(pathname);
+  const globalAffiliate = isAffiliateEnabledForPath(pathname);
+  const useAmazonAffiliate =
+    globalAffiliate && affiliateEnabled && isAmazonUrl(url);
 
-  if (affiliateEnabled) {
+  if (useAmazonAffiliate) {
     const link = buildAmazonLink({ url });
     return (
       <div className="space-y-2">
+        <AffiliateLinkDisclosure />
         <a
           href={!link.isPlaceholder ? link.href : "#amazon-placeholder"}
           rel={link.rel}
@@ -45,9 +54,13 @@ export function AffiliateButton({
           }}
         >
           {monetizationConfig.affiliate.ctaLabel}
-          {link.isPlaceholder ? " (placeholder)" : ""}
+          {link.isPlaceholder ? " (unavailable)" : ""}
         </a>
-        <AffiliateDisclosure compact />
+        {link.isPlaceholder && (
+          <p className="text-xs text-muted">
+            Amazon affiliate link unavailable — associate tag not configured or URL invalid.
+          </p>
+        )}
       </div>
     );
   }
@@ -58,7 +71,9 @@ export function AffiliateButton({
         <a href={url} rel="noopener noreferrer" target="_blank" className={buttonClass}>
           {label}
         </a>
-        <AffiliateDisclosure compact />
+        {globalAffiliate && (
+          <p className="text-xs text-muted">Direct retailer link — not an affiliate link.</p>
+        )}
       </div>
     );
   }
@@ -73,7 +88,6 @@ export function AffiliateButton({
         {label}
       </span>
       <p className="text-xs text-muted">Retailer URL not available for this product yet.</p>
-      <AffiliateDisclosure compact />
     </div>
   );
 }

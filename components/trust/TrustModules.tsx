@@ -1,4 +1,5 @@
 import { shouldShowDemoBanners, shouldShowLegalReviewBanners } from "@/config/site";
+import { isAffiliateFrameworkActive } from "@/config/monetization";
 
 export function PlaceholderBanner() {
   if (!shouldShowDemoBanners()) return null;
@@ -40,10 +41,25 @@ export function MedicalDisclaimer() {
   );
 }
 
+export function AffiliateLinkDisclosure() {
+  return (
+    <p className="text-xs text-foreground">
+      <strong className="text-heading">Affiliate link:</strong> SuppCheckr may earn a commission
+      if you buy through this link.
+    </p>
+  );
+}
+
 export function AffiliateDisclosure({ compact = false }: { compact?: boolean }) {
-  const message = compact
-    ? "Affiliate links are disabled during prelaunch. Future affiliate links will be clearly disclosed."
-    : "Affiliate links are currently disabled during prelaunch. Future affiliate links, if enabled, will be disclosed clearly.";
+  const frameworkActive = isAffiliateFrameworkActive();
+
+  const message = frameworkActive
+    ? compact
+      ? "SuppCheckr participates in the Amazon Associates Program. Marked affiliate links may earn commissions. Affiliate relationships do not affect scores or rankings."
+      : "SuppCheckr participates in the Amazon Associates Program and may earn commissions from qualifying purchases made through affiliate links on this site. Not every outbound retailer link is an affiliate link. Affiliate relationships do not affect SuppCheckr scores, rankings, testing-status notes, or editorial conclusions."
+    : compact
+      ? "Affiliate links are disabled. Future affiliate links will be clearly disclosed."
+      : "Affiliate links are currently disabled. If enabled in the future, affiliate relationships will be disclosed clearly and will not affect editorial scores or rankings.";
 
   return (
     <p className={`text-foreground ${compact ? "text-xs" : "text-sm"}`}>

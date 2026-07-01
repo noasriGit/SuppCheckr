@@ -38,9 +38,10 @@ export default function AboutPage() {
 
       <ProseSection title="Editorial independence">
         Editorial scores and comparisons are independent of advertising and affiliate
-        relationships. Affiliate links and live ad scripts remain disabled during prelaunch.
-        Products are reviewed based on label and source evidence, not affiliate availability.
-        See{" "}
+        relationships. SuppCheckr participates in the Amazon Associates Program; marked
+        affiliate links may earn commissions but do not affect scores or rankings. Live ad
+        scripts remain disabled during prelaunch. Products are reviewed based on label and
+        source evidence, not affiliate availability. See{" "}
         <Link href="/editorial-policy" className="text-link hover:text-link-hover hover:underline">
           editorial policy
         </Link>{" "}

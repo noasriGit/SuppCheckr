@@ -1,10 +1,12 @@
 import { describe, expect, it } from "vitest";
 import { computeWeightedScore, validateProfileWeights } from "@/lib/scoring/computeScore";
 import { buildAmazonLink } from "@/lib/affiliate/buildAmazonLink";
+import { isAmazonUrl, isValidAssociateTag } from "@/lib/affiliate/isAmazonUrl";
 import { isReservedSlug } from "@/config/reserved-slugs";
 import {
   monetizationConfig,
   isAffiliateEnabledForPath,
+  isAffiliateFrameworkActive,
   shouldShowAdPlaceholder,
   shouldLoadLiveAds,
 } from "@/config/monetization";
@@ -69,32 +71,55 @@ describe("ads", () => {
 });
 
 describe("affiliate", () => {
-  it("keeps global affiliate disabled in prelaunch config", () => {
-    expect(monetizationConfig.affiliate.enabled).toBe(false);
-    expect(monetizationConfig.affiliate.disableGlobally).toBe(true);
+  it("keeps global affiliate framework enabled after Phase 7A", () => {
+    expect(monetizationConfig.affiliate.enabled).toBe(true);
+    expect(monetizationConfig.affiliate.disableGlobally).toBe(false);
+    expect(isAffiliateFrameworkActive()).toBe(true);
+  });
+
+  it("enables affiliate paths when framework is active", () => {
+    expect(isAffiliateEnabledForPath("/")).toBe(true);
+    expect(isAffiliateEnabledForPath("/supplements/creatine/products/example")).toBe(true);
+  });
+
+  it("returns placeholder when associate tag is missing", () => {
     expect(monetizationConfig.affiliate.amazonAssociateTag).toBe("");
-  });
-
-  it("does not enable affiliate links for any path when globally disabled", () => {
-    expect(isAffiliateEnabledForPath("/")).toBe(false);
-    expect(isAffiliateEnabledForPath("/supplements/creatine/products/example")).toBe(false);
-  });
-
-  it("returns placeholder when disabled", () => {
-    const link = buildAmazonLink({ url: "https://amazon.com/dp/TEST" });
+    const link = buildAmazonLink({ url: "https://www.amazon.com/dp/B00TEST123" });
     expect(link.isPlaceholder).toBe(true);
     expect(link.href).toBe("#amazon-placeholder");
     expect(link.rel).toContain("sponsored");
   });
 
-  it("returns placeholder even when associateTag is passed but affiliate is disabled", () => {
+  it("creates tagged Amazon URL when enabled with valid tag and Amazon URL", () => {
     const link = buildAmazonLink({
-      url: "https://amazon.com/dp/TEST",
-      associateTag: "example-tag-20",
+      url: "https://www.amazon.com/dp/B00TEST123",
+      associateTag: "suppcheckr-20",
+    });
+    expect(link.isPlaceholder).toBe(false);
+    expect(link.href).toContain("tag=suppcheckr-20");
+    expect(link.href).toContain("amazon.com/dp/B00TEST123");
+  });
+
+  it("returns placeholder for non-Amazon URL even with tag", () => {
+    const link = buildAmazonLink({
+      url: "https://nutricost.com/products/example",
+      associateTag: "suppcheckr-20",
     });
     expect(link.isPlaceholder).toBe(true);
-    expect(link.href).toBe("#amazon-placeholder");
     expect(link.href).not.toContain("tag=");
+  });
+
+  it("rejects placeholder associate tags", () => {
+    expect(isValidAssociateTag("yourtag-20")).toBe(false);
+    expect(isValidAssociateTag("example-tag-20")).toBe(false);
+    expect(isValidAssociateTag("")).toBe(false);
+    expect(isValidAssociateTag("suppcheckr-20")).toBe(true);
+  });
+
+  it("detects Amazon URLs", () => {
+    expect(isAmazonUrl("https://www.amazon.com/dp/B00TEST123")).toBe(true);
+    expect(isAmazonUrl("https://nutricost.com/products/example")).toBe(false);
+    expect(isAmazonUrl("#amazon-placeholder")).toBe(false);
   });
 });
 

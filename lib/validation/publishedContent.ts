@@ -4,6 +4,8 @@ import type { Comparison, Guide } from "@/lib/schemas/comparison";
 import type { Ingredient } from "@/lib/schemas/ingredient";
 import type { Product } from "@/lib/schemas/product";
 import type { Citation } from "@/lib/schemas/common";
+import { monetizationConfig } from "@/config/monetization";
+import { isAmazonUrl } from "@/lib/affiliate/isAmazonUrl";
 import { computeWeightedScore } from "@/lib/scoring/computeScore";
 import { resolveScoringProfile } from "@/lib/content/loader";
 
@@ -88,6 +90,50 @@ export function validateProductScoreConsistency(product: Product): string[] {
   return errors;
 }
 
+function hasValidAmazonRetailer(product: Product): boolean {
+  return product.retailers.some(
+    (r) => r.url && !r.url.startsWith("#") && isAmazonUrl(r.url),
+  );
+}
+
+/** Affiliate rules for all products (published and draft). */
+export function validateProductAffiliate(product: Product): string[] {
+  const label = `Product ${product.id}`;
+  const errors: string[] = [];
+
+  if (!product.affiliate.enabled) return errors;
+
+  if (!isPublishedEntity(product)) {
+    errors.push(
+      `${label}: affiliate.enabled must be false on draft, archived, or placeholder products`,
+    );
+    return errors;
+  }
+
+  const { affiliate } = monetizationConfig;
+  if (!affiliate.enabled || affiliate.disableGlobally) {
+    errors.push(
+      `${label}: affiliate.enabled requires global affiliate configuration to be active`,
+    );
+  }
+
+  if (!hasValidAmazonRetailer(product)) {
+    errors.push(
+      `${label}: affiliate.enabled requires a valid Amazon product URL in retailers (not a placeholder)`,
+    );
+  }
+
+  for (const retailer of product.retailers) {
+    if (retailer.url.includes("tag=")) {
+      errors.push(
+        `${label}: retailer URLs must not contain hardcoded Amazon Associate tags`,
+      );
+    }
+  }
+
+  return errors;
+}
+
 export function validatePublishedProduct(product: Product): string[] {
   if (!isPublishedEntity(product)) return [];
 
@@ -114,11 +160,6 @@ export function validatePublishedProduct(product: Product): string[] {
   }
   if (!product.pricing.lastPriceCheckedAt.trim()) {
     errors.push(`${label}: published product requires pricing.lastPriceCheckedAt`);
-  }
-  if (product.affiliate.enabled) {
-    errors.push(
-      `${label}: affiliate.enabled must be false until Amazon Associates approval`,
-    );
   }
 
   return errors;
