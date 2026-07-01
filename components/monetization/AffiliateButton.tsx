@@ -1,77 +1,53 @@
 "use client";
 
-import { buildAmazonLink } from "@/lib/affiliate/buildAmazonLink";
-import { isAmazonUrl } from "@/lib/affiliate/isAmazonUrl";
-import {
-  monetizationConfig,
-  isAffiliateEnabledForPath,
-} from "@/config/monetization";
 import { AffiliateLinkDisclosure } from "@/components/trust/TrustModules";
+import {
+  RETAILER_CTA_LABEL,
+  type ProductAffiliateCta,
+} from "@/lib/affiliate/productAffiliateCta";
 
-export const RETAILER_CTA_LABEL = "Check current price at retailer";
-
-function isValidRetailerUrl(url: string): boolean {
-  if (!url || url.startsWith("#")) return false;
-  try {
-    const parsed = new URL(url);
-    return parsed.protocol === "http:" || parsed.protocol === "https:";
-  } catch {
-    return false;
-  }
-}
+export { RETAILER_CTA_LABEL };
 
 const buttonClass =
   "inline-flex items-center rounded-lg bg-primary-muted px-4 py-2 text-sm font-medium text-heading transition-colors hover:bg-primary-hover";
 
-export function AffiliateButton({
-  url,
-  pathname = "/",
-  label = RETAILER_CTA_LABEL,
-  affiliateEnabled = false,
-}: {
-  url: string;
-  pathname?: string;
-  label?: string;
-  affiliateEnabled?: boolean;
-}) {
-  const globalAffiliate = isAffiliateEnabledForPath(pathname);
-  const useAmazonAffiliate =
-    globalAffiliate && affiliateEnabled && isAmazonUrl(url);
-
-  if (useAmazonAffiliate) {
-    const link = buildAmazonLink({ url });
+export function AffiliateButton({ cta }: { cta: ProductAffiliateCta }) {
+  if (cta.variant === "amazon") {
     return (
       <div className="space-y-2">
-        <AffiliateLinkDisclosure />
+        {cta.showAffiliateDisclosure && <AffiliateLinkDisclosure />}
         <a
-          href={!link.isPlaceholder ? link.href : "#amazon-placeholder"}
-          rel={link.rel}
-          target={link.target}
-          aria-disabled={link.isPlaceholder}
+          href={cta.href}
+          rel={cta.rel}
+          target={cta.target}
+          aria-disabled={cta.isPlaceholder}
           className={`${buttonClass} aria-disabled:cursor-not-allowed aria-disabled:opacity-60`}
           onClick={(e) => {
-            if (link.isPlaceholder) e.preventDefault();
+            if (cta.isPlaceholder) e.preventDefault();
           }}
         >
-          {monetizationConfig.affiliate.ctaLabel}
-          {link.isPlaceholder ? " (unavailable)" : ""}
+          {cta.label}
+          {cta.isPlaceholder ? " (unavailable)" : ""}
         </a>
-        {link.isPlaceholder && (
-          <p className="text-xs text-muted">
-            Amazon affiliate link unavailable — associate tag not configured or URL invalid.
-          </p>
+        {cta.isPlaceholder && cta.unavailableMessage && (
+          <p className="text-xs text-muted">{cta.unavailableMessage}</p>
         )}
       </div>
     );
   }
 
-  if (isValidRetailerUrl(url)) {
+  if (cta.variant === "retailer") {
     return (
       <div className="space-y-2">
-        <a href={url} rel="noopener noreferrer" target="_blank" className={buttonClass}>
-          {label}
+        <a
+          href={cta.href}
+          rel="noopener noreferrer"
+          target="_blank"
+          className={buttonClass}
+        >
+          {cta.label}
         </a>
-        {globalAffiliate && (
+        {cta.showDirectRetailerNote && (
           <p className="text-xs text-muted">Direct retailer link — not an affiliate link.</p>
         )}
       </div>
@@ -85,7 +61,7 @@ export function AffiliateButton({
         aria-disabled="true"
         className={`${buttonClass} cursor-not-allowed opacity-60`}
       >
-        {label}
+        {cta.label}
       </span>
       <p className="text-xs text-muted">Retailer URL not available for this product yet.</p>
     </div>

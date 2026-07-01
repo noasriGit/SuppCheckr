@@ -19,7 +19,7 @@ import {
 } from "@/components/product/ProductBlocks";
 import { ProsCons, SourcesList } from "@/components/citations/ContentBlocks";
 import { AffiliateButton } from "@/components/monetization/AffiliateButton";
-import { getProductPurchaseUrl } from "@/lib/affiliate/getProductPurchaseUrl";
+import { resolveProductAffiliateCta } from "@/lib/affiliate/resolveProductAffiliateCta";
 import { ComparisonTable } from "@/components/comparison/ComparisonTable";
 import { AdSlot } from "@/components/monetization/AdSlot";
 import {
@@ -92,6 +92,8 @@ export default async function ProductPage({
     .filter((g) => g && g.status !== "archived");
 
   const displayLabels = resolveCategoryDisplayLabels(category);
+  const productPath = `/supplements/${categorySlug}/products/${productSlug}`;
+  const affiliateCta = resolveProductAffiliateCta(product, productPath);
 
   return (
     <SidebarLayout
@@ -247,11 +249,7 @@ export default async function ProductPage({
             {product.pricing.lastPriceCheckedAt}. Prices change — verify at the retailer.
           </p>
           <div className="mt-4">
-            <AffiliateButton
-              url={getProductPurchaseUrl(product)}
-              pathname={`/supplements/${categorySlug}/products/${productSlug}`}
-              affiliateEnabled={product.affiliate.enabled}
-            />
+            <AffiliateButton cta={affiliateCta} />
           </div>
         </section>
 

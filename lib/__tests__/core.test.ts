@@ -1,7 +1,10 @@
 import { describe, expect, it } from "vitest";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { computeWeightedScore, validateProfileWeights } from "@/lib/scoring/computeScore";
 import { buildAmazonLink } from "@/lib/affiliate/buildAmazonLink";
 import { getProductPurchaseUrl } from "@/lib/affiliate/getProductPurchaseUrl";
+import { resolveProductAffiliateCta } from "@/lib/affiliate/resolveProductAffiliateCta";
 import { isAmazonUrl, isValidAssociateTag } from "@/lib/affiliate/isAmazonUrl";
 import { isReservedSlug } from "@/config/reserved-slugs";
 import {
@@ -173,6 +176,90 @@ describe("affiliate", () => {
       ],
     } as Parameters<typeof getProductPurchaseUrl>[0]);
     expect(url).toBe("https://nutricost.com/products/example");
+  });
+
+  const affiliateEnabledProduct = {
+    affiliate: { enabled: true },
+    retailers: [
+      {
+        retailerId: "nutricost",
+        url: "https://nutricost.com/products/example",
+        isPrimary: true,
+      },
+      {
+        retailerId: "amazon",
+        url: "https://www.amazon.com/dp/B00GL2HMES",
+        isPrimary: false,
+      },
+    ],
+  } as Parameters<typeof resolveProductAffiliateCta>[0];
+
+  const affiliateDisabledProduct = {
+    affiliate: { enabled: false },
+    retailers: [
+      {
+        retailerId: "klean-athlete",
+        url: "https://www.kleanathlete.com/klean-magnesium.html",
+        isPrimary: true,
+      },
+    ],
+  } as Parameters<typeof resolveProductAffiliateCta>[0];
+
+  it("resolveProductAffiliateCta fails closed when associate tag is missing", () => {
+    const cta = resolveProductAffiliateCta(
+      affiliateEnabledProduct,
+      "/supplements/creatine/products/nutricost-creatine-monohydrate-500g",
+    );
+    expect(cta.variant).toBe("amazon");
+    expect(cta.isPlaceholder).toBe(true);
+    expect(cta.href).toBe("#amazon-placeholder");
+    expect(cta.label).toBe("View on Amazon");
+  });
+
+  it("resolveProductAffiliateCta creates tagged Amazon href when tag is configured", () => {
+    const cta = resolveProductAffiliateCta(
+      affiliateEnabledProduct,
+      "/supplements/creatine/products/nutricost-creatine-monohydrate-500g",
+      { associateTag: "suppcheckr-20" },
+    );
+    expect(cta.variant).toBe("amazon");
+    expect(cta.isPlaceholder).toBe(false);
+    expect(cta.href).toContain("tag=suppcheckr-20");
+    expect(cta.href).toContain("amazon.com/dp/B00GL2HMES");
+    expect(cta.label).toBe("View on Amazon");
+  });
+
+  it("resolveProductAffiliateCta keeps Klean Magnesium on direct retailer link", () => {
+    const cta = resolveProductAffiliateCta(
+      affiliateDisabledProduct,
+      "/supplements/magnesium/products/klean-athlete-klean-magnesium",
+      { associateTag: "suppcheckr-20" },
+    );
+    expect(cta.variant).toBe("retailer");
+    expect(cta.href).toBe("https://www.kleanathlete.com/klean-magnesium.html");
+    expect(cta.label).toBe("Check current price at retailer");
+    expect(cta.href).not.toContain("amazon.com");
+  });
+
+  it("resolveProductAffiliateCta uses retailer CTA for non-affiliate direct products", () => {
+    const cta = resolveProductAffiliateCta(
+      affiliateDisabledProduct,
+      "/supplements/magnesium/products/klean-athlete-klean-magnesium",
+    );
+    expect(cta.variant).toBe("retailer");
+    expect(cta.label).toBe("Check current price at retailer");
+  });
+
+  it("AffiliateButton client component does not read AMAZON_ASSOCIATE_TAG", () => {
+    const source = readFileSync(
+      join(process.cwd(), "components/monetization/AffiliateButton.tsx"),
+      "utf8",
+    );
+    expect(source).toContain('"use client"');
+    expect(source).not.toContain("buildAmazonLink");
+    expect(source).not.toContain("AMAZON_ASSOCIATE_TAG");
+    expect(source).not.toContain("monetizationConfig");
+    expect(source).not.toContain("resolveProductAffiliateCta");
   });
 });
 
