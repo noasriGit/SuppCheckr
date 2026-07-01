@@ -6,6 +6,7 @@ import { buildAmazonLink } from "@/lib/affiliate/buildAmazonLink";
 import { getProductPurchaseUrl } from "@/lib/affiliate/getProductPurchaseUrl";
 import { resolveProductAffiliateCta } from "@/lib/affiliate/resolveProductAffiliateCta";
 import { isAmazonUrl, isValidAssociateTag } from "@/lib/affiliate/isAmazonUrl";
+import { getProducts, isActiveContent } from "@/lib/content/loader";
 import { isReservedSlug } from "@/config/reserved-slugs";
 import {
   monetizationConfig,
@@ -260,6 +261,21 @@ describe("affiliate", () => {
     expect(source).not.toContain("AMAZON_ASSOCIATE_TAG");
     expect(source).not.toContain("monetizationConfig");
     expect(source).not.toContain("resolveProductAffiliateCta");
+  });
+
+  it("has exactly 9 active affiliate-enabled products with untagged Amazon URLs", () => {
+    const active = getProducts().filter(isActiveContent);
+    const affiliateActive = active.filter((p) => p.affiliate.enabled);
+    expect(affiliateActive).toHaveLength(9);
+
+    const kleanMag = active.find((p) => p.slug === "klean-athlete-klean-magnesium");
+    expect(kleanMag?.affiliate.enabled).toBe(false);
+
+    for (const product of affiliateActive) {
+      const amazon = product.retailers.find((r) => isAmazonUrl(r.url));
+      expect(amazon?.url).toBeDefined();
+      expect(amazon!.url).not.toContain("tag=");
+    }
   });
 });
 
