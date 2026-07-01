@@ -44,7 +44,7 @@ export function MedicalDisclaimer() {
 export function AffiliateLinkDisclosure() {
   return (
     <p className="text-xs text-foreground">
-      <strong className="text-heading">Affiliate link:</strong> SuppCheckr may earn a commission
+      <strong className="text-heading">Affiliate link</strong> — SuppCheckr may earn a commission
       if you buy through this link.
     </p>
   );

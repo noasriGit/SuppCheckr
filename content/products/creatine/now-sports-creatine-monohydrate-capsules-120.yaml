@@ -33,6 +33,9 @@ retailers:
   - retailerId: vitacost
     url: https://www.vitacost.com/now-sports-creatine-monohydrate-informed-sport-certified-750-mg-120-capsules
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B0018OADEA
+    isPrimary: false
 certifications:
   - Informed Sport
 thirdPartyTesting:
@@ -169,7 +172,7 @@ sources:
       - now-price-per-serving
       - now-price-per-5g
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: NOW Sports Creatine Monohydrate Capsules Review | SuppCheckr
   description: >
@@ -188,7 +191,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 2D draft product review YAML
-    - date: '2026-06-26'
+    - date: '2026-06-30'
       authorId: suppcheckr-editorial
-      changeType: published
-      summary: Phase 2F-2B creatine cluster publication
+      changeType: updated
+      summary: Phase 7B — exact Amazon ASIN B0018OADEA mapped; affiliate CTA enabled

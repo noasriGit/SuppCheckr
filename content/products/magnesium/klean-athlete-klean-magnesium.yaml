@@ -212,5 +212,5 @@ editorial:
       summary: Phase 4D-2 draft magnesium product review YAML (glycinate slot)
     - date: '2026-06-30'
       authorId: suppcheckr-editorial
-      changeType: published
-      summary: Magnesium cluster publication (explicit approval required before running this script)
+      changeType: updated
+      summary: Phase 7B — Amazon ASIN B086K54TZH deferred; UPC mismatch (review 310539035521 vs Amazon 310539979075) requires manual verification before affiliate enable

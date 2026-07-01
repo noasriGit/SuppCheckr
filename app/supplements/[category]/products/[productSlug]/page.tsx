@@ -19,6 +19,7 @@ import {
 } from "@/components/product/ProductBlocks";
 import { ProsCons, SourcesList } from "@/components/citations/ContentBlocks";
 import { AffiliateButton } from "@/components/monetization/AffiliateButton";
+import { getProductPurchaseUrl } from "@/lib/affiliate/getProductPurchaseUrl";
 import { ComparisonTable } from "@/components/comparison/ComparisonTable";
 import { AdSlot } from "@/components/monetization/AdSlot";
 import {
@@ -247,7 +248,7 @@ export default async function ProductPage({
           </p>
           <div className="mt-4">
             <AffiliateButton
-              url={product.retailers[0]?.url ?? "#"}
+              url={getProductPurchaseUrl(product)}
               pathname={`/supplements/${categorySlug}/products/${productSlug}`}
               affiliateEnabled={product.affiliate.enabled}
             />

@@ -33,6 +33,9 @@ retailers:
   - retailerId: vitacost
     url: https://www.vitacost.com/pure-encapsulations-magnesium-180-capsules
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B0017HSR1Y
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: unknown
@@ -174,7 +177,7 @@ sources:
       - pe-mag-price-per-serving
       - pe-mag-price-per-100mg-elemental
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: Pure Encapsulations Magnesium Citrate/Malate Review | SuppCheckr
   description: >
@@ -207,5 +210,5 @@ editorial:
       summary: Phase 4D-2 draft magnesium product review YAML (mixed-form threonate fallback slot)
     - date: '2026-06-30'
       authorId: suppcheckr-editorial
-      changeType: published
-      summary: Magnesium cluster publication (explicit approval required before running this script)
+      changeType: updated
+      summary: Phase 7B — exact Amazon ASIN B0017HSR1Y mapped; affiliate CTA enabled

@@ -365,6 +365,47 @@ describe("published product monetization gate", () => {
     const errors = validateProductAffiliate(product);
     expect(errors.some((e) => e.includes("draft"))).toBe(true);
   });
+
+  it("rejects hardcoded Amazon associate tags in retailer URLs", () => {
+    const expectedScore = computeWeightedScore(baseScores, creatineProfile);
+    const product = {
+      id: "p1",
+      status: "published",
+      isPlaceholder: false,
+      noindex: false,
+      affiliate: { enabled: true },
+      retailers: [
+        {
+          retailerId: "amazon",
+          url: "https://www.amazon.com/dp/B00TEST123?tag=suppcheckr-20",
+          isPrimary: false,
+        },
+      ],
+      editorial: {
+        reviewedBy: "editor",
+        lastReviewed: "2026-06-01",
+        lastUpdated: "2026-06-01",
+        updateLog: [],
+      },
+      categoryId: "creatine",
+      rating: {
+        profileId: "creatine",
+        criteriaScores: baseScores,
+        overallScore: expectedScore,
+      },
+      sources: [],
+      pricing: {
+        lastPriceCheckedAt: "2026-06-01",
+        msrp: 10,
+        currency: "USD",
+        pricePerServing: 0.5,
+        lastManualUpdate: "2026-06-01",
+      },
+    } as unknown as Product;
+
+    const errors = validateProductAffiliate(product);
+    expect(errors.some((e) => e.includes("hardcoded Amazon Associate tags"))).toBe(true);
+  });
 });
 
 describe("product score drift", () => {

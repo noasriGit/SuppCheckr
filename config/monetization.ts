@@ -39,7 +39,7 @@ export const monetizationConfig = {
     disableRoutes: [] as string[],
     amazonAssociateTag: process.env.AMAZON_ASSOCIATE_TAG ?? "",
     defaultRel: "sponsored nofollow",
-    ctaLabel: "Check current price on Amazon",
+    ctaLabel: "View on Amazon",
   },
 } as const;
 

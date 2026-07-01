@@ -31,6 +31,9 @@ retailers:
   - retailerId: vitacost
     url: https://www.vitacost.com/optimum-nutrition-micronized-creatine-powder-unflavored
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B002DYIZEO
+    isPrimary: false
 certifications:
   - Informed Choice
 thirdPartyTesting:
@@ -169,7 +172,7 @@ sources:
       - on-price-per-serving
       - on-price-per-5g
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: Optimum Nutrition Micronized Creatine 600 g Review | SuppCheckr
   description: >
@@ -188,7 +191,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 2D draft product review YAML
-    - date: '2026-06-26'
+    - date: '2026-06-30'
       authorId: suppcheckr-editorial
-      changeType: published
-      summary: Phase 2F-2B creatine cluster publication
+      changeType: updated
+      summary: Phase 7B — exact Amazon ASIN B002DYIZEO mapped; affiliate CTA enabled

@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { computeWeightedScore, validateProfileWeights } from "@/lib/scoring/computeScore";
 import { buildAmazonLink } from "@/lib/affiliate/buildAmazonLink";
+import { getProductPurchaseUrl } from "@/lib/affiliate/getProductPurchaseUrl";
 import { isAmazonUrl, isValidAssociateTag } from "@/lib/affiliate/isAmazonUrl";
 import { isReservedSlug } from "@/config/reserved-slugs";
 import {
@@ -100,6 +101,20 @@ describe("affiliate", () => {
     expect(link.href).toContain("amazon.com/dp/B00TEST123");
   });
 
+  it("replaces existing tag param instead of duplicating", () => {
+    const link = buildAmazonLink({
+      url: "https://www.amazon.com/dp/B00TEST123?tag=other-20",
+      associateTag: "suppcheckr-20",
+    });
+    expect(link.isPlaceholder).toBe(false);
+    expect(link.href).toContain("tag=suppcheckr-20");
+    expect(link.href).not.toContain("other-20");
+  });
+
+  it("uses View on Amazon CTA label for affiliate products", () => {
+    expect(monetizationConfig.affiliate.ctaLabel).toBe("View on Amazon");
+  });
+
   it("returns placeholder for non-Amazon URL even with tag", () => {
     const link = buildAmazonLink({
       url: "https://nutricost.com/products/example",
@@ -120,6 +135,44 @@ describe("affiliate", () => {
     expect(isAmazonUrl("https://www.amazon.com/dp/B00TEST123")).toBe(true);
     expect(isAmazonUrl("https://nutricost.com/products/example")).toBe(false);
     expect(isAmazonUrl("#amazon-placeholder")).toBe(false);
+  });
+
+  it("resolves Amazon purchase URL when affiliate enabled", () => {
+    const url = getProductPurchaseUrl({
+      affiliate: { enabled: true },
+      retailers: [
+        {
+          retailerId: "nutricost",
+          url: "https://nutricost.com/products/example",
+          isPrimary: true,
+        },
+        {
+          retailerId: "amazon",
+          url: "https://www.amazon.com/dp/B00GL2HMES",
+          isPrimary: false,
+        },
+      ],
+    } as Parameters<typeof getProductPurchaseUrl>[0]);
+    expect(url).toBe("https://www.amazon.com/dp/B00GL2HMES");
+  });
+
+  it("keeps primary retailer URL when affiliate disabled", () => {
+    const url = getProductPurchaseUrl({
+      affiliate: { enabled: false },
+      retailers: [
+        {
+          retailerId: "nutricost",
+          url: "https://nutricost.com/products/example",
+          isPrimary: true,
+        },
+        {
+          retailerId: "amazon",
+          url: "https://www.amazon.com/dp/B00GL2HMES",
+          isPrimary: false,
+        },
+      ],
+    } as Parameters<typeof getProductPurchaseUrl>[0]);
+    expect(url).toBe("https://nutricost.com/products/example");
   });
 });
 

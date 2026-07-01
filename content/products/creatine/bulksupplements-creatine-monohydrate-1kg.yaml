@@ -31,6 +31,9 @@ retailers:
   - retailerId: bulksupplements
     url: https://www.bulksupplements.com/products/creatine-monohydrate
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B00E9M4XEE
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: claimed
@@ -159,7 +162,7 @@ sources:
       - bulk-price-per-serving
       - bulk-price-per-5g
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: BulkSupplements Creatine Monohydrate 1 kg Review | SuppCheckr
   description: >
@@ -178,7 +181,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 2D draft product review YAML
-    - date: '2026-06-26'
+    - date: '2026-06-30'
       authorId: suppcheckr-editorial
-      changeType: published
-      summary: Phase 2F-2B creatine cluster publication
+      changeType: updated
+      summary: Phase 7B — exact Amazon ASIN B00E9M4XEE mapped; affiliate CTA enabled

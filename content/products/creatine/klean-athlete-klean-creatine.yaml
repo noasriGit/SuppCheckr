@@ -31,6 +31,9 @@ retailers:
   - retailerId: klean-athlete
     url: https://www.kleanathlete.com/klean-creatine.html
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B01LYFAGXI
+    isPrimary: false
 certifications:
   - NSF Certified for Sport
 thirdPartyTesting:
@@ -160,7 +163,7 @@ sources:
       - klean-price-per-serving
       - klean-price-per-5g
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: Klean Athlete Klean Creatine Review | SuppCheckr
   description: >
@@ -179,7 +182,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 2D draft product review YAML
-    - date: '2026-06-26'
+    - date: '2026-06-30'
       authorId: suppcheckr-editorial
-      changeType: published
-      summary: Phase 2F-2B creatine cluster publication
+      changeType: updated
+      summary: Phase 7B — exact Amazon ASIN B01LYFAGXI mapped; affiliate CTA enabled

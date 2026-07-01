@@ -31,6 +31,9 @@ retailers:
   - retailerId: nutricost
     url: https://nutricost.com/products/nutricost-creatine-monohydrate-powder-500-grams
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B00GL2HMES
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: claimed
@@ -158,7 +161,7 @@ sources:
       - nutricost-price-per-serving
       - nutricost-price-per-5g
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: Nutricost Creatine Monohydrate 500 g Review | SuppCheckr
   description: >
@@ -177,7 +180,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 2D draft product review YAML
-    - date: '2026-06-26'
+    - date: '2026-06-30'
       authorId: suppcheckr-editorial
-      changeType: published
-      summary: Phase 2F-2B creatine cluster publication
+      changeType: updated
+      summary: Phase 7B — exact Amazon ASIN B00GL2HMES mapped; affiliate CTA enabled

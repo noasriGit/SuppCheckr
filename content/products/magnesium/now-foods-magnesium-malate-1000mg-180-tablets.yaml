@@ -36,6 +36,9 @@ retailers:
   - retailerId: now-foods
     url: https://www.nowfoods.com/products/supplements/magnesium-malate-1000-mg-tablets
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B0013OW0J6
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: unknown
@@ -162,7 +165,7 @@ sources:
       - now-mag-malate-price-per-serving
       - now-mag-malate-price-per-100mg-elemental
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: NOW Magnesium Malate 1000 mg Tablets Review | SuppCheckr
   description: >
@@ -195,5 +198,5 @@ editorial:
       summary: Phase 4D-2 draft magnesium product review YAML (malate slot)
     - date: '2026-06-30'
       authorId: suppcheckr-editorial
-      changeType: published
-      summary: Magnesium cluster publication (explicit approval required before running this script)
+      changeType: updated
+      summary: Phase 7B — exact Amazon ASIN B0013OW0J6 mapped; affiliate CTA enabled

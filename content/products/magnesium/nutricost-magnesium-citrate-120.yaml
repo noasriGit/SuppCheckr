@@ -34,6 +34,9 @@ retailers:
   - retailerId: nutricost
     url: https://nutricost.com/products/nutricost-magnesium-citrate-capsules
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B08KFHSWZ7
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: claimed
@@ -191,7 +194,7 @@ sources:
     supportsClaimIds:
       - nutricost-mag-citrate-gi-safety
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: Nutricost Magnesium Citrate 120 Caps Review | SuppCheckr
   description: >
@@ -224,5 +227,5 @@ editorial:
       summary: Phase 4D-2 draft magnesium product review YAML (citrate slot)
     - date: '2026-06-30'
       authorId: suppcheckr-editorial
-      changeType: published
-      summary: Magnesium cluster publication (explicit approval required before running this script)
+      changeType: updated
+      summary: Phase 7B — exact Amazon ASIN B08KFHSWZ7 mapped; affiliate CTA enabled
