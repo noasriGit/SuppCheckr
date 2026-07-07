@@ -1,0 +1,81 @@
+id: vitamin-c
+slug: vitamin-c
+name: Vitamin C
+commonForms:
+  - Ascorbic acid
+  - Sodium ascorbate
+  - Calcium ascorbate
+  - Buffered mineral ascorbate blends
+  - Liposomal vitamin C
+  - Vitamin C powder
+  - Whole-food sources (e.g., acerola, camu camu) with disclosed ascorbate mg
+categories:
+  - vitamin-c
+aliases:
+  - Ascorbic acid
+  - L-ascorbic acid
+evidenceSummary: >
+  Vitamin C is an essential nutrient involved in normal body processes, including collagen synthesis and antioxidant
+  activity. According to NIH Office of Dietary Supplements materials, vitamin C is found in foods and is also sold in
+  several supplemental forms — ascorbic acid, mineral ascorbates, liposomal products, powders, and others. Supplement
+  labels may list fruit powders, proprietary blends, or liposomal complexes; comparing products requires checking how
+  much vitamin C (mg) each serving provides and which form is used. Research has examined vitamin C intake in population
+  and clinical contexts; individual needs and tolerance vary. SuppCheckr summarizes label and product-comparison
+  information — not medical advice. SuppCheckr does not rank vitamin C products for colds, flu, COVID, cancer, immunity
+  boosting, skin outcomes, pregnancy, children, or any medical condition.
+typicalDosageRange: >
+  NIH health-professional materials publish Recommended Dietary Allowances (RDAs) and Adequate Intakes (AIs) for vitamin C
+  by age, sex, and life stage, and note a Tolerable Upper Intake Level (UL) for vitamin C from supplements and
+  fortified foods in adults and children. Product serving sizes and vitamin C mg per serving differ widely by form and
+  brand. Dietary intake from food plus supplemental intake should be considered together. This page does not prescribe a
+  dose. Consult a qualified healthcare professional before starting or changing vitamin C supplements, especially if
+  pregnant, nursing, under 18, prone to kidney stones, managing kidney disease, taking medication, or managing a medical
+  condition.
+safetyNotes: >
+  According to NIH materials, supplemental vitamin C intakes above the Tolerable Upper Intake Level may cause diarrhea,
+  nausea, and abdominal cramps in some people. High supplemental intakes have been discussed in kidney stone risk context
+  for susceptible individuals. People with hemochromatosis or iron overload conditions should consult a qualified
+  healthcare professional because vitamin C can enhance iron absorption. Vitamin C supplements are not a substitute for
+  medical care. Product labels, warnings, dosages, and formulas can change — verify the current label before use.
+interactions: >
+  NIH health-professional materials describe contexts where high-dose vitamin C may be relevant to medication or
+  treatment discussions (for example, some chemotherapy regimens). This summary is not a complete interaction list.
+  Consult a qualified healthcare professional or pharmacist if you take prescription medications or manage a chronic
+  medical condition.
+relatedProductIds: []
+relatedGuideSlugs: []
+sources:
+  - id: nih-vitamin-c-hp
+    title: Vitamin C — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-vitamin-c-consumer
+    title: Vitamin C — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-Consumer/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-overview
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-07'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-07-07'
+  lastReviewed: '2026-07-07'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 8C draft/noindex ingredient shell — no products or guides linked yet

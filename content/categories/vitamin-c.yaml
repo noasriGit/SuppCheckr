@@ -1,0 +1,111 @@
+id: vitamin-c
+slug: vitamin-c
+name: Vitamin C
+pluralName: Vitamin C Supplements
+description: >
+  Draft category shell for future Vitamin C supplement reviews and label comparison on SuppCheckr. This page compares
+  vitamin C forms, dose clarity, additives, third-party testing documentation, and dated manual pricing — not medical
+  outcomes or personal suitability.
+shortDescription: >
+  Draft category hub — Vitamin C cluster not yet published. Educational content will cover forms, dosage label reading,
+  and safety context when guides and product reviews are drafted in a later phase.
+featured: false
+relatedCategories: []
+relatedGuides: []
+buyersGuideSlug: null
+scoringProfileId: vitamin-c
+ingredientSlug: vitamin-c
+activeDoseLabel: Vitamin C per serving
+priceNormalizationLabel: Price / 500 mg
+priceNormalizationDescription: Price per 500 mg vitamin C
+priceNormalizationSortLabel: Price per 500 mg vitamin C
+priceNormalizationNote: Normalized because this label serving is not exactly 500 mg vitamin C.
+ingredientReferenceLabel: Vitamin C ingredient reference
+ingredientPageLinkLabel: Vitamin C ingredient reference
+comparisonCtaLabel: Compare vitamin C products
+exploreCategoryHeading: Explore vitamin C content
+intro: >
+  Vitamin C (ascorbic acid) is an essential nutrient found in many foods and sold in several supplemental forms —
+  ascorbic acid, sodium ascorbate, calcium ascorbate, liposomal products, powders, and others. According to NIH Office
+  of Dietary Supplements materials, labels vary by form, dose per serving, serving size, and additives. SuppCheckr will
+  compare vitamin C amount per serving, form identification, testing documentation, and value — not personal medical
+  outcomes. This category is in draft and is not yet part of the published supplement comparison cluster.
+evaluationSummary: >
+  SuppCheckr will score vitamin C products using the vitamin C scoring profile: dose transparency (vitamin C mg per
+  serving), form clarity, label clarity, third-party testing documentation (verified vs. marketing-only claims), dated
+  manual price value (including price per 500 mg vitamin C), additive/sweetener profile, serving practicality, and
+  brand transparency. Scores will reflect label and sourcing quality — not personal outcomes. SuppCheckr does not rank
+  vitamin C products for colds, flu, COVID, cancer, immunity boosting, skin whitening, pregnancy, children, or any
+  medical condition.
+clusterScopeNote: >
+  Phase 8C draft shell only. No product reviews, comparison table, or guides are linked yet. Product buckets and
+  shortlist strategy are documented in the Vitamin C category blueprint and product research checklist.
+buyingConsiderations:
+  - >-
+    Confirm the Supplement Facts panel lists vitamin C (mg) per serving — not only total powder, fruit extract, or
+    proprietary blend weight.
+  - Identify the vitamin C form (ascorbic acid, sodium ascorbate, calcium ascorbate, liposomal, etc.) and read marketing
+    claims conservatively.
+  - >-
+    Check whether third-party testing is verified (certificate or recognized program listing) or only claimed in
+    marketing copy.
+  - Compare value using price per 500 mg vitamin C when servings are disclosed clearly.
+  - >-
+    Consider total dietary vitamin C from food plus any supplemental intake; NIH publishes RDAs and a Tolerable Upper
+    Intake Level for supplemental contexts.
+  - >-
+    Consult a qualified healthcare professional before starting or changing supplements, especially if pregnant,
+    nursing, under 18, prone to kidney stones, managing kidney disease, taking medication, or managing a medical
+    condition.
+faq:
+  - question: Why does SuppCheckr emphasize vitamin C amount per serving on labels?
+    answer: >
+      Products may list fruit powders, proprietary blends, or liposomal complexes alongside vitamin C. Comparing products
+      by total capsule weight or blend weight alone can mislead; vitamin C mg per serving supports apples-to-apples dose
+      and value comparisons.
+  - question: Will a higher SuppCheckr score mean a vitamin C product will work for me?
+    answer: >
+      No. Scores summarize label transparency, testing documentation, and dated price context using our methodology —
+      not personal medical suitability or outcome guarantees.
+  - question: Does SuppCheckr recommend vitamin C for colds or immune boosting?
+    answer: >
+      No. SuppCheckr does not rank vitamin C products for colds, flu, COVID, or disease prevention. Our future guides
+      will describe label literacy and general safety context only. Consult a qualified healthcare professional for
+      personal medical questions.
+featuredProductIds: []
+sources:
+  - id: cat-nih-vitamin-c-consumer
+    title: Vitamin C — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-Consumer/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cat-nih-vitamin-c-hp
+    title: Vitamin C — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cat-fda-dietary-supplements
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-07'
+    sourceType: FDA
+    supportsClaimIds: []
+seo: {}
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-07-07'
+  lastReviewed: '2026-07-07'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 8C draft/noindex category shell — no products, guides, or affiliate links

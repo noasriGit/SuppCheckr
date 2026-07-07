@@ -1,0 +1,134 @@
+profileId: vitamin-c
+categoryId: vitamin-c
+label: Vitamin C scoring rubric
+disclaimer: >
+  Scores reflect label transparency (especially vitamin C amount per serving), form identification (ascorbic acid,
+  mineral ascorbates, liposomal, etc.), label clarity, third-party testing evidence, dated manual price per 500 mg
+  vitamin C, additive/sweetener profile, serving practicality, and claim conservatism based on publicly available
+  information. Scores do not prove effectiveness, absorption superiority for any form, safety for any individual, medical
+  suitability, or specific outcomes (immunity, colds, skin, etc.).
+criteria:
+  doseTransparency:
+    anchors:
+      - score: 0
+        description: >
+          Vitamin C amount (mg) per serving missing, hidden in a proprietary blend, or only total formula/fruit powder
+          weight disclosed without vitamin C mg.
+      - score: 50
+        description: >
+          Vitamin C mg stated but serving math is unclear, multi-capsule/tablet serving is cumbersome without offsetting
+          clarity, or liposomal blend hides how much is ascorbate vs. blend weight.
+      - score: 100
+        description: >
+          Label-stated vitamin C (mg) per serving clearly disclosed; serving size and servings per container support
+          straightforward dose and price-per-500-mg comparison.
+  ingredientTransparency:
+    anchors:
+      - score: 0
+        description: >
+          Vitamin C form not identified (e.g., generic "vitamin C complex"), proprietary blend without per-ingredient
+          amounts, or liposomal/whole-food naming without clear ascorbate form context.
+      - score: 50
+        description: >
+          Form partially named (e.g., "buffered vitamin C") but mineral ascorbate type, sodium/calcium contribution, or
+          liposomal blend composition lacks clarity.
+      - score: 100
+        description: >
+          Vitamin C form explicitly named on Supplement Facts (ascorbic acid, sodium ascorbate, calcium ascorbate,
+          liposomal ascorbate, etc.); sodium/calcium noted when relevant and disclosed on label.
+  labelClarity:
+    anchors:
+      - score: 0
+        description: >
+          Supplement Facts difficult to read, incomplete, missing key fields, or sourced only from unverified secondary
+          listings when official brand label is unavailable.
+      - score: 50
+        description: >
+          Core fields present but allergens, other ingredients, serving details, sugar content, or SKU specificity need
+          interpretation; retailer-sourced label when brand-hosted Supplement Facts exist elsewhere.
+      - score: 100
+        description: >
+          Serving size, vitamin C amount, form, other ingredients, allergens, and sweeteners (when applicable) clearly
+          presented from an official brand label or equally authoritative source with locked SKU.
+  thirdPartyTesting:
+    anchors:
+      - score: 0
+        description: >
+          No testing claim and no verifiable third-party certification, COA, or recognized program listing found for the
+          specific SKU.
+      - score: 50
+        description: >
+          Brand or retailer claims third-party testing, USP Verified, or similar without a captured certificate URL or
+          recognized program listing matched to this SKU.
+      - score: 100
+        description: >
+          Verifiable third-party testing or recognized certification (e.g., NSF Certified for Sport, USP Verified,
+          Informed Choice/Sport) documented with a citable source matched to the locked SKU.
+  priceValue:
+    anchors:
+      - score: 0
+        description: >
+          Price unavailable or cannot compute price per serving / per 500 mg vitamin C from label-stated vitamin C mg.
+      - score: 50
+        description: >
+          Manual price dated; price per 500 mg vitamin C checkable but mid-range within cluster context, or value premium
+          not clearly offset by transparency/testing benefits.
+      - score: 100
+        description: >
+          Manual price dated; price per serving and price per 500 mg vitamin C clearly computed from label-stated mg and
+          competitive within cluster context. Comparison uses vitamin C mg only — not absorption assumptions.
+  formulaQuality:
+    anchors:
+      - score: 0
+        description: >
+          Proprietary immune blends, many non-vitamin-C actives, condition-specific stacks, or impractical serving
+          formats without clear vitamin C dose payoff.
+      - score: 50
+        description: >
+          Mostly vitamin C with some non-essential actives, flavor systems, or multi-capsule/liquid servings that add
+          moderate friction.
+      - score: 100
+        description: >
+          Single primary vitamin C form with minimal formula complexity and practical serving (e.g., one capsule or
+          straightforward scoop) appropriate to format.
+  additives:
+    anchors:
+      - score: 0
+        description: >
+          High sugar load (gummies/chewables), numerous color additives, or sweetener/filler load disproportionate to
+          format without clear label disclosure.
+      - score: 50
+        description: >
+          Standard capsule/tablet excipients, modest flavoring, or typical gummy ingredients disclosed on label.
+      - score: 100
+        description: >
+          Minimal disclosed excipients appropriate to format (e.g., vegetarian capsule shell only) or additive-free
+          powder; low sugar when format requires sweeteners.
+  evidenceAlignment:
+    anchors:
+      - score: 0
+        description: >
+          Product marketing or label copy misaligned with conservative vitamin C evidence context; aggressive immunity,
+          cold/COVID, cancer, skin-whitening, megadose, or guaranteed-absorption claims.
+      - score: 50
+        description: >
+          Form acceptable but brand marketing overstates benefits, uses high-claim-risk positioning (e.g., liposomal
+          superiority, "immune booster"), or demographic targeting (women/kids/pregnancy).
+      - score: 100
+        description: >
+          Label and editorial positioning aligned with general vitamin C supplement context; no exaggerated outcome
+          claims. Liposomal/buffered products scored on clarity and caveats — not dismissed as useless.
+  brandTransparency:
+    anchors:
+      - score: 0
+        description: >
+          Limited public brand information, unclear contact, opaque manufacturing/testing statements, or reliance on
+          retailer label when official brand product page is missing without documentation.
+      - score: 50
+        description: >
+          Basic brand information available; testing or quality statements partially documented; label sourced from
+          retailer when brand-hosted page not confirmed.
+      - score: 100
+        description: >
+          Brand website and public materials clearly document product, contact, Supplement Facts, and relevant
+          quality/testing information for the locked SKU.

@@ -1,0 +1,20 @@
+id: vitamin-c
+categoryId: vitamin-c
+label: Vitamin C scoring profile
+notes: >
+  Vitamin C profile — emphasizes vitamin C dose transparency per serving, form identification (ascorbic acid,
+  mineral ascorbates, liposomal), label clarity, testing verification, additive/sweetener profile, serving practicality,
+  and claim conservatism. Price/value is computed as price per 500 mg vitamin C (label-stated mg per serving — not
+  proprietary blend weight or absorption assumptions). Schema field mapping: ingredientTransparency = form clarity;
+  formulaQuality = serving practicality and formula simplicity; additives = additive/sweetener profile. See
+  content/scoring/rubrics/vitamin-c.yaml for editor rubric anchors.
+criteriaWeights:
+  doseTransparency: 16
+  ingredientTransparency: 16
+  labelClarity: 14
+  evidenceAlignment: 12
+  thirdPartyTesting: 12
+  priceValue: 10
+  additives: 8
+  formulaQuality: 6
+  brandTransparency: 6

@@ -74,3 +74,47 @@ Separate source categories when assigning IDs:
 | `editorial-price-per-100mg-elemental-{slug}` | internal_editorial | Documented calculation: price ÷ (elemental mg × servings) × 100 |
 
 **Do not** cite Amazon reviews, retailer Q&A, or blogs as `label_fact`, `health_context`, or verification for `testing-*` IDs.
+
+---
+
+## Vitamin C cluster starter set (Phase 8C+ — add real URLs when drafting)
+
+Separate source categories when assigning IDs:
+
+| Category | ID pattern | sourceType | Used for claimTypes |
+|----------|------------|------------|---------------------|
+| **General evidence / safety** | `nih-vitamin-c-hp`, `nih-vitamin-c-consumer` | NIH | `health_context`, `safety_context` |
+| **Regulatory framing** | `fda-dietary-supplements-overview`, `ftc-endorsement-guides` | FDA, FTC | `health_context`, `safety_context`, monetization copy |
+| **Certification search hubs** | `nsf-certified-for-sport-search`, `usp-verified-search`, `informed-choice-search`, `informed-sport-search` | certification_body | Reference for verification workflow — not product evidence alone |
+| **Product label facts** | `label-{vitamin-c-product-slug}` | brand_label | `label_fact` |
+| **Brand claims (unverified)** | `brand-{vitamin-c-product-slug}-page` | brand_label | `brand_claim` |
+| **Retail price data** | `retailer-{vitamin-c-product-slug}` | retailer_listing | `price_fact` |
+| **Verified third-party testing** | `testing-{vitamin-c-product-slug}` | third_party_testing, certification_body | `brand_claim` (testing statements only when verified) |
+| **Editorial calculations** | `editorial-price-per-500mg-vitamin-c-{slug}`, `editorial-price-per-1000mg-vitamin-c-{slug}` | internal_editorial | `price_fact` |
+
+### Vitamin C reference IDs
+
+| ID | sourceType | Purpose |
+|----|------------|---------|
+| `nih-vitamin-c-hp` | NIH | RDA/AI/UL, interactions, kidney stone context, supplement safety |
+| `nih-vitamin-c-consumer` | NIH | Consumer-oriented vitamin C overview |
+| `fda-dietary-supplements-overview` | FDA | Supplements are not FDA-approved to treat disease (shared with Creatine/Magnesium) |
+| `ftc-endorsement-guides` | FTC | Endorsement/testimonial advertising boundaries (shared) |
+| `nsf-certified-for-sport-search` | certification_body | NSF Certified for Sport product search hub |
+| `usp-verified-search` | certification_body | USP Verified product search hub |
+| `informed-choice-search` | certification_body | Informed Choice supplement search hub |
+| `informed-sport-search` | certification_body | Informed Sport supplement search hub |
+
+### Vitamin C product ID examples (replace `{slug}` with product slug)
+
+| ID | sourceType | Purpose |
+|----|------------|---------|
+| `label-{vitamin-c-product-slug}` | brand_label | Supplement Facts — form, vitamin C mg, serving size |
+| `retailer-{vitamin-c-product-slug}` | retailer_listing | Dated manual price only — not evidence for health claims |
+| `testing-{vitamin-c-product-slug}` | third_party_testing | COA or program listing — use only when verification gate passes |
+| `cert-{vitamin-c-product-slug}-usp` | certification_body | USP Verified example pattern |
+| `cert-{vitamin-c-product-slug}-nsf` | certification_body | NSF Sport example pattern |
+| `editorial-price-per-500mg-vitamin-c-{slug}` | internal_editorial | Documented calculation: price ÷ (vitamin C mg × servings) × 500 |
+| `editorial-price-per-1000mg-vitamin-c-{slug}` | internal_editorial | Documented calculation: price ÷ (vitamin C mg × servings) × 1,000 |
+
+**Do not** cite Amazon reviews, retailer Q&A, influencer immunity claims, animal/pet sources, or disease-treatment articles as `label_fact`, `health_context`, or verification for `testing-*` IDs.
