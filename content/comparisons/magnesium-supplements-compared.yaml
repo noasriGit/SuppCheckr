@@ -97,7 +97,7 @@ sources:
   - id: cmp-mag-suppcheckr-methodology
     title: SuppCheckr scoring methodology
     publisher: SuppCheckr
-    url: https://suppcheckr.com/methodology
+    url: https://www.suppcheckr.com/methodology
     accessDate: '2026-06-26'
     sourceType: internal_editorial
     supportsClaimIds: []

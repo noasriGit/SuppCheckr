@@ -93,7 +93,7 @@ sources:
   - id: editorial-suppcheckr-methodology
     title: SuppCheckr methodology (editorial framework)
     publisher: SuppCheckr
-    url: https://suppcheckr.com/methodology
+    url: https://www.suppcheckr.com/methodology
     accessDate: '2026-06-26'
     sourceType: internal_editorial
     supportsClaimIds: []

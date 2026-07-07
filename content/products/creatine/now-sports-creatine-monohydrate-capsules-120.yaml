@@ -165,7 +165,7 @@ sources:
   - id: editorial-now-price-math
     title: SuppCheckr price-per-serving and price-per-5g calculation (4.5 g serving normalization)
     publisher: SuppCheckr
-    url: https://suppcheckr.com/methodology
+    url: https://www.suppcheckr.com/methodology
     accessDate: '2026-06-26'
     sourceType: internal_editorial
     supportsClaimIds:

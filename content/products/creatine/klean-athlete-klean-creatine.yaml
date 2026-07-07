@@ -156,7 +156,7 @@ sources:
   - id: editorial-klean-price-math
     title: SuppCheckr price-per-serving and price-per-5g calculation
     publisher: SuppCheckr
-    url: https://suppcheckr.com/methodology
+    url: https://www.suppcheckr.com/methodology
     accessDate: '2026-06-26'
     sourceType: internal_editorial
     supportsClaimIds:

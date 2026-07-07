@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { shouldBlockAllCrawlers } from "@/config/site";
+import { siteConfig, shouldBlockAllCrawlers } from "@/config/site";
 
 export default function robots(): MetadataRoute.Robots {
   if (shouldBlockAllCrawlers()) {
@@ -14,6 +14,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://suppcheckr.com"}/sitemap.xml`,
+    sitemap: `${siteConfig.url}/sitemap.xml`,
   };
 }
