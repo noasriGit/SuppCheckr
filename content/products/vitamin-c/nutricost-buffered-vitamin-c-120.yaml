@@ -15,13 +15,23 @@ supplementFacts:
   servingSize: 2 capsules
   servingsPerContainer: 60
   ingredients:
-    - name: Vitamin C (as buffered mineral ascorbate)
+    - name: Vitamin C (as sodium ascorbate, calcium ascorbate, and magnesium ascorbate)
       amount: 1,000 mg
       dailyValue: null
+    - name: Calcium (as calcium ascorbate)
+      amount: 30 mg
+      dailyValue: null
+    - name: Magnesium (as magnesium ascorbate)
+      amount: 25 mg
+      dailyValue: null
+    - name: Sodium (as sodium ascorbate)
+      amount: 95 mg
+      dailyValue: null
   otherIngredients:
-    - Hypromellose (vegetarian capsule)
-    - Rice flour
-    - Magnesium stearate
+    - Hypromellose (cellulose capsule)
+    - Corn starch
+    - Calcium laurate
+    - Magnesium stearate (vegetable source)
   allergens: []
 pricing:
   msrp: 14.97
@@ -43,7 +53,8 @@ thirdPartyTesting:
   sources:
     - brand-nutricost-buffered-vitamin-c-page
 additives:
-  - Rice flour
+  - Corn starch
+  - Calcium laurate
   - Magnesium stearate
 flags:
   thirdPartyTested: false
@@ -51,25 +62,25 @@ flags:
 rating:
   profileId: vitamin-c
   criteriaScores:
-    ingredientTransparency: 78
+    ingredientTransparency: 92
     doseTransparency: 82
     evidenceAlignment: 70
     formulaQuality: 72
     thirdPartyTesting: 50
     priceValue: 68
-    additives: 82
-    labelClarity: 82
-    brandTransparency: 75
-  overallScore: 74
+    additives: 75
+    labelClarity: 90
+    brandTransparency: 80
+  overallScore: 77
 pros:
   - >-
-    Nutricost product page and Supplement Facts image disclose 1,000 mg vitamin C per 2-capsule serving in a buffered
-    mineral ascorbate format.
+    Official Nutricost Supplement Facts image discloses 1,000 mg vitamin C per 2-capsule serving as sodium, calcium, and
+    magnesium ascorbates with mineral amounts listed (95 mg sodium, 30 mg calcium, 25 mg magnesium per serving).
   - Lower observed bottle price than NOW Buffered C-1000 at the cited 2026-07-07 price check.
   - Nutricost markets third-party testing (claimed — not verified with a captured certificate for this SKU).
 cons:
   - Two capsules per serving is less convenient than one-tablet buffered options in this draft cluster.
-  - Exact calcium vs. sodium ascorbate split was not independently confirmed from a readable high-res SFP image in Phase 8E — source gap documented.
+  - Two-capsule serving includes corn starch and calcium laurate among excipients versus simpler buffered tablet options.
   - Brand copy includes immune-health marketing — SuppCheckr cites label facts only, not immunity outcomes.
   - Buffered form marketing elsewhere often implies gentleness or absorption — SuppCheckr does not endorse those claims.
 bestFor:
@@ -79,16 +90,15 @@ bestFor:
 avoidIf:
   - You require verified third-party certification documentation before purchase.
   - You prefer a one-unit serving without taking two capsules.
-  - You need explicit calcium or sodium ascorbate identification confirmed from an official text-based Supplement Facts panel.
+  - You need a single-mineral buffered ascorbate (for example sodium ascorbate only) rather than a multi-mineral blend.
 labelTransparencyNotes: >
-  Locked 120-capsule SKU (60 servings at 2 capsules per serving). Product asset filename indicates 500 mg vitamin C per
-  capsule × 2. Buffered mineral ascorbate type (calcium vs. sodium split) remains a Phase 8E source gap — confirm from
-  current Supplement Facts image before publication.
+  Locked 120-capsule SKU (60 servings at 2 capsules per serving). Phase 8G confirmed the official Nutricost Supplement
+  Facts image lists vitamin C as sodium, calcium, and magnesium ascorbates with disclosed mineral amounts per serving.
 evidenceNotes: >
   SuppCheckr score uses the vitamin C scoring profile (Phase 8C). Selected over NOW Buffered C-1000 in Phase 8E for brand
-  diversity while covering the buffered/mineral ascorbate bucket. Key drivers: clear 1,000 mg buffered dose, official
-  Nutricost SFP image, and claimed testing — offset by two-capsule serving, mineral-type source gap, immune marketing,
-  and mid-tier buffered price per 500 mg vitamin C.
+  diversity while covering the buffered/mineral ascorbate bucket. Key drivers: clear 1,000 mg buffered dose with
+  explicit multi-mineral ascorbate disclosure on the official Nutricost SFP image and claimed testing — offset by
+  two-capsule serving, corn-starch excipients, immune marketing, and mid-tier buffered price per 500 mg vitamin C.
 relatedProductIds:
   - vitamin-c-now-foods-vitamin-c-1000-veg-capsules
   - vitamin-c-livon-lypo-spheric-vitamin-c
@@ -103,7 +113,9 @@ claims:
     citationIds:
       - label-nutricost-buffered-vitamin-c-120
   - id: nutricost-buffered-vitc-label-buffered-form
-    text: The Nutricost product is labeled as buffered vitamin C (mineral ascorbate format).
+    text: >-
+      The Nutricost Supplement Facts list vitamin C as sodium ascorbate, calcium ascorbate, and magnesium ascorbate with
+      95 mg sodium, 30 mg calcium, and 25 mg magnesium per 2-capsule serving.
     claimType: label_fact
     claimRiskLevel: medium
     citationIds:
@@ -140,7 +152,7 @@ claims:
       - brand-nutricost-buffered-vitamin-c-page
 sources:
   - id: label-nutricost-buffered-vitamin-c-120
-    title: Nutricost Buffered Vitamin C 120 capsules — Supplement Facts image (brand product page)
+    title: Nutricost Buffered Vitamin C 120 capsules — Supplement Facts image (brand product page, Phase 8G high-res confirm)
     publisher: Nutricost
     url: https://nutricost.com/products/nutricost-buffered-vitamin-c
     accessDate: '2026-07-07'
@@ -195,3 +207,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 8E draft/noindex vitamin C product YAML (buffered/mineral ascorbate slot — replaces NOW Buffered for brand diversity)
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 8G — confirmed multi-mineral ascorbate split and mineral amounts from official Nutricost SFP image; updated excipients and scores

@@ -42,7 +42,7 @@ productCriterionLabels:
       - no other ingredients
   - productId: vitamin-c-nature-made-vitamin-c-1000-mg-tablets
     labels:
-      - USP Verified (Target listing)
+      - USP claim on Target (not in USP database)
       - clear 1,000 mg dose
       - one-tablet serving
   - productId: vitamin-c-now-foods-vitamin-c-1000-veg-capsules
@@ -52,7 +52,7 @@ productCriterionLabels:
       - one-capsule serving
   - productId: vitamin-c-nutricost-buffered-vitamin-c-120
     labels:
-      - buffered mineral ascorbate
+      - sodium/calcium/magnesium ascorbates
       - claimed third-party testing
       - 1,000 mg per serving
   - productId: vitamin-c-livon-lypo-spheric-vitamin-c
@@ -65,23 +65,23 @@ caveats:
     Nutricost Vitamin C Powder third-party testing remains claimed unless a public COA or certificate URL is captured.
     Powder taste and GI tolerance vary; confirm container weight (0.5 lb, 1 lb, 2 lb) before purchase.
   - >-
-    Nature Made Extra Strength Vitamin C 1000 mg USP Verified status is based on a Target listing for UPC 031604014896 —
-    independent USP Verified Products Program database match not yet captured. Brand product page showed discontinued
-    status during Phase 8E research; label locked via retailer listing. Tablet includes polyethylene glycol and other
-    excipients.
+    Nature Made Extra Strength Vitamin C 1000 mg displays a USP Verified badge on the Target listing for UPC
+    031604014896, but Phase 8G USP Verified Products Program database search found no matching entry — testing status is
+    claimed, not verified. Brand product page showed discontinued status during Phase 8E research; label locked via
+    retailer listing. Tablet includes polyethylene glycol and other excipients.
+  - >-
+    Nutricost Buffered Vitamin C Supplement Facts (official brand image, Phase 8G) list vitamin C as sodium, calcium, and
+    magnesium ascorbates with disclosed mineral amounts. Two capsules per serving. Buffered gentleness or absorption
+    marketing is not endorsed by SuppCheckr.
+  - >-
+    LivOn Lypo-Spheric Vitamin C has elevated absorption/delivery marketing on the brand site — SuppCheckr scores label
+    clarity, not absorption superiority. Official brand-hosted Supplement Facts confirmed in Phase 8G (December 2025 label
+    image). Highest observed price per 500 mg vitamin C in this cluster at cited 2026-07-07 price check. Contains ethanol
+    and soy-derived phospholipids.
   - >-
     NOW Foods Vitamin C-1000 Veg Capsules have no verifiable third-party testing captured in Phase 8E. Includes citrus
     bioflavonoids and rutin beyond plain ascorbic acid. Immune/collagen structure-function copy on brand page — SuppCheckr
     cites label facts only.
-  - >-
-    Nutricost Buffered Vitamin C exact calcium vs. sodium ascorbate split was not independently confirmed from a readable
-    high-res Supplement Facts image in Phase 8E — confirm before publication. Two capsules per serving. Buffered
-    gentleness or absorption marketing is not endorsed by SuppCheckr.
-  - >-
-    LivOn Lypo-Spheric Vitamin C has elevated absorption/delivery marketing on the brand site — SuppCheckr scores label
-    clarity, not absorption superiority. Structured Supplement Facts cited from Vitacost listing; confirm current packet
-    label against official brand materials before publication. Highest observed price per 500 mg vitamin C in this cluster
-    at cited 2026-07-07 price check. Contains ethanol and soy-derived phospholipids.
   - >-
     No Amazon affiliate links, ASINs, or outbound Amazon product URLs are included in this draft comparison. Vitamin C
     affiliate mapping deferred to a later phase.
@@ -125,3 +125,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 8F draft/noindex vitamin C category comparison for five Phase 8E product reviews
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 8G — updated caveats and criterion labels after source-gap QA (Nutricost mineral split, Nature Made USP, LivOn SFP)

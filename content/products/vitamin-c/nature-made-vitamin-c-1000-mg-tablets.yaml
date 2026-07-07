@@ -1,6 +1,6 @@
 id: vitamin-c-nature-made-vitamin-c-1000-mg-tablets
 slug: nature-made-vitamin-c-1000-mg-tablets
-name: Nature Made Extra Strength Vitamin C 1000 mg Tablets (100 Tablets, USP Verified)
+name: Nature Made Extra Strength Vitamin C 1000 mg Tablets (100 Tablets)
 brandId: nature-made
 categoryId: vitamin-c
 images:
@@ -38,22 +38,23 @@ retailers:
   - retailerId: target
     url: https://www.target.com/p/nature-made-vitamin-c-1000mg-immune-system-supplement-tablets-100ct/-/A-11010061
     isPrimary: true
-certifications:
-  - USP Verified
+certifications: []
 thirdPartyTesting:
-  status: verified
+  status: claimed
   details: >
     Target listing for UPC 031604014896 / TCIN 11010061 displays a USP Verified badge and states that USP has tested and
-    verified ingredients, potency, and manufacturing process. SuppCheckr has not yet captured an independent USP Verified
-    Products Program database entry match for this SKU in Phase 8E — retailer USP claim cited with caveat.
+    verified ingredients, potency, and manufacturing process. Phase 8G USP Verified Products Program database searches at
+    quality-supplements.org/usp_verified_products for Nature Made Extra Strength Vitamin C 1000 mg returned no matching
+    entry — retailer USP badge cited as claimed only, not verified per SuppCheckr testing rules.
   sources:
     - label-nature-made-vitamin-c-1000-mg-tablets
     - testing-nature-made-vitamin-c-1000-mg-tablets-target-usp
+    - testing-nature-made-vitamin-c-1000-mg-tablets-usp-database
 additives:
   - Polyethylene glycol
   - Croscarmellose sodium
 flags:
-  thirdPartyTested: true
+  thirdPartyTested: false
   additiveFree: false
 rating:
   profileId: vitamin-c
@@ -62,16 +63,16 @@ rating:
     doseTransparency: 95
     evidenceAlignment: 68
     formulaQuality: 88
-    thirdPartyTesting: 92
+    thirdPartyTesting: 50
     priceValue: 72
     additives: 65
     labelClarity: 78
     brandTransparency: 65
-  overallScore: 82
+  overallScore: 77
 pros:
   - >-
-    Target listing Supplement Facts show 1,000 mg vitamin C per 1 tablet serving with USP Verified program badge on the
-    product page.
+    Target listing Supplement Facts show 1,000 mg vitamin C per 1 tablet serving; Target page displays a USP Verified
+    program badge (retailer-sourced claim — not confirmed in the USP Verified Products Program database in Phase 8G).
   - Widely available retail SKU (UPC 031604014896) with mid-range observed price per 500 mg vitamin C in this cluster.
   - One-tablet serving supports straightforward dose and value comparison.
 cons:
@@ -80,22 +81,24 @@ cons:
     label and price locked via Target listing with retailer-sourced label caveat.
   - Tablet includes multiple excipients including polyethylene glycol versus simpler capsule formulas.
   - Target and brand marketing include immune and upper-respiratory support copy — SuppCheckr cites label facts only.
-  - Independent USP Verified Products Program database match not yet captured — confirm before publication upgrade.
+  - >-
+    Phase 8G USP Verified Products Program database search found no listing for Nature Made Extra Strength Vitamin C 1000
+    mg Tablets — USP status remains a retailer claim only, not independently verified.
 bestFor:
   - >-
-    Buyers comparing a mainstream 1,000 mg ascorbic acid tablet with USP Verified program documentation cited on a
-    major retailer listing.
+    Buyers comparing a mainstream 1,000 mg ascorbic acid tablet with a USP Verified program badge displayed on a major
+    retailer listing — understanding the badge is a retailer claim not confirmed in the USP database.
 avoidIf:
-  - You require an official brand-hosted Supplement Facts panel or independent USP database listing before purchase.
+  - You require an official brand-hosted Supplement Facts panel or a USP Verified Products Program database listing before purchase.
   - You prefer a formula with fewer tablet excipients.
 labelTransparencyNotes: >
   Locked UPC 031604014896 / TCIN 11010061 — 100 tablets. Nature Made brand site listed this product discontinued while
   Target continued selling a USP Verified SKU at research time — confirm active formulation and label have not changed
   before publication.
 evidenceNotes: >
-  SuppCheckr score uses the vitamin C scoring profile (Phase 8C). Key drivers: clear 1,000 mg dose, USP Verified claim
-  on cited Target listing, and mid-range price per 500 mg vitamin C — offset by retailer-sourced label (brand PDP
-  discontinued), multiple tablet excipients, immune marketing copy, and pending independent USP database confirmation.
+  SuppCheckr score uses the vitamin C scoring profile (Phase 8C). Key drivers: clear 1,000 mg dose and mid-range price per
+  500 mg vitamin C — offset by retailer-sourced label (brand PDP discontinued), USP Verified badge on Target not matched
+  in the USP database (testing downgraded to claimed in Phase 8G), multiple tablet excipients, and immune marketing copy.
 relatedProductIds:
   - vitamin-c-now-foods-vitamin-c-1000-veg-capsules
   - vitamin-c-nutricost-buffered-vitamin-c-120
@@ -109,14 +112,16 @@ claims:
     claimRiskLevel: medium
     citationIds:
       - label-nature-made-vitamin-c-1000-mg-tablets
-  - id: nature-made-vitc-usp-verified-target
+  - id: nature-made-vitc-usp-claimed-target
     text: >-
-      The Target product listing displays USP Verified status and states USP has tested and verified ingredients,
-      potency, and manufacturing process.
+      The Target product listing displays a USP Verified badge and states USP has tested and verified ingredients,
+      potency, and manufacturing process. SuppCheckr has not verified this SKU in the USP Verified Products Program
+      database.
     claimType: brand_claim
     claimRiskLevel: medium
     citationIds:
       - testing-nature-made-vitamin-c-1000-mg-tablets-target-usp
+      - testing-nature-made-vitamin-c-1000-mg-tablets-usp-database
   - id: nature-made-vitc-price-target
     text: Target listed Nature Made Extra Strength Vitamin C 1000 mg 100 tablets at $15.29 on 2026-07-07.
     claimType: price_fact
@@ -149,13 +154,21 @@ sources:
     supportsClaimIds:
       - nature-made-vitc-label-amount-1000mg
   - id: testing-nature-made-vitamin-c-1000-mg-tablets-target-usp
-    title: Nature Made Vitamin C 1000 mg 100 tablets — USP Verified claim (Target listing)
-    publisher: Target / USP Verified
+    title: Nature Made Vitamin C 1000 mg 100 tablets — USP Verified badge (Target listing)
+    publisher: Target
     url: https://www.target.com/p/nature-made-vitamin-c-1000mg-immune-system-supplement-tablets-100ct/-/A-11010061
+    accessDate: '2026-07-07'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - nature-made-vitc-usp-claimed-target
+  - id: testing-nature-made-vitamin-c-1000-mg-tablets-usp-database
+    title: USP Verified Products Program search — no Nature Made Extra Strength Vitamin C 1000 mg listing
+    publisher: U.S. Pharmacopeia / Quality Supplements
+    url: https://www.quality-supplements.org/usp_verified_products?search_api_fulltext=Nature+Made+Extra+Strength+Vitamin+C&term%5B0%5D=brand%3ANature+Made
     accessDate: '2026-07-07'
     sourceType: certification_body
     supportsClaimIds:
-      - nature-made-vitc-usp-verified-target
+      - nature-made-vitc-usp-claimed-target
   - id: retailer-nature-made-vitamin-c-1000-mg-tablets
     title: Nature Made Extra Strength Vitamin C 1000 mg 100 tablets — Target listing (price)
     publisher: Target
@@ -178,10 +191,10 @@ sources:
 affiliate:
   enabled: false
 seo:
-  title: Nature Made Vitamin C 1000 mg USP Verified Review | SuppCheckr
+  title: Nature Made Vitamin C 1000 mg Tablets Review | SuppCheckr
   description: >
-    Draft SuppCheckr review of Nature Made Extra Strength Vitamin C 1000 mg (100 tablets) with USP Verified context and
-    dated price per 500 mg vitamin C.
+    Draft SuppCheckr review of Nature Made Extra Strength Vitamin C 1000 mg (100 tablets) with Target USP claim context
+    and dated price per 500 mg vitamin C.
 status: draft
 isPlaceholder: false
 noindex: true
@@ -194,4 +207,8 @@ editorial:
     - date: '2026-07-07'
       authorId: suppcheckr-editorial
       changeType: created
-      summary: Phase 8E draft/noindex vitamin C product YAML (premium / USP Verified slot)
+      summary: Phase 8E draft/noindex vitamin C product YAML (premium / mainstream retail tablet slot)
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 8G — USP database search found no 1000 mg listing; testing downgraded to claimed; scores updated

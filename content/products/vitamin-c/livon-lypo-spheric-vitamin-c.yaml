@@ -10,7 +10,7 @@ images:
     attribution: Placeholder image; label sourced from Vitacost listing Supplement Facts
   label:
     src: null
-    attribution: https://www.vitacost.com/livon-laboratories-lypo-spheric-vitamin-c
+    attribution: https://www.livonlabs.com/products/vitamin-c
 supplementFacts:
   servingSize: 1 packet (5.7 mL)
   servingsPerContainer: 30
@@ -66,20 +66,20 @@ flags:
 rating:
   profileId: vitamin-c
   criteriaScores:
-    ingredientTransparency: 85
+    ingredientTransparency: 88
     doseTransparency: 88
     evidenceAlignment: 55
     formulaQuality: 68
     thirdPartyTesting: 45
     priceValue: 35
     additives: 70
-    labelClarity: 82
-    brandTransparency: 78
-  overallScore: 69
+    labelClarity: 92
+    brandTransparency: 88
+  overallScore: 72
 pros:
   - >-
-    Supplement Facts on the cited Vitacost listing show 1,000 mg vitamin C as sodium ascorbate per 5.7 mL packet with
-    phospholipid and sodium amounts disclosed.
+    Official LivOn Supplement Facts image on the brand product page shows 1,000 mg vitamin C as sodium ascorbate per 5.7 mL
+    packet with phospholipid and sodium amounts disclosed (Phase 8G confirmed against prior Vitacost mirror).
   - Representative liposomal-format product with locked 30-packet carton and UPC 858514001002.
   - One packet equals one labeled vitamin C serving for dose comparison purposes.
 cons:
@@ -98,8 +98,8 @@ avoidIf:
   - You require verified third-party certification documentation before purchase.
   - Budget value per 500 mg vitamin C is your primary criterion.
 labelTransparencyNotes: >
-  Locked 30-packet carton; UPC 858514001002. LivOn official product page lists ingredients but Vitacost Supplement Facts
-  were used as the structured label citation in Phase 8E. Confirm current packet version and label before publication.
+  Locked 30-packet carton; UPC 858514001002. Phase 8G confirmed structured Supplement Facts on the official LivOn product
+  page (December 2025 label image) match the prior Vitacost mirror citation.
 evidenceNotes: >
   SuppCheckr score uses the vitamin C scoring profile (Phase 8C). Key drivers: clear sodium ascorbate dose and
   liposomal blend disclosure on Supplement Facts — offset by high claim-risk absorption marketing, high price per 500 mg
@@ -148,14 +148,21 @@ claims:
       - editorial-price-per-500mg-vitamin-c-livon-lypo-spheric-vitamin-c
 sources:
   - id: label-livon-lypo-spheric-vitamin-c
-    title: LivOn Lypo-Spheric Vitamin C 30 packets — Supplement Facts (Vitacost listing)
-    publisher: Vitacost / LivOn Laboratories
-    url: https://www.vitacost.com/livon-laboratories-lypo-spheric-vitamin-c
+    title: LivOn Lypo-Spheric Vitamin C 30 packets — Supplement Facts image (official brand product page)
+    publisher: LivOn Laboratories
+    url: https://www.livonlabs.com/products/vitamin-c
     accessDate: '2026-07-07'
     sourceType: brand_label
     supportsClaimIds:
       - livon-vitc-label-form-sodium-ascorbate
       - livon-vitc-label-amount-1000mg
+  - id: label-livon-lypo-spheric-vitamin-c-vitacost-mirror
+    title: LivOn Lypo-Spheric Vitamin C 30 packets — Supplement Facts (Vitacost listing mirror, Phase 8E)
+    publisher: Vitacost / LivOn Laboratories
+    url: https://www.vitacost.com/livon-laboratories-lypo-spheric-vitamin-c
+    accessDate: '2026-07-07'
+    sourceType: retailer_listing
+    supportsClaimIds: []
   - id: retailer-livon-lypo-spheric-vitamin-c
     title: LivOn Lypo-Spheric Vitamin C 30 packets — LivOn product page (price)
     publisher: LivOn Laboratories
@@ -195,3 +202,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 8E draft/noindex vitamin C product YAML (liposomal slot)
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 8G — confirmed official brand-hosted Supplement Facts image; updated label citation and scores
