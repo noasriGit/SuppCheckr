@@ -31,6 +31,9 @@ retailers:
   - retailerId: nutricost
     url: https://nutricost.com/products/nutricost-vitamin-c-powder
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B00WFDWAEY
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: claimed
@@ -168,7 +171,7 @@ sources:
       - nutricost-powder-vitc-price-per-serving
       - nutricost-powder-vitc-price-per-500mg
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: Nutricost Vitamin C Powder 1 lb Review | SuppCheckr
   description: >
@@ -191,3 +194,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 8H Vitamin C cluster publication
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 9 — exact Amazon ASIN B00WFDWAEY mapped; affiliate CTA enabled

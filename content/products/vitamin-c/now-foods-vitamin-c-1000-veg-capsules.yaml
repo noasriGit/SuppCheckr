@@ -41,6 +41,9 @@ retailers:
   - retailerId: now-foods
     url: https://www.nowfoods.com/products/supplements/vitamin-c-1000-veg-capsules
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B001AIXCU6
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: unknown
@@ -163,7 +166,7 @@ sources:
       - now-vitc-price-per-serving
       - now-vitc-price-per-500mg
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: NOW Foods Vitamin C-1000 Veg Capsules Review | SuppCheckr
   description: >
@@ -186,3 +189,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 8H Vitamin C cluster publication
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 9 — exact Amazon ASIN B001AIXCU6 mapped; affiliate CTA enabled

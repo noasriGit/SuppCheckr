@@ -50,6 +50,9 @@ retailers:
   - retailerId: vitacost
     url: https://www.vitacost.com/livon-laboratories-lypo-spheric-vitamin-c
     isPrimary: false
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B000CD9XGC
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: unknown
@@ -183,7 +186,7 @@ sources:
       - livon-vitc-price-per-serving
       - livon-vitc-price-per-500mg
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: LivOn Lypo-Spheric Vitamin C Review | SuppCheckr
   description: >
@@ -210,3 +213,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 8H Vitamin C cluster publication
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 9 — exact Amazon ASIN B000CD9XGC mapped; affiliate CTA enabled

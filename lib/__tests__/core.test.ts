@@ -263,10 +263,10 @@ describe("affiliate", () => {
     expect(source).not.toContain("resolveProductAffiliateCta");
   });
 
-  it("has exactly 9 active affiliate-enabled products with untagged Amazon URLs", () => {
+  it("has exactly 14 active affiliate-enabled products with untagged Amazon URLs", () => {
     const active = getProducts().filter(isActiveContent);
     const affiliateActive = active.filter((p) => p.affiliate.enabled);
-    expect(affiliateActive).toHaveLength(9);
+    expect(affiliateActive).toHaveLength(14);
 
     const kleanMag = active.find((p) => p.slug === "klean-athlete-klean-magnesium");
     expect(kleanMag?.affiliate.enabled).toBe(false);
@@ -276,6 +276,47 @@ describe("affiliate", () => {
       expect(amazon?.url).toBeDefined();
       expect(amazon!.url).not.toContain("tag=");
     }
+  });
+
+  it("Vitamin C activated products have untagged Amazon URLs and tagged generated links", () => {
+    const active = getProducts().filter(isActiveContent);
+    const vitaminCActivated = active.filter(
+      (p) => p.categoryId === "vitamin-c" && p.affiliate.enabled,
+    );
+    expect(vitaminCActivated).toHaveLength(5);
+
+    const nowFoods = vitaminCActivated.find(
+      (p) => p.slug === "now-foods-vitamin-c-1000-veg-capsules",
+    );
+    expect(nowFoods?.retailers.find((r) => r.retailerId === "amazon")?.url).toBe(
+      "https://www.amazon.com/dp/B001AIXCU6",
+    );
+
+    const cta = resolveProductAffiliateCta(
+      nowFoods!,
+      "/supplements/vitamin-c/products/now-foods-vitamin-c-1000-veg-capsules",
+      { associateTag: "suppcheckr-20" },
+    );
+    expect(cta.variant).toBe("amazon");
+    expect(cta.isPlaceholder).toBe(false);
+    expect(cta.href).toContain("tag=suppcheckr-20");
+    expect(cta.href).toContain("amazon.com/dp/B001AIXCU6");
+    expect(cta.label).toBe("View on Amazon");
+  });
+
+  it("Klean Magnesium remains held back without Amazon affiliate CTA", () => {
+    const active = getProducts().filter(isActiveContent);
+    const kleanMag = active.find((p) => p.slug === "klean-athlete-klean-magnesium");
+    expect(kleanMag?.affiliate.enabled).toBe(false);
+    expect(kleanMag?.retailers.some((r) => isAmazonUrl(r.url))).toBe(false);
+
+    const cta = resolveProductAffiliateCta(
+      kleanMag!,
+      "/supplements/magnesium/products/klean-athlete-klean-magnesium",
+      { associateTag: "suppcheckr-20" },
+    );
+    expect(cta.variant).toBe("retailer");
+    expect(cta.href).not.toContain("amazon.com");
   });
 });
 

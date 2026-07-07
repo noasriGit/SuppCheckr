@@ -38,6 +38,9 @@ retailers:
   - retailerId: target
     url: https://www.target.com/p/nature-made-vitamin-c-1000mg-immune-system-supplement-tablets-100ct/-/A-11010061
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B0000DJASY
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: claimed
@@ -189,7 +192,7 @@ sources:
       - nature-made-vitc-price-per-serving
       - nature-made-vitc-price-per-500mg
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: Nature Made Vitamin C 1000 mg Tablets Review | SuppCheckr
   description: >
@@ -216,3 +219,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 8H Vitamin C cluster publication
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 9 — exact Amazon ASIN B0000DJASY mapped; affiliate CTA enabled

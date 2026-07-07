@@ -44,6 +44,9 @@ retailers:
   - retailerId: nutricost
     url: https://nutricost.com/products/nutricost-buffered-vitamin-c
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B0GZSDYR55
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: claimed
@@ -188,7 +191,7 @@ sources:
       - nutricost-buffered-vitc-price-per-serving
       - nutricost-buffered-vitc-price-per-500mg
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: Nutricost Buffered Vitamin C 120 Caps Review | SuppCheckr
   description: >
@@ -215,3 +218,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 8H Vitamin C cluster publication
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 9 — exact Amazon ASIN B0GZSDYR55 mapped; affiliate CTA enabled
