@@ -64,11 +64,11 @@ body: |
   - Treat absorption claims as **brand positioning** unless tied to specific sourced evidence — SuppCheckr does not repeat
     superiority claims as editorial fact
 
-  ## Draft product example (not a recommendation)
+  ## Product example (not a recommendation)
 
-  SuppCheckr's draft review cluster includes **LivOn Lypo-Spheric Vitamin C** as one liposomal-format example with
+  SuppCheckr's vitamin C review cluster includes **LivOn Lypo-Spheric Vitamin C** as one liposomal-format example with
   1,000 mg vitamin C as sodium ascorbate per packet on cited Supplement Facts. That product illustrates label disclosure
-  and price-per-mg context — it is **not** ranked as best absorbed or best overall.
+  and price-per-mg context — it is **not** ranked as superior for absorption or as a category-wide winner.
 
   ## No product recommendations here
 
@@ -126,9 +126,9 @@ sources:
     accessDate: '2026-07-07'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-07'
@@ -139,3 +139,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 8F draft/noindex liposomal vs regular vitamin C form-comparison guide
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 8H Vitamin C cluster publication

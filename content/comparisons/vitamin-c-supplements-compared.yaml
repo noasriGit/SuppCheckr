@@ -5,12 +5,12 @@ title: Vitamin C Supplements Compared
 categoryId: vitamin-c
 subtitle: >
   This comparison looks at label clarity, vitamin C amount disclosure, form transparency, testing status, additives,
-  serving practicality, and price per 500 mg vitamin C across five draft vitamin C product reviews. Default sort reflects
+  serving practicality, and price per 500 mg vitamin C across five vitamin C product reviews. Default sort reflects
   SuppCheckr weighted scores — not medical recommendations and not suitability for any specific condition.
 productIds:
   - vitamin-c-nutricost-vitamin-c-powder
-  - vitamin-c-nature-made-vitamin-c-1000-mg-tablets
   - vitamin-c-now-foods-vitamin-c-1000-veg-capsules
+  - vitamin-c-nature-made-vitamin-c-1000-mg-tablets
   - vitamin-c-nutricost-buffered-vitamin-c-120
   - vitamin-c-livon-lypo-spheric-vitamin-c
 comparisonFields:
@@ -83,7 +83,7 @@ caveats:
     bioflavonoids and rutin beyond plain ascorbic acid. Immune/collagen structure-function copy on brand page — SuppCheckr
     cites label facts only.
   - >-
-    No Amazon affiliate links, ASINs, or outbound Amazon product URLs are included in this draft comparison. Vitamin C
+    No Amazon affiliate links, ASINs, or outbound Amazon product URLs are included in this comparison. Vitamin C
     affiliate mapping deferred to a later phase.
   - >-
     Phase 8E price context (2026-07-07): Nutricost Powder $13.97, NOW $14.99, Nature Made Target $15.29, Nutricost
@@ -112,9 +112,9 @@ sources:
     accessDate: '2026-07-07'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
   lastUpdated: '2026-07-07'
@@ -129,3 +129,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 8G — updated caveats and criterion labels after source-gap QA (Nutricost mineral split, Nature Made USP, LivOn SFP)
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 8H Vitamin C cluster publication

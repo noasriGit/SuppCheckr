@@ -104,9 +104,9 @@ sources:
     accessDate: '2026-07-07'
     sourceType: NIH
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
   lastUpdated: '2026-07-07'
@@ -117,3 +117,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 8F draft/noindex vitamin C dosage education guide
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 8H Vitamin C cluster publication

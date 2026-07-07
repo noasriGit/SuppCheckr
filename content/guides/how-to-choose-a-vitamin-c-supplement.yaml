@@ -73,7 +73,7 @@ body: |
 
   Be skeptical of listings that imply disease outcomes, guaranteed absorption, universal stomach tolerance, or
   condition-specific guarantees. According to FDA overview materials, dietary supplements are not FDA-approved drugs.
-  Endorsement-style claims ("doctor recommended," influencer testimonials) require careful scrutiny; FTC endorsement
+  Endorsement-style claims (physician endorsements, influencer testimonials) require careful scrutiny; FTC endorsement
   guidance emphasizes that material connections and substantiation matter in advertising — SuppCheckr editorial rankings
   are independent of brand marketing.
 
@@ -141,9 +141,9 @@ sources:
     accessDate: '2026-07-07'
     sourceType: internal_editorial
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
   lastUpdated: '2026-07-07'
@@ -154,3 +154,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 8F draft/noindex vitamin C buyer-education guide without product rankings
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 8H Vitamin C cluster publication

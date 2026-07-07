@@ -167,11 +167,11 @@ affiliate:
 seo:
   title: NOW Foods Vitamin C-1000 Veg Capsules Review | SuppCheckr
   description: >
-    Draft SuppCheckr review of NOW Foods Vitamin C-1000 Veg Capsules (100 count) with ascorbic acid label facts and
-    dated price per 500 mg vitamin C.
-status: draft
+    SuppCheckr review of NOW Foods Vitamin C-1000 Veg Capsules (100 count) with ascorbic acid label facts and dated
+    price per 500 mg vitamin C.
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
   lastUpdated: '2026-07-07'
@@ -182,3 +182,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 8E draft/noindex vitamin C product YAML (basic ascorbic acid slot)
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 8H Vitamin C cluster publication

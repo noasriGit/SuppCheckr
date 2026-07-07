@@ -187,11 +187,11 @@ affiliate:
 seo:
   title: LivOn Lypo-Spheric Vitamin C Review | SuppCheckr
   description: >
-    Draft SuppCheckr review of LivOn Lypo-Spheric Vitamin C (30 packets) with sodium ascorbate label facts and dated
-    price per 500 mg vitamin C.
-status: draft
+    SuppCheckr review of LivOn Lypo-Spheric Vitamin C (30 packets) with sodium ascorbate label facts and dated price per
+    500 mg vitamin C.
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-07'
@@ -206,3 +206,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 8G — confirmed official brand-hosted Supplement Facts image; updated label citation and scores
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 8H Vitamin C cluster publication

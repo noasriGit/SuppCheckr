@@ -192,11 +192,11 @@ affiliate:
 seo:
   title: Nutricost Buffered Vitamin C 120 Caps Review | SuppCheckr
   description: >
-    Draft SuppCheckr review of Nutricost Buffered Vitamin C (120 caps) with buffered mineral ascorbate label context
-    and dated price per 500 mg vitamin C.
-status: draft
+    SuppCheckr review of Nutricost Buffered Vitamin C (120 caps) with buffered mineral ascorbate label context and dated
+    price per 500 mg vitamin C.
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
   lastUpdated: '2026-07-07'
@@ -211,3 +211,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 8G — confirmed multi-mineral ascorbate split and mineral amounts from official Nutricost SFP image; updated excipients and scores
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 8H Vitamin C cluster publication

@@ -49,13 +49,13 @@ body: |
   ## Why buffered is not automatically better
 
   Buffered products are commonly marketed as easier on the stomach. Individual GI tolerance varies, and NIH materials
-  describe GI effects primarily in the context of **high supplemental intakes** — not as a guarantee that one form prevents
-  discomfort for everyone.
+  describe GI effects primarily in the context of **high supplemental intakes** — not as a guarantee that one form avoids
+  stomach discomfort for everyone.
 
   Buffered does not automatically mean:
 
-  - Safe for everyone
-  - Better absorbed than ascorbic acid
+  - Appropriate for every individual without medical context
+  - Superior absorption compared with ascorbic acid
   - Free of sodium or mineral contribution (sodium ascorbate adds sodium)
 
   Always read the full Supplement Facts panel and ingredient list.
@@ -66,7 +66,7 @@ body: |
   ascorbate" without specifying calcium vs. sodium — that limits form transparency until confirmed from a readable
   Supplement Facts image or panel.
 
-  SuppCheckr's draft review cluster includes **Nutricost Buffered Vitamin C** as one buffered-format example with 1,000 mg
+  SuppCheckr's vitamin C review cluster includes **Nutricost Buffered Vitamin C** as one buffered-format example with 1,000 mg
   vitamin C per two-capsule serving. Phase 8G confirmed the official Nutricost Supplement Facts image lists sodium,
   calcium, and magnesium ascorbates with disclosed mineral amounts (95 mg sodium, 30 mg calcium, 25 mg magnesium per
   serving).
@@ -127,9 +127,9 @@ sources:
     accessDate: '2026-07-07'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
   lastUpdated: '2026-07-07'
@@ -140,3 +140,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 8F draft/noindex buffered vs ascorbic acid form-comparison guide
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 8H Vitamin C cluster publication
