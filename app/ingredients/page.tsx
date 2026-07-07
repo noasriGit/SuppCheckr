@@ -6,7 +6,7 @@ import { getIndexableCategories, getIndexableIngredients } from "@/lib/content/l
 export const metadata = buildPageMetadata({
   title: "Ingredient Library | SuppCheckr",
   description:
-    "Ingredient reference pages for Creatine monohydrate and Magnesium — forms, label reading, dosage context, and safety notes.",
+    "Ingredient reference pages for Creatine monohydrate, Magnesium, and Vitamin C — forms, label reading, dosage context, and safety notes.",
   path: "/ingredients",
   noindex: true,
 });
@@ -29,7 +29,7 @@ export default function IngredientsIndexPage() {
       <p className="mt-3 max-w-2xl text-foreground">
         SuppCheckr ingredient references explain how common supplement ingredients appear on
         labels and how we compare products that contain them. Published references currently
-        cover Creatine monohydrate and Magnesium.
+        cover Creatine monohydrate, Magnesium, and Vitamin C.
       </p>
 
       <section className="mt-8 rounded-lg border border-border bg-surface p-5">

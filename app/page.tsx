@@ -13,6 +13,7 @@ import {
   getBrands,
   getCategoryBySlug,
   getActiveProductsByCategory,
+  getIndexableCategories,
   getIndexableComparisons,
   isIndexable,
 } from "@/lib/content/loader";
@@ -35,7 +36,7 @@ function comparisonHref(
 }
 
 export default function HomePage() {
-  const categories = getCategories().filter((c) => c.featured && isIndexable(c));
+  const publishedCategories = getIndexableCategories();
   const allCategories = getCategories();
   const categorySlugById = new Map(allCategories.map((c) => [c.id, c.slug]));
   const creatineCategory = getCategoryBySlug("creatine");
@@ -49,6 +50,13 @@ export default function HomePage() {
   const magnesiumCategory = getCategoryBySlug("magnesium");
   const magnesiumProducts = magnesiumCategory
     ? getActiveProductsByCategory(magnesiumCategory.id)
+        .filter(isIndexable)
+        .sort((a, b) => b.rating.overallScore - a.rating.overallScore)
+        .slice(0, 3)
+    : [];
+  const vitaminCCategory = getCategoryBySlug("vitamin-c");
+  const vitaminCProducts = vitaminCCategory
+    ? getActiveProductsByCategory(vitaminCCategory.id)
         .filter(isIndexable)
         .sort((a, b) => b.rating.overallScore - a.rating.overallScore)
         .slice(0, 3)
@@ -71,9 +79,9 @@ export default function HomePage() {
             {siteConfig.description}
           </p>
           <p className="mt-3 max-w-2xl text-sm text-muted">
-            Published Creatine monohydrate and Magnesium coverage includes product reviews,
-            guides, ingredient references, and comparison tables. Product images use
-            label-first placeholders where brand product photos are not shown.
+            Published Creatine monohydrate, Magnesium, and Vitamin C coverage includes product reviews,
+            guides, ingredient references, and comparison tables. Product images use label-first
+            placeholders where brand product photos are not shown.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
@@ -89,6 +97,12 @@ export default function HomePage() {
               Browse Magnesium reviews
             </Link>
             <Link
+              href="/supplements/vitamin-c"
+              className="rounded-lg border border-border px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-primary/40 hover:bg-surface"
+            >
+              Browse Vitamin C reviews
+            </Link>
+            <Link
               href="/methodology"
               className="rounded-lg border border-border px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-primary/40 hover:bg-surface"
             >
@@ -102,7 +116,7 @@ export default function HomePage() {
         <section className="mb-10">
           <h2 className="text-xl font-semibold text-heading">Find supplements</h2>
           <p className="mt-2 text-sm text-foreground">
-            Search published SuppCheckr pages, including Creatine and Magnesium reviews,
+            Search published SuppCheckr pages, including Creatine, Magnesium, and Vitamin C reviews,
             guides, comparisons, and category hubs.
           </p>
           <Link
@@ -116,11 +130,11 @@ export default function HomePage() {
         <section className="mb-10">
           <h2 className="text-xl font-semibold text-heading">Supplement categories</h2>
           <p className="mt-2 text-sm text-muted">
-            Creatine monohydrate and Magnesium include ingredient references, guides, product
-            reviews, and comparison tables.
+            Creatine monohydrate, Magnesium, and Vitamin C include ingredient references, guides,
+            product reviews, and comparison tables.
           </p>
           <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {categories.map((cat) => (
+            {publishedCategories.map((cat) => (
               <CategoryCard key={cat.id} category={cat} />
             ))}
           </div>
@@ -167,6 +181,32 @@ export default function HomePage() {
               className="mt-4 inline-block text-sm text-link hover:text-link-hover hover:underline"
             >
               View all magnesium reviews
+            </Link>
+          </section>
+        )}
+
+        {vitaminCProducts.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-xl font-semibold text-heading">Vitamin C product reviews</h2>
+            <p className="mt-2 text-sm text-muted">
+              Published vitamin C reviews compare vitamin C amount per serving, form disclosure,
+              testing documentation, and dated manual value per 500 mg vitamin C.
+            </p>
+            <div className="mt-4 grid gap-4 sm:grid-cols-2">
+              {vitaminCProducts.map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  categorySlug="vitamin-c"
+                  brandName={brandMap.get(product.brandId)?.name ?? "Unknown brand"}
+                />
+              ))}
+            </div>
+            <Link
+              href="/supplements/vitamin-c"
+              className="mt-4 inline-block text-sm text-link hover:text-link-hover hover:underline"
+            >
+              View all vitamin C reviews
             </Link>
           </section>
         )}

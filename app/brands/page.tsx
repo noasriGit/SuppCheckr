@@ -10,7 +10,7 @@ import {
 export const metadata = buildPageMetadata({
   title: "Supplement Brands | SuppCheckr",
   description:
-    "Brand profiles for supplements with published SuppCheckr product reviews in Creatine and Magnesium categories.",
+    "Brand profiles for supplements with published SuppCheckr product reviews in Creatine, Magnesium, and Vitamin C categories.",
   path: "/brands",
   noindex: true,
 });
@@ -32,8 +32,8 @@ export default function BrandsIndexPage() {
         published product reviews and notes transparency or testing context where available.
       </p>
       <p className="mt-3 max-w-2xl text-sm text-muted">
-        Profiles reflect our published Creatine and Magnesium coverage — not a complete catalog
-        of every product a brand sells.
+        Profiles reflect our published Creatine, Magnesium, and Vitamin C coverage — not a complete
+        catalog of every product a brand sells.
       </p>
 
       <ul className="mt-8 space-y-3">
