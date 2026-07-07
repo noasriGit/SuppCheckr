@@ -11,8 +11,14 @@ shortDescription: >
   and safety context when guides and product reviews are drafted in a later phase.
 featured: false
 relatedCategories: []
-relatedGuides: []
-buyersGuideSlug: null
+relatedGuides:
+  - what-is-vitamin-c
+  - how-to-choose-a-vitamin-c-supplement
+  - vitamin-c-dosage-guide
+  - vitamin-c-side-effects-and-safety
+  - liposomal-vitamin-c-vs-regular-vitamin-c
+  - buffered-vitamin-c-vs-ascorbic-acid
+buyersGuideSlug: how-to-choose-a-vitamin-c-supplement
 scoringProfileId: vitamin-c
 ingredientSlug: vitamin-c
 activeDoseLabel: Vitamin C per serving
@@ -38,9 +44,9 @@ evaluationSummary: >
   vitamin C products for colds, flu, COVID, cancer, immunity boosting, skin whitening, pregnancy, children, or any
   medical condition.
 clusterScopeNote: >
-  Phase 8E draft shell. Five draft/noindex product YAML files are locked (basic ascorbic acid, buffered/mineral
-  ascorbate, liposomal, powder, USP Verified). No comparison table or guides linked yet. Cluster remains unpublished.
-  Product buckets documented in Phase 8D longlist and Phase 8E report.
+  Phase 8F draft shell. Five draft/noindex product reviews (basic ascorbic acid, buffered/mineral ascorbate, liposomal,
+  powder, USP Verified), six draft/noindex guides, and one draft/noindex comparison table (vitamin-c-supplements-compared).
+  Cluster remains unpublished — no affiliate links, no Amazon ASINs, no indexable routes.
 buyingConsiderations:
   - >-
     Confirm the Supplement Facts panel lists vitamin C (mg) per serving — not only total powder, fruit extract, or
@@ -114,3 +120,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 8E — five draft product reviews locked; category remains draft/noindex
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 8F — six draft guides and draft comparison linked; category remains draft/noindex

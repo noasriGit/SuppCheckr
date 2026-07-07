@@ -1,0 +1,139 @@
+slug: what-is-vitamin-c
+title: What Is Vitamin C?
+categoryId: vitamin-c
+excerpt: >
+  A conservative overview of vitamin C as an essential nutrient, common supplemental forms, label-reading basics, and how
+  SuppCheckr evaluates vitamin C products — not medical advice.
+body: |
+  ## Introduction
+
+  Vitamin C (ascorbic acid) is an essential nutrient your body needs for many normal processes. It is found in foods and
+  also sold as dietary supplements in several forms. SuppCheckr explains vitamin C in educational guides and compares
+  supplement labels when product reviews are available — we do not provide medical advice.
+
+  ## What vitamin C is
+
+  According to NIH Office of Dietary Supplements consumer materials, vitamin C is involved in collagen synthesis,
+  antioxidant activity, and normal immune function. The body does not store large amounts of vitamin C, so regular dietary
+  intake from food is important.
+
+  ## Dietary vitamin C vs supplemental vitamin C
+
+  NIH materials note that vitamin C is present in many foods — including citrus fruits, peppers, strawberries, broccoli,
+  and fortified products — and that many people in the United States meet recommended intake from food alone, according
+  to national survey data summarized by NIH.
+
+  Dietary supplements add vitamin C on top of food intake. When comparing products or thinking about total intake,
+  consider both food sources and any supplements you use. SuppCheckr does not estimate your personal dietary intake.
+
+  ## Common supplemental forms (high level)
+
+  Retail vitamin C products may list:
+
+  - **Ascorbic acid** — the standard acidic form, often in capsules, tablets, or powders
+  - **Mineral ascorbates** — such as sodium ascorbate or calcium ascorbate, sometimes marketed as "buffered"
+  - **Liposomal products** — vitamin C combined with phospholipids in liquid or gel packets
+  - **Powders and blends** — pure ascorbic acid powder or formulas with fruit extracts and other actives
+
+  Labels vary by form, dose per serving, serving size, and additives. See our
+  [buffered vitamin C vs ascorbic acid guide](/guides/buffered-vitamin-c-vs-ascorbic-acid) and
+  [liposomal vitamin C vs regular vitamin C guide](/guides/liposomal-vitamin-c-vs-regular-vitamin-c) for form-comparison
+  context without product recommendations.
+
+  ## Why vitamin C supplement labels can be confusing
+
+  A common source of confusion is comparing **total product weight** or **blend weight** to **vitamin C (mg) per serving**:
+
+  - Labels may list fruit powders, proprietary blends, or liposomal complexes with large weights.
+  - The Supplement Facts panel should show how much **vitamin C (mg)** each serving provides — that is the number most
+    relevant for dose and value comparisons.
+
+  If a label discloses only blend weight without a specific vitamin C amount, dose transparency is limited. SuppCheckr
+  weights vitamin C amount disclosure heavily when reviewing vitamin C products.
+
+  ## What vitamin C supplements are not
+
+  Dietary supplements are not drugs and are not FDA-approved to diagnose, cure, or prevent disease. According to FDA
+  overview materials, supplement manufacturers may not make disease claims on labels. SuppCheckr does not describe
+  vitamin C supplements as medical therapies.
+
+  SuppCheckr does not rank vitamin C products for colds, flu, COVID, cancer, immunity boosting, skin whitening,
+  pregnancy, children, or any medical condition.
+
+  ## How SuppCheckr approaches vitamin C products
+
+  SuppCheckr compares publicly available label information in our
+  [vitamin C category hub](/supplements/vitamin-c): form disclosure, **vitamin C mg per serving**, other ingredients,
+  third-party testing documentation, and dated manual price context (including price per 500 mg vitamin C). Scores reflect
+  label transparency and sourcing — not proof that a product will work for you.
+
+  ## Safety reminder
+
+  Consult a qualified healthcare professional before starting or changing vitamin C supplements, especially if pregnant,
+  nursing, under 18, prone to kidney stones, managing kidney disease, taking medication, or managing a medical condition.
+
+  Product labels, warnings, dosages, and formulas can change.
+
+  ## Frequently asked questions
+
+  **Is vitamin C the same as ascorbic acid on labels?**
+  Ascorbic acid is one common supplemental form of vitamin C. Labels may also list mineral ascorbates or proprietary
+  delivery formats. Always check how many milligrams of vitamin C each serving provides on Supplement Facts.
+
+  **Do I need a vitamin C supplement?**
+  Many people meet recommended intake from food alone, according to NIH materials. Whether supplementation is appropriate
+  depends on your diet, health context, and clinician guidance — SuppCheckr does not prescribe personal intake.
+
+  **Are liposomal or buffered forms always better?**
+  No. Different forms have different label positioning and price profiles. SuppCheckr compares disclosed vitamin C amounts
+  and label clarity — not guaranteed absorption or universal stomach tolerance.
+
+  ## Related reading
+
+  - [Vitamin C ingredient reference](/ingredients/vitamin-c)
+  - [How to choose a vitamin C supplement](/guides/how-to-choose-a-vitamin-c-supplement)
+  - [Vitamin C dosage guide](/guides/vitamin-c-dosage-guide)
+  - [Vitamin C side effects and safety](/guides/vitamin-c-side-effects-and-safety)
+  - [Buffered vitamin C vs ascorbic acid](/guides/buffered-vitamin-c-vs-ascorbic-acid)
+  - [Liposomal vitamin C vs regular vitamin C](/guides/liposomal-vitamin-c-vs-regular-vitamin-c)
+relatedGuideSlugs:
+  - how-to-choose-a-vitamin-c-supplement
+  - vitamin-c-dosage-guide
+  - vitamin-c-side-effects-and-safety
+  - buffered-vitamin-c-vs-ascorbic-acid
+  - liposomal-vitamin-c-vs-regular-vitamin-c
+sources:
+  - id: nih-vitamin-c-consumer
+    title: Vitamin C — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-Consumer/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-vitamin-c-hp
+    title: Vitamin C — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-overview
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-07'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-07-07'
+  lastReviewed: '2026-07-07'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 8F draft/noindex introductory vitamin C guide

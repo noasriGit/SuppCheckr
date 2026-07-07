@@ -1,0 +1,119 @@
+slug: vitamin-c-dosage-guide
+title: Vitamin C Dosage Guide
+categoryId: vitamin-c
+excerpt: >
+  How to read vitamin C serving sizes and milligrams on labels, dietary vs supplemental intake context, and upper-limit
+  background from NIH materials — not personalized medical advice.
+body: |
+  ## Introduction
+
+  Vitamin C products use different serving sizes and vitamin C amounts per serving. This guide explains how to read label
+  dose information and summarizes **general intake reference values** from NIH Office of Dietary Supplements materials. It
+  is not a prescription or personal dosing recommendation.
+
+  ## Vitamin C mg per serving vs total product weight
+
+  Always check the Supplement Facts panel for **Vitamin C** with a milligram amount per serving. Product names, fruit
+  powder weights, liposomal complex weights, and proprietary blend totals do not equal vitamin C dose. SuppCheckr
+  comparisons use vitamin C mg per serving, not container weight or blend weight alone.
+
+  ## Reading the Supplement Facts panel
+
+  When comparing products, check:
+
+  1. **Serving size** — capsule count, scoop size, packet volume, etc.
+  2. **Vitamin C (mg) per serving**
+  3. **Servings per container** — needed for price-per-serving and price-per-500-mg math
+
+  If vitamin C is listed inside a proprietary blend without a specific milligram amount, dose transparency is limited.
+
+  ## Dietary reference values (context only)
+
+  According to NIH health-professional materials, Recommended Dietary Allowances (RDAs) and Adequate Intakes (AIs) for
+  vitamin C vary by age, sex, pregnancy, and lactation. For example, many adults have an RDA of 75–90 mg/day from **food
+  and beverages combined** — check the NIH fact sheet tables for your life stage.
+
+  These values describe total dietary intake targets, not an instruction to take a specific supplement dose.
+
+  ## Supplemental upper limit (context only)
+
+  NIH materials also publish a **Tolerable Upper Intake Level (UL)** for **vitamin C from supplements and fortified
+  foods** — **2,000 mg/day for adults** (not including vitamin C naturally present in food). Exceeding the UL from
+  supplements may cause diarrhea, nausea, and abdominal cramps in some people.
+
+  Total intake includes food, fortified foods, and supplements. This guide does not calculate your personal total intake.
+
+  ## High-dose products on labels
+
+  Many retail products list 500 mg, 1,000 mg, or higher vitamin C per serving. A higher labeled dose is not automatically
+  better and may exceed what you need from supplements alone when combined with dietary intake. Follow product labels
+  unless a qualified healthcare professional advises otherwise.
+
+  ## Product labels vs reference tables
+
+  Supplement labels suggest a serving size for the product; that serving may or may not align with your dietary needs.
+  Labels, warnings, and formulas can change — verify the current label before use.
+
+  ## Who should talk to a healthcare professional first
+
+  Consult a qualified healthcare professional before starting or changing vitamin C supplements, especially if you are:
+
+  - Pregnant or nursing
+  - Under 18
+  - Prone to kidney stones or managing kidney disease
+  - Managing hemochromatosis or other iron overload conditions
+  - Taking prescription medications (see NIH interaction summaries)
+  - Managing any medical condition or preparing for surgery
+
+  ## Frequently asked questions
+
+  **How much vitamin C should I take daily?**
+  NIH publishes RDAs and a supplemental UL by life stage. Personal needs depend on diet, health context, and clinician
+  guidance — this guide does not prescribe an individual dose.
+
+  **Is 1,000 mg per serving too much?**
+  Many products list 1,000 mg per serving. Whether that is appropriate depends on total intake from food plus supplements
+  and your health context. High supplemental intakes above the UL may cause GI effects for some people.
+
+  **Does more vitamin C mean better results?**
+  No. More is not automatically better. SuppCheckr compares disclosed mg per serving for label literacy — not outcome
+  guarantees.
+
+  ## Related reading
+
+  - [Vitamin C ingredient reference](/ingredients/vitamin-c)
+  - [What is vitamin C?](/guides/what-is-vitamin-c)
+  - [Vitamin C side effects and safety](/guides/vitamin-c-side-effects-and-safety)
+  - [How to choose a vitamin C supplement](/guides/how-to-choose-a-vitamin-c-supplement)
+relatedGuideSlugs:
+  - what-is-vitamin-c
+  - vitamin-c-side-effects-and-safety
+  - how-to-choose-a-vitamin-c-supplement
+sources:
+  - id: nih-vitamin-c-hp-dose
+    title: Vitamin C — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-vitamin-c-consumer-dose
+    title: Vitamin C — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-Consumer/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-07-07'
+  lastReviewed: '2026-07-07'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 8F draft/noindex vitamin C dosage education guide

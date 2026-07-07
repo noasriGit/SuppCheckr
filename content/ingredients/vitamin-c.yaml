@@ -48,7 +48,13 @@ relatedProductIds:
   - vitamin-c-livon-lypo-spheric-vitamin-c
   - vitamin-c-nutricost-vitamin-c-powder
   - vitamin-c-nature-made-vitamin-c-1000-mg-tablets
-relatedGuideSlugs: []
+relatedGuideSlugs:
+  - what-is-vitamin-c
+  - how-to-choose-a-vitamin-c-supplement
+  - vitamin-c-dosage-guide
+  - vitamin-c-side-effects-and-safety
+  - liposomal-vitamin-c-vs-regular-vitamin-c
+  - buffered-vitamin-c-vs-ascorbic-acid
 sources:
   - id: nih-vitamin-c-hp
     title: Vitamin C — Health Professional Fact Sheet
@@ -88,3 +94,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 8E — linked five draft/noindex vitamin C product IDs for internal QA (cluster remains unpublished)
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 8F — linked six draft/noindex vitamin C guide slugs; cluster remains unpublished

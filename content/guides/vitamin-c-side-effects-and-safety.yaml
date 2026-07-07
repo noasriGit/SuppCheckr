@@ -1,0 +1,138 @@
+slug: vitamin-c-side-effects-and-safety
+title: Vitamin C Side Effects and Safety
+categoryId: vitamin-c
+excerpt: >
+  Conservative safety context from NIH materials — common GI effects, kidney stone cautions, iron overload context,
+  medication interactions, sensitive populations, and emergency guidance — not medical advice.
+body: |
+  ## Introduction
+
+  Vitamin C is an essential nutrient with established dietary reference values and documented supplement safety
+  considerations. This page summarizes **general safety context** from cited NIH and FDA sources. It does not replace
+  advice from a qualified healthcare professional.
+
+  ## Common side effects at high supplemental intakes
+
+  According to NIH health-professional materials, **supplemental vitamin C intakes above the Tolerable Upper Intake
+  Level (UL)** can cause diarrhea, nausea, and abdominal cramps in some people. Individual tolerance varies — some
+  people may notice GI effects at lower supplemental doses.
+
+  Ascorbic acid powders and high-dose tablets may be more noticeable for taste or GI tolerance for some users, but
+  tolerance is not predictable from form alone. This is general context — not a reason to use any supplement for symptom
+  management without medical guidance.
+
+  ## Kidney stones
+
+  NIH materials discuss kidney stone risk in the context of high supplemental vitamin C intakes for susceptible
+  individuals. If you have a history of kidney stones or manage kidney disease, consult a qualified healthcare
+  professional before using high-dose vitamin C supplements.
+
+  ## Kidney disease
+
+  People managing kidney disease should seek professional guidance before starting or increasing vitamin C supplements.
+  SuppCheckr does not provide dosing advice for kidney conditions.
+
+  ## Iron overload / hemochromatosis
+
+  According to NIH materials, vitamin C can enhance non-heme iron absorption. People with hemochromatosis or other iron
+  overload conditions should consult a qualified healthcare professional before using vitamin C supplements,
+  especially at higher doses.
+
+  ## Medication interactions
+
+  NIH health-professional summaries describe contexts where high-dose vitamin C may be relevant to medication or
+  treatment discussions (for example, some chemotherapy regimens). This summary is not a complete interaction list.
+
+  Consult a qualified healthcare professional or pharmacist about your specific medications — do not start, stop, or change
+  supplements during cancer treatment without your oncology team's guidance.
+
+  ## Sensitive populations
+
+  Seek professional guidance before use if you are:
+
+  - **Pregnant or nursing** — vitamin C needs change during pregnancy and lactation; follow clinician guidance
+  - **Under 18** — pediatric dosing and suitability differ from adult products
+  - **Managing a medical condition** — including diabetes, cardiovascular conditions, or gastrointestinal disorders
+  - **Preparing for surgery** — disclose all supplements to your surgical team
+
+  ## What vitamin C supplements are not
+
+  Dietary supplements are not FDA-approved to diagnose, cure, or prevent disease. SuppCheckr does not describe vitamin C
+  as a medical therapy. Avoid products whose marketing implies disease outcomes, cold/flu/COVID prevention, cancer
+  treatment support, or universal safety claims.
+
+  SuppCheckr does not rank vitamin C products for colds, flu, COVID, cancer, immunity boosting, skin whitening,
+  pregnancy, children, or any medical condition.
+
+  ## Emergency disclaimer
+
+  Seek **immediate medical attention** (call emergency services or go to an emergency department) for symptoms such as
+  severe allergic reaction, difficulty breathing, chest pain, or other sudden severe symptoms — whether or not you
+  recently took a supplement. For suspected supplement-related adverse events, contact a healthcare professional promptly.
+
+  According to FDA materials, consumers and healthcare professionals can report serious adverse events associated with
+  dietary supplements through FDA safety reporting systems. See FDA dietary supplement resources for current reporting
+  instructions.
+
+  ## Product label changes
+
+  Product labels, warnings, dosages, and formulas can change. Always read the current Supplement Facts panel and
+  manufacturer warnings before use.
+
+  ## Frequently asked questions
+
+  **Can vitamin C cause stomach upset?**
+  According to NIH materials, high supplemental intakes may cause diarrhea, nausea, or cramping in some people. Individual
+  tolerance varies by dose, form, and personal sensitivity.
+
+  **Is vitamin C safe during pregnancy?**
+  NIH publishes RDAs for pregnancy and lactation. Supplement suitability and dose should be discussed with a prenatal
+  clinician — SuppCheckr does not rank products for pregnancy.
+
+  **Should children take adult vitamin C products?**
+  Pediatric needs differ from adult products. Consult a pediatric clinician before giving children supplemental vitamin C.
+
+  ## Related reading
+
+  - [Vitamin C ingredient reference](/ingredients/vitamin-c)
+  - [Vitamin C dosage guide](/guides/vitamin-c-dosage-guide)
+  - [What is vitamin C?](/guides/what-is-vitamin-c)
+  - [How to choose a vitamin C supplement](/guides/how-to-choose-a-vitamin-c-supplement)
+relatedGuideSlugs:
+  - vitamin-c-dosage-guide
+  - what-is-vitamin-c
+sources:
+  - id: nih-vitamin-c-hp-safety
+    title: Vitamin C — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-vitamin-c-consumer-safety
+    title: Vitamin C — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-Consumer/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-safety
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-07'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-07-07'
+  lastReviewed: '2026-07-07'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 8F draft/noindex vitamin C safety context guide

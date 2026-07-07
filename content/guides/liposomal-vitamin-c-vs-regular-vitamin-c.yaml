@@ -1,0 +1,141 @@
+slug: liposomal-vitamin-c-vs-regular-vitamin-c
+title: 'Liposomal Vitamin C vs Regular Vitamin C: Label Differences and Claim Scrutiny'
+categoryId: vitamin-c
+excerpt: >
+  Liposomal vitamin C vs regular vitamin C explained for label literacy — vitamin C mg per serving, delivery format,
+  additives, price per mg, and why absorption marketing needs source scrutiny. Educational only; no product rankings.
+body: |
+  ## Introduction
+
+  **Liposomal vitamin C** products wrap vitamin C (often as sodium ascorbate) in phospholipids and are sold as liquids or
+  gel packets. **Regular vitamin C** products include ascorbic acid capsules, tablets, powders, and mineral ascorbates.
+
+  This guide explains label and positioning differences at a high level for label literacy. It does not recommend
+  liposomal over regular vitamin C for every reader, and it does **not** claim liposomal products are guaranteed better
+  absorbed.
+
+  ## Regular vitamin C on labels
+
+  Common retail formats include:
+
+  - **Ascorbic acid** capsules, tablets, or powders with vitamin C mg on Supplement Facts
+  - **Mineral ascorbates** (sodium or calcium ascorbate) sometimes marketed as buffered
+  - **Blends** with bioflavonoids or fruit extracts — still require clear vitamin C mg per serving
+
+  When comparing regular products, use **vitamin C (mg) per serving** on Supplement Facts — not container weight or
+  blend totals alone.
+
+  ## Liposomal vitamin C on labels
+
+  Liposomal products typically list:
+
+  - **Vitamin C (mg)** — often as sodium ascorbate
+  - **Phospholipids** — such as phosphatidylcholine from soy lecithin
+  - **Sodium** — when sodium ascorbate is used
+  - **Liquid format** — packets, gels, or suspensions with water, ethanol, or other excipients
+
+  Liposomal is a **marketed delivery format**, not a separate FDA-defined nutrient category. Labels should still disclose
+  vitamin C mg per serving clearly. Proprietary "liposomal complex" language without mg transparency is difficult to
+  evaluate.
+
+  ## Liposomal vs regular: label comparison
+
+  | Factor | Regular vitamin C | Liposomal vitamin C |
+  | --- | --- | --- |
+  | Typical forms | Ascorbic acid, mineral ascorbates | Often sodium ascorbate with phospholipids |
+  | Serving format | Capsules, tablets, scoops | Packets, gels, liquids |
+  | Key label line | Vitamin C (mg) per serving | Vitamin C (mg) plus phospholipid/sodium disclosure |
+  | Price per mg | Often lower for plain acid or powder | Often higher — compare dated manual price per 500 mg |
+  | Additives | Capsule shells, fillers, sweeteners in some formats | Ethanol, soy lecithin, citric acid common in packets |
+  | Marketing themes | Immune, antioxidant, general wellness | Absorption, delivery technology, elite bioavailability |
+  | SuppCheckr review relevance | Form bucket in [vitamin C comparison](/supplements/vitamin-c/compare) | Scored on label clarity — not absorption superiority |
+
+  ## Why "liposomal" claims need scrutiny
+
+  Brand marketing often emphasizes enhanced absorption or delivery technology. According to NIH ODS materials, supplement
+  forms are described at a general level — liposomal-specific superiority is **not** an established universal fact
+  SuppCheckr endorses without conservative framing.
+
+  When evaluating liposomal products:
+
+  - Confirm **vitamin C mg per serving** on Supplement Facts
+  - Note **sodium**, **soy**, **ethanol**, or other excipients if relevant to you
+  - Compare **price per 500 mg vitamin C** — liposomal products often carry a large premium
+  - Treat absorption claims as **brand positioning** unless tied to specific sourced evidence — SuppCheckr does not repeat
+    superiority claims as editorial fact
+
+  ## Draft product example (not a recommendation)
+
+  SuppCheckr's draft review cluster includes **LivOn Lypo-Spheric Vitamin C** as one liposomal-format example with
+  1,000 mg vitamin C as sodium ascorbate per packet on cited Supplement Facts. That product illustrates label disclosure
+  and price-per-mg context — it is **not** ranked as best absorbed or best overall.
+
+  ## No product recommendations here
+
+  This guide does not rank products or suggest liposomal vitamin C for any medical purpose. SuppCheckr does not rank vitamin
+  C products for colds, flu, COVID, cancer, immunity boosting, or any medical condition.
+
+  Consult a qualified healthcare professional before starting or changing vitamin C supplements, especially if pregnant,
+  nursing, under 18, sensitive to soy or alcohol in formulas, prone to kidney stones, managing kidney disease, taking
+  medication, or managing a medical condition.
+
+  ## Frequently asked questions
+
+  **Is liposomal vitamin C better absorbed than regular vitamin C?**
+  Absorption marketing is common in liposomal products. Individual responses vary, and SuppCheckr does not treat liposomal
+  as guaranteed superior absorption. Compare disclosed vitamin C mg, additives, price, and your own sourcing priorities.
+
+  **Why is liposomal vitamin C more expensive?**
+  Packet formats, phospholipid ingredients, and brand positioning often raise cost per mg compared with plain ascorbic
+  acid capsules or powders. Higher price does not automatically mean better personal outcomes.
+
+  **Does liposomal vitamin C have more additives?**
+  Liposomal packets often list phospholipids, water, ethanol, and citric acid. Regular capsules may use simpler excipients —
+  compare full ingredient lists for your preferences.
+
+  ## Related reading
+
+  - [Vitamin C supplements category overview](/supplements/vitamin-c)
+  - [Vitamin C ingredient reference](/ingredients/vitamin-c)
+  - [Buffered vitamin C vs ascorbic acid](/guides/buffered-vitamin-c-vs-ascorbic-acid)
+  - [How to choose a vitamin C supplement](/guides/how-to-choose-a-vitamin-c-supplement)
+  - [What is vitamin C?](/guides/what-is-vitamin-c)
+relatedGuideSlugs:
+  - buffered-vitamin-c-vs-ascorbic-acid
+  - what-is-vitamin-c
+  - how-to-choose-a-vitamin-c-supplement
+sources:
+  - id: nih-vitamin-c-hp-forms
+    title: Vitamin C — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-vitamin-c-consumer-forms
+    title: Vitamin C — Consumer Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/VitaminC-Consumer/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-overview
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-07'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-07'
+  lastReviewed: '2026-07-07'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 8F draft/noindex liposomal vs regular vitamin C form-comparison guide
