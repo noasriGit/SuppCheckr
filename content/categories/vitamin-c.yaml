@@ -38,8 +38,9 @@ evaluationSummary: >
   vitamin C products for colds, flu, COVID, cancer, immunity boosting, skin whitening, pregnancy, children, or any
   medical condition.
 clusterScopeNote: >
-  Phase 8C draft shell only. No product reviews, comparison table, or guides are linked yet. Product buckets and
-  shortlist strategy are documented in the Vitamin C category blueprint and product research checklist.
+  Phase 8E draft shell. Five draft/noindex product YAML files are locked (basic ascorbic acid, buffered/mineral
+  ascorbate, liposomal, powder, USP Verified). No comparison table or guides linked yet. Cluster remains unpublished.
+  Product buckets documented in Phase 8D longlist and Phase 8E report.
 buyingConsiderations:
   - >-
     Confirm the Supplement Facts panel lists vitamin C (mg) per serving — not only total powder, fruit extract, or
@@ -109,3 +110,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 8C draft/noindex category shell — no products, guides, or affiliate links
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 8E — five draft product reviews locked; category remains draft/noindex

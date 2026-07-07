@@ -1,0 +1,189 @@
+id: vitamin-c-nutricost-vitamin-c-powder
+slug: nutricost-vitamin-c-powder
+name: Nutricost Vitamin C Powder (1 lb)
+brandId: nutricost
+categoryId: vitamin-c
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Nutricost Vitamin C Powder 1 lb — product photo pending
+    attribution: Placeholder image; label sourced from Nutricost product page Supplement Facts image
+  label:
+    src: null
+    attribution: https://nutricost.com/products/nutricost-vitamin-c-powder
+supplementFacts:
+  servingSize: 1 g (scoop)
+  servingsPerContainer: 454
+  ingredients:
+    - name: Vitamin C (as ascorbic acid)
+      amount: 1,000 mg
+      dailyValue: null
+  otherIngredients: []
+  allergens: []
+pricing:
+  msrp: 13.97
+  currency: USD
+  pricePerServing: 0.031
+  pricePerActiveDose: 0.015
+  lastManualUpdate: '2026-07-07'
+  lastPriceCheckedAt: '2026-07-07'
+retailers:
+  - retailerId: nutricost
+    url: https://nutricost.com/products/nutricost-vitamin-c-powder
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: claimed
+  details: >
+    Nutricost product and brand pages describe third-party testing at a marketing level. No public batch COA or
+    certificate URL matched to the 1 lb vitamin C powder SKU was verified in Phase 8E.
+  sources:
+    - brand-nutricost-vitamin-c-powder-page
+additives: []
+flags:
+  thirdPartyTested: false
+  additiveFree: true
+rating:
+  profileId: vitamin-c
+  criteriaScores:
+    ingredientTransparency: 98
+    doseTransparency: 95
+    evidenceAlignment: 88
+    formulaQuality: 92
+    thirdPartyTesting: 50
+    priceValue: 98
+    additives: 98
+    labelClarity: 88
+    brandTransparency: 75
+  overallScore: 87
+pros:
+  - >-
+    Supplement Facts on the Nutricost product page list pure ascorbic acid powder with 1,000 mg vitamin C per 1 g scoop
+    and no other ingredients.
+  - Lowest observed price per 500 mg vitamin C in this draft cluster at the cited 2026-07-07 price check.
+  - Scoop-based powder allows flexible serving adjustments when label math is followed.
+cons:
+  - Powder taste and GI tolerance vary by individual; acidic taste is common for ascorbic acid powders.
+  - Nutricost also sells 0.5 lb and 2 lb sizes — confirm weight before purchase.
+  - Third-party testing is marketed but not verified with a captured certificate URL for this SKU.
+bestFor:
+  - >-
+    Buyers comparing a pure ascorbic acid powder with strong dated price per 500 mg vitamin C and minimal formula
+    complexity.
+avoidIf:
+  - You require verified third-party certification documentation before purchase.
+  - You prefer capsules or tablets over measuring powder servings.
+  - You are sensitive to acidic supplement tastes or have not tolerated ascorbic acid powder before.
+labelTransparencyNotes: >
+  Locked 1 lb (454 g) SKU with ~454 servings at 1 g scoop per Nutricost Supplement Facts. Nutricost also sells 0.5 lb and
+  2 lb variants — confirm container weight and UPC before purchase.
+evidenceNotes: >
+  SuppCheckr score uses the vitamin C scoring profile (Phase 8C). Key drivers: pure ascorbic acid, clear 1,000 mg per
+  scoop, additive-free label, and best observed price per 500 mg vitamin C in this cluster — offset by claimed (not
+  verified) testing and powder-format serving/tolerance variables.
+relatedProductIds:
+  - vitamin-c-now-foods-vitamin-c-1000-veg-capsules
+  - vitamin-c-nutricost-buffered-vitamin-c-120
+  - vitamin-c-livon-lypo-spheric-vitamin-c
+  - vitamin-c-nature-made-vitamin-c-1000-mg-tablets
+comparisonGroupIds: []
+claims:
+  - id: nutricost-powder-vitc-label-form-ascorbic-acid
+    text: The Nutricost Supplement Facts list vitamin C as ascorbic acid with no other active ingredients.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-nutricost-vitamin-c-powder
+  - id: nutricost-powder-vitc-label-amount-1000mg
+    text: The Nutricost Supplement Facts show 1,000 mg vitamin C per 1 g scoop serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-nutricost-vitamin-c-powder
+  - id: nutricost-powder-vitc-price-brand
+    text: Nutricost.com listed Vitamin C Powder (1 lb) at $13.97 on 2026-07-07.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nutricost-vitamin-c-powder
+  - id: nutricost-powder-vitc-price-per-serving
+    text: Price per serving is $0.031 based on $13.97 divided by ~454 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nutricost-vitamin-c-powder
+      - editorial-price-per-500mg-vitamin-c-nutricost-vitamin-c-powder
+  - id: nutricost-powder-vitc-price-per-500mg
+    text: >
+      Price per 500 mg vitamin C is $0.015 based on $0.031 per serving divided by 1,000 mg vitamin C per serving, scaled
+      to 500 mg (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nutricost-vitamin-c-powder
+      - editorial-price-per-500mg-vitamin-c-nutricost-vitamin-c-powder
+  - id: nutricost-powder-vitc-testing-claimed
+    text: >-
+      Nutricost brand materials state third-party testing; SuppCheckr has not verified a public certificate URL for this
+      SKU.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - brand-nutricost-vitamin-c-powder-page
+sources:
+  - id: label-nutricost-vitamin-c-powder
+    title: Nutricost Vitamin C Powder 1 lb — Supplement Facts image (brand product page)
+    publisher: Nutricost
+    url: https://nutricost.com/products/nutricost-vitamin-c-powder
+    accessDate: '2026-07-07'
+    sourceType: brand_label
+    supportsClaimIds:
+      - nutricost-powder-vitc-label-form-ascorbic-acid
+      - nutricost-powder-vitc-label-amount-1000mg
+  - id: retailer-nutricost-vitamin-c-powder
+    title: Nutricost Vitamin C Powder 1 lb — product page (price)
+    publisher: Nutricost
+    url: https://nutricost.com/products/nutricost-vitamin-c-powder
+    accessDate: '2026-07-07'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - nutricost-powder-vitc-price-brand
+      - nutricost-powder-vitc-price-per-serving
+      - nutricost-powder-vitc-price-per-500mg
+  - id: brand-nutricost-vitamin-c-powder-page
+    title: Nutricost Vitamin C Powder — third-party tested marketing copy
+    publisher: Nutricost
+    url: https://nutricost.com/products/nutricost-vitamin-c-powder
+    accessDate: '2026-07-07'
+    sourceType: brand_label
+    supportsClaimIds:
+      - nutricost-powder-vitc-testing-claimed
+  - id: editorial-price-per-500mg-vitamin-c-nutricost-vitamin-c-powder
+    title: SuppCheckr price-per-serving and price-per-500-mg-vitamin-C calculation
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-07-07'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - nutricost-powder-vitc-price-per-serving
+      - nutricost-powder-vitc-price-per-500mg
+affiliate:
+  enabled: false
+seo:
+  title: Nutricost Vitamin C Powder 1 lb Review | SuppCheckr
+  description: >
+    Draft SuppCheckr review of Nutricost Vitamin C Powder (1 lb) with pure ascorbic acid label facts and dated price per
+    500 mg vitamin C.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-07-07'
+  lastReviewed: '2026-07-07'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 8E draft/noindex vitamin C product YAML (powder / budget value slot)

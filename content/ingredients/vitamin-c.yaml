@@ -42,7 +42,12 @@ interactions: >
   treatment discussions (for example, some chemotherapy regimens). This summary is not a complete interaction list.
   Consult a qualified healthcare professional or pharmacist if you take prescription medications or manage a chronic
   medical condition.
-relatedProductIds: []
+relatedProductIds:
+  - vitamin-c-now-foods-vitamin-c-1000-veg-capsules
+  - vitamin-c-nutricost-buffered-vitamin-c-120
+  - vitamin-c-livon-lypo-spheric-vitamin-c
+  - vitamin-c-nutricost-vitamin-c-powder
+  - vitamin-c-nature-made-vitamin-c-1000-mg-tablets
 relatedGuideSlugs: []
 sources:
   - id: nih-vitamin-c-hp
@@ -79,3 +84,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 8C draft/noindex ingredient shell — no products or guides linked yet
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 8E — linked five draft/noindex vitamin C product IDs for internal QA (cluster remains unpublished)

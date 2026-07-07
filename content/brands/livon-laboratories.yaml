@@ -1,0 +1,41 @@
+id: livon-laboratories
+slug: livon-laboratories
+name: LivOn Laboratories
+website: https://www.livonlabs.com
+description: >
+  LivOn Laboratories manufactures Lypo-Spheric liposomal supplement products, including Lypo-Spheric Vitamin C sold in
+  single-serving liquid packets. SuppCheckr summarizes publicly available label information — not brand endorsements.
+logo: /images/brands/placeholder.svg
+categories:
+  - vitamin-c
+transparencyNotes: >
+  LivOn publishes ingredient lists and product details on its official website. Liposomal delivery and absorption
+  marketing is prominent; SuppCheckr cites label facts conservatively and does not endorse absorption superiority.
+testingNotes: >
+  LivOn states products are third-party tested at a marketing level. No public certificate URL or recognized program
+  listing matched to the locked Lypo-Spheric Vitamin C SKU was verified in Phase 8E.
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-livon-labs-site
+    title: LivOn Laboratories official website
+    publisher: LivOn Laboratories
+    url: https://www.livonlabs.com
+    accessDate: '2026-07-07'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-07'
+  lastReviewed: '2026-07-07'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 8E draft/noindex brand record for LivOn Lypo-Spheric Vitamin C
