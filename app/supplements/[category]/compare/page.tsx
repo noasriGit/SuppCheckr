@@ -105,11 +105,40 @@ export default async function CategoryComparePage({
         />
         {comparison.methodologyNote && (
           <section className="mt-6 rounded-lg border border-border bg-surface p-4 text-sm leading-relaxed text-foreground">
-            <p>{comparison.methodologyNote}</p>
+            <h2 className="text-sm font-semibold text-heading">How to use this comparison</h2>
+            <p className="mt-2">
+              This table is a label and sourcing tool — not a medical recommendation. Scores summarize dose transparency,
+              form clarity, testing documentation, additives, and dated manual price context using our methodology. They do
+              not determine which product is right for you or suitable for any health condition. Use filters to re-sort by
+              price per active dose or testing status when those criteria matter more to you.
+            </p>
+            <p className="mt-3">{comparison.methodologyNote}</p>
             <p className="mt-3">
               <Link href="/methodology" className="text-link hover:text-link-hover hover:underline">
                 Read scoring methodology
               </Link>
+              {category.ingredientSlug && (
+                <>
+                  {" · "}
+                  <Link
+                    href={`/ingredients/${category.ingredientSlug}`}
+                    className="text-link hover:text-link-hover hover:underline"
+                  >
+                    {category.ingredientPageLinkLabel ?? `${category.name} ingredient reference`}
+                  </Link>
+                </>
+              )}
+              {category.buyersGuideSlug && (
+                <>
+                  {" · "}
+                  <Link
+                    href={`/guides/${category.buyersGuideSlug}`}
+                    className="text-link hover:text-link-hover hover:underline"
+                  >
+                    Buying guide
+                  </Link>
+                </>
+              )}
             </p>
           </section>
         )}

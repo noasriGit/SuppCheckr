@@ -130,30 +130,10 @@ export default async function GuidePage({
       />
       <article className="mt-4">{renderGuideBody(guide.body)}</article>
 
-      {relatedGuides.length > 0 && (
+      {(relatedGuides.length > 0 || category) && (
         <section className="mt-10 rounded-lg border border-border bg-surface p-4">
-          <h2 className="text-lg font-semibold text-heading">Related guides</h2>
+          <h2 className="text-lg font-semibold text-heading">Related reading</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-foreground">
-            {relatedGuides.map((related) =>
-              related ? (
-                <li key={related.slug}>
-                  <Link
-                    href={`/guides/${related.slug}`}
-                    className="text-link hover:text-link-hover hover:underline"
-                  >
-                    {related.title}
-                  </Link>
-                </li>
-              ) : null,
-            )}
-            <li>
-              <Link
-                href="/ingredients/creatine-monohydrate"
-                className="text-link hover:text-link-hover hover:underline"
-              >
-                Creatine monohydrate ingredient reference
-              </Link>
-            </li>
             {category && (
               <li>
                 <Link
@@ -167,15 +147,47 @@ export default async function GuidePage({
                 )}
               </li>
             )}
-            {category?.slug === "creatine" && (
+            {category?.ingredientSlug && (
               <li>
                 <Link
-                  href="/supplements/creatine/compare"
+                  href={`/ingredients/${category.ingredientSlug}`}
                   className="text-link hover:text-link-hover hover:underline"
                 >
-                  Creatine monohydrate comparison table
+                  {category.ingredientPageLinkLabel ?? `${category.name} ingredient reference`}
                 </Link>
               </li>
+            )}
+            {category && isIndexable(category) && (
+              <li>
+                <Link
+                  href={`/supplements/${category.slug}/compare`}
+                  className="text-link hover:text-link-hover hover:underline"
+                >
+                  {category.comparisonCtaLabel ?? `${category.name} comparison table`}
+                </Link>
+              </li>
+            )}
+            {category?.buyersGuideSlug && (
+              <li>
+                <Link
+                  href={`/guides/${category.buyersGuideSlug}`}
+                  className="text-link hover:text-link-hover hover:underline"
+                >
+                  How to choose a {category.name.toLowerCase()} supplement
+                </Link>
+              </li>
+            )}
+            {relatedGuides.map((related) =>
+              related ? (
+                <li key={related.slug}>
+                  <Link
+                    href={`/guides/${related.slug}`}
+                    className="text-link hover:text-link-hover hover:underline"
+                  >
+                    {related.title}
+                  </Link>
+                </li>
+              ) : null,
             )}
           </ul>
         </section>

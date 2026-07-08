@@ -99,7 +99,8 @@ relatedProductIds:
   - magnesium-nutricost-magnesium-citrate-120
   - magnesium-pure-encapsulations-citrate-malate-180
   - magnesium-nature-made-magnesium-oxide-250mg-100
-comparisonGroupIds: []
+comparisonGroupIds:
+  - magnesium-supplements-compared
 claims:
   - id: now-mag-malate-label-form
     text: The NOW Supplement Facts list magnesium from magnesium malate (1000 mg malate compound weight stated).

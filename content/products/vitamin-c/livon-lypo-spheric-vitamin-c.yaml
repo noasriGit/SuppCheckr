@@ -113,7 +113,8 @@ relatedProductIds:
   - vitamin-c-nutricost-buffered-vitamin-c-120
   - vitamin-c-nutricost-vitamin-c-powder
   - vitamin-c-nature-made-vitamin-c-1000-mg-tablets
-comparisonGroupIds: []
+comparisonGroupIds:
+  - vitamin-c-supplements-compared
 claims:
   - id: livon-vitc-label-form-sodium-ascorbate
     text: The cited Supplement Facts list vitamin C as sodium ascorbate.

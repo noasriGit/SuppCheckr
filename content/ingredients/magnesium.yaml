@@ -44,7 +44,12 @@ interactions: >
   bisphosphonates, some antibiotics, diuretics, and proton pump inhibitors (PPIs). This summary is not a complete
   interaction list. Consult a qualified healthcare professional or pharmacist if you take prescription medications,
   especially if you manage kidney disease or a chronic medical condition.
-relatedProductIds: []
+relatedProductIds:
+  - magnesium-klean-athlete-klean-magnesium
+  - magnesium-nutricost-magnesium-citrate-120
+  - magnesium-now-foods-magnesium-malate-1300-180
+  - magnesium-pure-encapsulations-citrate-malate-180
+  - magnesium-nature-made-magnesium-oxide-250mg-100
 relatedGuideSlugs:
   - what-is-magnesium
   - how-to-choose-a-magnesium-supplement

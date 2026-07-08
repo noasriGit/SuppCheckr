@@ -89,7 +89,8 @@ relatedProductIds:
   - vitamin-c-nutricost-buffered-vitamin-c-120
   - vitamin-c-livon-lypo-spheric-vitamin-c
   - vitamin-c-nature-made-vitamin-c-1000-mg-tablets
-comparisonGroupIds: []
+comparisonGroupIds:
+  - vitamin-c-supplements-compared
 claims:
   - id: nutricost-powder-vitc-label-form-ascorbic-acid
     text: The Nutricost Supplement Facts list vitamin C as ascorbic acid with no other active ingredients.

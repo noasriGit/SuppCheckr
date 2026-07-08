@@ -102,7 +102,8 @@ relatedProductIds:
   - magnesium-nutricost-magnesium-citrate-120
   - magnesium-now-foods-magnesium-malate-1300-180
   - magnesium-nature-made-magnesium-oxide-250mg-100
-comparisonGroupIds: []
+comparisonGroupIds:
+  - magnesium-supplements-compared
 claims:
   - id: pe-mag-label-form-citrate-malate
     text: The cited Supplement Facts list magnesium as magnesium citrate/malate.

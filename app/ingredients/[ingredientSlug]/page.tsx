@@ -158,13 +158,23 @@ export default async function IngredientPage({
                 )}
               </li>
             )}
-            {category?.slug === "creatine" && (
+            {category && isIndexable(category) && (
               <li>
                 <Link
-                  href="/supplements/creatine/compare"
+                  href={`/supplements/${category.slug}/compare`}
                   className="text-link hover:text-link-hover hover:underline"
                 >
-                  Creatine monohydrate product comparison
+                  {category.comparisonCtaLabel ?? `${category.name} product comparison`}
+                </Link>
+              </li>
+            )}
+            {category?.buyersGuideSlug && (
+              <li>
+                <Link
+                  href={`/guides/${category.buyersGuideSlug}`}
+                  className="text-link hover:text-link-hover hover:underline"
+                >
+                  How to choose a {category.name.toLowerCase()} supplement
                 </Link>
               </li>
             )}

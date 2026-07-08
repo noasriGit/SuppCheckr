@@ -99,7 +99,8 @@ relatedProductIds:
   - magnesium-now-foods-magnesium-malate-1300-180
   - magnesium-pure-encapsulations-citrate-malate-180
   - magnesium-nature-made-magnesium-oxide-250mg-100
-comparisonGroupIds: []
+comparisonGroupIds:
+  - magnesium-supplements-compared
 claims:
   - id: klean-mag-label-form-glycinate
     text: The brand Supplement Facts list magnesium as magnesium glycinate.

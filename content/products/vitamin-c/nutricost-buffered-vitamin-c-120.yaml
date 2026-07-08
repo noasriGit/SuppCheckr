@@ -107,7 +107,8 @@ relatedProductIds:
   - vitamin-c-livon-lypo-spheric-vitamin-c
   - vitamin-c-nutricost-vitamin-c-powder
   - vitamin-c-nature-made-vitamin-c-1000-mg-tablets
-comparisonGroupIds: []
+comparisonGroupIds:
+  - vitamin-c-supplements-compared
 claims:
   - id: nutricost-buffered-vitc-label-amount-1000mg
     text: The Nutricost Supplement Facts image shows 1,000 mg vitamin C per 2-capsule serving.

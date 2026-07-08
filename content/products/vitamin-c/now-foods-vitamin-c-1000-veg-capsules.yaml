@@ -100,7 +100,8 @@ relatedProductIds:
   - vitamin-c-livon-lypo-spheric-vitamin-c
   - vitamin-c-nutricost-vitamin-c-powder
   - vitamin-c-nature-made-vitamin-c-1000-mg-tablets
-comparisonGroupIds: []
+comparisonGroupIds:
+  - vitamin-c-supplements-compared
 claims:
   - id: now-vitc-label-form-ascorbic-acid
     text: The NOW Foods Supplement Facts list vitamin C as ascorbic acid.

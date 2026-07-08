@@ -107,7 +107,8 @@ relatedProductIds:
   - vitamin-c-nutricost-buffered-vitamin-c-120
   - vitamin-c-livon-lypo-spheric-vitamin-c
   - vitamin-c-nutricost-vitamin-c-powder
-comparisonGroupIds: []
+comparisonGroupIds:
+  - vitamin-c-supplements-compared
 claims:
   - id: nature-made-vitc-label-amount-1000mg
     text: The cited Target Supplement Facts show 1,000 mg vitamin C per 1 tablet serving.
