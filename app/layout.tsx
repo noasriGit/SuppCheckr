@@ -34,6 +34,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full`}>
+      <head>
+        <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="W2YGdPxZICyemheD9CxeIA"
+          async
+        />
+      </head>
       <body className="flex min-h-full flex-col antialiased">
         <a
           href="#main-content"
