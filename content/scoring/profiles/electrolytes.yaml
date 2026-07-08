@@ -1,0 +1,21 @@
+id: electrolytes
+categoryId: electrolytes
+label: Electrolytes scoring profile
+notes: >
+  Electrolytes profile — emphasizes sodium/potassium/magnesium dose transparency per serving, electrolyte
+  composition clarity, sugar and sweetener disclosure, label clarity, testing verification, serving format
+  practicality, and claim conservatism. Price/value is computed as price per serving (dated manual price — not
+  live Amazon prices). Schema field mapping from editorial criteria: electrolyteTransparency → doseTransparency;
+  sodiumPotassiumBalance → ingredientTransparency; sugarSweetenerProfile (+ colors/flavors) → additives;
+  servingPracticality → formulaQuality. See content/scoring/rubrics/electrolytes.yaml for editor rubric anchors.
+  Do not score products until Phase 14B+ product research is complete.
+criteriaWeights:
+  doseTransparency: 18
+  ingredientTransparency: 14
+  additives: 18
+  labelClarity: 12
+  evidenceAlignment: 10
+  thirdPartyTesting: 10
+  priceValue: 8
+  formulaQuality: 6
+  brandTransparency: 4

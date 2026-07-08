@@ -1,0 +1,89 @@
+id: electrolytes
+slug: electrolytes
+name: Electrolytes
+commonForms:
+  - Sodium (e.g., sodium chloride)
+  - Potassium (e.g., potassium citrate, potassium chloride)
+  - Magnesium (e.g., magnesium malate, magnesium citrate)
+  - Calcium (when disclosed)
+  - Chloride (when disclosed)
+  - Electrolyte drink mix (powder/stick)
+  - Electrolyte tablet
+  - Ready-to-drink electrolyte beverage
+categories:
+  - electrolytes
+aliases:
+  - Electrolyte minerals
+  - Electrolyte drink mix
+evidenceSummary: >
+  Electrolytes commonly refer to minerals such as sodium, potassium, and magnesium that play roles in normal body
+  processes, including fluid balance and nerve and muscle function. According to NIH Office of Dietary Supplements
+  materials, these minerals are found in foods and may also appear in electrolyte drink mixes, powders, tablets, and
+  beverages. Product labels vary widely in sodium level, potassium and magnesium amounts, sugar content, sweeteners,
+  and serving format. Comparing products requires checking how much of each mineral a serving provides and whether the
+  product contains sugar or sweeteners. SuppCheckr summarizes label and product-comparison information — not medical
+  advice. SuppCheckr does not rank electrolyte products for dehydration treatment, illness recovery, hangover prevention,
+  cramp prevention, athletic performance outcomes, pregnancy, children, or any medical condition.
+typicalDosageRange: >
+  NIH health-professional materials publish Adequate Intakes (AIs) and related guidance for sodium, potassium, and
+  magnesium by age, sex, and life stage. Electrolyte drink mix serving sizes and mineral amounts per serving differ
+  widely by brand and formula — from high-sodium, sugar-free sticks to sugar-containing hydration mixes. Dietary intake
+  from food plus any supplemental or drink-mix intake should be considered together. This page does not prescribe a
+  dose. Consult a qualified healthcare professional before starting or changing electrolyte supplements or high-sodium
+  products, especially if pregnant, nursing, under 18, taking medication, managing blood pressure, kidney disease,
+  heart disease, fluid restrictions, or a medical condition.
+safetyNotes: >
+  According to NIH materials, high sodium intake may be a concern for some people, including those managing blood
+  pressure, heart disease, or kidney disease. High supplemental potassium may be inappropriate for some individuals,
+  including those with impaired kidney function or taking certain medications. Electrolyte drink mixes and supplements
+  are not a substitute for medical care, oral rehydration therapy, or treatment of dehydration or electrolyte
+  imbalance. Product labels, warnings, formulas, and sweeteners can change — verify the current label before use.
+interactions: >
+  Sodium, potassium, and magnesium can interact with several medication classes, including diuretics, blood pressure
+  medications, and other prescriptions. This summary is not a complete interaction list. Consult a qualified healthcare
+  professional or pharmacist if you take prescription medications or manage kidney disease, heart disease, or a
+  chronic medical condition.
+relatedProductIds: []
+relatedGuideSlugs: []
+sources:
+  - id: nih-sodium-hp
+    title: Sodium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-potassium-hp
+    title: Potassium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nih-magnesium-hp
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-07-07'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-overview
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-07'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-07'
+  lastReviewed: '2026-07-07'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-07'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14A draft/noindex ingredient shell — no products, guides, or affiliate links

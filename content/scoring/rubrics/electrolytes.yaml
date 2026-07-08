@@ -1,0 +1,134 @@
+profileId: electrolytes
+categoryId: electrolytes
+label: Electrolytes scoring rubric
+disclaimer: >
+  Scores reflect label transparency (especially sodium, potassium, and magnesium mg per serving), sugar and sweetener
+  disclosure, label clarity, third-party testing evidence, dated manual price per serving, serving format practicality,
+  and claim conservatism based on publicly available information. Scores do not prove hydration effectiveness, safety
+  for any individual, medical suitability, cramp prevention, athletic performance outcomes, or illness recovery.
+criteria:
+  doseTransparency:
+    anchors:
+      - score: 0
+        description: >
+          Sodium, potassium, and magnesium amounts per serving missing, hidden in a proprietary "hydration blend," or only
+          total powder weight disclosed without per-mineral mg.
+      - score: 50
+        description: >
+          Some electrolyte amounts stated but sodium (primary comparator) is unclear, serving math is cumbersome, or
+          key minerals are omitted without documentation when marketed as a full electrolyte formula.
+      - score: 100
+        description: >
+          Label-stated sodium, potassium, and magnesium (mg) per serving clearly disclosed; serving size and servings
+          per container support straightforward comparison and price-per-serving calculation.
+  ingredientTransparency:
+    anchors:
+      - score: 0
+        description: >
+          Electrolyte composition opaque — generic "electrolyte blend," undisclosed chloride/calcium when prominently
+          marketed, or sodium-to-potassium profile impossible to assess from label.
+      - score: 50
+        description: >
+          Primary minerals named but secondary electrolytes (calcium, chloride) vague, or mineral forms/salts not
+          identified when relevant to label literacy.
+      - score: 100
+        description: >
+          Sodium, potassium, magnesium, and other disclosed electrolytes clearly listed with mg per serving; mineral
+          salts or forms identified where label provides them (e.g., sodium chloride, potassium citrate).
+  additives:
+    anchors:
+      - score: 0
+        description: >
+          Sugar, carbohydrate, or sweetener profile hidden or misleading; artificial colors/flavors undisclosed when
+          present; high sugar load without clear Nutrition Facts disclosure.
+      - score: 50
+        description: >
+          Sugar and sweeteners disclosed but marketing obscures carbohydrate impact, or additive load is moderate
+          without full other-ingredients clarity.
+      - score: 100
+        description: >
+          Sugar grams, calories, and sweeteners (stevia, sucralose, allulose, cane sugar, dextrose, etc.) clearly
+          disclosed; colors and flavors listed when present; sugar-free labeling matches Nutrition Facts.
+  labelClarity:
+    anchors:
+      - score: 0
+        description: >
+          Nutrition/Supplement Facts difficult to read, incomplete, missing key fields, or sourced only from unverified
+          secondary listings when official brand label is unavailable.
+      - score: 50
+        description: >
+          Core fields present but allergens, serving details, stick count, RTD bottle volume, or SKU specificity need
+          interpretation; retailer-sourced label when brand-hosted facts exist elsewhere.
+      - score: 100
+        description: >
+          Serving size, electrolyte amounts, sugar/calories, sweeteners, allergens, and format clearly presented from
+          an official brand label or equally authoritative source with locked SKU.
+  thirdPartyTesting:
+    anchors:
+      - score: 0
+        description: >
+          No testing claim and no verifiable third-party certification, COA, or recognized program listing found for the
+          specific SKU.
+      - score: 50
+        description: >
+          Brand or retailer claims third-party testing or sport certification without a captured certificate URL or
+          recognized program listing matched to this SKU.
+      - score: 100
+        description: >
+          Verifiable third-party testing or recognized certification (e.g., NSF Certified for Sport, Informed
+          Choice/Sport) documented with a citable source matched to the locked SKU.
+  priceValue:
+    anchors:
+      - score: 0
+        description: >
+          Price unavailable or cannot compute price per serving from label-stated servings per container.
+      - score: 50
+        description: >
+          Manual price dated; price per serving checkable but mid-range within cluster context, or premium not clearly
+          offset by transparency/testing benefits.
+      - score: 100
+        description: >
+          Manual price dated; price per serving clearly computed from servings per container and competitive within
+          cluster context for the product's sodium/electrolyte and sugar profile.
+  formulaQuality:
+    anchors:
+      - score: 0
+        description: >
+          Impractical serving format, multi-step preparation, or condition-specific stacks without clear electrolyte
+          dose payoff; RTD bottle size confusing for per-serving comparison.
+      - score: 50
+        description: >
+          Acceptable format (stick, tub, tablet, RTD) with moderate friction — e.g., multiple sticks per dose, scoop not
+          included, or large RTD bottle with split servings.
+      - score: 100
+        description: >
+          Practical serving format appropriate to product type (single stick, clear scoop, straightforward tablet dose,
+          or RTD with clear per-container serving).
+  evidenceAlignment:
+    anchors:
+      - score: 0
+        description: >
+          Product marketing misaligned with conservative electrolyte context; dehydration treatment, hangover cure,
+          cramp prevention, performance guarantee, illness recovery, or medical-condition suitability claims.
+      - score: 50
+        description: >
+          Form acceptable but brand marketing overstates hydration benefits, uses high-claim-risk positioning (keto
+          medical, fasting, "clinical hydration"), or demographic targeting.
+      - score: 100
+        description: >
+          Label and editorial positioning aligned with general electrolyte drink mix comparison context; no exaggerated
+          outcome claims. High-sodium products scored on clarity and caveats — not dismissed as useless.
+  brandTransparency:
+    anchors:
+      - score: 0
+        description: >
+          Limited public brand information, unclear contact, opaque manufacturing/testing statements, or reliance on
+          retailer label when official brand product page is missing without documentation.
+      - score: 50
+        description: >
+          Basic brand information available; testing or quality statements partially documented; label sourced from
+          retailer when brand-hosted page not confirmed.
+      - score: 100
+        description: >
+          Brand website and public materials clearly document product, contact, Nutrition/Supplement Facts, and relevant
+          quality/testing information for the locked SKU.
