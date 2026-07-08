@@ -11,7 +11,7 @@ export const metadata = buildPageMetadata({
 
 export default function AboutPage() {
   return (
-    <LegalPageLayout title="About SuppCheckr" lastUpdated="2026-06-30">
+    <LegalPageLayout title="About SuppCheckr" lastUpdated="2026-07-07">
       <ProseSection title="Our mission">
         {siteConfig.description} We help consumers compare supplements on documented label
         facts, testing transparency, formula clarity, and value — without hype, exaggerated
@@ -19,10 +19,11 @@ export default function AboutPage() {
       </ProseSection>
 
       <ProseSection title="What we publish">
-        SuppCheckr publishes evidence-aware supplement comparison content. Creatine monohydrate
-        and Magnesium categories — product reviews, guides, ingredient references, and comparison
-        tables — are published on SuppCheckr. Additional supplement categories are planned. Each review explains how a
-        product scores on transparency, testing, additives, and value using our{" "}
+        SuppCheckr publishes evidence-aware supplement comparison content. Creatine monohydrate,
+        Magnesium, and Vitamin C categories — product reviews, guides, ingredient references,
+        and comparison tables — are published on SuppCheckr. Additional supplement categories
+        are planned. Each review explains how a product scores on transparency, testing,
+        additives, and value using our{" "}
         <Link href="/methodology" className="text-link hover:text-link-hover hover:underline">
           review methodology
         </Link>
@@ -39,9 +40,10 @@ export default function AboutPage() {
       <ProseSection title="Editorial independence">
         Editorial scores and comparisons are independent of advertising and affiliate
         relationships. SuppCheckr participates in the Amazon Associates Program; marked
-        affiliate links may earn commissions but do not affect scores or rankings. Live ad
-        scripts remain disabled during prelaunch. Products are reviewed based on label and
-        source evidence, not affiliate availability. See{" "}
+        affiliate links on selected product pages may earn commissions but do not affect scores
+        or rankings. Not every reviewed product has an affiliate link. Live display ad scripts
+        remain disabled during prelaunch. Products are reviewed based on label and source
+        evidence, not affiliate availability. See{" "}
         <Link href="/editorial-policy" className="text-link hover:text-link-hover hover:underline">
           editorial policy
         </Link>{" "}

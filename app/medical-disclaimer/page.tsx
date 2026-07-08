@@ -10,7 +10,7 @@ export const metadata = buildPageMetadata({
 
 export default function MedicalDisclaimerPage() {
   return (
-    <LegalPageLayout title="Medical Disclaimer" requiresLegalReview>
+    <LegalPageLayout title="Medical Disclaimer" requiresLegalReview lastUpdated="2026-07-07">
       <ProseSection title="Educational and informational only">
         <p>
           SuppCheckr provides supplement comparison, label analysis, educational content,
@@ -60,7 +60,7 @@ export default function MedicalDisclaimerPage() {
           <li>pregnant or nursing;</li>
           <li>under 18 years of age;</li>
           <li>taking prescription or over-the-counter medication;</li>
-          <li>managing a medical condition;</li>
+          <li>managing a medical condition, including kidney disease, liver disease, or allergies;</li>
           <li>preparing for surgery; or</li>
           <li>unsure whether a supplement is appropriate for you.</li>
         </ul>

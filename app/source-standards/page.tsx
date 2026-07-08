@@ -10,7 +10,7 @@ export const metadata = buildPageMetadata({
 
 export default function SourceStandardsPage() {
   return (
-    <LegalPageLayout title="Source Standards" lastUpdated="2026-06-30">
+    <LegalPageLayout title="Source Standards" lastUpdated="2026-07-07">
       <ProseSection title="Overview">
         SuppCheckr builds reviews from publicly available label facts and credible sources.
         When a source gap exists, we document it rather than hiding it. Amazon customer
@@ -89,8 +89,8 @@ export default function SourceStandardsPage() {
       <ProseSection title="Pricing sources">
         Prices are manually checked from public retailer or brand listings and recorded with
         access dates. SuppCheckr does not use live price feeds. A dated price supports
-        value comparisons within a category (for example, price per 5 g creatine or per 100 mg
-        elemental magnesium) but may change after publication.
+        value comparisons within a category (for example, price per 5 g creatine, per 100 mg
+        elemental magnesium, or per 500 mg vitamin C) but may change after publication.
       </ProseSection>
 
       <ProseSection title="Citations and fabricated references">

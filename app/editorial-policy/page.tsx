@@ -11,7 +11,7 @@ export const metadata = buildPageMetadata({
 
 export default function EditorialPolicyPage() {
   return (
-    <LegalPageLayout title="Editorial Policy" lastUpdated="2026-06-30">
+    <LegalPageLayout title="Editorial Policy" lastUpdated="2026-07-07">
       <ProseSection title="Purpose">
         SuppCheckr publishes evidence-aware supplement comparisons focused on label
         transparency, dose clarity, testing documentation, formula quality, and value. We

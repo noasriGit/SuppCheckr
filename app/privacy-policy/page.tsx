@@ -11,7 +11,7 @@ export const metadata = buildPageMetadata({
 
 export default function PrivacyPolicyPage() {
   return (
-    <LegalPageLayout title="Privacy Policy" requiresLegalReview>
+    <LegalPageLayout title="Privacy Policy" requiresLegalReview lastUpdated="2026-07-07">
       <ProseSection title="Overview">
         <p>
           SuppCheckr (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) operates{" "}
@@ -25,13 +25,22 @@ export default function PrivacyPolicyPage() {
         </p>
       </ProseSection>
 
+      <ProseSection title="What SuppCheckr does not collect by default">
+        <p>
+          SuppCheckr does not operate user accounts, checkout, or direct supplement sales.
+          We do not intentionally collect sensitive health information, payment card data,
+          or prescription details through the site. Contact is email-only — there is no
+          backend contact form.
+        </p>
+      </ProseSection>
+
       <ProseSection title="Information we may collect">
         <p>Depending on how you use SuppCheckr, we may collect or receive:</p>
         <ul className="mt-2 list-disc space-y-1 pl-5">
           <li>
             <strong>Information you provide voluntarily</strong>, such as your name and email
-            address if you sign up for a newsletter, submit a contact form, or request
-            corrections. These features may not be active on every page during prelaunch.
+            address if you email us for corrections, feedback, or general questions. A
+            newsletter or other signup features may be added in the future.
           </li>
           <li>
             <strong>Basic technical information</strong>, such as browser type, device type,
@@ -48,10 +57,19 @@ export default function PrivacyPolicyPage() {
             possible.
           </li>
           <li>
-            <strong>Advertising, affiliate, or cookie-related data</strong>, only if
-            monetization features such as affiliate links or ad scripts are enabled in the
-            future. As of the date below, live affiliate links and live ad scripts are
-            disabled on SuppCheckr.
+            <strong>Affiliate link activity</strong> — some product pages include Amazon
+            affiliate links. When you click those links, you leave SuppCheckr and Amazon or
+            other retailers may collect information under their own privacy policies. SuppCheckr
+            does not receive your purchase details from retailers.
+          </li>
+          <li>
+            <strong>Advertising or ad-personalization data</strong> — live third-party ad
+            scripts are currently disabled. If display ads are enabled in the future, related
+            cookies or measurement tools may be described here and in our{" "}
+            <a href="/advertising-policy" className="text-link underline">
+              Advertising Policy
+            </a>
+            .
           </li>
         </ul>
       </ProseSection>

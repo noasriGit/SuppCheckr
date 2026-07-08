@@ -34,8 +34,8 @@ export function MedicalDisclaimer() {
       <p className="mt-2">
         SuppCheckr provides informational content only and does not provide medical
         advice. Consult a qualified healthcare professional before starting supplements,
-        especially if pregnant, nursing, under 18, taking medication, or managing a
-        medical condition.
+        especially if pregnant, nursing, under 18, taking medication, managing kidney or
+        liver disease, allergies, or other medical conditions.
       </p>
     </aside>
   );

@@ -11,7 +11,7 @@ export const metadata = buildPageMetadata({
 
 export default function ContactPage() {
   return (
-    <LegalPageLayout title="Contact" lastUpdated="2026-06-30">
+    <LegalPageLayout title="Contact" lastUpdated="2026-07-07">
       <ProseSection title="Email">
         For corrections, editorial feedback, accessibility issues, partnerships, or general
         questions, email{" "}
@@ -36,8 +36,9 @@ export default function ContactPage() {
 
       <ProseSection title="What to expect">
         SuppCheckr provides informational supplement comparison content only — not medical or
-        legal advice. Affiliate links are disabled during prelaunch. For methodology, editorial
-        standards, and legal/disclosure pages, see the Trust links in the site footer.
+        legal advice. Some product pages include Amazon affiliate links; live display ad scripts
+        remain disabled during prelaunch. For methodology, editorial standards, and legal/disclosure
+        pages, see the Trust links in the site footer.
       </ProseSection>
     </LegalPageLayout>
   );

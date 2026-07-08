@@ -11,7 +11,7 @@ export const metadata = buildPageMetadata({
 
 export default function CorrectionsPolicyPage() {
   return (
-    <LegalPageLayout title="Corrections Policy" lastUpdated="2026-06-30">
+    <LegalPageLayout title="Corrections Policy" lastUpdated="2026-07-07">
       <ProseSection title="Reporting errors">
         If you believe SuppCheckr published an error in label facts, pricing, testing status,
         citations, claim language, or accessibility, email{" "}

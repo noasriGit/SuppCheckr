@@ -102,9 +102,9 @@ export default function MethodologyPage() {
             or every health context.
           </li>
           <li>
-            Affiliate relationships do not determine scores. Affiliate links are disabled
-            during prelaunch; if enabled in the future, they still would not affect
-            editorial scoring.
+            Affiliate relationships do not determine scores. Some product pages include marked
+            Amazon affiliate links; many outbound retailer links are not affiliate links.
+            Affiliate availability does not affect editorial scoring.
           </li>
         </ul>
       </section>

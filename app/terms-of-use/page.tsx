@@ -11,7 +11,7 @@ export const metadata = buildPageMetadata({
 
 export default function TermsOfUsePage() {
   return (
-    <LegalPageLayout title="Terms of Use" requiresLegalReview>
+    <LegalPageLayout title="Terms of Use" requiresLegalReview lastUpdated="2026-07-07">
       <ProseSection title="Acceptance of terms">
         <p>
           By accessing or using {siteConfig.url} (the &ldquo;Site&rdquo;), you agree to
@@ -46,7 +46,8 @@ export default function TermsOfUsePage() {
           You are responsible for your own supplement, purchasing, and health-related
           decisions. Before starting, stopping, or combining supplements, consult a
           qualified healthcare professional—especially if you are pregnant, nursing, under
-          18, taking medication, managing a medical condition, or preparing for surgery.
+          18, taking medication, managing kidney or liver disease, allergies, or other
+          medical conditions, or preparing for surgery.
         </p>
         <p className="mt-2">
           Product labels, ingredients, dosages, warnings, testing status, prices,
@@ -58,18 +59,27 @@ export default function TermsOfUsePage() {
 
       <ProseSection title="Affiliate links and advertising">
         <p>
-          SuppCheckr may display affiliate disclosures, advertising placeholders, or related
-          notices on some pages. As of the date below, live affiliate links and live ad
-          scripts are disabled. If monetization features are enabled in the future, details
-          will appear in our{" "}
+          SuppCheckr participates in the Amazon Associates Program. Some product pages include
+          Amazon affiliate links that may earn commissions from qualifying purchases. Not every
+          reviewed product has an affiliate link. Affiliate disclosures appear near marked
+          purchase buttons and in our{" "}
           <a href="/affiliate-disclosure" className="text-link underline">
             Affiliate Disclosure
-          </a>{" "}
-          and{" "}
+          </a>
+          .
+        </p>
+        <p className="mt-2">
+          Live third-party ad scripts are currently disabled. You may still see labeled
+          advertisement placeholders on some pages. Details appear in our{" "}
           <a href="/advertising-policy" className="text-link underline">
             Advertising Policy
           </a>
           .
+        </p>
+        <p className="mt-2">
+          Affiliate compensation and advertising, if enabled, do not change the purchase price
+          you pay at a retailer. Retailers control availability, pricing, shipping, returns,
+          and final product information.
         </p>
       </ProseSection>
 

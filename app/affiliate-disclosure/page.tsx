@@ -10,7 +10,7 @@ export const metadata = buildPageMetadata({
 
 export default function AffiliateDisclosurePage() {
   return (
-    <LegalPageLayout title="Affiliate Disclosure" requiresLegalReview>
+    <LegalPageLayout title="Affiliate Disclosure" requiresLegalReview lastUpdated="2026-07-07">
       <ProseSection title="Current status">
         <p>
           <strong>SuppCheckr participates in the Amazon Associates Program.</strong> Some
@@ -19,12 +19,18 @@ export default function AffiliateDisclosurePage() {
           URLs that we have intentionally mapped — not to every outbound link on the site.
         </p>
         <p className="mt-2">
-          As an Amazon Associate I earn from qualifying purchases.
+          As an Amazon Associate, SuppCheckr earns from qualifying purchases.
         </p>
         <p className="mt-2">
           Commissions generally do not change the price you pay at the retailer. Pricing,
           shipping, taxes, availability, and return policies are set by the retailer, not
           SuppCheckr. We do not guarantee that any purchase will be eligible for a commission.
+        </p>
+        <p className="mt-2">
+          Not every product reviewed on SuppCheckr has an Amazon affiliate link. Some products
+          link directly to brand or other retailer websites. A product may remain in review
+          without an Amazon affiliate link when mapping is intentionally held back — for
+          example, when label or UPC details do not match confidently.
         </p>
       </ProseSection>
 
@@ -37,10 +43,10 @@ export default function AffiliateDisclosurePage() {
           <strong>not</strong> affiliate links unless clearly labeled.
         </p>
         <p className="mt-2">
-          SuppCheckr does not use Amazon product images, Amazon customer reviews, Amazon
-          Q&amp;A, or live Amazon pricing as editorial evidence. Manual prices shown on
-          SuppCheckr include a last-checked date; always confirm the current price on the
-          retailer&apos;s site before purchasing.
+          SuppCheckr does not use Amazon product images, Amazon customer reviews, Amazon star
+          ratings, Amazon Q&amp;A, or live Amazon pricing as editorial evidence. Manual prices
+          shown on SuppCheckr include a last-checked date; always confirm the current price on
+          the retailer&apos;s site before purchasing.
         </p>
       </ProseSection>
 

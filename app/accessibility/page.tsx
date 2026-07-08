@@ -11,7 +11,7 @@ export const metadata = buildPageMetadata({
 
 export default function AccessibilityPage() {
   return (
-    <LegalPageLayout title="Accessibility Statement" lastUpdated="2026-06-30">
+    <LegalPageLayout title="Accessibility Statement" lastUpdated="2026-07-07">
       <ProseSection title="Commitment">
         SuppCheckr aims to meet WCAG 2.1 AA accessibility standards, including semantic HTML,
         keyboard navigation, sufficient color contrast, and descriptive text for non-text content

@@ -10,7 +10,7 @@ export const metadata = buildPageMetadata({
 
 export default function AdvertisingPolicyPage() {
   return (
-    <LegalPageLayout title="Advertising Policy" requiresLegalReview>
+    <LegalPageLayout title="Advertising Policy" requiresLegalReview lastUpdated="2026-07-07">
       <ProseSection title="Current status">
         <p>
           <strong>Live ad scripts are currently disabled on SuppCheckr.</strong> Third-party
@@ -82,6 +82,17 @@ export default function AdvertisingPolicyPage() {
         <p className="mt-2">
           As of the date below, live ad scripts are disabled and ad placeholders do not
           perform ad personalization.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="Affiliate links are separate from display ads">
+        <p>
+          Amazon affiliate links and other affiliate purchase links are governed by our{" "}
+          <a href="/affiliate-disclosure" className="text-link underline">
+            Affiliate Disclosure
+          </a>
+          , not this Advertising Policy. Affiliate links may be active on some product pages
+          even while live display ad scripts remain disabled.
         </p>
       </ProseSection>
 
