@@ -14,13 +14,17 @@ export default function PrivacyPolicyPage() {
     <LegalPageLayout title="Privacy Policy" requiresLegalReview lastUpdated="2026-07-07">
       <ProseSection title="Site operator (draft — legal review required)">
         <p>
-          SuppCheckr is a website operated by NV Digital Consulting LLC. For questions,
-          contact{" "}
+          SuppCheckr is operated by NV Digital Consulting LLC, a Virginia limited liability
+          company based in Prince William County, Virginia. For questions, contact{" "}
           <a href={`mailto:${siteConfig.contactEmail}`} className="text-link underline">
             {siteConfig.contactEmail}
           </a>
-          . Attorney/human reviewer should confirm whether a business mailing address,
-          state of formation, or registered agent should also be listed before publication.
+          .
+        </p>
+        <p className="mt-2">
+          <strong>Attorney/human review note:</strong> Confirm whether a separate public
+          mailing address, registered agent address, or state filing detail should be
+          included before publication. No residential street address is listed on this page.
         </p>
       </ProseSection>
 
@@ -35,6 +39,85 @@ export default function PrivacyPolicyPage() {
           This page is a draft prepared for later legal review. It is not a guarantee of
           compliance with any specific privacy law.
         </p>
+        <p className="mt-2">
+          SuppCheckr is operated from the United States and is primarily intended for users in
+          the United States. If you access the Site from outside the United States, you are
+          responsible for understanding any local laws that may apply.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="Current data practices">
+        <p className="mb-3">
+          The table below summarizes SuppCheckr&apos;s current data-related features. This is
+          not a complete list of every technical process on the site.
+        </p>
+        <div className="overflow-x-auto rounded-lg border border-border">
+          <table className="w-full text-sm">
+            <thead className="bg-table-header text-left">
+              <tr>
+                <th className="px-4 py-3 font-medium text-heading">Practice</th>
+                <th className="px-4 py-3 font-medium text-heading">Current status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-table-row-border">
+                <td className="px-4 py-3 text-foreground">User accounts</td>
+                <td className="px-4 py-3 text-foreground">Not currently offered.</td>
+              </tr>
+              <tr className="border-t border-table-row-border">
+                <td className="px-4 py-3 text-foreground">Checkout / direct supplement sales</td>
+                <td className="px-4 py-3 text-foreground">Not currently offered.</td>
+              </tr>
+              <tr className="border-t border-table-row-border">
+                <td className="px-4 py-3 text-foreground">Contact form</td>
+                <td className="px-4 py-3 text-foreground">
+                  Not currently offered. Users contact SuppCheckr by email.
+                </td>
+              </tr>
+              <tr className="border-t border-table-row-border">
+                <td className="px-4 py-3 text-foreground">Email contact</td>
+                <td className="px-4 py-3 text-foreground">
+                  Users may email{" "}
+                  <a href={`mailto:${siteConfig.contactEmail}`} className="text-link underline">
+                    {siteConfig.contactEmail}
+                  </a>
+                  .
+                </td>
+              </tr>
+              <tr className="border-t border-table-row-border">
+                <td className="px-4 py-3 text-foreground">Analytics</td>
+                <td className="px-4 py-3 text-foreground">
+                  Vercel Web Analytics, hosting logs, and basic server logs may be used to
+                  understand traffic and operate the site.
+                </td>
+              </tr>
+              <tr className="border-t border-table-row-border">
+                <td className="px-4 py-3 text-foreground">Affiliate links</td>
+                <td className="px-4 py-3 text-foreground">
+                  Amazon and other outbound retailer links may be used on some product pages.
+                </td>
+              </tr>
+              <tr className="border-t border-table-row-border">
+                <td className="px-4 py-3 text-foreground">Display ads</td>
+                <td className="px-4 py-3 text-foreground">Currently disabled.</td>
+              </tr>
+              <tr className="border-t border-table-row-border">
+                <td className="px-4 py-3 text-foreground">Sensitive health information</td>
+                <td className="px-4 py-3 text-foreground">Not intentionally collected.</td>
+              </tr>
+              <tr className="border-t border-table-row-border">
+                <td className="px-4 py-3 text-foreground">Comments, reviews, or quizzes</td>
+                <td className="px-4 py-3 text-foreground">Not currently offered.</td>
+              </tr>
+              <tr className="border-t border-table-row-border">
+                <td className="px-4 py-3 text-foreground">Product purchases</td>
+                <td className="px-4 py-3 text-foreground">
+                  Completed on third-party retailer sites, not on SuppCheckr.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </ProseSection>
 
       <ProseSection title="What SuppCheckr does not collect by default">
@@ -156,19 +239,37 @@ export default function PrivacyPolicyPage() {
 
       <ProseSection title="Children">
         <p>
-          SuppCheckr is intended for general audiences and is not directed at children
+          SuppCheckr is intended for a general adult audience and is not directed to children
           under 13. We do not knowingly collect personal information from children under 13.
-          If you believe we have received such information, please contact us so we can
-          review and delete it where appropriate.
+          If you believe we have received such information, please contact us so we can review
+          and delete it where appropriate.
         </p>
       </ProseSection>
 
-      <ProseSection title="Data retention and security">
+      <ProseSection title="Data retention">
         <p>
-          We retain information only as long as reasonably needed for the purposes described
-          above, unless a longer period is required by law. We use reasonable administrative,
-          technical, and organizational measures to protect information, but no website or
-          transmission method is completely secure.
+          We retain emails, correction requests, support messages, analytics records, and
+          related operational records only as long as reasonably necessary to respond, maintain
+          records, prevent abuse, resolve disputes, improve the Site, or comply with legal
+          obligations.
+        </p>
+        <p className="mt-2">
+          Because SuppCheckr does not currently operate a backend contact form, email
+          correspondence sent to{" "}
+          <a href={`mailto:${siteConfig.contactEmail}`} className="text-link underline">
+            {siteConfig.contactEmail}
+          </a>{" "}
+          may be retained as part of ordinary business records. We do not publish fixed
+          retention periods unless required by applicable law.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="Security">
+        <p>
+          We use reasonable administrative, technical, and organizational safeguards for the
+          limited information we process. No website or transmission method is completely secure.
+          If a security incident triggers a legal notification obligation, we will provide
+          notices as required by applicable law.
         </p>
       </ProseSection>
 

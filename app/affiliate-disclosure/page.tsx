@@ -14,13 +14,17 @@ export default function AffiliateDisclosurePage() {
     <LegalPageLayout title="Affiliate Disclosure" requiresLegalReview lastUpdated="2026-07-07">
       <ProseSection title="Site operator (draft — legal review required)">
         <p>
-          SuppCheckr is a website operated by NV Digital Consulting LLC. For questions,
-          contact{" "}
+          SuppCheckr is operated by NV Digital Consulting LLC, a Virginia limited liability
+          company based in Prince William County, Virginia. For questions, contact{" "}
           <a href={`mailto:${siteConfig.contactEmail}`} className="text-link underline">
             {siteConfig.contactEmail}
           </a>
-          . Attorney/human reviewer should confirm whether a business mailing address,
-          state of formation, or registered agent should also be listed before publication.
+          .
+        </p>
+        <p className="mt-2">
+          <strong>Attorney/human review note:</strong> Confirm whether a separate public
+          mailing address, registered agent address, or state filing detail should be
+          included before publication. No residential street address is listed on this page.
         </p>
       </ProseSection>
 
@@ -70,7 +74,10 @@ export default function AffiliateDisclosurePage() {
       <ProseSection title="Editorial independence">
         <p>
           Affiliate relationships do not determine SuppCheckr scores, rankings,
-          testing-status notes, product caveats, or editorial conclusions. Our analysis
+          testing-status notes, product caveats, or editorial conclusions. SuppCheckr does
+          not currently accept payment from brands to change scores or rankings. If SuppCheckr
+          ever receives free products, sponsorships, paid placements, or brand-provided
+          materials, that relationship should be disclosed where relevant. Our analysis
           remains independent and based on label transparency, dosage clarity, testing
           status, additives, value, evidence alignment, and other publicly available product
           information described in our{" "}

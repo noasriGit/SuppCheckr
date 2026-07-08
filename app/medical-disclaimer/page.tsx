@@ -68,6 +68,10 @@ export default function MedicalDisclaimerPage() {
           Do not delay or disregard professional medical advice because of something you
           read on SuppCheckr.
         </p>
+        <p className="mt-2">
+          Supplement decisions for anyone under 18 should be made with a parent or guardian
+          and a qualified healthcare professional.
+        </p>
       </ProseSection>
 
       <ProseSection title="Read the actual product label">

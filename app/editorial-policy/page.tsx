@@ -21,10 +21,13 @@ export default function EditorialPolicyPage() {
 
       <ProseSection title="Editorial independence">
         Editorial scores, testing-status notes, comparisons, and written conclusions are
-        independent of advertising, sponsorship, and affiliate relationships. No advertiser
-        or affiliate partner directs product scores, rankings, or editorial conclusions.
-        Products can be included in reviews even when affiliate purchase links are unavailable
-        or disabled.
+        independent of advertising, sponsorship, and affiliate relationships. SuppCheckr does
+        not currently accept payment from brands to change scores or rankings. If SuppCheckr
+        ever receives free products, sponsorships, paid placements, or brand-provided
+        materials, that relationship should be disclosed where relevant. Brand input may be
+        considered for factual corrections but does not control scores. Sponsored content,
+        if ever used, should be clearly labeled. Products can be included in reviews even when
+        affiliate purchase links are unavailable or disabled.
       </ProseSection>
 
       <ProseSection title="Affiliate links">
@@ -67,10 +70,11 @@ export default function EditorialPolicyPage() {
       </ProseSection>
 
       <ProseSection title="Updates and corrections">
-        Published content includes last updated and last reviewed dates where applicable.
-        Material corrections — label facts, pricing, testing status, citations, or claim
-        language — are logged in content update history when appropriate. Users can report
-        errors via{" "}
+        We may update product pages when we identify material label, sourcing, testing, price,
+        affiliate, or availability changes. Dates shown on pages reflect the last documented
+        review, source check, or price check where applicable. Material corrections — label
+        facts, pricing, testing status, citations, or claim language — are logged in content
+        update history when appropriate. Users can report errors via{" "}
         <a
           href={`mailto:${siteConfig.contactEmail}`}
           className="text-link hover:text-link-hover hover:underline"

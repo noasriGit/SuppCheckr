@@ -14,13 +14,17 @@ export default function TermsOfUsePage() {
     <LegalPageLayout title="Terms of Use" requiresLegalReview lastUpdated="2026-07-07">
       <ProseSection title="Site operator (draft — legal review required)">
         <p>
-          SuppCheckr is a website operated by NV Digital Consulting LLC. For questions,
-          contact{" "}
+          SuppCheckr is operated by NV Digital Consulting LLC, a Virginia limited liability
+          company based in Prince William County, Virginia. For questions, contact{" "}
           <a href={`mailto:${siteConfig.contactEmail}`} className="text-link underline">
             {siteConfig.contactEmail}
           </a>
-          . Attorney/human reviewer should confirm whether a business mailing address,
-          state of formation, or registered agent should also be listed before publication.
+          .
+        </p>
+        <p className="mt-2">
+          <strong>Attorney/human review note:</strong> Confirm whether a separate public
+          mailing address, registered agent address, or state filing detail should be
+          included before publication. No residential street address is listed on this page.
         </p>
       </ProseSection>
 
@@ -29,6 +33,11 @@ export default function TermsOfUsePage() {
           By accessing or using {siteConfig.url} (the &ldquo;Site&rdquo;), you agree to
           these Terms of Use. If you do not agree, please do not use the Site. This page is
           a draft prepared for later legal review and may change before final publication.
+        </p>
+        <p className="mt-2">
+          SuppCheckr is operated from the United States and is primarily intended for users in
+          the United States. If you access the Site from outside the United States, you are
+          responsible for understanding any local laws that may apply.
         </p>
       </ProseSection>
 
@@ -66,6 +75,19 @@ export default function TermsOfUsePage() {
           availability, and marketing claims can change. You should verify current product
           labels, brand pages, and retailer information before purchasing or using any
           supplement.
+        </p>
+        <p className="mt-2">
+          Supplement decisions for anyone under 18 should be made with a parent or guardian
+          and a qualified healthcare professional.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="Product information limitations">
+        <p>
+          SuppCheckr does not guarantee real-time monitoring of recalls, warnings, formulation
+          changes, label changes, retailer availability, or pricing changes. Users should check
+          the current product label and consult the manufacturer, retailer, or a qualified
+          healthcare professional before purchasing or using a supplement.
         </p>
       </ProseSection>
 
@@ -171,16 +193,18 @@ export default function TermsOfUsePage() {
         </p>
       </ProseSection>
 
-      <ProseSection title="Governing law and venue — attorney review required">
+      <ProseSection title="Governing law and venue">
         <p>
-          The governing law, venue, and dispute-resolution terms for these Terms are
-          intentionally marked for legal review before publication. Before these Terms are
-          finalized, SuppCheckr/NV Digital Consulting LLC should confirm the applicable
-          governing law, jurisdiction, venue, and whether arbitration, class-action waiver, or
-          other dispute-resolution terms are appropriate.
+          These Terms are governed by the laws of the Commonwealth of Virginia, without regard
+          to conflict-of-law principles. Subject to any legally required alternative forum,
+          any dispute arising from or relating to these Terms or the Site will be brought in
+          the state or federal courts located in or serving Prince William County, Virginia.
         </p>
         <p className="mt-2">
-          This section is a placeholder and is <strong>not</strong> final legal language.
+          <strong>Attorney review note:</strong> NV Digital Consulting LLC should confirm
+          whether arbitration, class-action waiver, jury-trial waiver, informal
+          dispute-resolution procedures, or other dispute-resolution terms should be added
+          before these Terms are published.
         </p>
       </ProseSection>
 

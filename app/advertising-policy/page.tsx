@@ -34,7 +34,10 @@ export default function AdvertisingPolicyPage() {
         <p className="mt-2">
           Advertisers and sponsors should not control SuppCheckr editorial ratings, testing
           status notes, product caveats, ingredient analysis, or medical or safety
-          conclusions.
+          conclusions. SuppCheckr does not currently accept payment from brands to change
+          scores or rankings. If SuppCheckr ever receives free products, sponsorships, paid
+          placements, or brand-provided materials, that relationship should be disclosed where
+          relevant. Sponsored content, if ever used, should be clearly labeled.
         </p>
       </ProseSection>
 

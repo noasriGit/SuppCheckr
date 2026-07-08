@@ -50,7 +50,8 @@ export default function CorrectionsPolicyPage() {
       <ProseSection title="Corrections process">
         Verified corrections are applied to the relevant page and may be logged in content
         update history with a summary of what changed. We may follow up by email if clarification
-        is needed. SuppCheckr may decline requests that rely on unsupported claims, marketing-only
+        is needed. We do not promise immediate response times or fixed update schedules.
+        SuppCheckr may decline requests that rely on unsupported claims, marketing-only
         evidence, anecdotal testimonials, or sources we do not accept as primary evidence under
         our{" "}
         <Link href="/source-standards" className="text-link hover:text-link-hover hover:underline">
@@ -61,8 +62,16 @@ export default function CorrectionsPolicyPage() {
 
       <ProseSection title="What we do not change through corrections alone">
         Editorial scores may be updated when underlying label or source facts change, but
-        SuppCheckr does not accept paid requests to alter scores, rankings, or testing-status
-        conclusions. Corrections are fact- and source-driven, not sponsorship-driven.
+        SuppCheckr does not currently accept payment from brands to change scores, rankings,
+        or testing-status conclusions. Corrections are fact- and source-driven, not
+        sponsorship-driven.
+      </ProseSection>
+
+      <ProseSection title="Update cadence">
+        We may update product pages when we identify material label, sourcing, testing, price,
+        affiliate, or availability changes. Dates shown on pages reflect the last documented
+        review, source check, or price check where applicable. We do not promise a fixed
+        review schedule for every product.
       </ProseSection>
 
       <ProseSection title="Related pages">

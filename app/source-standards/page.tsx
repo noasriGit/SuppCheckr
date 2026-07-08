@@ -93,6 +93,13 @@ export default function SourceStandardsPage() {
         elemental magnesium, or per 500 mg vitamin C) but may change after publication.
       </ProseSection>
 
+      <ProseSection title="Recalls, formulation changes, and availability">
+        SuppCheckr does not guarantee real-time monitoring of recalls, warnings, formulation
+        changes, label changes, retailer availability, or pricing changes. Users should check
+        the current product label and consult the manufacturer, retailer, or a qualified
+        healthcare professional before purchasing or using a supplement.
+      </ProseSection>
+
       <ProseSection title="Citations and fabricated references">
         Published content must not use fake, misleading, or unattributed source references.
         Medium- and high-risk factual or health-related claims require support from acceptable

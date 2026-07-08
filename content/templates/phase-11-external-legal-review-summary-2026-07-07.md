@@ -23,7 +23,7 @@ SuppCheckr is an informational supplement comparison and review website that hel
 | Direct sales | None |
 | User accounts / checkout | None |
 | Contact | Email only: [help@suppcheckr.com](mailto:help@suppcheckr.com) — **monitor mailbox** for attorney/reviewer and user correspondence |
-| Operator (draft) | NV Digital Consulting LLC — pending attorney approval |
+| Operator (draft) | NV Digital Consulting LLC, a Virginia LLC based in Prince William County, Virginia — no public street address listed — pending attorney approval |
 | Legal pages | **Draft — not final** — noindex with visible draft banner |
 | Held-back affiliate | Klean Athlete Klean Magnesium (UPC mismatch — direct retailer link only) |
 
@@ -74,17 +74,23 @@ These pages are accessible on the live site but marked as draft placeholders and
 
 2. **FTC affiliate disclosure placement** — Is page-level + per-link disclosure sufficient, or is header/footer disclosure also required?
 
-3. **Legal entity** — Phase 11B added draft operator wording: "SuppCheckr is a website operated by NV Digital Consulting LLC." Attorney to confirm and decide whether a business mailing address, state, or registered agent should be listed.
+3. **Legal entity** — Phase 11C finalized draft operator wording: "SuppCheckr is operated by NV Digital Consulting LLC, a Virginia limited liability company based in Prince William County, Virginia." No public street address is listed. Attorney to confirm and decide whether a separate public mailing address, registered agent address, or state filing detail should be added.
 
-4. **Terms of Use** — Phase 11B added attorney-review placeholder for governing law/venue/dispute resolution. Attorney to finalize jurisdiction and whether arbitration or class-action waiver is appropriate.
+4. **Terms of Use** — Phase 11C added Virginia governing law and Prince William County venue draft language. Attorney to confirm and decide whether arbitration, class-action waiver, jury-trial waiver, or informal dispute-resolution procedures should be added.
 
-5. **Privacy / cookies** — Is Vercel Analytics + server log disclosure sufficient? Attorney to confirm whether cookie banner/consent tooling is needed before future ads or based on current affiliate click behavior.
+5. **Privacy Policy** — Phase 11C added current data practices table, data retention, children/minors, U.S.-focused audience, and security/breach-notification language. Attorney to confirm sufficiency for current traffic and applicable jurisdictions.
 
-6. **Medical disclaimer** — Phase 11B strengthened standalone page (kidney stones, iron overload) and inline disclaimer on product/guide/compare pages. Attorney to confirm sufficiency.
+6. **Medical disclaimer** — Phase 11B strengthened standalone page; Phase 11C added minors language (parent/guardian + qualified healthcare professional for under-18 supplement decisions). Attorney to confirm sufficiency.
 
-7. **Advertising policy** — Display ads are disabled today but may be added later. Before ads launch, privacy/cookie/ad-partner language must be reviewed. Is current future-ad language sufficient?
+7. **Product information limitations** — Phase 11C added recall/formulation/label/availability/pricing monitoring caveat to Terms, Methodology, and Source Standards. Attorney to confirm wording.
 
-8. **Accessibility** — Phase 11B softened to "aims to make the site accessible" and "uses WCAG 2.1 AA as a reference point where practical." Attorney to confirm jurisdiction-specific requirements and response timeframe.
+8. **Brand submissions / sponsorships** — Phase 11C clarified SuppCheckr does not currently accept payment to change scores; future free products/sponsorships/placements should be disclosed. Attorney to confirm sufficiency.
+
+9. **Privacy / cookies** — Is Vercel Analytics + server log disclosure sufficient? Attorney to confirm whether cookie banner/consent tooling is needed before future ads or based on current affiliate click behavior.
+
+10. **Advertising policy** — Display ads are disabled today but may be added later. Before ads launch, privacy/cookie/ad-partner language must be reviewed. Is current future-ad language sufficient?
+
+11. **Accessibility** — Phase 11B softened to "aims to make the site accessible" and "uses WCAG 2.1 AA as a reference point where practical." Attorney to confirm jurisdiction-specific requirements and response timeframe.
 
 ---
 
@@ -112,6 +118,10 @@ Phase 10 prep work and checklist:
 Phase 11B legal gap cleanup:
 
 - `content/templates/phase-11b-legal-gap-cleanup-report-2026-07-07.md`
+
+Phase 11C final legal draft tightening:
+
+- `content/templates/phase-11c-final-legal-draft-tightening-report-2026-07-07.md`
 
 ---
 

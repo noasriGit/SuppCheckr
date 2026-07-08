@@ -282,6 +282,32 @@ export default function MethodologyPage() {
       </section>
 
       <section className="mt-10">
+        <h2 className="text-xl font-semibold text-heading">Product information limitations</h2>
+        <p className="mt-3 max-w-3xl text-sm text-foreground">
+          SuppCheckr does not guarantee real-time monitoring of recalls, warnings, formulation
+          changes, label changes, retailer availability, or pricing changes. Users should check
+          the current product label and consult the manufacturer, retailer, or a qualified
+          healthcare professional before purchasing or using a supplement.
+        </p>
+        <p className="mt-3 max-w-3xl text-sm text-foreground">
+          We may update product pages when we identify material label, sourcing, testing, price,
+          affiliate, or availability changes. Dates shown on pages reflect the last documented
+          review, source check, or price check where applicable.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-xl font-semibold text-heading">Brand submissions and sponsorships</h2>
+        <p className="mt-3 max-w-3xl text-sm text-foreground">
+          SuppCheckr does not currently accept payment from brands to change scores or rankings.
+          If SuppCheckr ever receives free products, sponsorships, paid placements, or
+          brand-provided materials, that relationship should be disclosed where relevant. Brand
+          input may be considered for factual corrections but does not control scores. Affiliate
+          compensation does not determine product scores or rankings.
+        </p>
+      </section>
+
+      <section className="mt-10">
         <h2 className="text-xl font-semibold text-heading">Product images</h2>
         <p className="mt-3 max-w-3xl text-sm text-foreground">
           Some reviews use generic SuppCheckr placeholders instead of brand product photos.

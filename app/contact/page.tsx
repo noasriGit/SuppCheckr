@@ -14,16 +14,20 @@ export default function ContactPage() {
     <LegalPageLayout title="Contact" lastUpdated="2026-07-07">
       <ProseSection title="Site operator (draft — legal review required)">
         <p>
-          SuppCheckr is a website operated by NV Digital Consulting LLC. For questions,
-          contact{" "}
+          SuppCheckr is operated by NV Digital Consulting LLC, a Virginia limited liability
+          company based in Prince William County, Virginia. For questions, contact{" "}
           <a
             href={`mailto:${siteConfig.contactEmail}`}
             className="text-link hover:text-link-hover hover:underline"
           >
             {siteConfig.contactEmail}
           </a>
-          . Attorney/human reviewer should confirm whether a business mailing address,
-          state of formation, or registered agent should also be listed before publication.
+          .
+        </p>
+        <p className="mt-2">
+          <strong>Attorney/human review note:</strong> Confirm whether a separate public
+          mailing address, registered agent address, or state filing detail should be
+          included before publication. No residential street address is listed on this page.
         </p>
       </ProseSection>
 
