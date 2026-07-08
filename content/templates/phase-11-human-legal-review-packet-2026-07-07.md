@@ -2,7 +2,7 @@
 
 **Date:** 2026-07-07  
 **Phase:** 11 — attorney/human legal review package (documentation only)  
-**Git baseline:** `5259bb7` (Phase 10) on `main`  
+**Git baseline:** `f130d94` (Phase 11) on `main` — Phase 11B cleanup applied on top  
 **Site mode:** `prelaunch` (unchanged)  
 **Live site:** https://www.suppcheckr.com
 
@@ -30,6 +30,7 @@ This packet is prepared for **attorney or qualified human review** of SuppCheckr
 | Phase 9B affiliate live QA | `content/templates/phase-9b-affiliate-live-qa-report-2026-07-07.md` |
 | Phase 10 legal prep report | `content/templates/phase-10-legal-prep-report-2026-07-07.md` |
 | Phase 10 legal review checklist | `content/templates/phase-10-legal-review-checklist-2026-07-07.md` |
+| Phase 11B legal gap cleanup report | `content/templates/phase-11b-legal-gap-cleanup-report-2026-07-07.md` |
 
 ---
 
@@ -101,21 +102,25 @@ This packet is prepared for **attorney or qualified human review** of SuppCheckr
 
 ---
 
-## E. Phase 10 changes summary
+## E. Phase 10 and Phase 11B changes summary
 
-Phase 10 (`5259bb7`) polished legal and trust copy for review readiness. Key updates:
+Phase 10 (`5259bb7`) polished legal and trust copy for review readiness. Phase 11B tightened known legal gaps before attorney review (see `content/templates/phase-11b-legal-gap-cleanup-report-2026-07-07.md`). Key updates:
 
 1. **Removed stale "affiliate links disabled" language** from Privacy Policy, Terms of Use, Contact, and Methodology — replaced with accurate selective Amazon affiliate status while ads remain disabled.
-2. **Amazon Associates wording updated** — affiliate disclosure page states: "As an Amazon Associate, SuppCheckr earns from qualifying purchases." (Attorney to confirm Amazon OA first-person requirement.)
-3. **Privacy / no-account / no-checkout language clarified** — explicit statement that SuppCheckr does not operate user accounts, checkout, direct sales, or a backend contact form.
-4. **Medical cautions expanded** — kidney disease, liver disease, and allergies added to Medical Disclaimer page and inline `MedicalDisclaimer` component.
-5. **Advertising policy clarified** — live display ad scripts disabled; placeholders only; future ad principles retained.
+2. **Amazon Associates exact wording added** — affiliate disclosure page and site-level `AffiliateDisclosure` component now include: "As an Amazon Associate I earn from qualifying purchases." followed by brand clarification that SuppCheckr may also earn commissions through other affiliate links.
+3. **Privacy / no-account / no-checkout language clarified** — explicit statement that SuppCheckr does not currently operate user accounts, checkout, direct sales, or a backend contact form; email contact at `help@suppcheckr.com`.
+4. **Medical cautions expanded** — kidney disease, liver disease, kidney stones, allergies, and iron overload/hemochromatosis added to Medical Disclaimer page; inline `MedicalDisclaimer` strengthened on product/guide/compare pages.
+5. **Advertising policy clarified** — live display ad scripts disabled; placeholders only; before ads launch, privacy/cookie/ad-partner language must be reviewed.
 6. **Affiliate vs ads separation clarified** — Advertising Policy and Terms distinguish display ads from Amazon affiliate links.
 7. **Amazon evidence exclusions clarified** — no Amazon images, reviews, star ratings, Q&A, or live prices used as editorial evidence.
 8. **Vitamin C included across trust pages** — About and related pages reflect all three published clusters.
 9. **Contact email consistency checked** — `help@suppcheckr.com` verified across `config/site.ts`, footer, contact, privacy, and about pages.
+10. **Operator identity added (draft)** — Privacy Policy, Terms of Use, Affiliate Disclosure, and Contact now state: "SuppCheckr is a website operated by NV Digital Consulting LLC" with attorney review note for mailing address/state/registered agent.
+11. **Terms governing law placeholder added** — clearly marked attorney-review section; not final legal language.
+12. **Accessibility wording softened** — "aims to make the site accessible" and "uses WCAG 2.1 AA as a reference point where practical" instead of compliance commitment.
+13. **Cookie/consent review note added** — Privacy Policy flags attorney decision on cookie banner before future ads or based on analytics/affiliate tracking.
 
-**Not changed in Phase 10:** `lib/seo/indexing.ts`, `config/monetization.ts`, `config/site.ts` site mode, product YAML, affiliate mappings, ads config.
+**Not changed in Phase 10 or 11B:** `lib/seo/indexing.ts`, `config/monetization.ts`, `config/site.ts` site mode, product YAML, affiliate mappings, ads config.
 
 ---
 
@@ -123,7 +128,7 @@ Phase 10 (`5259bb7`) polished legal and trust copy for review readiness. Key upd
 
 ### 1. Amazon Associates / FTC disclosure
 
-- [ ] Is **"SuppCheckr earns from qualifying purchases"** acceptable, or should Amazon's first-person **"As an Amazon Associate I earn from qualifying purchases"** appear verbatim somewhere?
+- [x] **Phase 11B:** Exact Amazon sentence added: **"As an Amazon Associate I earn from qualifying purchases."** on Affiliate Disclosure page and in `AffiliateDisclosure` component — attorney to confirm placement adequacy.
 - [ ] Is the **affiliate disclosure placement on product pages** sufficient (page-level `AffiliateDisclosure` + per-link `AffiliateLinkDisclosure`)?
 - [ ] Should disclosure text appear **above every outbound affiliate button**, in the **header/footer**, or **both**?
 - [ ] Is the explanation that **Amazon reviews/ratings/Q&A/images are not used as evidence** sufficient?
@@ -138,14 +143,14 @@ Phase 10 (`5259bb7`) polished legal and trust copy for review readiness. Key upd
 
 ### 2. Legal entity / operator identity
 
-- [ ] Should **NV Digital Consulting LLC** be named as the operator?
+- [x] **Phase 11B (draft):** **NV Digital Consulting LLC** named as operator on Privacy Policy, Terms of Use, Affiliate Disclosure, and Contact — pending attorney approval.
 - [ ] Should legal pages list a **business address, state**, or only **email contact**?
-- [ ] Should **"SuppCheckr"** be described as a site/brand owned or operated by NV Digital Consulting LLC?
+- [ ] Should **"SuppCheckr"** be described as a site/brand owned or operated by NV Digital Consulting LLC? (Currently stated as "website operated by.")
 
 ### 3. Terms of Use
 
-- [ ] What **governing law / jurisdiction** should be used?
-- [ ] Is **dispute resolution or arbitration** needed?
+- [x] **Phase 11B (placeholder):** Governing law / venue / dispute-resolution section added — marked for attorney decision; **not final**.
+- [ ] Is **dispute resolution or arbitration** needed beyond the placeholder?
 - [ ] Is the **limitation-of-liability** language sufficient?
 - [ ] Is the **third-party retailer** language sufficient?
 - [ ] Are **no-warranty (AS IS)** disclaimers sufficient?
@@ -153,14 +158,15 @@ Phase 10 (`5259bb7`) polished legal and trust copy for review readiness. Key upd
 ### 4. Privacy Policy
 
 - [ ] Is **Vercel Analytics / server log / cookie** language sufficient for current traffic?
-- [ ] Does the site need a **cookie banner** before affiliate tracking or future ads?
+- [x] **Phase 11B:** Cookie banner/consent review note added — attorney to confirm before future ads or based on analytics/affiliate tracking.
 - [ ] Is the **"no sale of personal information"** language sufficient?
 - [ ] Are **CCPA/CPRA/GDPR** statements needed based on audience/traffic?
 - [ ] Is **email-contact handling** language sufficient?
 
 ### 5. Medical Disclaimer
 
-- [ ] Is the supplement/medical disclaimer **strong enough**?
+- [x] **Phase 11B:** Kidney stones and iron overload/hemochromatosis added to standalone page; inline disclaimer strengthened on product/guide/compare pages.
+- [ ] Is the supplement/medical disclaimer **strong enough** overall?
 - [ ] Is additional caution needed for **pregnancy, nursing, minors, medication use, kidney/liver disease, allergies, iron overload, kidney stones**, or other conditions?
 - [ ] Should **every product page** include a stronger inline medical disclaimer?
 - [ ] Is the **"does not diagnose, treat, cure, or prevent disease"** language sufficient?
@@ -173,8 +179,8 @@ Phase 10 (`5259bb7`) polished legal and trust copy for review readiness. Key upd
 
 ### 7. Accessibility
 
+- [x] **Phase 11B:** Wording softened to "aims to make the site accessible" and "uses WCAG 2.1 AA as a reference point where practical."
 - [ ] Is the accessibility statement **sufficient for the applicable jurisdiction**?
-- [ ] Should it name a target standard such as **WCAG 2.1 AA** or avoid doing so until audited? (Current page commits to WCAG 2.1 AA.)
 - [ ] Should a **response timeframe** be listed?
 
 ### 8. Corrections / editorial
@@ -216,7 +222,7 @@ Phase 10 (`5259bb7`) polished legal and trust copy for review readiness. Key upd
 - [ ] Medical disclaimer approved (standalone + inline)
 - [ ] Governing law/jurisdiction decided and added to Terms if required
 - [ ] Accessibility wording approved
-- [ ] Contact email tested — [help@suppcheckr.com](mailto:help@suppcheckr.com) monitored
+- [ ] Contact email tested — [help@suppcheckr.com](mailto:help@suppcheckr.com) monitored (**reminder:** monitor mailbox for attorney/reviewer correspondence and user corrections)
 - [ ] Final build passes (`npm run check`, `npm run build`)
 - [ ] Noindex flip plan reviewed (see Section I)
 

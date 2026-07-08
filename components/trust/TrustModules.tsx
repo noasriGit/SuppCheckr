@@ -32,10 +32,13 @@ export function MedicalDisclaimer() {
     <aside className="my-6 rounded-lg border border-border bg-surface p-4 text-sm text-foreground">
       <p className="font-medium text-heading">Medical disclaimer</p>
       <p className="mt-2">
-        SuppCheckr provides informational content only and does not provide medical
-        advice. Consult a qualified healthcare professional before starting supplements,
-        especially if pregnant, nursing, under 18, taking medication, managing kidney or
-        liver disease, allergies, or other medical conditions.
+        SuppCheckr provides informational and educational content only. This is not medical
+        advice and does not diagnose, treat, cure, or prevent disease. SuppCheckr does not
+        provide individualized health advice. Consult a qualified healthcare professional
+        before starting, stopping, or changing supplements — especially if pregnant, nursing,
+        under 18, taking medication, or managing kidney or liver disease, allergies, kidney
+        stones, iron overload, or other medical conditions. For urgent symptoms or
+        emergencies, seek professional or emergency care.
       </p>
     </aside>
   );
@@ -55,8 +58,8 @@ export function AffiliateDisclosure({ compact = false }: { compact?: boolean }) 
 
   const message = frameworkActive
     ? compact
-      ? "SuppCheckr participates in the Amazon Associates Program. Marked affiliate links may earn commissions. Affiliate relationships do not affect scores or rankings."
-      : "SuppCheckr participates in the Amazon Associates Program and may earn commissions from qualifying purchases made through affiliate links on this site. Not every outbound retailer link is an affiliate link. Affiliate relationships do not affect SuppCheckr scores, rankings, testing-status notes, or editorial conclusions."
+      ? "As an Amazon Associate I earn from qualifying purchases. Marked affiliate links may earn commissions. Affiliate relationships do not affect scores or rankings."
+      : "As an Amazon Associate I earn from qualifying purchases. SuppCheckr may also earn commissions from qualifying purchases through other affiliate links on this site. Not every outbound retailer link is an affiliate link. Affiliate relationships do not affect SuppCheckr scores, rankings, testing-status notes, or editorial conclusions."
     : compact
       ? "Affiliate links are disabled. Future affiliate links will be clearly disclosed."
       : "Affiliate links are currently disabled. If enabled in the future, affiliate relationships will be disclosed clearly and will not affect editorial scores or rankings.";

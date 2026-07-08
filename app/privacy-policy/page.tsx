@@ -12,6 +12,18 @@ export const metadata = buildPageMetadata({
 export default function PrivacyPolicyPage() {
   return (
     <LegalPageLayout title="Privacy Policy" requiresLegalReview lastUpdated="2026-07-07">
+      <ProseSection title="Site operator (draft — legal review required)">
+        <p>
+          SuppCheckr is a website operated by NV Digital Consulting LLC. For questions,
+          contact{" "}
+          <a href={`mailto:${siteConfig.contactEmail}`} className="text-link underline">
+            {siteConfig.contactEmail}
+          </a>
+          . Attorney/human reviewer should confirm whether a business mailing address,
+          state of formation, or registered agent should also be listed before publication.
+        </p>
+      </ProseSection>
+
       <ProseSection title="Overview">
         <p>
           SuppCheckr (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) operates{" "}
@@ -27,10 +39,14 @@ export default function PrivacyPolicyPage() {
 
       <ProseSection title="What SuppCheckr does not collect by default">
         <p>
-          SuppCheckr does not operate user accounts, checkout, or direct supplement sales.
-          We do not intentionally collect sensitive health information, payment card data,
-          or prescription details through the site. Contact is email-only — there is no
-          backend contact form.
+          SuppCheckr does not currently provide user accounts, checkout, or direct supplement
+          sales. We do not intentionally collect sensitive health information, payment card
+          data, or prescription details through the site. You may contact SuppCheckr by email
+          at{" "}
+          <a href={`mailto:${siteConfig.contactEmail}`} className="text-link underline">
+            {siteConfig.contactEmail}
+          </a>
+          . There is no backend contact form.
         </p>
       </ProseSection>
 
@@ -59,8 +75,9 @@ export default function PrivacyPolicyPage() {
           <li>
             <strong>Affiliate link activity</strong> — some product pages include Amazon
             affiliate links. When you click those links, you leave SuppCheckr and Amazon or
-            other retailers may collect information under their own privacy policies. SuppCheckr
-            does not receive your purchase details from retailers.
+            other retailers may collect information under their own privacy policies.
+            SuppCheckr does not receive your purchase details from retailers. Affiliate
+            outbound links may route users to third-party retailers such as Amazon.
           </li>
           <li>
             <strong>Advertising or ad-personalization data</strong> — live third-party ad
@@ -84,6 +101,11 @@ export default function PrivacyPolicyPage() {
         <p className="mt-2">
           You can usually control cookies through your browser settings. Blocking cookies
           may affect some site features.
+        </p>
+        <p className="mt-2">
+          <strong>Attorney/human review note:</strong> Confirm whether cookie banner or
+          consent tooling is needed before future ads launch or based on current analytics
+          and affiliate click behavior.
         </p>
       </ProseSection>
 

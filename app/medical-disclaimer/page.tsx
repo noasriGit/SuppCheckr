@@ -60,7 +60,7 @@ export default function MedicalDisclaimerPage() {
           <li>pregnant or nursing;</li>
           <li>under 18 years of age;</li>
           <li>taking prescription or over-the-counter medication;</li>
-          <li>managing a medical condition, including kidney disease, liver disease, or allergies;</li>
+          <li>managing a medical condition, including kidney disease, liver disease, kidney stones, allergies, or iron overload / hemochromatosis (relevant for some supplements such as Vitamin C);</li>
           <li>preparing for surgery; or</li>
           <li>unsure whether a supplement is appropriate for you.</li>
         </ul>

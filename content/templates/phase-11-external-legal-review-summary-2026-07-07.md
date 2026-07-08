@@ -22,7 +22,8 @@ SuppCheckr is an informational supplement comparison and review website that hel
 | Display ads | **Disabled** — no live ad scripts; labeled placeholders may appear |
 | Direct sales | None |
 | User accounts / checkout | None |
-| Contact | Email only: [help@suppcheckr.com](mailto:help@suppcheckr.com) |
+| Contact | Email only: [help@suppcheckr.com](mailto:help@suppcheckr.com) — **monitor mailbox** for attorney/reviewer and user correspondence |
+| Operator (draft) | NV Digital Consulting LLC — pending attorney approval |
 | Legal pages | **Draft — not final** — noindex with visible draft banner |
 | Held-back affiliate | Klean Athlete Klean Magnesium (UPC mismatch — direct retailer link only) |
 
@@ -69,21 +70,21 @@ These pages are accessible on the live site but marked as draft placeholders and
 
 ## Key questions needing review
 
-1. **Amazon Associates wording** — Current text: "As an Amazon Associate, SuppCheckr earns from qualifying purchases." Is first-person "I earn" required by Amazon's Operating Agreement?
+1. **Amazon Associates wording** — Phase 11B added exact sentence: "As an Amazon Associate I earn from qualifying purchases." on Affiliate Disclosure page and in site-level disclosure component. Attorney to confirm FTC placement adequacy (page-level + per-link disclosure).
 
 2. **FTC affiliate disclosure placement** — Is page-level + per-link disclosure sufficient, or is header/footer disclosure also required?
 
-3. **Legal entity** — Should NV Digital Consulting LLC be named as operator? Should a business address appear on legal pages?
+3. **Legal entity** — Phase 11B added draft operator wording: "SuppCheckr is a website operated by NV Digital Consulting LLC." Attorney to confirm and decide whether a business mailing address, state, or registered agent should be listed.
 
-4. **Terms of Use** — Governing law/jurisdiction and dispute resolution are not yet specified. Is current limitation-of-liability language acceptable?
+4. **Terms of Use** — Phase 11B added attorney-review placeholder for governing law/venue/dispute resolution. Attorney to finalize jurisdiction and whether arbitration or class-action waiver is appropriate.
 
-5. **Privacy / cookies** — Is Vercel Analytics + server log disclosure sufficient without a cookie consent banner for current affiliate click behavior?
+5. **Privacy / cookies** — Is Vercel Analytics + server log disclosure sufficient? Attorney to confirm whether cookie banner/consent tooling is needed before future ads or based on current affiliate click behavior.
 
-6. **Medical disclaimer** — Is the standalone page plus inline disclaimer on product pages sufficient for supplement comparison content?
+6. **Medical disclaimer** — Phase 11B strengthened standalone page (kidney stones, iron overload) and inline disclaimer on product/guide/compare pages. Attorney to confirm sufficiency.
 
-7. **Advertising policy** — Display ads are disabled today but may be added later. Is current future-ad language sufficient before activation?
+7. **Advertising policy** — Display ads are disabled today but may be added later. Before ads launch, privacy/cookie/ad-partner language must be reviewed. Is current future-ad language sufficient?
 
-8. **Accessibility** — Page commits to WCAG 2.1 AA. Is this appropriate before a formal audit?
+8. **Accessibility** — Phase 11B softened to "aims to make the site accessible" and "uses WCAG 2.1 AA as a reference point where practical." Attorney to confirm jurisdiction-specific requirements and response timeframe.
 
 ---
 
@@ -91,7 +92,7 @@ These pages are accessible on the live site but marked as draft placeholders and
 
 - **These pages are draft and not final legal documentation.** They are not indexed by search engines and carry a visible draft banner.
 - **This summary does not claim legal compliance** with any law, regulation, or third-party program requirement.
-- **Amazon affiliate links are active** on 14 mapped products. SuppCheckr earns commissions from qualifying purchases through those links.
+- **Amazon affiliate links are active** on 14 mapped products. Disclosure includes: "As an Amazon Associate I earn from qualifying purchases."
 - **Display ads are currently disabled** but the Advertising Policy describes how ads may be handled if enabled in the future.
 - **SuppCheckr does not sell supplements directly** and does not use Amazon content as review evidence.
 
@@ -107,6 +108,10 @@ Phase 10 prep work and checklist:
 
 - `content/templates/phase-10-legal-prep-report-2026-07-07.md`
 - `content/templates/phase-10-legal-review-checklist-2026-07-07.md`
+
+Phase 11B legal gap cleanup:
+
+- `content/templates/phase-11b-legal-gap-cleanup-report-2026-07-07.md`
 
 ---
 

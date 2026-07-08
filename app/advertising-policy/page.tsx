@@ -102,6 +102,14 @@ export default function AdvertisingPolicyPage() {
           rules change. Updates will be reflected in the &ldquo;Last updated&rdquo; date at
           the top of this page.
         </p>
+        <p className="mt-2">
+          Before display ads or ad partners are enabled, SuppCheckr should review and update
+          privacy, cookie, and ad-partner language in the{" "}
+          <a href="/privacy-policy" className="text-link underline">
+            Privacy Policy
+          </a>{" "}
+          and this page. Live ad scripts remain disabled until that review is complete.
+        </p>
       </ProseSection>
     </LegalPageLayout>
   );

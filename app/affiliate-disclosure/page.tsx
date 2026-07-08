@@ -1,5 +1,6 @@
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { LegalPageLayout, ProseSection } from "@/components/legal/LegalPageLayout";
+import { siteConfig } from "@/config/site";
 
 export const metadata = buildPageMetadata({
   title: "Affiliate Disclosure",
@@ -11,6 +12,18 @@ export const metadata = buildPageMetadata({
 export default function AffiliateDisclosurePage() {
   return (
     <LegalPageLayout title="Affiliate Disclosure" requiresLegalReview lastUpdated="2026-07-07">
+      <ProseSection title="Site operator (draft — legal review required)">
+        <p>
+          SuppCheckr is a website operated by NV Digital Consulting LLC. For questions,
+          contact{" "}
+          <a href={`mailto:${siteConfig.contactEmail}`} className="text-link underline">
+            {siteConfig.contactEmail}
+          </a>
+          . Attorney/human reviewer should confirm whether a business mailing address,
+          state of formation, or registered agent should also be listed before publication.
+        </p>
+      </ProseSection>
+
       <ProseSection title="Current status">
         <p>
           <strong>SuppCheckr participates in the Amazon Associates Program.</strong> Some
@@ -19,7 +32,11 @@ export default function AffiliateDisclosurePage() {
           URLs that we have intentionally mapped — not to every outbound link on the site.
         </p>
         <p className="mt-2">
-          As an Amazon Associate, SuppCheckr earns from qualifying purchases.
+          As an Amazon Associate I earn from qualifying purchases.
+        </p>
+        <p className="mt-2">
+          SuppCheckr may also earn commissions from qualifying purchases through other
+          affiliate links. This does not change the price you pay.
         </p>
         <p className="mt-2">
           Commissions generally do not change the price you pay at the retailer. Pricing,

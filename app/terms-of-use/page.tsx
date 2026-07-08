@@ -12,6 +12,18 @@ export const metadata = buildPageMetadata({
 export default function TermsOfUsePage() {
   return (
     <LegalPageLayout title="Terms of Use" requiresLegalReview lastUpdated="2026-07-07">
+      <ProseSection title="Site operator (draft — legal review required)">
+        <p>
+          SuppCheckr is a website operated by NV Digital Consulting LLC. For questions,
+          contact{" "}
+          <a href={`mailto:${siteConfig.contactEmail}`} className="text-link underline">
+            {siteConfig.contactEmail}
+          </a>
+          . Attorney/human reviewer should confirm whether a business mailing address,
+          state of formation, or registered agent should also be listed before publication.
+        </p>
+      </ProseSection>
+
       <ProseSection title="Acceptance of terms">
         <p>
           By accessing or using {siteConfig.url} (the &ldquo;Site&rdquo;), you agree to
@@ -59,8 +71,10 @@ export default function TermsOfUsePage() {
 
       <ProseSection title="Affiliate links and advertising">
         <p>
-          SuppCheckr participates in the Amazon Associates Program. Some product pages include
-          Amazon affiliate links that may earn commissions from qualifying purchases. Not every
+          SuppCheckr participates in the Amazon Associates Program. As an Amazon Associate I
+          earn from qualifying purchases. Some product pages include Amazon affiliate links
+          that may earn commissions from qualifying purchases. SuppCheckr may also earn
+          commissions from qualifying purchases through other affiliate links. Not every
           reviewed product has an affiliate link. Affiliate disclosures appear near marked
           purchase buttons and in our{" "}
           <a href="/affiliate-disclosure" className="text-link underline">
@@ -154,6 +168,19 @@ export default function TermsOfUsePage() {
           the &ldquo;Last updated&rdquo; date at the top of this page. Your continued use
           of the Site after changes become effective constitutes acceptance of the updated
           terms, subject to applicable law.
+        </p>
+      </ProseSection>
+
+      <ProseSection title="Governing law and venue — attorney review required">
+        <p>
+          The governing law, venue, and dispute-resolution terms for these Terms are
+          intentionally marked for legal review before publication. Before these Terms are
+          finalized, SuppCheckr/NV Digital Consulting LLC should confirm the applicable
+          governing law, jurisdiction, venue, and whether arbitration, class-action waiver, or
+          other dispute-resolution terms are appropriate.
+        </p>
+        <p className="mt-2">
+          This section is a placeholder and is <strong>not</strong> final legal language.
         </p>
       </ProseSection>
 

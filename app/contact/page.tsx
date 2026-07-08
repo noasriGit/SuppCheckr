@@ -12,6 +12,21 @@ export const metadata = buildPageMetadata({
 export default function ContactPage() {
   return (
     <LegalPageLayout title="Contact" lastUpdated="2026-07-07">
+      <ProseSection title="Site operator (draft — legal review required)">
+        <p>
+          SuppCheckr is a website operated by NV Digital Consulting LLC. For questions,
+          contact{" "}
+          <a
+            href={`mailto:${siteConfig.contactEmail}`}
+            className="text-link hover:text-link-hover hover:underline"
+          >
+            {siteConfig.contactEmail}
+          </a>
+          . Attorney/human reviewer should confirm whether a business mailing address,
+          state of formation, or registered agent should also be listed before publication.
+        </p>
+      </ProseSection>
+
       <ProseSection title="Email">
         For corrections, editorial feedback, accessibility issues, partnerships, or general
         questions, email{" "}
