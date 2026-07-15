@@ -1,0 +1,23 @@
+id: coq10
+categoryId: coq10
+label: CoQ10 scoring profile
+notes: >
+  CoQ10 profile — emphasizes CoQ10 form disclosure (ubiquinone vs ubiquinol), dose per serving clarity,
+  label clarity, third-party testing verification, dated manual price per 100 mg CoQ10, claim conservatism,
+  additive/allergen/oil-base disclosure, and serving practicality (softgel/capsule count). Price/value is
+  computed as price per 100 mg CoQ10 (label-stated mg per serving — not absorption assumptions).
+  Schema field mapping from editorial criteria: formTransparency → ingredientTransparency;
+  doseClarity → doseTransparency; testingTransparency → thirdPartyTesting; claimConservatism +
+  general evidence alignment → evidenceAlignment; additiveAndAllergenProfile → additives;
+  servingPracticality → formulaQuality. See content/scoring/rubrics/coq10.yaml for editor rubric anchors.
+  Do not score products until Phase 15B+ product research is complete.
+criteriaWeights:
+  ingredientTransparency: 16
+  doseTransparency: 14
+  labelClarity: 12
+  thirdPartyTesting: 12
+  priceValue: 12
+  evidenceAlignment: 14
+  additives: 8
+  formulaQuality: 6
+  brandTransparency: 6

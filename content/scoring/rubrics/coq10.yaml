@@ -1,0 +1,138 @@
+profileId: coq10
+categoryId: coq10
+label: CoQ10 scoring rubric
+disclaimer: >
+  Scores reflect label transparency (especially CoQ10 form and mg per serving), carrier oil and capsule material
+  disclosure, additive/allergen profile, label clarity, third-party testing evidence, dated manual price per 100 mg
+  CoQ10, serving practicality, and claim conservatism based on publicly available information. Scores do not prove
+  cardiovascular benefit, energy outcomes, statin-related effects, fertility outcomes, or medical suitability for any
+  individual.
+criteria:
+  ingredientTransparency:
+    anchors:
+      - score: 0
+        description: >
+          CoQ10 form (ubiquinone vs ubiquinol) missing, hidden in a proprietary blend, or marketed only as "CoQ10"
+          without specifying the reduced/oxidized form when product positioning depends on form.
+      - score: 50
+        description: >
+          Form partially disclosed but ambiguous (e.g., "active form" without ubiquinol/ubiquinone naming), or carrier
+          oil/base not identified when relevant to softgel products.
+      - score: 100
+        description: >
+          CoQ10 form clearly stated (ubiquinone or ubiquinol); mineral/carrier context and any added actives (vitamin E,
+          BioPerine, PQQ) clearly listed with amounts where label provides them.
+  doseTransparency:
+    anchors:
+      - score: 0
+        description: >
+          CoQ10 mg per serving missing, buried in blend weight, or impossible to compare across products without
+          manufacturer interpretation.
+      - score: 50
+        description: >
+          CoQ10 amount stated but serving math is cumbersome (e.g., multiple softgels required without clear per-serving
+          total), or mg line conflates ubiquinol "equivalence" marketing with label facts.
+      - score: 100
+        description: >
+          Label-stated CoQ10 mg per serving clearly disclosed; serving size and servings per container support
+          straightforward price-per-100-mg calculation.
+  labelClarity:
+    anchors:
+      - score: 0
+        description: >
+          Supplement Facts difficult to read, incomplete, missing key fields, or sourced only from unverified secondary
+          listings when official brand label is unavailable.
+      - score: 50
+        description: >
+          Core fields present but softgel count, oil base, gelatin/veggie capsule material, or SKU specificity need
+          interpretation; retailer-sourced label when brand-hosted facts exist elsewhere.
+      - score: 100
+        description: >
+          Serving size, CoQ10 mg, form, other ingredients, allergens, and capsule/softgel material clearly presented
+          from an official brand label or equally authoritative source with locked SKU.
+  thirdPartyTesting:
+    anchors:
+      - score: 0
+        description: >
+          No testing claim and no verifiable third-party certification, COA, or recognized program listing found for the
+          specific SKU.
+      - score: 50
+        description: >
+          Brand or retailer claims third-party testing or quality verification without a captured certificate URL or
+          recognized program listing matched to this SKU.
+      - score: 100
+        description: >
+          Verifiable third-party testing or recognized certification (e.g., USP Verified, NSF, Informed Choice/Sport)
+          documented with a citable source matched to the locked SKU.
+  priceValue:
+    anchors:
+      - score: 0
+        description: >
+          Price unavailable or cannot compute price per 100 mg CoQ10 from label-stated mg per serving and servings per
+          container.
+      - score: 50
+        description: >
+          Manual price dated; price per 100 mg checkable but mid-range within cluster context, or premium not clearly
+          offset by form/transparency/testing benefits.
+      - score: 100
+        description: >
+          Manual price dated; price per 100 mg clearly computed and competitive within cluster context for the product's
+          form, dose, and transparency profile.
+  evidenceAlignment:
+    anchors:
+      - score: 0
+        description: >
+          Product marketing misaligned with conservative CoQ10 context; heart-disease treatment, statin replacement,
+          blood-pressure/cholesterol outcomes, fertility/migraine/Parkinson's treatment, anti-aging cure, or guaranteed
+          energy claims.
+      - score: 50
+        description: >
+          Form acceptable but brand marketing overstates cardiovascular, statin-adjacent, or "3x better absorption"
+          outcomes without conservative sourcing, or uses demographic medical targeting.
+      - score: 100
+        description: >
+          Label and editorial positioning aligned with general CoQ10 supplement comparison context; no exaggerated
+          outcome claims. Ubiquinol products scored on clarity and caveats — not dismissed as inferior/superior by form
+          alone.
+  additives:
+    anchors:
+      - score: 0
+        description: >
+          Carrier oils, gelatin, soy, colors, sweeteners, or combo actives (PQQ, omega-3) hidden or misleading; allergen
+          profile unclear when oils or softgel materials imply common allergens.
+      - score: 50
+        description: >
+          Additives and oils disclosed but combo formula complicates comparison, or allergen statements incomplete for
+          soy/gelatin-containing softgels.
+      - score: 100
+        description: >
+          Carrier oil, capsule/softgel material, vitamin E or piperine additions, and allergens clearly disclosed;
+          simple single-active formulas scored higher than unnecessary combo stacks unless clearly labeled.
+  formulaQuality:
+    anchors:
+      - score: 0
+        description: >
+          Impractical serving burden (many softgels per labeled dose), confusing mg-per-softgel vs per-serving math, or
+          combo stacks without clear CoQ10 payoff.
+      - score: 50
+        description: >
+          Acceptable softgel/capsule format with moderate friction — e.g., two softgels per serving, large capsule size,
+          or liquid requiring refrigeration without clear benefit on label.
+      - score: 100
+        description: >
+          Practical serving format appropriate to product type (straightforward softgel/capsule count per serving, clear
+          scoop or liquid dose if applicable).
+  brandTransparency:
+    anchors:
+      - score: 0
+        description: >
+          Limited public brand information, unclear contact, opaque manufacturing/testing statements, or reliance on
+          retailer label when official brand product page is missing without documentation.
+      - score: 50
+        description: >
+          Basic brand information available; testing or quality statements partially documented; label sourced from
+          retailer when brand-hosted page not confirmed.
+      - score: 100
+        description: >
+          Brand website and public materials clearly document product, contact, Supplement Facts, and relevant
+          quality/testing information for the locked SKU.

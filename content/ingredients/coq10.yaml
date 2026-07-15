@@ -1,0 +1,81 @@
+id: coq10
+slug: coq10
+name: CoQ10
+commonForms:
+  - Ubiquinone (oxidized CoQ10)
+  - Ubiquinol (reduced CoQ10)
+  - Coenzyme Q10 (unspecified form — verify on label)
+  - Softgel
+  - Capsule
+  - Tablet
+  - Liquid
+categories:
+  - coq10
+aliases:
+  - Coenzyme Q10
+  - Ubiquinone
+  - Ubiquinol
+evidenceSummary: >
+  Coenzyme Q10 (CoQ10) is a compound involved in normal cellular energy processes. According to NIH Office of Dietary
+  Supplements and NCCIH materials, CoQ10 is found in some foods and is also sold in dietary supplements, commonly as
+  ubiquinone or ubiquinol in softgel or capsule forms. Supplement labels may list different CoQ10 forms, doses per
+  serving, carrier oils, and added ingredients. Research has examined CoQ10 in various health contexts; individual needs
+  and medication use vary. SuppCheckr summarizes label and product-comparison information — not medical advice.
+  SuppCheckr does not rank CoQ10 products for heart disease, blood pressure, cholesterol, statin use, fertility,
+  migraine, Parkinson's disease, anti-aging, or guaranteed energy outcomes.
+typicalDosageRange: >
+  NIH and NCCIH materials describe that supplemental CoQ10 doses in research and retail products vary widely (commonly
+  discussed ranges include roughly 30–200 mg per day in general supplement contexts, with higher doses appearing in some
+  products and studies). Product serving sizes and CoQ10 mg per serving differ by brand, form, and softgel count. Dietary
+  intake from food plus supplemental intake should be considered together. This page does not prescribe a dose. Consult a
+  qualified healthcare professional before starting or changing CoQ10 supplements, especially if pregnant, nursing, under
+  18, taking medications (including blood thinners), preparing for surgery, managing a heart condition, liver or kidney
+  disease, or another medical condition.
+safetyNotes: >
+  According to NIH and NCCIH materials, CoQ10 supplements have been studied in various populations, but evidence for
+  routine use in specific medical conditions is limited and context-dependent. CoQ10 may interact with anticoagulant and
+  antiplatelet medications (e.g., warfarin) and other prescriptions — consult a pharmacist or qualified healthcare
+  professional. CoQ10 supplements are not a substitute for medical care or prescribed cardiovascular treatment. Product
+  labels, warnings, formulas, and softgel materials can change — verify the current label before use.
+interactions: >
+  NIH and NCCIH materials note potential interactions with anticoagulant/antiplatelet drugs and other medications. This
+  summary is not a complete interaction list. Do not start, stop, or change medications based on supplement marketing.
+  Consult a qualified healthcare professional or pharmacist if you take prescription medications or manage a chronic
+  medical condition.
+relatedProductIds: []
+relatedGuideSlugs: []
+sources:
+  - id: nih-coq10-hp
+    title: Coenzyme Q10 — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/CoenzymeQ10-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: nccih-coq10-overview
+    title: Coenzyme Q10 — NCCIH Overview
+    publisher: National Center for Complementary and Integrative Health
+    url: https://www.nccih.nih.gov/health/coenzyme-q10
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-overview
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-15'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 15A draft/noindex ingredient shell — no products, guides, or affiliate links

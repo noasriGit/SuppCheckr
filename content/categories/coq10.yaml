@@ -1,0 +1,46 @@
+id: coq10
+slug: coq10
+name: CoQ10
+pluralName: CoQ10 Supplements
+description: >
+  Phase 15A draft category shell — not published. Future hub for CoQ10 (coenzyme Q10) supplement label comparisons:
+  ubiquinone vs ubiquinol form, dose per serving, softgel/capsule format, carrier oils, testing transparency, and
+  dated manual price per 100 mg — not medical or cardiovascular outcome claims.
+shortDescription: >
+  Draft/noindex category shell for future CoQ10 cluster planning. No product reviews or guides linked in Phase 15A.
+featured: false
+relatedCategories: []
+relatedGuides: []
+buyersGuideSlug: null
+scoringProfileId: coq10
+ingredientSlug: coq10
+activeDoseLabel: CoQ10 per serving
+priceNormalizationLabel: Price / 100 mg CoQ10
+priceNormalizationDescription: Price per 100 mg CoQ10 (label-stated)
+priceNormalizationSortLabel: Price per 100 mg
+priceNormalizationNote: CoQ10 products vary by form (ubiquinone vs ubiquinol), dose per serving, and softgel count — compare mg per serving alongside price per 100 mg.
+ingredientReferenceLabel: CoQ10 ingredient reference
+ingredientPageLinkLabel: CoQ10 ingredient reference
+comparisonCtaLabel: Compare CoQ10 supplements
+exploreCategoryHeading: Explore CoQ10 content
+intro: ''
+evaluationSummary: ''
+clusterScopeNote: ''
+buyingConsiderations: []
+faq: []
+featuredProductIds: []
+sources: []
+seo: {}
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 15A draft/noindex category shell — no products, guides, comparison, or affiliate links
