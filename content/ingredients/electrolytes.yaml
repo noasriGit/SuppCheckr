@@ -87,3 +87,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14A draft/noindex ingredient shell — no products, guides, or affiliate links
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 14B product longlist research completed — 22 candidates screened; 5 recommended for draft YAML; no product or guide links added
