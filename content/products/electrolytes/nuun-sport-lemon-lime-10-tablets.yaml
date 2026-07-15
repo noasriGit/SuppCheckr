@@ -217,3 +217,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 14F Electrolytes cluster publication
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 14H — Amazon affiliate deferred; no verified single-tube Lemon Lime 10-tablet ASIN with UPC 811660020501 (Amazon lists multipacks or legacy Nuun Active SKUs only)

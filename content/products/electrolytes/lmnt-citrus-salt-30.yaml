@@ -48,6 +48,9 @@ retailers:
   - retailerId: lmnt
     url: https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B07TT8B1JJ
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: unknown
@@ -214,7 +217,7 @@ sources:
     supportsClaimIds:
       - lmnt-citrus-sodium-safety
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: LMNT Citrus Salt 30 Stick Packs Review | SuppCheckr
   description: >
@@ -237,3 +240,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 14F Electrolytes cluster publication
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 14H — exact Amazon ASIN B07TT8B1JJ mapped; affiliate CTA enabled

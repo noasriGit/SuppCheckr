@@ -53,6 +53,9 @@ retailers:
   - retailerId: liquid-iv
     url: https://www.liquid-iv.com/products/lemon-lime-hydration-multiplier
     isPrimary: true
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B01IT9NLHW
+    isPrimary: false
 certifications: []
 thirdPartyTesting:
   status: unknown
@@ -206,7 +209,7 @@ sources:
     supportsClaimIds:
       - liv-hm-price-per-serving
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: Liquid I.V. Hydration Multiplier Lemon Lime 16ct Review | SuppCheckr
   description: >
@@ -229,3 +232,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 14F Electrolytes cluster publication
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 14H — exact Amazon ASIN B01IT9NLHW mapped; affiliate CTA enabled

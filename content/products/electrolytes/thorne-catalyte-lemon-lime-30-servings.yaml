@@ -59,6 +59,9 @@ retailers:
   - retailerId: thorne
     url: https://www.thorne.com/products/dp/catalyte-lemon-lime
     isPrimary: false
+  - retailerId: amazon
+    url: https://www.amazon.com/dp/B07VS6XSN7
+    isPrimary: false
 certifications:
   - NSF Certified for Sport
 thirdPartyTesting:
@@ -241,7 +244,7 @@ sources:
     supportsClaimIds:
       - thorne-catalyte-price-per-serving
 affiliate:
-  enabled: false
+  enabled: true
 seo:
   title: Thorne Catalyte Lemon Lime 30 Servings Review | SuppCheckr
   description: >
@@ -272,3 +275,7 @@ editorial:
       summary: >-
         Phase 14F — Vitacost label relocked (UPC 693749006299), iHerb corroboration added, NSF 1286726 reconfirmed;
         Electrolytes cluster publication
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 14H — exact Amazon ASIN B07VS6XSN7 mapped (UPC 693749006299); affiliate CTA enabled
