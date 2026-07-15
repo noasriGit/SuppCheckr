@@ -326,21 +326,50 @@ describe("affiliate", () => {
     );
     expect(electrolytesActivated).toHaveLength(4);
 
-    const lmnt = electrolytesActivated.find((p) => p.slug === "lmnt-citrus-salt-30");
-    expect(lmnt?.retailers.find((r) => r.retailerId === "amazon")?.url).toBe(
-      "https://www.amazon.com/dp/B07TT8B1JJ",
-    );
+    const cases = [
+      { slug: "lmnt-citrus-salt-30", asin: "B07TT8B1JJ" },
+      { slug: "liquid-iv-hydration-multiplier-lemon-lime-16", asin: "B01IT9NLHW" },
+      { slug: "ultima-replenisher-lemonade-20-sticks", asin: "B01IIGOR42" },
+      { slug: "thorne-catalyte-lemon-lime-30-servings", asin: "B07VS6XSN7" },
+    ] as const;
 
-    const cta = resolveProductAffiliateCta(
-      lmnt!,
-      "/supplements/electrolytes/products/lmnt-citrus-salt-30",
-      { associateTag: "suppcheckr-20" },
-    );
-    expect(cta.variant).toBe("amazon");
-    expect(cta.isPlaceholder).toBe(false);
-    expect(cta.href).toContain("tag=suppcheckr-20");
-    expect(cta.href).toContain("amazon.com/dp/B07TT8B1JJ");
-    expect(cta.label).toBe("View on Amazon");
+    for (const { slug, asin } of cases) {
+      const product = electrolytesActivated.find((p) => p.slug === slug);
+      expect(product?.retailers.find((r) => r.retailerId === "amazon")?.url).toBe(
+        `https://www.amazon.com/dp/${asin}`,
+      );
+
+      const cta = resolveProductAffiliateCta(
+        product!,
+        `/supplements/electrolytes/products/${slug}`,
+        { associateTag: "suppcheckr-20" },
+      );
+      expect(cta.variant).toBe("amazon");
+      expect(cta.isPlaceholder).toBe(false);
+      expect(cta.href).toBe(`https://www.amazon.com/dp/${asin}?tag=suppcheckr-20`);
+      expect(cta.label).toBe("View on Amazon");
+      expect(cta.rel).toBe("sponsored nofollow");
+      expect(cta.showAffiliateDisclosure).toBe(true);
+    }
+  });
+
+  it("all 18 affiliate-enabled products generate tagged Amazon CTAs with associate tag", () => {
+    const active = getProducts().filter(isActiveContent);
+    const affiliateActive = active.filter((p) => p.affiliate.enabled);
+    expect(affiliateActive).toHaveLength(18);
+
+    for (const product of affiliateActive) {
+      const cta = resolveProductAffiliateCta(
+        product,
+        `/supplements/${product.categoryId}/products/${product.slug}`,
+        { associateTag: "suppcheckr-20" },
+      );
+      expect(cta.variant).toBe("amazon");
+      expect(cta.isPlaceholder).toBe(false);
+      expect(cta.href).toContain("tag=suppcheckr-20");
+      expect(cta.href).not.toContain("#amazon-placeholder");
+      expect(cta.rel).toBe("sponsored nofollow");
+    }
   });
 
   it("Nuun Sport Lemon Lime remains held back without Amazon affiliate CTA", () => {
