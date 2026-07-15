@@ -1,0 +1,234 @@
+id: electrolytes-lmnt-citrus-salt-30
+slug: lmnt-citrus-salt-30
+name: LMNT Zero-Sugar Electrolytes (Citrus Salt, 30 Stick Packs)
+brandId: lmnt
+categoryId: electrolytes
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: LMNT Zero-Sugar Electrolytes Citrus Salt 30 stick packs — product photo pending
+    attribution: Placeholder image; label sourced from LMNT product page
+  label:
+    src: null
+    attribution: https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink
+supplementFacts:
+  servingSize: 1 stick pack (~6 g powder) in 16–32 fl oz water
+  servingsPerContainer: 30
+  ingredients:
+    - name: Sodium
+      amount: 1,000 mg
+      dailyValue: null
+    - name: Potassium
+      amount: 200 mg
+      dailyValue: null
+    - name: Magnesium (as magnesium malate)
+      amount: 60 mg
+      dailyValue: null
+    - name: Total sugars
+      amount: 0 g
+      dailyValue: null
+    - name: Calories
+      amount: '0'
+      dailyValue: null
+  otherIngredients:
+    - Sodium chloride
+    - Potassium chloride
+    - Magnesium malate
+    - Citric acid
+    - Natural flavors
+    - Stevia leaf extract
+  allergens: []
+pricing:
+  msrp: 45
+  currency: USD
+  pricePerServing: 1.5
+  lastManualUpdate: '2026-07-15'
+  lastPriceCheckedAt: '2026-07-15'
+retailers:
+  - retailerId: lmnt
+    url: https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: unknown
+  details: >
+    No NSF Certified for Sport, Informed Sport, or other recognized program listing matched to the locked Citrus Salt
+    30-count stick SKU in Phase 14C.
+  sources:
+    - brand-lmnt-citrus-salt-30-page
+additives:
+  - Stevia leaf extract
+  - Natural flavors
+  - Citric acid
+flags:
+  thirdPartyTested: false
+  additiveFree: false
+rating:
+  profileId: electrolytes
+  criteriaScores:
+    ingredientTransparency: 82
+    doseTransparency: 95
+    evidenceAlignment: 55
+    formulaQuality: 90
+    thirdPartyTesting: 25
+    priceValue: 55
+    additives: 92
+    labelClarity: 88
+    brandTransparency: 85
+  overallScore: 77
+pros:
+  - >-
+    Official LMNT product and ingredients pages list 1,000 mg sodium, 200 mg potassium, and 60 mg magnesium per stick
+    with 0 g sugar and 0 calories.
+  - Single stick-pack serving supports straightforward per-serving electrolyte and price comparison.
+  - Sugar-free stevia-sweetened formula with clearly disclosed mineral amounts.
+cons:
+  - >-
+    High sodium per serving (1,000 mg) may be inappropriate for some people managing blood pressure, kidney disease,
+    heart disease, fluid restrictions, or certain medications — general NIH sodium context only.
+  - No verified third-party sport certification documented for this SKU.
+  - Brand marketing includes keto/fasting lifestyle positioning — SuppCheckr cites label facts only, not demographic suitability.
+  - Chloride is present as mineral salts but not broken out in mg on the consumer-facing panel.
+bestFor:
+  - >-
+    Shoppers comparing a high-sodium, sugar-free electrolyte stick pack with clearly disclosed sodium, potassium, and
+    magnesium per serving — understanding individual sodium tolerance varies.
+avoidIf:
+  - You require verified third-party certification documentation before purchase.
+  - >-
+    You are managing blood pressure, kidney disease, heart disease, fluid restrictions, or a medical condition without
+    guidance from a qualified healthcare professional.
+  - You prefer a lower-sodium daily hydration formula.
+labelTransparencyNotes: >
+  Locked Citrus Salt flavor, 30 stick packs per box (~6 g powder per stick). LMNT states electrolyte amounts are
+  consistent across standard flavored drink mixes; confirm flavor and count before purchase. Chloride from sodium and
+  potassium salts is not listed as a separate mg line.
+evidenceNotes: >
+  SuppCheckr score uses the electrolytes scoring profile (Phase 14C). Key drivers: excellent sodium/potassium/magnesium
+  dose transparency and sugar-free label — offset by high sodium claim-risk context, unknown testing, premium $1.50/serving
+  MSRP, and keto/fasting brand copy. Score reflects label quality — not medical suitability or hydration outcomes.
+relatedProductIds:
+  - electrolytes-liquid-iv-hydration-multiplier-lemon-lime-16
+  - electrolytes-nuun-sport-lemon-lime-10-tablets
+  - electrolytes-ultima-replenisher-lemonade-20-sticks
+  - electrolytes-thorne-catalyte-lemon-lime-30-servings
+comparisonGroupIds: []
+claims:
+  - id: lmnt-citrus-label-sodium-1000mg
+    text: The cited LMNT materials list 1,000 mg sodium per 1 stick pack serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-lmnt-citrus-salt-30
+  - id: lmnt-citrus-label-potassium-200mg
+    text: The cited LMNT materials list 200 mg potassium per 1 stick pack serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-lmnt-citrus-salt-30
+  - id: lmnt-citrus-label-magnesium-60mg
+    text: The cited LMNT materials list 60 mg magnesium per 1 stick pack serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-lmnt-citrus-salt-30
+  - id: lmnt-citrus-label-zero-sugar
+    text: The cited LMNT materials list 0 g total sugars and 0 calories per stick pack serving.
+    claimType: label_fact
+    claimRiskLevel: low
+    citationIds:
+      - label-lmnt-citrus-salt-30
+  - id: lmnt-citrus-price-brand
+    text: LMNT.com listed the Citrus Salt 30-count box at $45.00 one-time purchase on 2026-07-15.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-lmnt-citrus-salt-30
+  - id: lmnt-citrus-price-per-serving
+    text: Price per serving is $1.50 based on $45.00 divided by 30 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-lmnt-citrus-salt-30
+      - editorial-price-per-serving-lmnt-citrus-salt-30
+  - id: lmnt-citrus-brand-keto
+    text: >-
+      LMNT brand pages describe paleo/keto-friendly positioning. SuppCheckr does not endorse keto or fasting medical
+      claims.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - brand-lmnt-citrus-salt-30-page
+  - id: lmnt-citrus-sodium-safety
+    text: >
+      According to NIH ODS materials, high sodium intake may be a concern for some people, including those managing blood
+      pressure or kidney disease — general safety context only.
+    claimType: safety_context
+    claimRiskLevel: medium
+    citationIds:
+      - nih-sodium-hp-lmnt-citrus-salt-30
+sources:
+  - id: label-lmnt-citrus-salt-30
+    title: LMNT Zero-Sugar Electrolytes — electrolyte amounts (brand product page)
+    publisher: LMNT
+    url: https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds:
+      - lmnt-citrus-label-sodium-1000mg
+      - lmnt-citrus-label-potassium-200mg
+      - lmnt-citrus-label-magnesium-60mg
+      - lmnt-citrus-label-zero-sugar
+  - id: brand-lmnt-citrus-salt-30-page
+    title: LMNT product page — ingredients and lifestyle marketing copy
+    publisher: LMNT
+    url: https://drinklmnt.com/pages/ingredients
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds:
+      - lmnt-citrus-brand-keto
+  - id: retailer-lmnt-citrus-salt-30
+    title: LMNT Zero-Sugar Electrolytes 30-count — product page (price)
+    publisher: LMNT
+    url: https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink
+    accessDate: '2026-07-15'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - lmnt-citrus-price-brand
+      - lmnt-citrus-price-per-serving
+  - id: editorial-price-per-serving-lmnt-citrus-salt-30
+    title: SuppCheckr price-per-serving calculation
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-07-15'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - lmnt-citrus-price-per-serving
+  - id: nih-sodium-hp-lmnt-citrus-salt-30
+    title: Sodium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds:
+      - lmnt-citrus-sodium-safety
+affiliate:
+  enabled: false
+seo:
+  title: LMNT Citrus Salt 30 Stick Packs Review | SuppCheckr
+  description: >
+    SuppCheckr review of LMNT Zero-Sugar Electrolytes Citrus Salt (30 sticks) with high-sodium label facts, sugar-free
+    disclosure, and dated price per serving.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14C draft/noindex electrolytes product YAML (high-sodium sugar-free stick slot)

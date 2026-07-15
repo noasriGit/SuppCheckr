@@ -1,0 +1,41 @@
+id: liquid-iv
+slug: liquid-iv
+name: Liquid I.V.
+website: https://www.liquid-iv.com
+description: >
+  Liquid I.V. sells Hydration Multiplier and related electrolyte drink mixes as stick packs and tubs through its website
+  and major retailers.
+logo: /images/brands/placeholder.svg
+categories:
+  - electrolytes
+transparencyNotes: >
+  Liquid I.V. publishes Nutrition Facts-style information on product pages. US Hydration Multiplier panels disclose
+  sodium, potassium, and sugar but do not list magnesium per serving on the cited Lemon Lime stick label.
+testingNotes: >
+  No third-party sport certification listing matched to the locked Lemon Lime 16-count Hydration Multiplier SKU in
+  Phase 14C.
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-liquid-iv-site
+    title: Liquid I.V. official website
+    publisher: Liquid I.V.
+    url: https://www.liquid-iv.com
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14C draft/noindex brand record for Liquid I.V. electrolytes product review

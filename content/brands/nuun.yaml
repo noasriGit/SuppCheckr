@@ -1,0 +1,41 @@
+id: nuun
+slug: nuun
+name: Nuun
+website: https://nuunlife.com
+description: >
+  Nuun sells electrolyte hydration tablets and related drink mixes for active lifestyles through its website and
+  retailers.
+logo: /images/brands/placeholder.svg
+categories:
+  - electrolytes
+transparencyNotes: >
+  Nuun Sport product pages publish Nutrition Facts with sodium, potassium, magnesium, calcium, and chloride per tablet
+  serving.
+testingNotes: >
+  Nuun markets Non-GMO ingredients on Sport tablets. No NSF or Informed Sport program listing matched to the locked
+  Lemon Lime 10-tablet tube in Phase 14C.
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-nuun-site
+    title: Nuun official website
+    publisher: Nuun
+    url: https://nuunlife.com
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14C draft/noindex brand record for Nuun Sport electrolytes product review

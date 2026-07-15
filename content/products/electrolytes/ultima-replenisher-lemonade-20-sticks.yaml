@@ -1,0 +1,217 @@
+id: electrolytes-ultima-replenisher-lemonade-20-sticks
+slug: ultima-replenisher-lemonade-20-sticks
+name: Ultima Replenisher Lemonade (20 Stick Packs)
+brandId: ultima-replenisher
+categoryId: electrolytes
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Ultima Replenisher Lemonade 20 stick packs — product photo pending
+    attribution: Placeholder image; label sourced from Ultima product page Nutrition Facts
+  label:
+    src: null
+    attribution: https://www.ultimareplenisher.com/products/lemonade-electrolyte-powder-drink
+supplementFacts:
+  servingSize: 1 stick pack
+  servingsPerContainer: 20
+  ingredients:
+    - name: Sodium
+      amount: 55 mg
+      dailyValue: null
+    - name: Potassium
+      amount: 250 mg
+      dailyValue: null
+    - name: Magnesium
+      amount: 100 mg
+      dailyValue: null
+    - name: Calcium
+      amount: 47 mg
+      dailyValue: null
+    - name: Chloride
+      amount: 78 mg
+      dailyValue: null
+    - name: Total sugars
+      amount: 0 g
+      dailyValue: null
+    - name: Calories
+      amount: '0'
+      dailyValue: null
+    - name: Vitamin C
+      amount: 100 mg
+      dailyValue: null
+  otherIngredients:
+    - Citric acid
+    - Magnesium citrate
+    - Potassium phosphate
+    - Natural lemon flavor (with other natural flavors)
+    - Potassium aspartate
+    - Salt (sodium chloride)
+    - Calcium ascorbate
+    - Calcium citrate
+    - Rebaudioside A (organic stevia leaf extract)
+    - Calcium lactate
+    - Zinc citrate
+    - Manganese citrate
+  allergens: []
+pricing:
+  msrp: 20.99
+  currency: USD
+  pricePerServing: 1.05
+  lastManualUpdate: '2026-07-15'
+  lastPriceCheckedAt: '2026-07-15'
+retailers:
+  - retailerId: ultima-replenisher
+    url: https://www.ultimareplenisher.com/products/lemonade-electrolyte-powder-drink
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: unknown
+  details: >
+    No NSF Certified for Sport, Informed Sport, or other recognized program listing matched to the locked Lemonade
+    20-stick SKU in Phase 14C.
+  sources:
+    - brand-ultima-lemonade-20-sticks-page
+additives:
+  - Organic stevia leaf extract (reb A)
+  - Natural flavors
+flags:
+  thirdPartyTested: false
+  additiveFree: false
+rating:
+  profileId: electrolytes
+  criteriaScores:
+    ingredientTransparency: 85
+    doseTransparency: 85
+    evidenceAlignment: 62
+    formulaQuality: 88
+    thirdPartyTesting: 25
+    priceValue: 70
+    additives: 92
+    labelClarity: 90
+    brandTransparency: 82
+  overallScore: 77
+pros:
+  - >-
+    Official Ultima Nutrition Facts list 55 mg sodium, 250 mg potassium, 100 mg magnesium, 47 mg calcium, and 78 mg
+    chloride per stick with 0 g sugar and 0 calories.
+  - Lower sodium than high-sodium stick competitors — useful for daily-hydration label comparisons.
+  - Sugar-free stevia-sweetened formula with broad mineral disclosure on the cited panel.
+cons:
+  - >-
+    Added vitamins and minerals (vitamin C, zinc, manganese, phosphorus) beyond core electrolytes — formula is not a
+    minimal-ingredient profile.
+  - Brand marketing references daily hydration and body replenishment — SuppCheckr does not treat as dehydration treatment.
+  - No verified third-party sport certification documented for this SKU.
+  - Mid-tier $1.05/serving among shortlist stick formats.
+bestFor:
+  - >-
+    Shoppers comparing a lower-sodium, sugar-free electrolyte stick with disclosed potassium and magnesium and zero
+    calories on the label.
+avoidIf:
+  - You need a high-sodium electrolyte stick for heavy sweat replacement contexts — label shows 55 mg sodium per serving.
+  - You prefer a minimal-ingredient electrolyte formula without added vitamins.
+  - You require verified third-party certification documentation before purchase.
+labelTransparencyNotes: >
+  Locked Lemonade flavor, 20 stick packs per box. Ultima also sells 30- and 90-serving canisters — confirm stick count
+  and flavor before purchase. Phosphorus (70 mg) and zinc/manganese also appear on the cited Nutrition Facts.
+evidenceNotes: >
+  SuppCheckr score uses the electrolytes scoring profile (Phase 14C). Key drivers: strong sugar-free label, broad
+  electrolyte disclosure, and lower sodium positioning — offset by multi-vitamin/mineral stack, unknown testing, and
+  daily-hydration marketing copy. Low sodium is a label attribute, not proof of medical suitability.
+relatedProductIds:
+  - electrolytes-lmnt-citrus-salt-30
+  - electrolytes-liquid-iv-hydration-multiplier-lemon-lime-16
+  - electrolytes-nuun-sport-lemon-lime-10-tablets
+  - electrolytes-thorne-catalyte-lemon-lime-30-servings
+comparisonGroupIds: []
+claims:
+  - id: ultima-lemonade-label-electrolytes
+    text: >-
+      The cited Ultima Nutrition Facts list 55 mg sodium, 250 mg potassium, 100 mg magnesium, 47 mg calcium, and 78 mg
+      chloride per 1 stick serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-ultima-lemonade-20-sticks
+  - id: ultima-lemonade-label-zero-sugar
+    text: The cited Ultima Nutrition Facts list 0 g total sugars and 0 calories per stick serving.
+    claimType: label_fact
+    claimRiskLevel: low
+    citationIds:
+      - label-ultima-lemonade-20-sticks
+  - id: ultima-lemonade-price-brand
+    text: UltimaReplenisher.com listed the Lemonade 20-stick box at $20.99 on 2026-07-15.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-ultima-lemonade-20-sticks
+  - id: ultima-lemonade-price-per-serving
+    text: Price per serving is $1.05 based on $20.99 divided by 20 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-ultima-lemonade-20-sticks
+      - editorial-price-per-serving-ultima-lemonade-20-sticks
+  - id: ultima-lemonade-brand-daily-hydration
+    text: >-
+      Ultima brand copy describes daily electrolyte drink mix and hydration positioning. SuppCheckr does not treat
+      electrolyte drink mixes as dehydration treatment.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - brand-ultima-lemonade-20-sticks-page
+sources:
+  - id: label-ultima-lemonade-20-sticks
+    title: Ultima Replenisher Lemonade — Nutrition Facts (brand product page)
+    publisher: Ultima Replenisher
+    url: https://www.ultimareplenisher.com/products/lemonade-electrolyte-powder-drink
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds:
+      - ultima-lemonade-label-electrolytes
+      - ultima-lemonade-label-zero-sugar
+  - id: brand-ultima-lemonade-20-sticks-page
+    title: Ultima Replenisher Lemonade product page — marketing copy
+    publisher: Ultima Replenisher
+    url: https://www.ultimareplenisher.com/products/lemonade-electrolyte-powder-drink
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds:
+      - ultima-lemonade-brand-daily-hydration
+  - id: retailer-ultima-lemonade-20-sticks
+    title: Ultima Replenisher Lemonade 20 sticks — product page (price)
+    publisher: Ultima Replenisher
+    url: https://www.ultimareplenisher.com/products/lemonade-electrolyte-powder-drink
+    accessDate: '2026-07-15'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - ultima-lemonade-price-brand
+      - ultima-lemonade-price-per-serving
+  - id: editorial-price-per-serving-ultima-lemonade-20-sticks
+    title: SuppCheckr price-per-serving calculation
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-07-15'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - ultima-lemonade-price-per-serving
+affiliate:
+  enabled: false
+seo:
+  title: Ultima Replenisher Lemonade 20 Sticks Review | SuppCheckr
+  description: >
+    SuppCheckr review of Ultima Replenisher Lemonade (20 sticks) with lower-sodium electrolyte label facts and dated
+    price per serving.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14C draft/noindex electrolytes product YAML (lower-sodium daily hydration slot)

@@ -1,0 +1,214 @@
+id: electrolytes-nuun-sport-lemon-lime-10-tablets
+slug: nuun-sport-lemon-lime-10-tablets
+name: Nuun Sport Lemon Lime (10 Tablets)
+brandId: nuun
+categoryId: electrolytes
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Nuun Sport Lemon Lime 10 tablets — product photo pending
+    attribution: Placeholder image; label sourced from Nuun product page Nutrition Facts
+  label:
+    src: null
+    attribution: https://nuunlife.com/products/nuun-sport
+supplementFacts:
+  servingSize: 1 tablet (5 g) dissolved in 16 fl oz water
+  servingsPerContainer: 10
+  ingredients:
+    - name: Sodium
+      amount: 300 mg
+      dailyValue: null
+    - name: Potassium
+      amount: 150 mg
+      dailyValue: null
+    - name: Magnesium
+      amount: 25 mg
+      dailyValue: null
+    - name: Calcium
+      amount: 13 mg
+      dailyValue: null
+    - name: Chloride
+      amount: 40 mg
+      dailyValue: null
+    - name: Total sugars
+      amount: 1 g
+      dailyValue: null
+    - name: Calories
+      amount: '15'
+      dailyValue: null
+  otherIngredients:
+    - Citric acid
+    - Dextrose
+    - Sodium bicarbonate
+    - Potassium bicarbonate
+    - Sodium carbonate
+    - Natural flavor
+    - Potassium chloride
+    - Magnesium oxide
+    - Calcium carbonate
+    - Stevia leaf extract
+    - Avocado oil
+    - Beet juice (for color)
+  allergens: []
+pricing:
+  msrp: 7.49
+  currency: USD
+  pricePerServing: 0.75
+  lastManualUpdate: '2026-07-15'
+  lastPriceCheckedAt: '2026-07-15'
+retailers:
+  - retailerId: nuun
+    url: https://nuunlife.com/products/nuun-sport
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: unknown
+  details: >
+    Nuun markets Non-GMO ingredients on Sport tablets. No NSF Certified for Sport, Informed Sport, or other recognized
+    program listing matched to the locked Lemon Lime 10-tablet tube in Phase 14C.
+  sources:
+    - brand-nuun-sport-lemon-lime-10-page
+additives:
+  - Dextrose
+  - Stevia leaf extract
+  - Beet juice (for color)
+  - Avocado oil
+flags:
+  thirdPartyTested: false
+  additiveFree: false
+rating:
+  profileId: electrolytes
+  criteriaScores:
+    ingredientTransparency: 90
+    doseTransparency: 88
+    evidenceAlignment: 58
+    formulaQuality: 82
+    thirdPartyTesting: 25
+    priceValue: 82
+    additives: 78
+    labelClarity: 90
+    brandTransparency: 80
+  overallScore: 76
+pros:
+  - >-
+    Official Nuun Sport Nutrition Facts disclose sodium, potassium, magnesium, calcium, and chloride per tablet —
+    stronger five-electrolyte transparency than many stick formats.
+  - Lowest observed price per serving among the Phase 14C shortlist at the cited 2026-07-15 check ($0.75).
+  - Portable tablet format with 1 g sugar from dextrose clearly listed.
+cons:
+  - Tablet must be dissolved in water — modest serving friction versus ready-to-mix sticks.
+  - Brand copy references rehydration and workout enhancement — SuppCheckr cites label facts only.
+  - No verified third-party sport certification documented for this SKU.
+  - Color and flavor additives (beet juice, avocado oil) present in ingredient list.
+bestFor:
+  - >-
+    Shoppers comparing an electrolyte tablet with full sodium/potassium/magnesium/calcium/chloride disclosure and a lower
+    observed price per serving.
+avoidIf:
+  - You prefer a stick pack or scoop format without dissolving a tablet.
+  - You require verified third-party certification documentation before purchase.
+  - You need a sugar-free formula (this SKU lists 1 g sugar per serving).
+labelTransparencyNotes: >
+  Locked Lemon Lime flavor, single tube with 10 tablets. Nuun lists flavor-specific ingredient order on the product page;
+  electrolyte amounts per serving are consistent across Sport flavors per brand Nutrition Facts block cited.
+evidenceNotes: >
+  SuppCheckr score uses the electrolytes scoring profile (Phase 14C). Key drivers: strong electrolyte transparency
+  including chloride, official brand Nutrition Facts, and best shortlist $/serving — offset by tablet serving friction,
+  modest sugar/additive load, unknown testing, and moderate rehydration marketing copy.
+relatedProductIds:
+  - electrolytes-lmnt-citrus-salt-30
+  - electrolytes-liquid-iv-hydration-multiplier-lemon-lime-16
+  - electrolytes-ultima-replenisher-lemonade-20-sticks
+  - electrolytes-thorne-catalyte-lemon-lime-30-servings
+comparisonGroupIds: []
+claims:
+  - id: nuun-sport-label-electrolytes
+    text: >-
+      The cited Nuun Sport Nutrition Facts list 300 mg sodium, 150 mg potassium, 25 mg magnesium, 13 mg calcium, and
+      40 mg chloride per 1 tablet serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-nuun-sport-lemon-lime-10
+  - id: nuun-sport-label-sugar-1g
+    text: The cited Nuun Sport Nutrition Facts list 1 g total sugars and 15 calories per tablet serving.
+    claimType: label_fact
+    claimRiskLevel: low
+    citationIds:
+      - label-nuun-sport-lemon-lime-10
+  - id: nuun-sport-price-brand
+    text: Nuun.com listed the Sport Lemon Lime single 10-tablet tube at $7.49 on 2026-07-15.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nuun-sport-lemon-lime-10
+  - id: nuun-sport-price-per-serving
+    text: Price per serving is $0.75 based on $7.49 divided by 10 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-nuun-sport-lemon-lime-10
+      - editorial-price-per-serving-nuun-sport-lemon-lime-10
+  - id: nuun-sport-brand-rehydration
+    text: >-
+      Nuun brand copy describes sodium as key for rehydration and positions Sport for workouts. SuppCheckr does not
+      endorse hydration or performance outcome claims.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - brand-nuun-sport-lemon-lime-10-page
+sources:
+  - id: label-nuun-sport-lemon-lime-10
+    title: Nuun Sport — Nutrition Facts (brand product page)
+    publisher: Nuun
+    url: https://nuunlife.com/products/nuun-sport
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds:
+      - nuun-sport-label-electrolytes
+      - nuun-sport-label-sugar-1g
+  - id: brand-nuun-sport-lemon-lime-10-page
+    title: Nuun Sport product page — marketing copy
+    publisher: Nuun
+    url: https://nuunlife.com/products/nuun-sport
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds:
+      - nuun-sport-brand-rehydration
+  - id: retailer-nuun-sport-lemon-lime-10
+    title: Nuun Sport Lemon Lime 10-tablet tube — product page (price)
+    publisher: Nuun
+    url: https://nuunlife.com/products/nuun-sport
+    accessDate: '2026-07-15'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - nuun-sport-price-brand
+      - nuun-sport-price-per-serving
+  - id: editorial-price-per-serving-nuun-sport-lemon-lime-10
+    title: SuppCheckr price-per-serving calculation
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-07-15'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - nuun-sport-price-per-serving
+affiliate:
+  enabled: false
+seo:
+  title: Nuun Sport Lemon Lime 10 Tablets Review | SuppCheckr
+  description: >
+    SuppCheckr review of Nuun Sport Lemon Lime (10 tablets) with five-electrolyte label facts and dated price per
+    serving.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14C draft/noindex electrolytes product YAML (tablet format slot)

@@ -43,7 +43,12 @@ interactions: >
   medications, and other prescriptions. This summary is not a complete interaction list. Consult a qualified healthcare
   professional or pharmacist if you take prescription medications or manage kidney disease, heart disease, or a
   chronic medical condition.
-relatedProductIds: []
+relatedProductIds:
+  - electrolytes-lmnt-citrus-salt-30
+  - electrolytes-liquid-iv-hydration-multiplier-lemon-lime-16
+  - electrolytes-nuun-sport-lemon-lime-10-tablets
+  - electrolytes-ultima-replenisher-lemonade-20-sticks
+  - electrolytes-thorne-catalyte-lemon-lime-30-servings
 relatedGuideSlugs: []
 sources:
   - id: nih-sodium-hp
@@ -91,3 +96,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 14B product longlist research completed — 22 candidates screened; 5 recommended for draft YAML; no product or guide links added
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 14C draft product YAML — five shortlist products linked as draft/noindex relatedProductIds; still draft/noindex

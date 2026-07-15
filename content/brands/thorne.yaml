@@ -1,0 +1,42 @@
+id: thorne
+slug: thorne
+name: Thorne
+website: https://www.thorne.com
+description: >
+  Thorne is a practitioner-channel supplement brand selling vitamins, minerals, and sports nutrition products, including
+  NSF Certified for Sport electrolyte formulas.
+logo: /images/brands/placeholder.svg
+categories:
+  - electrolytes
+transparencyNotes: >
+  Thorne Catalyte Supplement Facts are mirrored on retailer listings when the brand product detail page is sparse. Lock
+  official thorne.com label imagery before publication.
+testingNotes: >
+  Thorne Catalyte Lemon Lime (312 g / 30 servings) is listed on the NSF Certified for Sport database (listing id
+  1286726) as of Phase 14C.
+certifications:
+  - NSF Certified for Sport
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-thorne-catalyte-nsf
+    title: NSF Certified for Sport — Thorne Catalyte
+    publisher: NSF International
+    url: https://www.nsfsport.com/certified-products/listing-detail.php?id=1286726
+    accessDate: '2026-07-15'
+    sourceType: certification_body
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14C draft/noindex brand record for Thorne Catalyte electrolytes product review

@@ -1,0 +1,39 @@
+id: ultima-replenisher
+slug: ultima-replenisher
+name: Ultima Replenisher
+website: https://www.ultimareplenisher.com
+description: >
+  Ultima Replenisher sells zero-sugar electrolyte drink mixes in stick packs and canisters, marketed for daily hydration.
+logo: /images/brands/placeholder.svg
+categories:
+  - electrolytes
+transparencyNotes: >
+  Ultima publishes Nutrition Facts on product pages with sodium, potassium, magnesium, calcium, chloride, and additional
+  vitamins and minerals per serving.
+testingNotes: >
+  No third-party sport certification listing matched to the locked Lemonade 20-stick SKU in Phase 14C.
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-ultima-site
+    title: Ultima Replenisher official website
+    publisher: Ultima Health Products
+    url: https://www.ultimareplenisher.com
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: low
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14C draft/noindex brand record for Ultima Replenisher electrolytes product review

@@ -1,0 +1,40 @@
+id: lmnt
+slug: lmnt
+name: LMNT
+website: https://drinklmnt.com
+description: >
+  LMNT sells zero-sugar electrolyte drink mixes as single-serve stick packs, marketed for active lifestyles and
+  low-carb diets.
+logo: /images/brands/placeholder.svg
+categories:
+  - electrolytes
+transparencyNotes: >
+  LMNT publishes electrolyte amounts per serving on its product and ingredients pages. Chloride is present as mineral
+  salts but is not broken out as mg on the consumer-facing panel.
+testingNotes: >
+  No NSF Certified for Sport or Informed Sport listing matched to the locked Citrus Salt 30-count SKU in Phase 14C.
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-lmnt-site
+    title: LMNT official website
+    publisher: LMNT
+    url: https://drinklmnt.com
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14C draft/noindex brand record for LMNT electrolytes product review

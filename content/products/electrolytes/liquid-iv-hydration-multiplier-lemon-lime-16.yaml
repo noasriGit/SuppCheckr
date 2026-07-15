@@ -1,0 +1,226 @@
+id: electrolytes-liquid-iv-hydration-multiplier-lemon-lime-16
+slug: liquid-iv-hydration-multiplier-lemon-lime-16
+name: Liquid I.V. Hydration Multiplier Lemon Lime (16 Stick Packs)
+brandId: liquid-iv
+categoryId: electrolytes
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Liquid I.V. Hydration Multiplier Lemon Lime 16 stick packs — product photo pending
+    attribution: Placeholder image; label sourced from Liquid I.V. official Nutrition Facts
+  label:
+    src: null
+    attribution: https://drugwholesale.liquid-iv.com/products/liquid-i-v-hydration-multiplier-lemon-lime
+supplementFacts:
+  servingSize: 1 stick (16 g) in ~16 fl oz water
+  servingsPerContainer: 16
+  ingredients:
+    - name: Sodium
+      amount: 500 mg
+      dailyValue: null
+    - name: Potassium
+      amount: 370 mg
+      dailyValue: null
+    - name: Calcium
+      amount: 0 mg
+      dailyValue: null
+    - name: Total sugars
+      amount: 11 g
+      dailyValue: null
+    - name: Calories
+      amount: '45'
+      dailyValue: null
+    - name: Vitamin C
+      amount: 73 mg
+      dailyValue: null
+  otherIngredients:
+    - Cane sugar
+    - Dextrose
+    - Citric acid
+    - Salt
+    - Potassium citrate
+    - Sodium citrate
+    - Natural flavors
+    - Rebiana (stevia leaf extract)
+  allergens: []
+pricing:
+  msrp: 24.99
+  currency: USD
+  pricePerServing: 1.56
+  lastManualUpdate: '2026-07-15'
+  lastPriceCheckedAt: '2026-07-15'
+retailers:
+  - retailerId: liquid-iv
+    url: https://www.liquid-iv.com/products/lemon-lime-hydration-multiplier
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: unknown
+  details: >
+    No NSF Certified for Sport, Informed Sport, or other recognized program listing matched to the locked Lemon Lime
+    16-count Hydration Multiplier SKU in Phase 14C.
+  sources:
+    - brand-liquid-iv-hm-lemon-lime-16-page
+additives:
+  - Cane sugar
+  - Dextrose
+  - Natural flavors
+flags:
+  thirdPartyTested: false
+  additiveFree: false
+rating:
+  profileId: electrolytes
+  criteriaScores:
+    ingredientTransparency: 70
+    doseTransparency: 72
+    evidenceAlignment: 40
+    formulaQuality: 88
+    thirdPartyTesting: 25
+    priceValue: 52
+    additives: 55
+    labelClarity: 82
+    brandTransparency: 75
+  overallScore: 61
+pros:
+  - >-
+    Official Liquid I.V. Nutrition Facts list 500 mg sodium, 370 mg potassium, and 11 g total sugars per 16 g stick —
+    useful for sugar-containing stick comparisons.
+  - Single stick serving with disclosed calories (45) supports label literacy.
+  - Widely available mainstream hydration stick format.
+cons:
+  - >-
+    Magnesium is not disclosed on the US Nutrition Facts panel for Hydration Multiplier — do not assume magnesium
+    content from marketing copy.
+  - 11 g sugar per serving is material for shoppers comparing sugar-free formulas.
+  - >-
+    Brand marketing includes “Hydration Multiplier,” faster-hydration, and ORS-adjacent FAQ language — high claim-risk;
+    SuppCheckr cites label facts only.
+  - No verified third-party sport certification documented for this SKU.
+  - Similar MSRP per serving to LMNT despite different sodium/sugar profile ($1.56 vs $1.50 at cited check).
+bestFor:
+  - >-
+    Shoppers comparing a sugar-containing electrolyte stick with disclosed sodium, potassium, and sugar grams per serving
+    — not outcome guarantees.
+avoidIf:
+  - You require magnesium amount disclosure on the label before purchase.
+  - You prefer a sugar-free or lower-sugar electrolyte stick.
+  - You require verified third-party certification documentation.
+labelTransparencyNotes: >
+  Locked Lemon Lime flavor, 16 stick packs per pouch (16 g per stick). Magnesium is absent from the cited US Nutrition
+  Facts panel — documented as not disclosed, not zero. B vitamins also appear on the panel but are secondary to core
+  electrolyte comparison fields.
+evidenceNotes: >
+  SuppCheckr score uses the electrolytes scoring profile (Phase 14C). Key drivers: clear sodium/potassium/sugar
+  disclosure — heavily offset by high claim-risk brand positioning, magnesium not on label, 11 g sugar, unknown testing,
+  and premium $/serving. “Hydration Multiplier” is a product name/marketing phrase, not evidence of superior hydration.
+relatedProductIds:
+  - electrolytes-lmnt-citrus-salt-30
+  - electrolytes-nuun-sport-lemon-lime-10-tablets
+  - electrolytes-ultima-replenisher-lemonade-20-sticks
+  - electrolytes-thorne-catalyte-lemon-lime-30-servings
+comparisonGroupIds: []
+claims:
+  - id: liv-hm-label-sodium-500mg
+    text: The cited Liquid I.V. Nutrition Facts list 500 mg sodium per 1 stick (16 g) serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-liquid-iv-hm-lemon-lime-16
+  - id: liv-hm-label-potassium-370mg
+    text: The cited Liquid I.V. Nutrition Facts list 370 mg potassium per 1 stick serving.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-liquid-iv-hm-lemon-lime-16
+  - id: liv-hm-label-magnesium-not-disclosed
+    text: >-
+      Magnesium is not listed on the cited US Nutrition Facts panel for Hydration Multiplier Lemon Lime sticks —
+      SuppCheckr documents as not disclosed, not as zero.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-liquid-iv-hm-lemon-lime-16
+  - id: liv-hm-label-sugar-11g
+    text: The cited Liquid I.V. Nutrition Facts list 11 g total sugars and 45 calories per stick serving.
+    claimType: label_fact
+    claimRiskLevel: low
+    citationIds:
+      - label-liquid-iv-hm-lemon-lime-16
+  - id: liv-hm-price-brand
+    text: LiquidIV.com listed the Lemon Lime 16-count pouch at $24.99 one-time purchase on 2026-07-15.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-liquid-iv-hm-lemon-lime-16
+  - id: liv-hm-price-per-serving
+    text: Price per serving is $1.56 based on $24.99 divided by 16 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-liquid-iv-hm-lemon-lime-16
+      - editorial-price-per-serving-liquid-iv-hm-lemon-lime-16
+  - id: liv-hm-brand-hydration-multiplier
+    text: >-
+      Liquid I.V. brand marketing describes “faster hydration than water alone” and Hydration Multiplier positioning.
+      SuppCheckr does not endorse hydration outcome claims.
+    claimType: brand_claim
+    claimRiskLevel: high
+    citationIds:
+      - brand-liquid-iv-hm-lemon-lime-16-page
+sources:
+  - id: label-liquid-iv-hm-lemon-lime-16
+    title: Liquid I.V. Hydration Multiplier Lemon Lime — Nutrition Facts (official wholesale product page)
+    publisher: Liquid I.V.
+    url: https://drugwholesale.liquid-iv.com/products/liquid-i-v-hydration-multiplier-lemon-lime
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds:
+      - liv-hm-label-sodium-500mg
+      - liv-hm-label-potassium-370mg
+      - liv-hm-label-magnesium-not-disclosed
+      - liv-hm-label-sugar-11g
+  - id: brand-liquid-iv-hm-lemon-lime-16-page
+    title: Liquid I.V. Hydration Multiplier Lemon Lime — brand product page marketing copy
+    publisher: Liquid I.V.
+    url: https://www.liquid-iv.com/products/lemon-lime-hydration-multiplier
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds:
+      - liv-hm-brand-hydration-multiplier
+  - id: retailer-liquid-iv-hm-lemon-lime-16
+    title: Liquid I.V. Hydration Multiplier Lemon Lime 16-count — product page (price)
+    publisher: Liquid I.V.
+    url: https://www.liquid-iv.com/products/lemon-lime-hydration-multiplier
+    accessDate: '2026-07-15'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - liv-hm-price-brand
+      - liv-hm-price-per-serving
+  - id: editorial-price-per-serving-liquid-iv-hm-lemon-lime-16
+    title: SuppCheckr price-per-serving calculation
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-07-15'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - liv-hm-price-per-serving
+affiliate:
+  enabled: false
+seo:
+  title: Liquid I.V. Hydration Multiplier Lemon Lime 16ct Review | SuppCheckr
+  description: >
+    SuppCheckr review of Liquid I.V. Hydration Multiplier Lemon Lime (16 sticks) with sodium, potassium, sugar label
+    facts and dated price per serving. Magnesium not disclosed on US panel.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: high
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14C draft/noindex electrolytes product YAML (sugar-containing stick slot)
