@@ -2,10 +2,16 @@ id: electrolytes
 slug: electrolytes
 name: Electrolytes
 pluralName: Electrolyte Supplements
-description: "Category shell placeholder."
-shortDescription: "Template shell — content coming in Phase 2."
+description: >
+  SuppCheckr compares electrolyte drink mix and supplement labels — sodium, potassium, magnesium, calcium, and chloride
+  disclosure, sugar and sweetener profile, serving format, third-party testing documentation, and dated manual pricing —
+  not medical outcomes or personal suitability.
+shortDescription: >
+  Draft category hub for electrolyte drink mixes and supplements. Five product reviews, five educational guides, and a
+  comparison table cover powders, sticks, and tablets — all draft/noindex until publication approval.
 featured: false
-relatedCategories: [magnesium]
+relatedCategories:
+  - magnesium
 relatedGuides:
   - lmnt-vs-liquid-iv
   - how-to-choose-an-electrolyte-powder
@@ -14,22 +20,144 @@ relatedGuides:
   - electrolyte-powder-vs-tablets
 buyersGuideSlug: how-to-choose-an-electrolyte-powder
 scoringProfileId: electrolytes
+ingredientSlug: electrolytes
+activeDoseLabel: Core electrolytes per serving
+priceNormalizationLabel: Price / serving
+priceNormalizationDescription: Price per labeled serving
+priceNormalizationSortLabel: Price per serving
+priceNormalizationNote: Electrolyte products use different serving sizes and mineral profiles — compare mg per serving alongside price per serving.
+ingredientReferenceLabel: Electrolytes ingredient reference
+ingredientPageLinkLabel: Electrolytes ingredient reference
 comparisonCtaLabel: Compare electrolyte supplements
-seo: {}
-status: placeholder
-isPlaceholder: true
+exploreCategoryHeading: Explore electrolyte content
+intro: >
+  Electrolyte drink mixes and supplements vary widely in sodium, potassium, magnesium, calcium, chloride, sugar,
+  sweeteners, serving format, and price. According to NIH Office of Dietary Supplements materials, sodium, potassium,
+  and magnesium play roles in normal body processes including fluid balance — but retail electrolyte products are not
+  standardized and labels differ materially between brands. SuppCheckr compares publicly available label information and
+  source quality; we do not rank products for medical suitability, dehydration treatment, illness recovery, or athletic
+  performance outcomes.
+evaluationSummary: >
+  SuppCheckr scores electrolyte products using the electrolytes scoring profile: sodium/potassium/magnesium dose
+  transparency per serving, electrolyte composition clarity (including calcium and chloride when disclosed), sugar and
+  sweetener disclosure, label clarity, third-party testing documentation (verified vs. marketing-only claims), dated
+  manual price per serving, formula quality including serving format practicality, additives, and brand transparency.
+  Scores reflect label and sourcing quality — not personal outcomes. High-sodium products are not automatically better;
+  sugar-free products are not automatically better. SuppCheckr does not rank electrolyte products for dehydration
+  treatment, heat illness, vomiting or diarrhea, POTS, hangover prevention, cramp prevention, pregnancy, children, or
+  any medical condition.
+clusterScopeNote: >
+  This draft electrolytes category includes five product reviews across distinct format buckets: high-sodium sugar-free
+  stick (LMNT), sugar-containing stick (Liquid I.V. Hydration Multiplier), electrolyte tablet (Nuun Sport), lower-sodium
+  sugar-free stick (Ultima Replenisher), and NSF Certified for Sport scoop powder (Thorne Catalyte). Five educational
+  guides and one category comparison table (electrolyte-supplements-compared) are linked as draft/noindex content. All
+  cluster pages remain non-indexable until explicit publication approval. No Amazon affiliate links in this phase.
+buyingConsiderations:
+  - >-
+    Read sodium, potassium, and magnesium (mg) per serving on Nutrition Facts or Supplement Facts — amounts vary from
+    roughly 55 mg to 1,000 mg sodium per serving among shortlist products.
+  - >-
+    Check total sugars, carbohydrates, and calories; sugar-free and sugar-containing formulas serve different label
+    profiles — neither is automatically better for every shopper.
+  - >-
+    Identify sweeteners in the ingredient list (stevia, cane sugar, dextrose, etc.) and read marketing claims
+    conservatively — "Hydration Multiplier" is Liquid I.V.'s product name, not evidence of superior hydration.
+  - >-
+    Confirm serving format practicality (stick pack, dissolving tablet, scoop tub) and whether magnesium, calcium, or
+    chloride are disclosed — absent lines should be treated as not disclosed, not zero.
+  - >-
+    Check whether third-party testing is verified (certificate or recognized program listing such as NSF Certified for
+    Sport) or only claimed in marketing copy.
+  - >-
+    Compare value using dated price per serving; verify current retailer price before purchase.
+  - >-
+    Consult a qualified healthcare professional before starting or changing electrolyte supplements or high-sodium drink
+    mixes, especially if pregnant, nursing, under 18, taking medication, managing blood pressure, kidney disease, heart
+    disease, fluid restrictions, or a medical condition.
+faq:
+  - question: Are high-sodium electrolyte sticks better than lower-sodium formulas?
+    answer: >
+      Not automatically. Higher sodium per serving is a label attribute some shoppers compare for heavy sweat contexts;
+      lower-sodium formulas list different amounts. Individual dietary context, medications, and medical conditions
+      matter. SuppCheckr does not recommend high- or low-sodium products for any medical use case.
+  - question: Are sugar-free electrolytes always better?
+    answer: >
+      No. Sugar-free and sugar-containing products differ in taste, calories, and label profile. Neither category is
+      universally better. Compare label facts to your own shopping priorities — not medical outcome promises.
+  - question: Can electrolyte powders or tablets treat dehydration or illness-related fluid loss?
+    answer: >
+      SuppCheckr does not describe retail electrolyte drink mixes as medical dehydration treatment, oral rehydration
+      therapy, or treatment for vomiting, diarrhea, heat illness, or electrolyte imbalance. Consult a qualified
+      healthcare professional for clinical hydration needs.
+  - question: Does a higher SuppCheckr score mean an electrolyte product will work for me?
+    answer: >
+      No. Scores summarize label transparency, testing documentation, and dated price context using our methodology —
+      not personal medical suitability or hydration outcome guarantees.
+  - question: Which draft products are in this cluster?
+    answer: >
+      LMNT Citrus Salt (30 sticks), Liquid I.V. Hydration Multiplier Lemon Lime (16 sticks), Nuun Sport Lemon Lime (10
+      tablets), Ultima Replenisher Lemonade (20 sticks), and Thorne Catalyte Lemon Lime (30 servings). See the
+      electrolyte supplements comparison table for side-by-side label context.
+featuredProductIds:
+  - electrolytes-lmnt-citrus-salt-30
+  - electrolytes-liquid-iv-hydration-multiplier-lemon-lime-16
+  - electrolytes-nuun-sport-lemon-lime-10-tablets
+  - electrolytes-ultima-replenisher-lemonade-20-sticks
+  - electrolytes-thorne-catalyte-lemon-lime-30-servings
+sources:
+  - id: cat-nih-sodium-hp
+    title: Sodium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cat-nih-potassium-hp
+    title: Potassium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cat-nih-magnesium-hp
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cat-fda-dietary-supplements
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-15'
+    sourceType: FDA
+    supportsClaimIds: []
+seo:
+  title: Electrolyte Supplements Compared | SuppCheckr
+  description: >
+    Draft SuppCheckr hub for electrolyte drink mixes — label comparisons for sodium, potassium, magnesium, sugar, and
+    price per serving. Educational only; not medical advice.
+status: draft
+isPlaceholder: false
 noindex: true
-claimRiskLevel: low
+claimRiskLevel: medium
 editorial:
-  lastUpdated: "2026-07-15"
-  lastReviewed: "2026-07-15"
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
   reviewedBy: suppcheckr-editorial
   updateLog:
-    - date: "2026-07-15"
+    - date: '2026-07-15'
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 14C — five draft/noindex electrolytes product reviews created; category shell remains placeholder/noindex
-    - date: "2026-07-15"
+    - date: '2026-07-15'
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 14D — five draft/noindex guides and draft comparison linked; buyersGuideSlug and scoringProfileId set; still placeholder/noindex
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 14E — expanded from placeholder to review-ready draft hub (intro, evaluation summary, buying considerations,
+        FAQ, featuredProductIds, ingredientSlug, price-per-serving labels); status draft/noindex; still not published

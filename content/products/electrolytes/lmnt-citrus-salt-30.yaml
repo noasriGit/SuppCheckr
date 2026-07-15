@@ -112,7 +112,8 @@ relatedProductIds:
   - electrolytes-nuun-sport-lemon-lime-10-tablets
   - electrolytes-ultima-replenisher-lemonade-20-sticks
   - electrolytes-thorne-catalyte-lemon-lime-30-servings
-comparisonGroupIds: []
+comparisonGroupIds:
+  - electrolyte-supplements-compared
 claims:
   - id: lmnt-citrus-label-sodium-1000mg
     text: The cited LMNT materials list 1,000 mg sodium per 1 stick pack serving.

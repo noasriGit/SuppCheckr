@@ -63,10 +63,11 @@ productCriterionLabels:
       - high claim-risk marketing
 caveats:
   - >-
-    Thorne Catalyte NSF Certified for Sport status is verified via listing id 1286726. Supplement Facts locked via
-    Vitacost retailer mirror (UPC 693749006299) — official thorne.com label image should be re-captured before
-    publication. Formula includes taurine, B vitamins, and other nutrients beyond core electrolytes. Minor calorie/sugar
-    variance may appear across NSF database vs retailer SFP mirrors.
+    Thorne Catalyte NSF Certified for Sport status is verified via listing id 1286726 (reconfirmed Phase 14E). Supplement
+    Facts were checked against a Vitacost retailer label mirror (UPC 693749006299) because the official brand page did not
+    expose a complete label during review. Phase 14E: thorne.com PDP still sparse; Vitacost mirror URL returned 404 —
+    prior Phase 14C SFP lock retained. NSF database cites 20 cal / 3 g sugar vs locked retailer SFP 30 cal / <1 g sugar.
+    Formula includes taurine, B vitamins, and other nutrients beyond core electrolytes.
   - >-
     LMNT Citrus Salt lists 1,000 mg sodium per stick with 0 g sugar. High sodium may be inappropriate for some people
     managing blood pressure, kidney disease, heart disease, fluid restrictions, or certain medications — NIH sodium
@@ -142,3 +143,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14D draft/noindex electrolytes category comparison for five Phase 14C product reviews — no affiliate links
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 14E — Thorne retailer-mirror source caveat and NSF calorie/sugar variance documentation updated

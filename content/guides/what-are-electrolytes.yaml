@@ -111,6 +111,7 @@ body: |
   ## Related reading
 
   - [Electrolytes ingredient reference](/ingredients/electrolytes)
+  - [Electrolytes category hub](/supplements/electrolytes) (draft)
   - [How to choose an electrolyte powder](/guides/how-to-choose-an-electrolyte-powder)
   - [LMNT vs Liquid I.V.](/guides/lmnt-vs-liquid-iv)
   - [Sugar-free vs sugar electrolytes](/guides/sugar-free-vs-sugar-electrolytes)
@@ -169,3 +170,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14D draft/noindex foundational electrolytes education guide — no affiliate links
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 14E — added draft category hub link in related reading

@@ -120,7 +120,8 @@ relatedProductIds:
   - electrolytes-liquid-iv-hydration-multiplier-lemon-lime-16
   - electrolytes-ultima-replenisher-lemonade-20-sticks
   - electrolytes-thorne-catalyte-lemon-lime-30-servings
-comparisonGroupIds: []
+comparisonGroupIds:
+  - electrolyte-supplements-compared
 claims:
   - id: nuun-sport-label-electrolytes
     text: >-

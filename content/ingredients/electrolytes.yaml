@@ -2,11 +2,11 @@ id: electrolytes
 slug: electrolytes
 name: Electrolytes
 commonForms:
-  - Sodium (e.g., sodium chloride)
-  - Potassium (e.g., potassium citrate, potassium chloride)
-  - Magnesium (e.g., magnesium malate, magnesium citrate)
-  - Calcium (when disclosed)
-  - Chloride (when disclosed)
+  - Sodium (e.g., sodium chloride, sodium citrate, sodium bicarbonate)
+  - Potassium (e.g., potassium citrate, potassium chloride, potassium phosphate)
+  - Magnesium (e.g., magnesium malate, magnesium citrate, magnesium oxide)
+  - Calcium (e.g., calcium citrate, calcium lactate — when disclosed on labels)
+  - Chloride (e.g., from sodium chloride or potassium chloride — when disclosed in mg)
   - Electrolyte drink mix (powder/stick)
   - Electrolyte tablet
   - Ready-to-drink electrolyte beverage
@@ -16,14 +16,17 @@ aliases:
   - Electrolyte minerals
   - Electrolyte drink mix
 evidenceSummary: >
-  Electrolytes commonly refer to minerals such as sodium, potassium, and magnesium that play roles in normal body
-  processes, including fluid balance and nerve and muscle function. According to NIH Office of Dietary Supplements
-  materials, these minerals are found in foods and may also appear in electrolyte drink mixes, powders, tablets, and
-  beverages. Product labels vary widely in sodium level, potassium and magnesium amounts, sugar content, sweeteners,
-  and serving format. Comparing products requires checking how much of each mineral a serving provides and whether the
-  product contains sugar or sweeteners. SuppCheckr summarizes label and product-comparison information — not medical
-  advice. SuppCheckr does not rank electrolyte products for dehydration treatment, illness recovery, hangover prevention,
-  cramp prevention, athletic performance outcomes, pregnancy, children, or any medical condition.
+  Electrolytes commonly refer to minerals such as sodium, potassium, magnesium, calcium, and chloride that play roles in
+  normal body processes, including fluid balance and nerve and muscle function. According to NIH Office of Dietary
+  Supplements materials, sodium, potassium, and magnesium are found in foods and may also appear in electrolyte drink
+  mixes, powders, tablets, and beverages. Calcium and chloride appear on some — but not all — product labels as separate
+  mg lines. Product labels vary widely in sodium level (from tens to thousands of mg per serving), potassium and magnesium
+  amounts, sugar content, sweeteners, and serving format (stick, tablet, scoop). Comparing products requires checking how
+  much of each mineral a serving provides, whether sugar or sweeteners are present, and whether third-party testing is
+  verified or only claimed. SuppCheckr summarizes label and product-comparison information in draft electrolyte reviews,
+  guides, and the electrolyte-supplements-compared table — not medical advice. SuppCheckr does not rank electrolyte
+  products for dehydration treatment, illness recovery, hangover prevention, cramp prevention, athletic performance
+  outcomes, pregnancy, children, or any medical condition.
 typicalDosageRange: >
   NIH health-professional materials publish Adequate Intakes (AIs) and related guidance for sodium, potassium, and
   magnesium by age, sex, and life stage. Electrolyte drink mix serving sizes and mineral amounts per serving differ
@@ -34,10 +37,12 @@ typicalDosageRange: >
   heart disease, fluid restrictions, or a medical condition.
 safetyNotes: >
   According to NIH materials, high sodium intake may be a concern for some people, including those managing blood
-  pressure, heart disease, or kidney disease. High supplemental potassium may be inappropriate for some individuals,
-  including those with impaired kidney function or taking certain medications. Electrolyte drink mixes and supplements
-  are not a substitute for medical care, oral rehydration therapy, or treatment of dehydration or electrolyte
-  imbalance. Product labels, warnings, formulas, and sweeteners can change — verify the current label before use.
+  pressure, heart disease, or kidney disease. Some electrolyte drink mixes list 500–1,000 mg sodium per serving — far
+  above lower-sodium daily-hydration formulas. High supplemental potassium may be inappropriate for some individuals,
+  including those with impaired kidney function or taking certain medications. Electrolyte drink mixes, powders, and
+  tablets are not a substitute for medical care, oral rehydration therapy, IV fluids, or treatment of dehydration,
+  electrolyte imbalance, heat illness, vomiting, diarrhea, or illness-related fluid loss. Product labels, warnings,
+  formulas, and sweeteners can change — verify the current label before use.
 interactions: >
   Sodium, potassium, and magnesium can interact with several medication classes, including diuretics, blood pressure
   medications, and other prescriptions. This summary is not a complete interaction list. Consult a qualified healthcare
@@ -89,8 +94,8 @@ isPlaceholder: false
 noindex: true
 claimRiskLevel: medium
 editorial:
-  lastUpdated: '2026-07-07'
-  lastReviewed: '2026-07-07'
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-07-07'
@@ -109,3 +114,9 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 14D — five draft/noindex guide slugs linked; still draft/noindex
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 14E — expanded calcium/chloride label context, high-sodium caution, comparison-table reference in
+        evidenceSummary; still draft/noindex

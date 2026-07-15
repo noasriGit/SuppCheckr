@@ -7,7 +7,7 @@ images:
   product:
     src: /images/products/placeholder.svg
     alt: Thorne Catalyte Lemon Lime 30 servings — product photo pending
-    attribution: Placeholder image; Supplement Facts sourced from Vitacost listing (UPC 693749006299)
+    attribution: Placeholder image; Supplement Facts sourced from Vitacost retailer mirror (UPC 693749006299) — official thorne.com label not exposed during Phase 14E re-check
   label:
     src: null
     attribution: https://www.vitacost.com/thorne-catalyte-nsf-certified-for-sport
@@ -65,9 +65,11 @@ thirdPartyTesting:
   status: verified
   details: >
     Thorne Catalyte Lemon Lime (312 g tub, 30 servings, 1 scoop / 10.4 g) is listed on the NSF Certified for Sport
-    product database (listing id 1286726) for powder form, Lemon Lime flavor, UPC 693749006299. Supplement Facts locked
-    via Vitacost retailer mirror because thorne.com PDP was sparse at Phase 14C fetch — re-lock official brand label
-    image before publication.
+    product database (listing id 1286726) for powder form, Lemon Lime flavor, UPC 693749006299 — reconfirmed Phase 14E
+    (2026-07-15). Supplement Facts were checked against a retailer label mirror (Vitacost, UPC 693749006299) because the
+    official brand page did not expose a complete label during review. Phase 14E re-fetch of thorne.com PDP remained
+    sparse; Vitacost mirror URL returned 404 at Phase 14E check — prior Phase 14C SFP lock retained with documented
+    NSF-database calorie/sugar variance (NSF: 20 cal / 3 g sugar vs locked retailer SFP: 30 cal / <1 g sugar).
   sources:
     - cert-thorne-catalyte-nsf-1286726
     - label-thorne-catalyte-lemon-lime-30
@@ -100,8 +102,9 @@ pros:
   - Moderate sodium (485 mg) with multi-electrolyte disclosure and identified mineral forms.
 cons:
   - >-
-    Supplement Facts locked via Vitacost retailer mirror — official thorne.com label image should be re-captured before
-    publication.
+    Supplement Facts were checked against a retailer label mirror (Vitacost, UPC 693749006299) because the official brand
+    page did not expose a complete label during review. Phase 14E re-fetch: thorne.com PDP still sparse; Vitacost mirror
+    URL returned 404 — re-verify live label asset before publication.
   - Formula includes taurine (500 mg), B vitamins, vitamin C, zinc, and chromium beyond core electrolytes.
   - Scoop tub format is less portable than single-serve sticks; scoop not sold separately if lost.
   - Practitioner/sports recovery marketing copy on brand and retailer pages — SuppCheckr cites label and certification facts only.
@@ -115,8 +118,11 @@ avoidIf:
   - You want a minimal-ingredient electrolyte formula without taurine or added vitamins.
 labelTransparencyNotes: >
   Locked Lemon Lime 11.01 oz (312 g) tub, 30 servings at 1 scoop (10.4 g), UPC 693749006299. NSF database lists 312 g
-  package, powder form, Lemon Lime flavor. Minor calorie/sugar variance may appear across label mirrors (NSF database
-  cites 20 cal / 3 g sugar vs Vitacost SFP 30 cal / <1 g sugar) — re-verify current label before publication.
+  package, powder form, Lemon Lime flavor (listing id 1286726). Supplement Facts were checked against a retailer label
+  mirror because the official brand page did not expose a complete label during review. Minor calorie/sugar variance
+  appears across sources: NSF Certified for Sport database cites 20 cal / 3 g sugar / 5 g carbohydrate per serving;
+  Phase 14C locked Vitacost Supplement Facts cite 30 cal / <1 g sugar — values retained from label-grounded retailer SFP
+  unless a current official brand image supersedes them at publication QA.
 evidenceNotes: >
   SuppCheckr score uses the electrolytes scoring profile (Phase 14C). Key drivers: verified NSF Certified for Sport
   listing, strong electrolyte and mineral-form transparency — offset by retailer-sourced label lock, complex multi-nutrient
@@ -127,7 +133,8 @@ relatedProductIds:
   - electrolytes-liquid-iv-hydration-multiplier-lemon-lime-16
   - electrolytes-nuun-sport-lemon-lime-10-tablets
   - electrolytes-ultima-replenisher-lemonade-20-sticks
-comparisonGroupIds: []
+comparisonGroupIds:
+  - electrolyte-supplements-compared
 claims:
   - id: thorne-catalyte-label-electrolytes
     text: >-
@@ -176,7 +183,9 @@ claims:
       - brand-thorne-catalyte-lemon-lime-30-page
 sources:
   - id: label-thorne-catalyte-lemon-lime-30
-    title: Thorne Catalyte Lemon Lime NSF Certified for Sport — Supplement Facts (Vitacost listing, UPC 693749006299)
+    title: >-
+      Thorne Catalyte Lemon Lime NSF Certified for Sport — Supplement Facts (Vitacost retailer mirror, UPC 693749006299;
+      official thorne.com label not exposed during review)
     publisher: Vitacost / Thorne
     url: https://www.vitacost.com/thorne-catalyte-nsf-certified-for-sport
     accessDate: '2026-07-15'
@@ -237,3 +246,9 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14C draft/noindex electrolytes product YAML (NSF Certified for Sport slot)
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 14E — Thorne official label still unavailable; retailer-mirror caveat confirmed; NSF 1286726 reconfirmed;
+        comparisonGroupIds linked; calorie/sugar NSF variance documented

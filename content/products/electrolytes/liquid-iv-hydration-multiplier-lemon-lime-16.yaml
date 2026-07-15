@@ -118,7 +118,8 @@ relatedProductIds:
   - electrolytes-nuun-sport-lemon-lime-10-tablets
   - electrolytes-ultima-replenisher-lemonade-20-sticks
   - electrolytes-thorne-catalyte-lemon-lime-30-servings
-comparisonGroupIds: []
+comparisonGroupIds:
+  - electrolyte-supplements-compared
 claims:
   - id: liv-hm-label-sodium-500mg
     text: The cited Liquid I.V. Nutrition Facts list 500 mg sodium per 1 stick (16 g) serving.
