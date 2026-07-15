@@ -203,9 +203,9 @@ seo:
   description: >
     SuppCheckr review of Ultima Replenisher Lemonade (20 sticks) with lower-sodium electrolyte label facts and dated
     price per serving.
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
   lastUpdated: '2026-07-15'
@@ -216,3 +216,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14C draft/noindex electrolytes product YAML (lower-sodium daily hydration slot)
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication

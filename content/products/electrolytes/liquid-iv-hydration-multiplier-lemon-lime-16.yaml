@@ -212,9 +212,9 @@ seo:
   description: >
     SuppCheckr review of Liquid I.V. Hydration Multiplier Lemon Lime (16 sticks) with sodium, potassium, sugar label
     facts and dated price per serving. Magnesium not disclosed on US panel.
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: high
 editorial:
   lastUpdated: '2026-07-15'
@@ -225,3 +225,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14C draft/noindex electrolytes product YAML (sugar-containing stick slot)
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication

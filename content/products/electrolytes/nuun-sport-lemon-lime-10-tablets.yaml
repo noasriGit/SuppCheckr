@@ -200,9 +200,9 @@ seo:
   description: >
     SuppCheckr review of Nuun Sport Lemon Lime (10 tablets) with five-electrolyte label facts and dated price per
     serving.
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-15'
@@ -213,3 +213,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14C draft/noindex electrolytes product YAML (tablet format slot)
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication

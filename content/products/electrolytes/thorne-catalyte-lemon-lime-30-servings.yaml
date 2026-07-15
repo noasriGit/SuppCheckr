@@ -7,7 +7,7 @@ images:
   product:
     src: /images/products/placeholder.svg
     alt: Thorne Catalyte Lemon Lime 30 servings — product photo pending
-    attribution: Placeholder image; Supplement Facts sourced from Vitacost retailer mirror (UPC 693749006299) — official thorne.com label not exposed during Phase 14E re-check
+    attribution: Placeholder image; Supplement Facts locked from Vitacost retailer label (UPC 693749006299), corroborated by iHerb — official thorne.com PDP did not expose a complete panel during Phase 14F re-check
   label:
     src: null
     attribution: https://www.vitacost.com/thorne-catalyte-nsf-certified-for-sport
@@ -65,14 +65,16 @@ thirdPartyTesting:
   status: verified
   details: >
     Thorne Catalyte Lemon Lime (312 g tub, 30 servings, 1 scoop / 10.4 g) is listed on the NSF Certified for Sport
-    product database (listing id 1286726) for powder form, Lemon Lime flavor, UPC 693749006299 — reconfirmed Phase 14E
-    (2026-07-15). Supplement Facts were checked against a retailer label mirror (Vitacost, UPC 693749006299) because the
-    official brand page did not expose a complete label during review. Phase 14E re-fetch of thorne.com PDP remained
-    sparse; Vitacost mirror URL returned 404 at Phase 14E check — prior Phase 14C SFP lock retained with documented
-    NSF-database calorie/sugar variance (NSF: 20 cal / 3 g sugar vs locked retailer SFP: 30 cal / <1 g sugar).
+    product database (listing id 1286726) for powder form, Lemon Lime flavor, UPC 693749006299 — reconfirmed Phase 14F
+    (2026-07-15). Supplement Facts were checked against a Vitacost retailer label (UPC 693749006299) because the
+    official thorne.com PDP did not expose a complete panel during review; iHerb listing (UPC 693749006299) corroborates
+    the same panel values. NSF database nutritional summary cites 20 cal / 3 g sugar / 5 g carbohydrate per serving vs
+    retailer Supplement Facts panels citing 30 cal / <1 g sugar / 5 g carbohydrate — label-grounded retailer values
+    retained with documented NSF variance.
   sources:
     - cert-thorne-catalyte-nsf-1286726
     - label-thorne-catalyte-lemon-lime-30
+    - label-thorne-catalyte-lemon-lime-30-iherb
 additives:
   - Tapioca maltodextrin
   - Stevia extract
@@ -102,9 +104,9 @@ pros:
   - Moderate sodium (485 mg) with multi-electrolyte disclosure and identified mineral forms.
 cons:
   - >-
-    Supplement Facts were checked against a retailer label mirror (Vitacost, UPC 693749006299) because the official brand
-    page did not expose a complete label during review. Phase 14E re-fetch: thorne.com PDP still sparse; Vitacost mirror
-    URL returned 404 — re-verify live label asset before publication.
+    Supplement Facts were checked against a Vitacost retailer label (UPC 693749006299) because the official thorne.com PDP
+    did not expose a complete panel during review; iHerb corroborates the same values. NSF database calorie/sugar summary
+    differs from retailer Supplement Facts — see labelTransparencyNotes.
   - Formula includes taurine (500 mg), B vitamins, vitamin C, zinc, and chromium beyond core electrolytes.
   - Scoop tub format is less portable than single-serve sticks; scoop not sold separately if lost.
   - Practitioner/sports recovery marketing copy on brand and retailer pages — SuppCheckr cites label and certification facts only.
@@ -118,11 +120,11 @@ avoidIf:
   - You want a minimal-ingredient electrolyte formula without taurine or added vitamins.
 labelTransparencyNotes: >
   Locked Lemon Lime 11.01 oz (312 g) tub, 30 servings at 1 scoop (10.4 g), UPC 693749006299. NSF database lists 312 g
-  package, powder form, Lemon Lime flavor (listing id 1286726). Supplement Facts were checked against a retailer label
-  mirror because the official brand page did not expose a complete label during review. Minor calorie/sugar variance
-  appears across sources: NSF Certified for Sport database cites 20 cal / 3 g sugar / 5 g carbohydrate per serving;
-  Phase 14C locked Vitacost Supplement Facts cite 30 cal / <1 g sugar — values retained from label-grounded retailer SFP
-  unless a current official brand image supersedes them at publication QA.
+  package, powder form, Lemon Lime flavor (listing id 1286726). Supplement Facts locked from Vitacost retailer label
+  (Phase 14F re-check, 2026-07-15) with iHerb corroboration (same UPC/panel) because the official thorne.com PDP did
+  not expose a complete panel. Calorie/sugar variance across sources: NSF Certified for Sport database nutritional summary
+  cites 20 cal / 3 g sugar / 5 g carbohydrate per serving; Vitacost and iHerb Supplement Facts cite 30 cal / <1 g sugar
+  / 5 g carbohydrate — label-grounded retailer values retained.
 evidenceNotes: >
   SuppCheckr score uses the electrolytes scoring profile (Phase 14C). Key drivers: verified NSF Certified for Sport
   listing, strong electrolyte and mineral-form transparency — offset by retailer-sourced label lock, complex multi-nutrient
@@ -144,6 +146,7 @@ claims:
     claimRiskLevel: medium
     citationIds:
       - label-thorne-catalyte-lemon-lime-30
+      - label-thorne-catalyte-lemon-lime-30-iherb
   - id: thorne-catalyte-label-sugar-calories
     text: >-
       The cited Vitacost Supplement Facts list 30 calories and less than 1 g total sugars per scoop serving (UPC
@@ -152,6 +155,7 @@ claims:
     claimRiskLevel: low
     citationIds:
       - label-thorne-catalyte-lemon-lime-30
+      - label-thorne-catalyte-lemon-lime-30-iherb
   - id: thorne-catalyte-nsf-verified
     text: >-
       Thorne Catalyte is listed on the NSF Certified for Sport product database (listing id 1286726) for Lemon Lime powder,
@@ -184,10 +188,20 @@ claims:
 sources:
   - id: label-thorne-catalyte-lemon-lime-30
     title: >-
-      Thorne Catalyte Lemon Lime NSF Certified for Sport — Supplement Facts (Vitacost retailer mirror, UPC 693749006299;
-      official thorne.com label not exposed during review)
+      Thorne Catalyte Lemon Lime NSF Certified for Sport — Supplement Facts (Vitacost retailer label, UPC 693749006299;
+      official thorne.com PDP did not expose a complete panel during Phase 14F review)
     publisher: Vitacost / Thorne
     url: https://www.vitacost.com/thorne-catalyte-nsf-certified-for-sport
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds:
+      - thorne-catalyte-label-electrolytes
+      - thorne-catalyte-label-sugar-calories
+  - id: label-thorne-catalyte-lemon-lime-30-iherb
+    title: >-
+      Thorne Catalyte Lemon Lime — Supplement Facts corroboration (iHerb retailer label, UPC 693749006299)
+    publisher: iHerb / Thorne
+    url: https://www.iherb.com/pr/thorne-catalyte-lemon-lime-flavored-electrolytes-11-01-oz-312-g/70005
     accessDate: '2026-07-15'
     sourceType: brand_label
     supportsClaimIds:
@@ -233,9 +247,9 @@ seo:
   description: >
     SuppCheckr review of Thorne Catalyte Lemon Lime (30 servings) with NSF Certified for Sport verification, electrolyte
     label facts, and dated price per serving.
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-15'
@@ -252,3 +266,9 @@ editorial:
       summary: >-
         Phase 14E — Thorne official label still unavailable; retailer-mirror caveat confirmed; NSF 1286726 reconfirmed;
         comparisonGroupIds linked; calorie/sugar NSF variance documented
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: >-
+        Phase 14F — Vitacost label relocked (UPC 693749006299), iHerb corroboration added, NSF 1286726 reconfirmed;
+        Electrolytes cluster publication

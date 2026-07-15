@@ -124,7 +124,7 @@ body: |
   - [What are electrolytes?](/guides/what-are-electrolytes)
   - [Sugar-free vs sugar electrolytes](/guides/sugar-free-vs-sugar-electrolytes)
   - [LMNT vs Liquid I.V.](/guides/lmnt-vs-liquid-iv)
-  - [Nuun Sport product review](/supplements/electrolytes/nuun-sport-lemon-lime-10-tablets) (draft)
+  - [Nuun Sport product review](/supplements/electrolytes/products/nuun-sport-lemon-lime-10-tablets)
 relatedGuideSlugs:
   - how-to-choose-an-electrolyte-powder
   - what-are-electrolytes
@@ -146,7 +146,7 @@ sources:
     sourceType: brand_label
     supportsClaimIds: []
   - id: guide-powder-tab-label-thorne
-    title: Thorne Catalyte — Supplement Facts (Vitacost listing)
+    title: Thorne Catalyte — Supplement Facts (Vitacost retailer label, UPC 693749006299)
     publisher: Vitacost / Thorne
     url: https://www.vitacost.com/thorne-catalyte-nsf-certified-for-sport
     accessDate: '2026-07-15'
@@ -159,9 +159,9 @@ sources:
     accessDate: '2026-07-15'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-15'
@@ -172,3 +172,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14D draft/noindex electrolyte powder vs tablets format guide — no affiliate links
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication

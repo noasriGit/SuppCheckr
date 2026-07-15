@@ -5,8 +5,8 @@ title: Electrolyte Supplements Compared
 categoryId: electrolytes
 subtitle: >
   This comparison looks at sodium, potassium, and magnesium disclosure, sugar and sweetener profile, third-party testing
-  status, serving format practicality, and dated price per serving across five draft electrolyte product reviews. Default
-  sort reflects SuppCheckr weighted scores — not medical recommendations and not suitability for any specific condition.
+  status, serving format practicality, and dated price per serving across five electrolyte product reviews. Default sort
+  reflects SuppCheckr weighted scores — not medical recommendations and not suitability for any specific condition.
 productIds:
   - electrolytes-thorne-catalyte-lemon-lime-30-servings
   - electrolytes-lmnt-citrus-salt-30
@@ -23,8 +23,8 @@ methodologyNote: >
   clarity, sugar and sweetener disclosure, label clarity, evidence alignment and claim conservatism, third-party testing
   documentation, dated price per serving, formula quality including serving format practicality, additives, and brand
   transparency). Table order defaults to overall score high to low. Narrow criterion labels below each product name
-  reflect specific supported label attributes — not broad recommendations, condition-specific winners, Best Overall, or
-  Best for Everyone framing. Scores are not medical recommendations and do not determine which product is suitable for
+  reflect specific supported label attributes — not broad recommendations, condition-specific winners, or
+  universal-suitability framing. Scores are not medical recommendations and do not determine which product is suitable for
   dehydration treatment, illness recovery, hangover prevention, cramp prevention, athletic performance, pregnancy,
   children, or any medical condition. Consult a qualified healthcare professional before using electrolyte drink mixes,
   especially if pregnant, nursing, under 18, taking medication, managing blood pressure, kidney disease, heart disease,
@@ -63,11 +63,11 @@ productCriterionLabels:
       - high claim-risk marketing
 caveats:
   - >-
-    Thorne Catalyte NSF Certified for Sport status is verified via listing id 1286726 (reconfirmed Phase 14E). Supplement
-    Facts were checked against a Vitacost retailer label mirror (UPC 693749006299) because the official brand page did not
-    expose a complete label during review. Phase 14E: thorne.com PDP still sparse; Vitacost mirror URL returned 404 —
-    prior Phase 14C SFP lock retained. NSF database cites 20 cal / 3 g sugar vs locked retailer SFP 30 cal / <1 g sugar.
-    Formula includes taurine, B vitamins, and other nutrients beyond core electrolytes.
+    Thorne Catalyte NSF Certified for Sport status is verified via listing id 1286726 (reconfirmed Phase 14F). Supplement
+    Facts locked from Vitacost retailer label (UPC 693749006299) with iHerb corroboration because the official thorne.com
+    PDP did not expose a complete panel during review. NSF database nutritional summary cites 20 cal / 3 g sugar vs
+    retailer Supplement Facts 30 cal / <1 g sugar / 5 g carbohydrate — label-grounded retailer values retained with
+    documented NSF variance. Formula includes taurine, B vitamins, and other nutrients beyond core electrolytes.
   - >-
     LMNT Citrus Salt lists 1,000 mg sodium per stick with 0 g sugar. High sodium may be inappropriate for some people
     managing blood pressure, kidney disease, heart disease, fluid restrictions, or certain medications — NIH sodium
@@ -87,8 +87,8 @@ caveats:
     faster-hydration marketing carry high claim-risk; SuppCheckr cites label facts only. No verified third-party
     certification captured.
   - >-
-    All five products in this comparison are draft/noindex with affiliate.enabled false. No Amazon affiliate links or
-    ASINs in Phase 14D. Product images remain branded placeholders.
+    All five products in this comparison have affiliate.enabled false. No Amazon affiliate links or ASINs. Product images
+    remain branded placeholders.
   - >-
     Phase 14C price context (2026-07-15): Nuun $7.49, Ultima $20.99, Thorne Target $34.00, LMNT $45.00, Liquid I.V.
     $24.99. Verify current price at the retailer before purchase.
@@ -130,9 +130,9 @@ sources:
     accessDate: '2026-07-15'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-15'
@@ -147,3 +147,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 14E — Thorne retailer-mirror source caveat and NSF calorie/sugar variance documentation updated
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication — Thorne label relocked Vitacost + iHerb corroboration

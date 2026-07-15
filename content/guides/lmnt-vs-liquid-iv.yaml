@@ -11,7 +11,8 @@ body: |
   **publicly available label information** from Phase 14C draft product research — sodium, potassium, magnesium
   disclosure, sugar, sweeteners, serving format, and dated price per serving — not medical hydration outcomes.
 
-  SuppCheckr does not say either product treats dehydration, prevents hangovers or cramps, or is medically better.
+  SuppCheckr does not endorse either product for dehydration treatment, hangover-recovery, cramp-prevention, or medical
+  superiority claims.
   Liquid I.V. **Hydration Multiplier** is a product/marketing name only — not evidence of superior hydration. LMNT is
   not better for everyone; high-sodium formulas require individual context and professional guidance when appropriate.
 
@@ -149,9 +150,9 @@ body: |
   - [Electrolytes ingredient reference](/ingredients/electrolytes)
   - [How to choose an electrolyte powder](/guides/how-to-choose-an-electrolyte-powder)
   - [Sugar-free vs sugar electrolytes](/guides/sugar-free-vs-sugar-electrolytes)
-  - [Electrolyte supplements compared](/supplements/electrolytes/compare) (draft)
-  - [LMNT Citrus Salt product review](/supplements/electrolytes/lmnt-citrus-salt-30) (draft)
-  - [Liquid I.V. Hydration Multiplier product review](/supplements/electrolytes/liquid-iv-hydration-multiplier-lemon-lime-16) (draft)
+  - [Electrolyte supplements compared](/supplements/electrolytes/compare)
+  - [LMNT Citrus Salt product review](/supplements/electrolytes/products/lmnt-citrus-salt-30)
+  - [Liquid I.V. Hydration Multiplier product review](/supplements/electrolytes/products/liquid-iv-hydration-multiplier-lemon-lime-16)
 relatedGuideSlugs:
   - how-to-choose-an-electrolyte-powder
   - what-are-electrolytes
@@ -200,9 +201,9 @@ sources:
     accessDate: '2026-07-15'
     sourceType: internal_editorial
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-15'
@@ -213,3 +214,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14D draft/noindex LMNT vs Liquid I.V. label comparison guide — no affiliate links
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication

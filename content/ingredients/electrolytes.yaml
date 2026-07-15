@@ -23,7 +23,7 @@ evidenceSummary: >
   mg lines. Product labels vary widely in sodium level (from tens to thousands of mg per serving), potassium and magnesium
   amounts, sugar content, sweeteners, and serving format (stick, tablet, scoop). Comparing products requires checking how
   much of each mineral a serving provides, whether sugar or sweeteners are present, and whether third-party testing is
-  verified or only claimed. SuppCheckr summarizes label and product-comparison information in draft electrolyte reviews,
+  verified or only claimed. SuppCheckr summarizes label and product-comparison information in electrolyte reviews,
   guides, and the electrolyte-supplements-compared table — not medical advice. SuppCheckr does not rank electrolyte
   products for dehydration treatment, illness recovery, hangover prevention, cramp prevention, athletic performance
   outcomes, pregnancy, children, or any medical condition.
@@ -89,9 +89,9 @@ sources:
     accessDate: '2026-07-07'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-15'
@@ -120,3 +120,7 @@ editorial:
       summary: >-
         Phase 14E — expanded calcium/chloride label context, high-sodium caution, comparison-table reference in
         evidenceSummary; still draft/noindex
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication

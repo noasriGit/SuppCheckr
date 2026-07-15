@@ -86,10 +86,10 @@ body: |
 
   ## How SuppCheckr approaches electrolyte products
 
-  SuppCheckr compares publicly available label information in draft Electrolytes content: sodium/potassium/magnesium
+  SuppCheckr compares publicly available label information in Electrolytes content: sodium/potassium/magnesium
   disclosure, sugar and sweetener profile, serving format, third-party testing documentation, and dated manual price per
-  serving. See [how to choose an electrolyte powder](/guides/how-to-choose-an-electrolyte-powder) and the draft
-  [comparison table](/supplements/electrolytes/compare) when available.
+  serving. See [how to choose an electrolyte powder](/guides/how-to-choose-an-electrolyte-powder) and the
+  [comparison table](/supplements/electrolytes/compare).
 
   ## Frequently asked questions
 
@@ -111,7 +111,7 @@ body: |
   ## Related reading
 
   - [Electrolytes ingredient reference](/ingredients/electrolytes)
-  - [Electrolytes category hub](/supplements/electrolytes) (draft)
+  - [Electrolytes category hub](/supplements/electrolytes)
   - [How to choose an electrolyte powder](/guides/how-to-choose-an-electrolyte-powder)
   - [LMNT vs Liquid I.V.](/guides/lmnt-vs-liquid-iv)
   - [Sugar-free vs sugar electrolytes](/guides/sugar-free-vs-sugar-electrolytes)
@@ -157,9 +157,9 @@ sources:
     accessDate: '2026-07-15'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-15'
@@ -174,3 +174,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 14E — added draft category hub link in related reading
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication

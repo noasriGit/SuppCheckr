@@ -11,8 +11,8 @@ body: |
   guide explains what to look for on labels and listings based on publicly available information. It does **not** rank
   products or recommend a single option for everyone.
 
-  SuppCheckr does not describe electrolyte drink mixes as dehydration treatment, illness recovery aids, hangover cures,
-  or performance guarantees.
+  SuppCheckr does not describe electrolyte drink mixes as dehydration treatment, illness recovery aids, morning-after
+  recovery marketing, or performance guarantees.
 
   ## Start with sodium, potassium, and magnesium per serving
 
@@ -92,8 +92,8 @@ body: |
   serving, formula quality, additives, and claim conservatism. Scores help compare labels — they do not prove
   effectiveness for any individual.
 
-  When published, the [electrolyte supplements comparison table](/supplements/electrolytes/compare) will cover five
-  draft product reviews from Phase 14C.
+  The [electrolyte supplements comparison table](/supplements/electrolytes/compare) covers five product reviews from
+  the Electrolytes shortlist.
 
   ## Related reading
 
@@ -143,9 +143,9 @@ sources:
     accessDate: '2026-07-15'
     sourceType: internal_editorial
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-15'
@@ -156,3 +156,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14D draft/noindex electrolyte powder buyer-education guide — no affiliate links
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication

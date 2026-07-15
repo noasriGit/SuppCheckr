@@ -115,7 +115,7 @@ body: |
   - [How to choose an electrolyte powder](/guides/how-to-choose-an-electrolyte-powder)
   - [What are electrolytes?](/guides/what-are-electrolytes)
   - [Electrolyte powder vs tablets](/guides/electrolyte-powder-vs-tablets)
-  - [Electrolyte supplements compared](/supplements/electrolytes/compare) (draft)
+  - [Electrolyte supplements compared](/supplements/electrolytes/compare)
 relatedGuideSlugs:
   - lmnt-vs-liquid-iv
   - how-to-choose-an-electrolyte-powder
@@ -157,9 +157,9 @@ sources:
     accessDate: '2026-07-15'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-15'
@@ -170,3 +170,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14D draft/noindex sugar-free vs sugar electrolytes guide — no affiliate links
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication

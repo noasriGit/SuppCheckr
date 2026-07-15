@@ -9,8 +9,8 @@ logo: /images/brands/placeholder.svg
 categories:
   - electrolytes
 transparencyNotes: >
-  Thorne Catalyte Supplement Facts are mirrored on retailer listings when the brand product detail page is sparse. Lock
-  official thorne.com label imagery before publication.
+  Thorne Catalyte Supplement Facts are locked from Vitacost retailer label (UPC 693749006299) with iHerb corroboration
+  because the official thorne.com product detail page did not expose a complete panel during Phase 14F review.
 testingNotes: >
   Thorne Catalyte Lemon Lime (312 g / 30 servings) is listed on the NSF Certified for Sport database (listing id
   1286726) as of Phase 14C.
@@ -27,9 +27,9 @@ sources:
     accessDate: '2026-07-15'
     sourceType: certification_body
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: low
 editorial:
   lastUpdated: '2026-07-15'
@@ -40,3 +40,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 14C draft/noindex brand record for Thorne Catalyte electrolytes product review
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication

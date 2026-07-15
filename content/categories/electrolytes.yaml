@@ -7,8 +7,8 @@ description: >
   disclosure, sugar and sweetener profile, serving format, third-party testing documentation, and dated manual pricing —
   not medical outcomes or personal suitability.
 shortDescription: >
-  Draft category hub for electrolyte drink mixes and supplements. Five product reviews, five educational guides, and a
-  comparison table cover powders, sticks, and tablets — all draft/noindex until publication approval.
+  Published category hub for electrolyte drink mixes and supplements. Five product reviews, five educational guides, and
+  a comparison table cover powders, sticks, and tablets on SuppCheckr.
 featured: false
 relatedCategories:
   - magnesium
@@ -47,11 +47,11 @@ evaluationSummary: >
   treatment, heat illness, vomiting or diarrhea, POTS, hangover prevention, cramp prevention, pregnancy, children, or
   any medical condition.
 clusterScopeNote: >
-  This draft electrolytes category includes five product reviews across distinct format buckets: high-sodium sugar-free
-  stick (LMNT), sugar-containing stick (Liquid I.V. Hydration Multiplier), electrolyte tablet (Nuun Sport), lower-sodium
+  This electrolytes category includes five product reviews across distinct format buckets: high-sodium sugar-free stick
+  (LMNT), sugar-containing stick (Liquid I.V. Hydration Multiplier), electrolyte tablet (Nuun Sport), lower-sodium
   sugar-free stick (Ultima Replenisher), and NSF Certified for Sport scoop powder (Thorne Catalyte). Five educational
-  guides and one category comparison table (electrolyte-supplements-compared) are linked as draft/noindex content. All
-  cluster pages remain non-indexable until explicit publication approval. No Amazon affiliate links in this phase.
+  guides and one category comparison table (electrolyte-supplements-compared) are linked. No Amazon affiliate links in
+  this phase.
 buyingConsiderations:
   - >-
     Read sodium, potassium, and magnesium (mg) per serving on Nutrition Facts or Supplement Facts — amounts vary from
@@ -93,7 +93,7 @@ faq:
     answer: >
       No. Scores summarize label transparency, testing documentation, and dated price context using our methodology —
       not personal medical suitability or hydration outcome guarantees.
-  - question: Which draft products are in this cluster?
+  - question: Which products are in this cluster?
     answer: >
       LMNT Citrus Salt (30 sticks), Liquid I.V. Hydration Multiplier Lemon Lime (16 sticks), Nuun Sport Lemon Lime (10
       tablets), Ultima Replenisher Lemonade (20 sticks), and Thorne Catalyte Lemon Lime (30 servings). See the
@@ -136,11 +136,11 @@ sources:
 seo:
   title: Electrolyte Supplements Compared | SuppCheckr
   description: >
-    Draft SuppCheckr hub for electrolyte drink mixes — label comparisons for sodium, potassium, magnesium, sugar, and
-    price per serving. Educational only; not medical advice.
-status: draft
+    SuppCheckr hub for electrolyte drink mixes — label comparisons for sodium, potassium, magnesium, sugar, and price per
+    serving. Educational only; not medical advice.
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-07-15'
@@ -161,3 +161,7 @@ editorial:
       summary: >-
         Phase 14E — expanded from placeholder to review-ready draft hub (intro, evaluation summary, buying considerations,
         FAQ, featuredProductIds, ingredientSlug, price-per-serving labels); status draft/noindex; still not published
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: Phase 14F Electrolytes cluster publication
