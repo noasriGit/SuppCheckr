@@ -49,7 +49,12 @@ relatedProductIds:
   - electrolytes-nuun-sport-lemon-lime-10-tablets
   - electrolytes-ultima-replenisher-lemonade-20-sticks
   - electrolytes-thorne-catalyte-lemon-lime-30-servings
-relatedGuideSlugs: []
+relatedGuideSlugs:
+  - lmnt-vs-liquid-iv
+  - how-to-choose-an-electrolyte-powder
+  - what-are-electrolytes
+  - sugar-free-vs-sugar-electrolytes
+  - electrolyte-powder-vs-tablets
 sources:
   - id: nih-sodium-hp
     title: Sodium — Health Professional Fact Sheet
@@ -100,3 +105,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 14C draft product YAML — five shortlist products linked as draft/noindex relatedProductIds; still draft/noindex
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 14D — five draft/noindex guide slugs linked; still draft/noindex

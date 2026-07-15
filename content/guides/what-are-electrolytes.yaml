@@ -1,0 +1,171 @@
+slug: what-are-electrolytes
+title: What Are Electrolytes?
+categoryId: electrolytes
+excerpt: >
+  A conservative overview of electrolytes — sodium, potassium, magnesium, calcium, and chloride — how supplement and
+  drink-mix labels disclose them, and why products vary widely. Educational only; not medical advice.
+body: |
+  ## Introduction
+
+  **Electrolytes** commonly refer to minerals that carry an electric charge in body fluids and play roles in normal
+  body processes. They appear in foods and in electrolyte drink mixes, powders, tablets, and beverages. SuppCheckr
+  explains electrolytes in educational guides and compares product labels when reviews are available — we do not
+  provide medical advice.
+
+  ## Core electrolyte minerals (high level)
+
+  According to NIH Office of Dietary Supplements materials, key electrolyte-related minerals include:
+
+  - **Sodium** — involved in fluid balance and nerve and muscle function
+  - **Potassium** — involved in fluid balance, nerve transmission, and muscle contraction
+  - **Magnesium** — involved in many enzymatic reactions, nerve function, and muscle contraction
+  - **Calcium** — involved in bone health, muscle contraction, and nerve signaling (when disclosed on product labels)
+  - **Chloride** — often present with sodium as chloride salts; some labels disclose chloride mg per serving
+
+  This is general nutrient context — not a reason to treat retail electrolyte drink mixes as medical therapy.
+
+  ## Dietary electrolytes vs drink mixes and supplements
+
+  NIH materials note that sodium, potassium, and magnesium are found in many foods. Electrolyte drink mixes and
+  supplements add labeled mineral amounts on top of dietary intake. Product labels vary widely in how much sodium,
+  potassium, magnesium, calcium, and chloride each serving provides.
+
+  When comparing products, read **mg per serving** on Nutrition Facts or Supplement Facts — not marketing phrases like
+  "hydration blend" or "electrolyte complex" without amounts.
+
+  ## Why electrolyte product labels vary so much
+
+  Retail electrolyte products are not standardized. Phase 14C draft research on five shortlist products showed:
+
+  - Sodium from **55 mg** to **1,000 mg** per serving
+  - Sugar from **0 g** to **11 g** per serving
+  - Formats including stick packs, scoop tubs, and dissolving tablets
+  - Some panels disclose five electrolytes; others omit magnesium or chloride
+
+  Not all electrolyte products are designed for the same use case. SuppCheckr compares labels — not personal hydration
+  needs, sweat loss, illness recovery, or athletic performance outcomes.
+
+  ## What electrolyte drink mixes are not
+
+  Dietary supplements and electrolyte drink mixes are not FDA-approved to diagnose, treat, cure, or prevent disease.
+  They are not a substitute for:
+
+  - Medical care or oral rehydration therapy prescribed for clinical dehydration
+  - Treatment of electrolyte imbalance, heat illness, vomiting, diarrhea, or illness-related fluid loss
+  - IV fluids or hospital rehydration protocols
+
+  SuppCheckr does not rank electrolyte products for dehydration treatment, hangover prevention, cramp prevention, POTS,
+  pregnancy, children, keto flu, or any medical condition.
+
+  ## How to read electrolyte labels
+
+  Useful label fields include:
+
+  - **Sodium, potassium, magnesium (mg)** per serving — when listed
+  - **Calcium and chloride (mg)** — when listed
+  - **Total sugars, carbohydrates, calories**
+  - **Sweeteners** in the ingredient list
+  - **Serving size** and recommended water volume
+
+  If a mineral line is absent, treat it as **not disclosed** until confirmed on the current label — do not infer content
+  from brand marketing.
+
+  ## Medical caution
+
+  Consult a qualified healthcare professional before starting or changing electrolyte supplements or high-sodium drink
+  mixes, especially if you are:
+
+  - Pregnant or nursing
+  - Under 18
+  - Taking prescription medications (including diuretics or blood pressure medications)
+  - Managing **high blood pressure**, **kidney disease**, **heart disease**, or **fluid restrictions**
+  - Managing any other medical condition
+
+  According to NIH materials, high sodium or potassium supplemental intake may be inappropriate for some individuals.
+  This is general safety context — not product-specific medical advice.
+
+  ## How SuppCheckr approaches electrolyte products
+
+  SuppCheckr compares publicly available label information in draft Electrolytes content: sodium/potassium/magnesium
+  disclosure, sugar and sweetener profile, serving format, third-party testing documentation, and dated manual price per
+  serving. See [how to choose an electrolyte powder](/guides/how-to-choose-an-electrolyte-powder) and the draft
+  [comparison table](/supplements/electrolytes/compare) when available.
+
+  ## Frequently asked questions
+
+  **Are electrolytes only in supplements?**
+  No. Sodium, potassium, magnesium, and other minerals are found in many foods. Drink mixes add labeled amounts per
+  serving on top of dietary intake.
+
+  **Do all electrolyte powders have the same sodium level?**
+  No. Labels vary widely. Always read mg per serving on the current Nutrition Facts or Supplement Facts panel.
+
+  **Can electrolyte drink mixes treat dehydration?**
+  SuppCheckr does not describe retail electrolyte drink mixes as medical dehydration treatment. Consult a qualified
+  healthcare professional for illness, fluid loss, or clinical hydration needs.
+
+  **Should everyone use high-sodium electrolyte sticks?**
+  No. High-sodium products are not appropriate for everyone. Individual dietary context, medications, and medical
+  conditions matter — consult a qualified healthcare professional when in doubt.
+
+  ## Related reading
+
+  - [Electrolytes ingredient reference](/ingredients/electrolytes)
+  - [How to choose an electrolyte powder](/guides/how-to-choose-an-electrolyte-powder)
+  - [LMNT vs Liquid I.V.](/guides/lmnt-vs-liquid-iv)
+  - [Sugar-free vs sugar electrolytes](/guides/sugar-free-vs-sugar-electrolytes)
+  - [Electrolyte powder vs tablets](/guides/electrolyte-powder-vs-tablets)
+relatedGuideSlugs:
+  - how-to-choose-an-electrolyte-powder
+  - lmnt-vs-liquid-iv
+  - sugar-free-vs-sugar-electrolytes
+  - electrolyte-powder-vs-tablets
+sources:
+  - id: guide-what-elec-nih-sodium
+    title: Sodium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: guide-what-elec-nih-potassium
+    title: Potassium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: guide-what-elec-nih-magnesium
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: guide-what-elec-nih-calcium
+    title: Calcium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: guide-what-elec-fda
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-15'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14D draft/noindex foundational electrolytes education guide — no affiliate links

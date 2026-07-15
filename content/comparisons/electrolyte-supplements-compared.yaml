@@ -1,0 +1,144 @@
+id: electrolyte-supplements-compared
+slug: electrolyte-supplements-compared
+type: category_ranking
+title: Electrolyte Supplements Compared
+categoryId: electrolytes
+subtitle: >
+  This comparison looks at sodium, potassium, and magnesium disclosure, sugar and sweetener profile, third-party testing
+  status, serving format practicality, and dated price per serving across five draft electrolyte product reviews. Default
+  sort reflects SuppCheckr weighted scores — not medical recommendations and not suitability for any specific condition.
+productIds:
+  - electrolytes-thorne-catalyte-lemon-lime-30-servings
+  - electrolytes-lmnt-citrus-salt-30
+  - electrolytes-ultima-replenisher-lemonade-20-sticks
+  - electrolytes-nuun-sport-lemon-lime-10-tablets
+  - electrolytes-liquid-iv-hydration-multiplier-lemon-lime-16
+comparisonFields:
+  - overallScore
+  - pricePerServing
+  - thirdPartyTesting
+  - servingSize
+methodologyNote: >
+  Scores use the electrolytes scoring profile (sodium/potassium/magnesium dose transparency, electrolyte composition
+  clarity, sugar and sweetener disclosure, label clarity, evidence alignment and claim conservatism, third-party testing
+  documentation, dated price per serving, formula quality including serving format practicality, additives, and brand
+  transparency). Table order defaults to overall score high to low. Narrow criterion labels below each product name
+  reflect specific supported label attributes — not broad recommendations, condition-specific winners, Best Overall, or
+  Best for Everyone framing. Scores are not medical recommendations and do not determine which product is suitable for
+  dehydration treatment, illness recovery, hangover prevention, cramp prevention, athletic performance, pregnancy,
+  children, or any medical condition. Consult a qualified healthcare professional before using electrolyte drink mixes,
+  especially if pregnant, nursing, under 18, taking medication, managing blood pressure, kidney disease, heart disease,
+  fluid restrictions, or a medical condition. See /methodology for weight details.
+orderingNote: >
+  Default table order is based on SuppCheckr weighted criteria scores, not a ranking of which product is right for every
+  person or any medical use case. SuppCheckr does not rank electrolyte products for dehydration treatment, hangover
+  recovery, cramp prevention, keto, fasting, pregnancy, children, or any medical condition. Filter and re-sort by price
+  per serving or testing status to match your own label and sourcing priorities.
+priceCheckedAt: '2026-07-15'
+productCriterionLabels:
+  - productId: electrolytes-thorne-catalyte-lemon-lime-30-servings
+    labels:
+      - NSF Certified for Sport verified
+      - multi-electrolyte disclosure
+      - mineral forms identified
+  - productId: electrolytes-lmnt-citrus-salt-30
+    labels:
+      - high sodium (1,000 mg)
+      - sugar-free stevia
+      - clear Na/K/Mg per stick
+  - productId: electrolytes-ultima-replenisher-lemonade-20-sticks
+    labels:
+      - lower sodium (55 mg)
+      - sugar-free stevia
+      - broad mineral disclosure
+  - productId: electrolytes-nuun-sport-lemon-lime-10-tablets
+    labels:
+      - five-electrolyte tablet
+      - lowest cited $/serving
+      - 1 g sugar (dextrose)
+  - productId: electrolytes-liquid-iv-hydration-multiplier-lemon-lime-16
+    labels:
+      - sugar-containing stick (11 g)
+      - magnesium not on US panel
+      - high claim-risk marketing
+caveats:
+  - >-
+    Thorne Catalyte NSF Certified for Sport status is verified via listing id 1286726. Supplement Facts locked via
+    Vitacost retailer mirror (UPC 693749006299) — official thorne.com label image should be re-captured before
+    publication. Formula includes taurine, B vitamins, and other nutrients beyond core electrolytes. Minor calorie/sugar
+    variance may appear across NSF database vs retailer SFP mirrors.
+  - >-
+    LMNT Citrus Salt lists 1,000 mg sodium per stick with 0 g sugar. High sodium may be inappropriate for some people
+    managing blood pressure, kidney disease, heart disease, fluid restrictions, or certain medications — NIH sodium
+    context only, not product recommendation. No verified third-party sport certification captured. Keto/fasting brand
+    copy is not endorsed by SuppCheckr.
+  - >-
+    Ultima Replenisher Lemonade lists 55 mg sodium per stick with 0 g sugar and broad mineral disclosure. Added vitamins
+    and minerals (vitamin C, zinc, manganese, phosphorus) beyond core electrolytes. Low sodium is a label attribute, not
+    dehydration treatment positioning. No verified third-party certification captured.
+  - >-
+    Nuun Sport Lemon Lime discloses sodium, potassium, magnesium, calcium, and chloride per tablet with 1 g sugar from
+    dextrose. Tablet dissolve step adds serving friction. Brand rehydration copy is not performance or illness-treatment
+    framing. No verified third-party certification captured. Lowest observed $/serving ($0.75) at 2026-07-15 check.
+  - >-
+    Liquid I.V. Hydration Multiplier lists 500 mg sodium, 370 mg potassium, and 11 g sugars per stick. Magnesium is not
+    disclosed on the cited US Nutrition Facts panel — documented as not disclosed, not zero. Hydration Multiplier and
+    faster-hydration marketing carry high claim-risk; SuppCheckr cites label facts only. No verified third-party
+    certification captured.
+  - >-
+    All five products in this comparison are draft/noindex with affiliate.enabled false. No Amazon affiliate links or
+    ASINs in Phase 14D. Product images remain branded placeholders.
+  - >-
+    Phase 14C price context (2026-07-15): Nuun $7.49, Ultima $20.99, Thorne Target $34.00, LMNT $45.00, Liquid I.V.
+    $24.99. Verify current price at the retailer before purchase.
+filtersEnabled: true
+defaultSort: overallScore
+sources:
+  - id: cmp-elec-suppcheckr-methodology
+    title: SuppCheckr scoring methodology
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-07-15'
+    sourceType: internal_editorial
+    supportsClaimIds: []
+  - id: cmp-elec-nih-sodium
+    title: Sodium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cmp-elec-nih-potassium
+    title: Potassium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cmp-elec-thorne-nsf
+    title: NSF Certified for Sport — Thorne Catalyte (listing id 1286726)
+    publisher: NSF International
+    url: https://www.nsfsport.com/certified-products/listing-detail.php?id=1286726
+    accessDate: '2026-07-15'
+    sourceType: certification_body
+    supportsClaimIds: []
+  - id: cmp-elec-fda-dietary-supplements
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-15'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14D draft/noindex electrolytes category comparison for five Phase 14C product reviews — no affiliate links

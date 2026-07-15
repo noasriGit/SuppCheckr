@@ -1,0 +1,158 @@
+slug: how-to-choose-an-electrolyte-powder
+title: How to Choose an Electrolyte Powder
+categoryId: electrolytes
+excerpt: >
+  Label-focused factors to compare electrolyte powders and drink mixes — sodium, potassium, magnesium, sugar, sweeteners,
+  serving format, testing, price per serving, and conservative claim reading — without product rankings.
+body: |
+  ## Introduction
+
+  Electrolyte powders and drink mixes are widely sold as stick packs, scoop tubs, and tablets dissolved in water. This
+  guide explains what to look for on labels and listings based on publicly available information. It does **not** rank
+  products or recommend a single option for everyone.
+
+  SuppCheckr does not describe electrolyte drink mixes as dehydration treatment, illness recovery aids, hangover cures,
+  or performance guarantees.
+
+  ## Start with sodium, potassium, and magnesium per serving
+
+  The most useful comparison fields on Nutrition Facts or Supplement Facts panels are usually:
+
+  - **Sodium (mg) per serving**
+  - **Potassium (mg) per serving**
+  - **Magnesium (mg) per serving** — when disclosed
+
+  Electrolyte products vary widely. Phase 14C draft research on five shortlist products showed sodium ranging from
+  **55 mg** (Ultima Replenisher Lemonade) to **1,000 mg** (LMNT Citrus Salt) per serving. Potassium and magnesium
+  amounts also differ materially by brand.
+
+  If a mineral is not listed on the panel, document it as **not disclosed** — do not assume zero from marketing copy.
+  Liquid I.V. Hydration Multiplier, for example, does not list magnesium on the cited US Nutrition Facts panel.
+
+  ## Check sugar, carbs, and calories
+
+  Compare **total sugars (g)**, **carbohydrates**, and **calories** per serving. Products may be sugar-free (0 g sugars)
+  or sugar-containing (for example, 11 g sugars on Liquid I.V. or 1 g on Nuun Sport in Phase 14C research).
+
+  Sugar content is a label fact for comparison — not a medical recommendation for diabetes, weight management, keto,
+  fasting, or blood sugar control. Consult a qualified healthcare professional for medical nutrition questions.
+
+  ## Review sweeteners and other ingredients
+
+  Sweeteners vary: stevia, cane sugar, dextrose, allulose, sucralose, and others appear on different formulas. Read the
+  full ingredient list for flavors, colors, anti-caking agents, and added vitamins beyond core electrolytes.
+
+  A simpler formula is not automatically better for everyone, but it can be easier to compare. Products like Ultima and
+  Thorne Catalyte include additional vitamins and minerals beyond sodium, potassium, and magnesium.
+
+  ## Identify serving format and practicality
+
+  Common formats include:
+
+  - **Stick packs** — pre-portioned powder (LMNT, Liquid I.V., Ultima)
+  - **Scoop tubs** — powder measured per serving (Thorne Catalyte)
+  - **Tablets** — dissolved in water (Nuun Sport)
+
+  Check recommended water volume, serving size, and whether the format fits your portability needs. See our
+  [electrolyte powder vs tablets guide](/guides/electrolyte-powder-vs-tablets) for format comparison context.
+
+  ## Look for third-party testing statements
+
+  Some brands publish third-party testing or certification information (for example NSF Certified for Sport where
+  applicable). SuppCheckr records whether testing is **verified** (with a citable program listing), **claimed**,
+  **unknown**, or **not claimed** — based on publicly available documentation, not marketing slogans alone.
+
+  In Phase 14C research, only Thorne Catalyte had a verified NSF Certified for Sport listing (id 1286726) among the
+  five shortlist products.
+
+  ## Compare price with context
+
+  Price per container alone can mislead. Consider:
+
+  - **Price per serving** (dated manual price ÷ servings per container)
+  - **Servings per container** and whether you are buying sticks, tablets, or a tub
+
+  Phase 14C observed price per serving from $0.75 (Nuun Sport) to $1.56 (Liquid I.V.) at the 2026-07-15 check. Retail
+  prices change. Always check the retailer for the current price before purchasing.
+
+  ## Read marketing claims conservatively
+
+  Be skeptical of listings that imply disease outcomes, faster hydration than water, hangover recovery, cramp prevention,
+  or universal safety. According to FDA overview materials, dietary supplements are not FDA-approved drugs. Brand phrases
+  like **Hydration Multiplier** are product positioning — not SuppCheckr-verified evidence.
+
+  Consult a qualified healthcare professional if you have medical questions, especially if pregnant, nursing, under 18,
+  taking medication, managing blood pressure, kidney disease, heart disease, fluid restrictions, or a medical
+  condition.
+
+  ## How SuppCheckr compares products (methodology overview)
+
+  Our [methodology](/methodology) page explains scoring criteria for electrolytes: sodium/potassium/magnesium dose
+  transparency, sugar and sweetener disclosure, label clarity, third-party testing documentation, dated manual price per
+  serving, formula quality, additives, and claim conservatism. Scores help compare labels — they do not prove
+  effectiveness for any individual.
+
+  When published, the [electrolyte supplements comparison table](/supplements/electrolytes/compare) will cover five
+  draft product reviews from Phase 14C.
+
+  ## Related reading
+
+  - [Electrolytes ingredient reference](/ingredients/electrolytes)
+  - [What are electrolytes?](/guides/what-are-electrolytes)
+  - [LMNT vs Liquid I.V.](/guides/lmnt-vs-liquid-iv)
+  - [Sugar-free vs sugar electrolytes](/guides/sugar-free-vs-sugar-electrolytes)
+  - [Electrolyte powder vs tablets](/guides/electrolyte-powder-vs-tablets)
+relatedGuideSlugs:
+  - what-are-electrolytes
+  - lmnt-vs-liquid-iv
+  - sugar-free-vs-sugar-electrolytes
+  - electrolyte-powder-vs-tablets
+sources:
+  - id: guide-choose-elec-nih-sodium
+    title: Sodium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: guide-choose-elec-nih-potassium
+    title: Potassium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: guide-choose-elec-nih-magnesium
+    title: Magnesium — Health Professional Fact Sheet
+    publisher: NIH Office of Dietary Supplements
+    url: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+    accessDate: '2026-07-15'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: guide-choose-elec-fda
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-15'
+    sourceType: FDA
+    supportsClaimIds: []
+  - id: guide-choose-elec-methodology
+    title: SuppCheckr scoring methodology
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-07-15'
+    sourceType: internal_editorial
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14D draft/noindex electrolyte powder buyer-education guide — no affiliate links

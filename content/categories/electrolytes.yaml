@@ -6,9 +6,15 @@ description: "Category shell placeholder."
 shortDescription: "Template shell — content coming in Phase 2."
 featured: false
 relatedCategories: [magnesium]
-relatedGuides: []
-buyersGuideSlug: null
-scoringProfileId: default
+relatedGuides:
+  - lmnt-vs-liquid-iv
+  - how-to-choose-an-electrolyte-powder
+  - what-are-electrolytes
+  - sugar-free-vs-sugar-electrolytes
+  - electrolyte-powder-vs-tablets
+buyersGuideSlug: how-to-choose-an-electrolyte-powder
+scoringProfileId: electrolytes
+comparisonCtaLabel: Compare electrolyte supplements
 seo: {}
 status: placeholder
 isPlaceholder: true
@@ -23,3 +29,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 14C — five draft/noindex electrolytes product reviews created; category shell remains placeholder/noindex
+    - date: "2026-07-15"
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 14D — five draft/noindex guides and draft comparison linked; buyersGuideSlug and scoringProfileId set; still placeholder/noindex

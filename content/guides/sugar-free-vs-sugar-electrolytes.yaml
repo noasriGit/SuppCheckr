@@ -1,0 +1,172 @@
+slug: sugar-free-vs-sugar-electrolytes
+title: 'Sugar-Free vs Sugar Electrolytes: Label Differences'
+categoryId: electrolytes
+excerpt: >
+  Sugar-free vs sugar-containing electrolyte drink mixes explained for label literacy — sugars, calories, sweeteners,
+  sodium differences, price per serving, and claim-risk context. Educational only; no medical recommendations.
+body: |
+  ## Introduction
+
+  Electrolyte drink mixes are often grouped as **sugar-free** or **sugar-containing** based on Nutrition Facts and
+  ingredient lists. This guide explains label differences between those categories at a high level. It does not recommend
+  one category for diabetes, weight loss, keto, fasting, blood sugar management, or any medical condition.
+
+  Consult a qualified healthcare professional for medical nutrition questions. SuppCheckr compares label facts — not
+  personal health outcomes.
+
+  ## Sugar, carbs, and calories on labels
+
+  Read **total sugars (g)**, **carbohydrates**, and **calories** per serving on Nutrition Facts panels.
+
+  Phase 14C draft research examples (locked SKUs):
+
+  | Product | Total sugars | Calories | Category |
+  | --- | --- | --- | --- |
+  | LMNT Citrus Salt | 0 g | 0 | Sugar-free stick |
+  | Ultima Replenisher Lemonade | 0 g | 0 | Sugar-free stick |
+  | Nuun Sport Lemon Lime | 1 g | 15 | Low-sugar tablet |
+  | Thorne Catalyte Lemon Lime | <1 g | 30 | Low-sugar scoop powder |
+  | Liquid I.V. HM Lemon Lime | 11 g | 45 | Sugar-containing stick |
+
+  These are label snapshots for comparison literacy — not rankings. Formulas and labels can change; verify the current
+  panel before purchase.
+
+  ## Sweeteners
+
+  **Sugar-free** products in the shortlist use non-nutritive sweeteners such as stevia leaf extract (LMNT, Ultima,
+  Thorne) without added sugars on cited panels.
+
+  **Sugar-containing** products list cane sugar, dextrose, or similar carbohydrates (Liquid I.V. lists cane sugar and
+  dextrose; Nuun Sport lists 1 g sugar with dextrose in ingredients).
+
+  Sweetener and sugar profiles affect taste and label reading — not medical superiority. SuppCheckr does not claim sugar
+  is always worse or always better for any individual.
+
+  ## Sodium often differs between categories
+
+  Sugar content and sodium content are **independent** label fields. Among Phase 14C shortlist products:
+
+  - **High-sodium, sugar-free:** LMNT lists 1,000 mg sodium and 0 g sugar
+  - **Lower-sodium, sugar-free:** Ultima lists 55 mg sodium and 0 g sugar
+  - **Moderate-sodium, sugar-containing:** Liquid I.V. lists 500 mg sodium and 11 g sugar
+
+  A sugar-free label does not mean low sodium — and a sugar-containing label does not mean high sodium. Compare each
+  mineral and sugar line separately.
+
+  ## Price per serving differences
+
+  Sugar profile does not determine price. Phase 14C observed price per serving (2026-07-15):
+
+  - Nuun Sport (1 g sugar): **$0.75**
+  - Ultima (0 g sugar): **$1.05**
+  - Thorne Catalyte (<1 g sugar): **$1.13**
+  - LMNT (0 g sugar): **$1.50**
+  - Liquid I.V. (11 g sugar): **$1.56**
+
+  Compare dated manual price per serving alongside sugar and sodium disclosure. Retail prices change.
+
+  ## Taste and serving-format considerations
+
+  Sugar-containing mixes may taste sweeter due to cane sugar or dextrose. Sugar-free mixes often use stevia or other
+  non-nutritive sweeteners with different taste profiles.
+
+  Format also varies: stick packs (LMNT, Liquid I.V., Ultima), scoop tubs (Thorne), and tablets (Nuun). Serving
+  practicality is a separate comparison field from sugar content.
+
+  ## Claim-risk considerations
+
+  Sugar-free products sometimes carry keto, fasting, or "clean label" marketing. Sugar-containing products sometimes
+  carry hydration-multiplier or faster-absorption marketing. SuppCheckr mirrors brand positioning as context only — it
+  does not endorse medical keto, fasting protocols, or hydration outcome claims.
+
+  Liquid I.V. **Hydration Multiplier** is a product name, not SuppCheckr-verified evidence. LMNT keto-friendly copy is
+  brand positioning — not medical keto advice.
+
+  ## No medical recommendations here
+
+  This guide does not rank sugar-free or sugar-containing electrolytes for diabetes, weight loss, athletic performance,
+  illness recovery, or any medical use case. People managing medical conditions should consult a qualified healthcare
+  professional before choosing electrolyte drink mixes.
+
+  ## How SuppCheckr compares sugar profiles
+
+  The electrolytes scoring profile weights sugar and sweetener disclosure, alongside sodium/potassium/magnesium
+  transparency, testing documentation, and dated price per serving. See the draft
+  [electrolyte supplements comparison](/supplements/electrolytes/compare) for side-by-side shortlist products.
+
+  ## Frequently asked questions
+
+  **Are sugar-free electrolytes always lower in calories?**
+  Often, but read the panel. Ultima and LMNT list 0 calories; Thorne lists 30 calories with <1 g sugar.
+
+  **Does sugar help hydration medically?**
+  SuppCheckr does not describe retail drink mixes as clinical rehydration therapy. Compare label facts for your own
+  shopping priorities.
+
+  **Is LMNT sugar-free?**
+  Cited LMNT Citrus Salt materials list 0 g total sugars per stick. Confirm flavor and SKU.
+
+  **Does Liquid I.V. have sugar?**
+  Cited Liquid I.V. Hydration Multiplier Lemon Lime Nutrition Facts list 11 g total sugars per stick.
+
+  ## Related reading
+
+  - [LMNT vs Liquid I.V.](/guides/lmnt-vs-liquid-iv)
+  - [How to choose an electrolyte powder](/guides/how-to-choose-an-electrolyte-powder)
+  - [What are electrolytes?](/guides/what-are-electrolytes)
+  - [Electrolyte powder vs tablets](/guides/electrolyte-powder-vs-tablets)
+  - [Electrolyte supplements compared](/supplements/electrolytes/compare) (draft)
+relatedGuideSlugs:
+  - lmnt-vs-liquid-iv
+  - how-to-choose-an-electrolyte-powder
+  - what-are-electrolytes
+  - electrolyte-powder-vs-tablets
+sources:
+  - id: guide-sugar-elec-label-lmnt
+    title: LMNT Zero-Sugar Electrolytes — brand product page
+    publisher: LMNT
+    url: https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds: []
+  - id: guide-sugar-elec-label-ultima
+    title: Ultima Replenisher Lemonade — Nutrition Facts
+    publisher: Ultima Replenisher
+    url: https://www.ultimareplenisher.com/products/lemonade-electrolyte-powder-drink
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds: []
+  - id: guide-sugar-elec-label-liquid-iv
+    title: Liquid I.V. Hydration Multiplier Lemon Lime — Nutrition Facts
+    publisher: Liquid I.V.
+    url: https://drugwholesale.liquid-iv.com/products/liquid-i-v-hydration-multiplier-lemon-lime
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds: []
+  - id: guide-sugar-elec-label-nuun
+    title: Nuun Sport — Nutrition Facts
+    publisher: Nuun
+    url: https://nuunlife.com/products/nuun-sport
+    accessDate: '2026-07-15'
+    sourceType: brand_label
+    supportsClaimIds: []
+  - id: guide-sugar-elec-fda
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-07-15'
+    sourceType: FDA
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-07-15'
+  lastReviewed: '2026-07-15'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 14D draft/noindex sugar-free vs sugar electrolytes guide — no affiliate links
