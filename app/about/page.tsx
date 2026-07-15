@@ -20,9 +20,9 @@ export default function AboutPage() {
 
       <ProseSection title="What we publish">
         SuppCheckr publishes evidence-aware supplement comparison content. Creatine monohydrate,
-        Magnesium, and Vitamin C categories — product reviews, guides, ingredient references,
-        and comparison tables — are published on SuppCheckr. Additional supplement categories
-        are planned. Each review explains how a product scores on transparency, testing,
+        Magnesium, Vitamin C, and Electrolytes categories — product reviews, guides, ingredient
+        references, and comparison tables — are published on SuppCheckr. Additional supplement
+        categories are planned. Each review explains how a product scores on transparency, testing,
         additives, and value using our{" "}
         <Link href="/methodology" className="text-link hover:text-link-hover hover:underline">
           review methodology

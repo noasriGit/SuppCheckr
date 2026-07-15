@@ -26,7 +26,7 @@ export default function SupplementsIndexPage() {
       <h1 className="text-3xl font-bold text-heading">Supplement categories</h1>
       <p className="mt-3 max-w-2xl text-foreground">
         Each published SuppCheckr category combines ingredient context, guides, product reviews,
-        and a comparison table. Creatine monohydrate, Magnesium, and Vitamin C are available now.
+        and a comparison table. Creatine monohydrate, Magnesium, Vitamin C, and Electrolytes are available now.
       </p>
 
       <section className="mt-8 rounded-lg border border-border bg-surface p-5">

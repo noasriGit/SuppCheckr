@@ -17,9 +17,9 @@ export const metadata = buildPageMetadata({
 
 const CRITERIA_DESCRIPTIONS: Record<keyof typeof CRITERIA_LABELS, string> = {
   ingredientTransparency:
-    "How clearly the label identifies active ingredients and forms (for example, creatine monohydrate, magnesium glycinate, or vitamin C as ascorbic acid).",
+    "How clearly the label identifies active ingredients and forms (for example, creatine monohydrate, magnesium glycinate, vitamin C as ascorbic acid, or sodium and potassium on electrolyte drink mixes).",
   doseTransparency:
-    "How clearly the label states the active dose per serving — grams of creatine, milligrams of elemental magnesium, milligrams of vitamin C, or equivalent.",
+    "How clearly the label states the active dose per serving — grams of creatine, milligrams of elemental magnesium, milligrams of vitamin C, core electrolyte milligrams per serving, or equivalent.",
   evidenceAlignment:
     "How conservatively product and category claims align with publicly available evidence and source standards. We reward cautious, cited language over hype.",
   formulaQuality:
@@ -27,7 +27,7 @@ const CRITERIA_DESCRIPTIONS: Record<keyof typeof CRITERIA_LABELS, string> = {
   thirdPartyTesting:
     "Whether third-party testing or certification is verified, claimed only, or unknown based on public sources.",
   priceValue:
-    "Dated manual price checks compared on a category-normalized basis (for example, price per 5 g creatine, per 100 mg elemental magnesium, or per 500 mg vitamin C).",
+    "Dated manual price checks compared on a category-normalized basis (for example, price per 5 g creatine, per 100 mg elemental magnesium, per 500 mg vitamin C, or per labeled serving for electrolyte products).",
   additives:
     "Presence and disclosure of fillers, sweeteners, artificial colors, and other non-active ingredients.",
   labelClarity:
@@ -75,7 +75,7 @@ export default function MethodologyPage() {
         <h2 className="text-xl font-semibold text-heading">How scoring works</h2>
         <ul className="mt-3 max-w-3xl list-disc space-y-2 pl-5 text-sm text-foreground">
           <li>
-            Category-specific scoring profiles exist. Creatine, Magnesium, and Vitamin C can use
+            Category-specific scoring profiles exist. Creatine, Magnesium, Vitamin C, and Electrolytes can use
             different criterion weights because label priorities differ by supplement type.
           </li>
           <li>
@@ -225,7 +225,7 @@ export default function MethodologyPage() {
         <h2 className="text-xl font-semibold text-heading">Category-specific scoring</h2>
         <p className="mt-3 max-w-3xl text-sm text-foreground">
           Weights can vary by supplement category because label priorities differ. Published
-          profiles currently include Creatine, Magnesium, and Vitamin C:
+          profiles currently include Creatine, Magnesium, Vitamin C, and Electrolytes:
         </p>
         {profiles.map((profile) => (
           <div key={profile.id} className="mt-6 rounded-lg border border-border bg-surface p-4">
@@ -255,6 +255,15 @@ export default function MethodologyPage() {
                 liposomal, etc.), testing transparency, conservative outcome claims, additive and
                 serving-practicality context, and competitive price per 500 mg vitamin C from dated
                 manual price checks — not proprietary blend weight or absorption marketing alone.
+              </p>
+            )}
+            {profile.id === "electrolytes" && (
+              <p className="mt-3 text-sm text-foreground">
+                Electrolytes scoring rewards clear sodium, potassium, and magnesium disclosure per
+                serving, sugar and sweetener profile on the label, serving format practicality (stick,
+                tablet, or scoop), testing transparency, conservative hydration marketing claims, and
+                competitive price per labeled serving from dated manual price checks — not medical
+                rehydration positioning or high-sodium marketing alone.
               </p>
             )}
             <div className="mt-4 overflow-x-auto">

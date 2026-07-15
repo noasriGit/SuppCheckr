@@ -61,6 +61,13 @@ export default function HomePage() {
         .sort((a, b) => b.rating.overallScore - a.rating.overallScore)
         .slice(0, 3)
     : [];
+  const electrolytesCategory = getCategoryBySlug("electrolytes");
+  const electrolytesProducts = electrolytesCategory
+    ? getActiveProductsByCategory(electrolytesCategory.id)
+        .filter(isIndexable)
+        .sort((a, b) => b.rating.overallScore - a.rating.overallScore)
+        .slice(0, 3)
+    : [];
   const brands = getBrands();
   const brandMap = new Map(brands.map((b) => [b.id, b]));
   const comparisons = getIndexableComparisons();
@@ -79,9 +86,9 @@ export default function HomePage() {
             {siteConfig.description}
           </p>
           <p className="mt-3 max-w-2xl text-sm text-muted">
-            Published Creatine monohydrate, Magnesium, and Vitamin C coverage includes product reviews,
-            guides, ingredient references, and comparison tables. Product images use label-first
-            placeholders where brand product photos are not shown.
+            Published Creatine monohydrate, Magnesium, Vitamin C, and Electrolytes coverage includes
+            product reviews, guides, ingredient references, and comparison tables. Product images use
+            label-first placeholders where brand product photos are not shown.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
@@ -103,6 +110,12 @@ export default function HomePage() {
               Browse Vitamin C reviews
             </Link>
             <Link
+              href="/supplements/electrolytes"
+              className="rounded-lg border border-border px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-primary/40 hover:bg-surface"
+            >
+              Browse Electrolytes reviews
+            </Link>
+            <Link
               href="/methodology"
               className="rounded-lg border border-border px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-primary/40 hover:bg-surface"
             >
@@ -116,8 +129,8 @@ export default function HomePage() {
         <section className="mb-10">
           <h2 className="text-xl font-semibold text-heading">Find supplements</h2>
           <p className="mt-2 text-sm text-foreground">
-            Search published SuppCheckr pages, including Creatine, Magnesium, and Vitamin C reviews,
-            guides, comparisons, and category hubs.
+            Search published SuppCheckr pages, including Creatine, Magnesium, Vitamin C, and Electrolytes
+            reviews, guides, comparisons, and category hubs.
           </p>
           <Link
             href="/search"
@@ -130,8 +143,8 @@ export default function HomePage() {
         <section className="mb-10">
           <h2 className="text-xl font-semibold text-heading">Supplement categories</h2>
           <p className="mt-2 text-sm text-muted">
-            Creatine monohydrate, Magnesium, and Vitamin C include ingredient references, guides,
-            product reviews, and comparison tables.
+            Creatine monohydrate, Magnesium, Vitamin C, and Electrolytes include ingredient references,
+            guides, product reviews, and comparison tables.
           </p>
           <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {publishedCategories.map((cat) => (
@@ -207,6 +220,33 @@ export default function HomePage() {
               className="mt-4 inline-block text-sm text-link hover:text-link-hover hover:underline"
             >
               View all vitamin C reviews
+            </Link>
+          </section>
+        )}
+
+        {electrolytesProducts.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-xl font-semibold text-heading">Electrolytes product reviews</h2>
+            <p className="mt-2 text-sm text-muted">
+              Published electrolyte drink mix reviews compare sodium, potassium, and magnesium per
+              serving, sugar and sweetener disclosure, testing documentation, and dated manual value
+              per serving — not medical hydration outcomes.
+            </p>
+            <div className="mt-4 grid gap-4 sm:grid-cols-2">
+              {electrolytesProducts.map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  categorySlug="electrolytes"
+                  brandName={brandMap.get(product.brandId)?.name ?? "Unknown brand"}
+                />
+              ))}
+            </div>
+            <Link
+              href="/supplements/electrolytes"
+              className="mt-4 inline-block text-sm text-link hover:text-link-hover hover:underline"
+            >
+              View all electrolytes reviews
             </Link>
           </section>
         )}

@@ -10,7 +10,7 @@ import {
 export const metadata = buildPageMetadata({
   title: "Supplement Comparisons | SuppCheckr",
   description:
-    "Published Creatine, Magnesium, and Vitamin C comparison tables by label transparency, dosage clarity, testing, and dated value.",
+    "Published Creatine, Magnesium, Vitamin C, and Electrolytes comparison tables by label transparency, dosage clarity, testing, and dated value.",
   path: "/compare",
 });
 
@@ -44,7 +44,8 @@ export default function CompareIndexPage() {
       <p className="mt-3 max-w-2xl text-foreground">
         SuppCheckr comparison tables evaluate supplements by transparent label criteria, dated
         manual pricing, and category-specific scoring — not medical outcomes or personal
-        suitability. Published tables cover Creatine monohydrate, Magnesium, and Vitamin C.
+        suitability. Published tables cover Creatine monohydrate, Magnesium, Vitamin C, and Electrolytes —
+        including label-heavy electrolyte drink mixes with sodium, sugar, and sweetener differences.
       </p>
 
       <section className="mt-8 rounded-lg border border-border bg-surface p-5">

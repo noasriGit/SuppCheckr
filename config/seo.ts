@@ -8,12 +8,12 @@ export const seoTemplates = {
   supplementsIndex: {
     title: "Supplement Categories | SuppCheckr",
     description:
-      "Browse published Creatine, Magnesium, and Vitamin C categories with ingredient references, guides, product reviews, and comparison tables.",
+      "Browse published Creatine, Magnesium, Vitamin C, and Electrolytes categories with ingredient references, guides, product reviews, and comparison tables.",
   },
   guidesIndex: {
     title: "Supplement Guides | SuppCheckr",
     description:
-      "Educational guides for Creatine, Magnesium, and Vitamin C — forms, label reading, dosage context, and safety notes.",
+      "Educational guides for Creatine, Magnesium, Vitamin C, and Electrolytes — forms, label reading, dosage context, and safety notes.",
   },
   category: (name: string) => ({
     title: `${name} Supplements — Compare & Review | SuppCheckr`,

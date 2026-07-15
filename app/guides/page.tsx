@@ -30,8 +30,9 @@ export default function GuidesIndexPage() {
       <h1 className="text-3xl font-bold text-heading">Guides</h1>
       <p className="mt-3 max-w-2xl text-foreground">
         Educational guides explain ingredient forms, label reading, dosage context, and safety
-        notes for published SuppCheckr categories — Creatine monohydrate, Magnesium, and Vitamin C.
-        Guides are informational — not medical advice or product recommendations.
+        notes for published SuppCheckr categories — Creatine monohydrate, Magnesium, Vitamin C, and Electrolytes.
+        Electrolytes guides include LMNT vs Liquid I.V. and powder-vs-tablet label comparisons. Guides are
+        informational — not medical advice or product recommendations.
       </p>
 
       {guidesByCategory.map(({ category, guides: categoryGuides }) => (
