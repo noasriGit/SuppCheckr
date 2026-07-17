@@ -32,6 +32,7 @@ export const INDEXABLE_STATIC_PAGES = [
   { path: "/contact", title: "Contact", description: "Contact SuppCheckr" },
   { path: "/supplements", title: "Supplement Categories", description: "Browse supplement categories" },
   { path: "/guides", title: "Supplement Guides", description: "Educational guides for published categories" },
+  { path: "/sitemap", title: "Site Map", description: "Browse all indexable SuppCheckr pages" },
 ] as const;
 
 export type IndexableStaticPage = (typeof INDEXABLE_STATIC_PAGES)[number];
