@@ -26,6 +26,7 @@ export const footerNav = {
     { label: "Ingredients", href: "/ingredients" },
     { label: "Brands", href: "/brands" },
     { label: "Guides", href: "/guides" },
+    { label: "Site Map", href: "/sitemap" },
   ],
   trust: [
     { label: "About", href: "/about" },
