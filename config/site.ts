@@ -7,6 +7,7 @@ export const siteConfig = {
     "SuppCheckr compares supplements by label transparency, dosage clarity, testing, ingredients, and value.",
   // Must match the live primary host (Vercel redirects apex → www).
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.suppcheckr.com",
+  canonicalOrigin: "https://www.suppcheckr.com",
   contactEmail: process.env.CONTACT_EMAIL ?? "help@suppcheckr.com",
   siteMode: (process.env.SITE_MODE ?? "prelaunch") as SiteMode,
 } as const;

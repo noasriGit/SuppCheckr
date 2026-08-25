@@ -4,7 +4,8 @@ name: Nutricost
 website: https://nutricost.com
 description: >
   Nutricost is a value-oriented supplement brand selling vitamins, minerals, and sports nutrition products through its
-  website and major retailers.
+  website and major retailers. The published creatine review in this cluster is the
+  [500 g unflavored monohydrate powder](/supplements/creatine/products/nutricost-creatine-monohydrate-500g).
 logo: /images/brands/placeholder.svg
 categories:
   - creatine
@@ -32,8 +33,8 @@ isPlaceholder: false
 noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-08-25'
+  lastReviewed: '2026-08-25'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
@@ -44,3 +45,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 2F-2B creatine cluster publication
+    - date: '2026-08-25'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Growth Pass 1 — linked brand profile to the 500 g creatine powder review

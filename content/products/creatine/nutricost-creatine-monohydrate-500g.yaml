@@ -77,6 +77,74 @@ labelTransparencyNotes: >
 evidenceNotes: >
   Product form aligns with commonly studied creatine monohydrate context. SuppCheckr score reflects label and value
   factors, not individual results.
+editorialReview:
+  summary: >
+    SuppCheckr reviewed Nutricost's 500 g unflavored creatine monohydrate powder from cited Supplement Facts and dated
+    retailer pricing. The 84/100 creatine-profile score reflects a clear 5 g scoop serving and simple formula, not a
+    verdict that the product is "good" for every buyer. Third-party testing is recorded as a retailer/brand statement
+    because no batch COA or NSF certificate URL was captured.
+  verified:
+    - Cited Supplement Facts list micronized creatine monohydrate at 5 g per 5 g scoop.
+    - The cited listing shows 100 servings in the 500 g container.
+    - Nutricost.com listed the unflavored 500 g variant at $23.97 on 2026-06-26, which is $0.24 per 5 g serving.
+  brandOrRetailerClaims:
+    - Retailer copy describes third-party testing at a marketing level.
+    - SuppCheckr did not capture a batch COA, NSF certificate, or other recognized program listing for this SKU.
+  labelAndDose: >
+    The cited iHerb Supplement Facts for Performance Creatine Monohydrate 500 g show 5 g creatine monohydrate per 5 g
+    scoop and 100 servings. That is straightforward dose disclosure. Nutricost also sells flavored creatine SKUs, so
+    buyers should confirm the unflavored 500 g listing before purchase.
+  testing: >
+    Testing status is claimed, not verified. Retailer language is not the same as a captured NSF, Informed Sport, USP,
+    or batch COA document. The 55 testing criterion score records that distinction. SuppCheckr did not find NSF
+    certification documentation for this 500 g powder.
+  value: >
+    Using the 2026-06-26 Nutricost.com price of $23.97 and 100 servings of 5 g, price per serving and price per 5 g
+    creatine are both $0.24. That dated figure is cluster context, not a live price. Confirm the current retailer price
+    before buying.
+  format: >
+    This SKU is an unflavored powder with a 5 g scoop serving on the cited label. That is simpler to compare with other
+    5 g powders than capsule products such as
+    [NOW Sports 750 mg veg capsules](/supplements/creatine/products/now-sports-creatine-monohydrate-capsules-120)
+    that require several capsules per serving. The cited Supplement Facts describe a scoop serving; SuppCheckr could not
+    independently verify that every 500 g container includes a physical scoop.
+  bottomLine: >
+    On cited label facts and dated price math, this 500 g Nutricost powder is a clear, budget-oriented monohydrate
+    option in the creatine cluster. SuppCheckr does not treat the 84 score as proof the product is legitimate in a
+    legal or testing-program sense, or as a personal recommendation. If a captured third-party certificate is required,
+    this review does not currently provide one.
+  faq:
+    - question: What does the Nutricost creatine review cover?
+      answer: >
+        This page reviews the 500 g unflavored Nutricost creatine monohydrate powder using cited Supplement Facts, dated
+        Nutricost.com pricing, and the creatine scoring profile. It is not a hands-on test and not medical advice.
+    - question: Is Nutricost creatine good?
+      answer: >
+        SuppCheckr does not answer that as a general endorsement. The 84/100 score means this SKU compared well on
+        label clarity, a 5 g monohydrate serving, formula simplicity, and dated price per 5 g, while documented
+        third-party certification was not captured. Whether that mix fits a buyer depends on their own priorities.
+    - question: Is Nutricost creatine legitimate?
+      answer: >
+        SuppCheckr verified a cited Supplement Facts panel and a dated retailer price for this SKU. That is not a
+        company-background investigation or a legal determination. Buyers who need certification paperwork should look
+        for a captured COA or recognized program listing, which this review did not find for the 500 g powder.
+    - question: Is Nutricost creatine third-party tested?
+      answer: >
+        Retailer copy states third-party testing. SuppCheckr records that as a claimed statement because no certificate
+        URL or batch COA was captured for this SKU.
+    - question: Is Nutricost creatine NSF certified?
+      answer: >
+        SuppCheckr did not find NSF certification documentation for this 500 g unflavored powder. Absence of a captured
+        NSF listing is not the same as proof that no program exists; it means this review could not independently
+        verify NSF certification.
+    - question: Does Nutricost creatine come with a scoop?
+      answer: >
+        The cited Supplement Facts list the serving size as 1 scoop (5 g). SuppCheckr could not independently verify
+        that a physical scoop is included in every 500 g container.
+    - question: What was the cited Nutricost creatine 500 g price?
+      answer: >
+        Nutricost.com listed the unflavored 500 g variant at $23.97 on 2026-06-26 ($0.24 per 5 g serving). Check the
+        retailer for the current price.
 relatedProductIds:
   - creatine-optimum-nutrition-600g
   - creatine-klean-athlete-klean-creatine
@@ -172,8 +240,8 @@ isPlaceholder: false
 noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-08-25'
+  lastReviewed: '2026-08-25'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
@@ -184,3 +252,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 7B — exact Amazon ASIN B00GL2HMES mapped; affiliate CTA enabled
+    - date: '2026-08-25'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Growth Pass 1 — expanded label-first editorial review, verification vs claim split, and query-driven FAQ

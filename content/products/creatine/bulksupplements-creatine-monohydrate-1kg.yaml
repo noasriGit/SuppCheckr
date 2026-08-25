@@ -78,6 +78,66 @@ labelTransparencyNotes: >
 evidenceNotes: >
   Monohydrate micronized powder aligns with commonly studied creatine context. Value scoring uses cited manual price at
   draft time.
+editorialReview:
+  summary: >
+    This is a label-and-value review of the 1 kg BulkSupplements micronized creatine monohydrate powder, not a hands-on
+    product test. SuppCheckr scored the SKU 83/100 on the creatine profile because the cited Supplement Facts list a
+    simple 5 g monohydrate serving and the 2026-06-26 brand price was among the lower price-per-5 g figures in this
+    cluster, while third-party testing remains a brand statement rather than a captured certificate.
+  verified:
+    - Cited Supplement Facts list micronized creatine monohydrate at about 5 g per 2 tsp serving.
+    - The 1 kg (CM1KG) listing showed 200 servings and $31.97 on 2026-06-26, which is $0.16 per 5 g serving.
+    - No other ingredients appear on the cited Supplement Facts panel.
+  brandOrRetailerClaims:
+    - BulkSupplements marketing references third-party testing and cGMP manufacturing.
+    - SuppCheckr did not capture an NSF, Informed Sport, or batch COA URL for this SKU.
+  labelAndDose: >
+    The brand page Supplement Facts for this 1 kg variant list a 2 tsp serving of about 5 g creatine monohydrate and 200
+    servings per container. Suggested-use copy also mentions a 7 g maintenance option, so buyers comparing directions
+    should use the Supplement Facts 5 g serving for apples-to-apples dose math rather than mixing teaspoon language with
+    a different gram amount.
+  testing: >
+    Testing status is recorded as claimed, not verified. Brand marketing mentions third-party testing, but this review
+    does not treat that language as a captured NSF, Informed Sport, or batch-specific certificate. The creatine scoring
+    profile weights documented testing; the 55 testing criterion score reflects that gap.
+  value: >
+    Using the 2026-06-26 BulkSupplements.com price of $31.97 and 200 servings of 5 g, price per serving and price per 5 g
+    creatine are both $0.16. That dated figure is a value context for this cluster, not a live checkout price. Confirm
+    the current retailer price before buying.
+  format: >
+    This listing is a 1 kg bulk powder with a volume-based 2 tsp serving rather than a capsule count. Compared with
+    [NOW Sports 750 mg veg capsules](/supplements/creatine/products/now-sports-creatine-monohydrate-capsules-120), a
+    powder bag avoids taking six capsules for a similar creatine amount, but it requires measuring and may be less
+    convenient for travel. SuppCheckr did not inspect packaging and cannot confirm whether a scoop is included.
+  bottomLine: >
+    The 1 kg BulkSupplements creatine monohydrate powder is a high-value, single-ingredient label in this cluster when
+    judged on cited facts and dated price math. It is not a verified-certification pick. Choose it if bulk powder and
+    price per 5 g matter more than a captured third-party certificate; look at documented-testing capsule or powder
+    options if certification evidence is required before purchase.
+  faq:
+    - question: What does the SuppCheckr BulkSupplements creatine review cover?
+      answer: >
+        This page reviews the 1 kg micronized creatine monohydrate powder using cited Supplement Facts, dated brand
+        pricing, and the creatine scoring profile. It does not report lab results from SuppCheckr and is not medical
+        advice.
+    - question: How does SuppCheckr assess BulkSupplements creatine quality?
+      answer: >
+        Quality here means label transparency, dose clarity, formula simplicity, documented testing, and dated value —
+        not an overall endorsement. The 83/100 score is strong on simple monohydrate labeling and price per 5 g, and
+        weaker on captured third-party certification.
+    - question: What does the 1 kg BulkSupplements creatine monohydrate listing show?
+      answer: >
+        The cited brand listing for the 1 kg (CM1KG) variant shows about 5 g creatine monohydrate per 2 tsp serving and
+        200 servings per container. Always confirm the SKU on the live product page.
+    - question: What is the cited BulkSupplements creatine price per serving?
+      answer: >
+        On 2026-06-26 the brand listed this 1 kg variant at $31.97, which is $0.16 per 5 g serving using 200 servings.
+        Prices change; check the retailer for the current price.
+    - question: How does BulkSupplements creatine powder compare with capsules?
+      answer: >
+        This SKU is a bulk powder with a teaspoon serving. Capsule products in the same category, such as NOW Sports
+        750 mg veg capsules, list creatine per capsule count instead of a scoop or teaspoon and may document different
+        testing programs. Format is a convenience choice; scores still follow the same label and testing criteria.
 relatedProductIds:
   - creatine-nutricost-500g
   - creatine-optimum-nutrition-600g
@@ -173,8 +233,8 @@ isPlaceholder: false
 noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-08-25'
+  lastReviewed: '2026-08-25'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
@@ -185,3 +245,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 7B — exact Amazon ASIN B00E9M4XEE mapped; affiliate CTA enabled
+    - date: '2026-08-25'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Growth Pass 1 — expanded label-first editorial review, verification vs claim split, and query-driven FAQ

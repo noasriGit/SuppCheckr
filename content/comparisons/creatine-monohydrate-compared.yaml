@@ -52,14 +52,16 @@ productCriterionLabels:
       - third-party tested
 caveats:
   - >-
-    Nutricost and BulkSupplements third-party testing remains claimed unless a batch COA or recognized certificate URL
-    is captured.
+    [Nutricost 500 g powder](/supplements/creatine/products/nutricost-creatine-monohydrate-500g) and
+    [BulkSupplements 1 kg powder](/supplements/creatine/products/bulksupplements-creatine-monohydrate-1kg) third-party
+    testing remains claimed unless a batch COA or recognized certificate URL is captured.
   - >-
-    NOW Sports capsules provide 4.5 g creatine monohydrate per six-capsule serving; price per 5 g is normalized in
-    product YAML and the table.
+    [NOW Sports 750 mg veg capsules](/supplements/creatine/products/now-sports-creatine-monohydrate-capsules-120)
+    provide 4.5 g creatine monohydrate per six-capsule serving; price per 5 g is normalized in the product review and
+    this table.
   - >-
-    BulkSupplements label includes 5 g Supplement Facts serving and separate 7 g direction language — see product review
-    for context.
+    BulkSupplements label includes 5 g Supplement Facts serving and separate 7 g direction language — see the
+    [1 kg powder review](/supplements/creatine/products/bulksupplements-creatine-monohydrate-1kg) for context.
   - Optimum Nutrition entry is scoped to the 600 g / 120-serving unflavored SKU only.
   - All prices are manually observed on 2026-06-26 — check current price at the retailer.
 filtersEnabled: true
@@ -105,8 +107,8 @@ isPlaceholder: false
 noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-08-25'
+  lastReviewed: '2026-08-25'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
@@ -117,3 +119,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 2F-2B creatine cluster publication
+    - date: '2026-08-25'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Growth Pass 1 — added descriptive links to BulkSupplements, Nutricost, and NOW capsule reviews

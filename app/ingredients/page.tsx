@@ -4,7 +4,7 @@ import { PageContainer } from "@/components/layout/SiteChrome";
 import { getIndexableCategories, getIndexableIngredients } from "@/lib/content/loader";
 
 export const metadata = buildPageMetadata({
-  title: "Ingredient Library | SuppCheckr",
+  title: "Ingredient Library",
   description:
     "Ingredient reference pages for Creatine monohydrate, Magnesium, Vitamin C, and Electrolytes — forms, label reading, dosage context, and safety notes.",
   path: "/ingredients",

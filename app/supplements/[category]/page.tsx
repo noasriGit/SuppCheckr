@@ -25,6 +25,7 @@ import {
   isIndexable,
 } from "@/lib/content/loader";
 import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
+import { InlineMarkdown } from "@/components/content/InlineMarkdown";
 import { isReservedSlug } from "@/config/reserved-slugs";
 
 export async function generateStaticParams() {
@@ -86,6 +87,7 @@ export default async function CategoryPage({
             { label: "Supplements", href: "/supplements" },
             { label: category.name },
           ]}
+          currentPath={`/supplements/${categorySlug}`}
         />
         {category.isPlaceholder && <PlaceholderBanner />}
         {!category.isPlaceholder && category.status === "review_ready" && (
@@ -94,7 +96,9 @@ export default async function CategoryPage({
           </p>
         )}
         <h1 className="text-3xl font-bold text-heading">{category.pluralName}</h1>
-        <p className="mt-3 text-foreground">{category.intro || category.description}</p>
+        <p className="mt-3 text-foreground">
+          <InlineMarkdown text={category.intro || category.description} />
+        </p>
         <EditorialDates
           lastUpdated={category.editorial.lastUpdated}
           lastReviewed={category.editorial.lastReviewed}
@@ -113,7 +117,7 @@ export default async function CategoryPage({
           <section className="mt-6 rounded-lg border border-border bg-surface p-4">
             <h2 className="text-lg font-semibold text-heading">Coverage scope</h2>
             <p className="mt-2 text-sm leading-relaxed text-foreground">
-              {category.clusterScopeNote}
+              <InlineMarkdown text={category.clusterScopeNote} />
             </p>
           </section>
         )}
@@ -192,6 +196,24 @@ export default async function CategoryPage({
             categorySlug={categorySlug}
             displayLabels={displayLabels}
           />
+          {products.some((product) => product.editorialReview?.summary) && (
+            <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-foreground">
+              {products
+                .filter((product) => product.editorialReview?.summary)
+                .map((product) => (
+                  <li key={product.id}>
+                    <Link
+                      href={`/supplements/${categorySlug}/products/${product.slug}`}
+                      className="text-link hover:text-link-hover hover:underline"
+                    >
+                      {product.name}
+                    </Link>
+                    {" — "}
+                    {product.editorialReview?.summary.split(/(?<=\.)\s/)[0]}
+                  </li>
+                ))}
+            </ul>
+          )}
         </section>
 
         {category.faq.length > 0 && (

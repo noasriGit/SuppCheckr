@@ -1,32 +1,54 @@
 import type { Metadata } from "next";
 import { siteConfig, shouldBlockAllCrawlers } from "@/config/site";
 import { shouldNoindexStaticPath } from "@/lib/seo/indexing";
+import { canonicalUrl } from "@/lib/seo/canonical";
+import { resolveDocumentTitle } from "@/lib/seo/titles";
+import { isPlaceholderProductImage } from "@/lib/product/productImageContext";
+
+export function buildRobots(noindex: boolean): NonNullable<Metadata["robots"]> {
+  if (shouldBlockAllCrawlers()) {
+    return { index: false, follow: false };
+  }
+  if (noindex) {
+    return { index: false, follow: true };
+  }
+  return { index: true, follow: true };
+}
 
 export function buildPageMetadata(options: {
   title: string;
   description: string;
   path: string;
   noindex?: boolean;
+  image?: { src: string; alt?: string };
 }): Metadata {
-  const url = `${siteConfig.url}${options.path}`;
+  const url = canonicalUrl(options.path);
+  const title = resolveDocumentTitle(options.title);
   const noindex =
     options.noindex ??
     (shouldBlockAllCrawlers() || shouldNoindexStaticPath(options.path));
+  const imageSrc = options.image?.src;
+  const socialImage =
+    imageSrc && !isPlaceholderProductImage(imageSrc)
+      ? {
+          url: canonicalUrl(imageSrc),
+          alt: options.image?.alt,
+        }
+      : undefined;
 
   return {
-    title: options.title,
+    title: { absolute: title },
     description: options.description,
     alternates: { canonical: url },
     openGraph: {
-      title: options.title,
+      title,
       description: options.description,
       url,
       siteName: siteConfig.name,
       type: "website",
+      ...(socialImage ? { images: [socialImage] } : {}),
     },
-    robots: noindex
-      ? { index: false, follow: false }
-      : { index: true, follow: true },
+    robots: buildRobots(noindex),
   };
 }
 

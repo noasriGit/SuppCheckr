@@ -79,6 +79,26 @@ export const ProductSchema = GovernanceFieldsSchema.extend({
   avoidIf: z.array(z.string()).default([]),
   labelTransparencyNotes: z.string().default(""),
   evidenceNotes: z.string().default(""),
+  editorialReview: z
+    .object({
+      summary: z.string(),
+      verified: z.array(z.string()).default([]),
+      brandOrRetailerClaims: z.array(z.string()).default([]),
+      labelAndDose: z.string().optional(),
+      testing: z.string().optional(),
+      value: z.string().optional(),
+      format: z.string().optional(),
+      bottomLine: z.string().optional(),
+      faq: z
+        .array(
+          z.object({
+            question: z.string(),
+            answer: z.string(),
+          }),
+        )
+        .default([]),
+    })
+    .optional(),
   relatedProductIds: z.array(z.string()).default([]),
   comparisonGroupIds: z.array(z.string()).default([]),
   claims: z.array(ClaimSchema).default([]),

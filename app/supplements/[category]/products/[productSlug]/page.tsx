@@ -33,6 +33,9 @@ import {
   isActiveContent,
 } from "@/lib/content/loader";
 import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
+import { ProductEditorialReview } from "@/components/product/ProductEditorialReview";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { buildProductJsonLd, resolveIndexableProductImageSrc } from "@/lib/seo/jsonld";
 
 export async function generateStaticParams() {
   const params: { category: string; productSlug: string }[] = [];
@@ -54,11 +57,15 @@ export async function generateMetadata({
   if (!product) return {};
   const brand = getBrands().find((b) => b.id === product.brandId);
   const seo = seoTemplates.product(product.name, brand?.name ?? "Brand");
+  const imageSrc = resolveIndexableProductImageSrc(product);
   return buildPageMetadata({
     title: product.seo.title ?? seo.title,
     description: product.seo.description ?? seo.description,
     path: `/supplements/${category}/products/${productSlug}`,
     noindex: entityNoindex(product),
+    image: imageSrc
+      ? { src: imageSrc, alt: product.images.product.alt }
+      : undefined,
   });
 }
 
@@ -105,6 +112,14 @@ export default async function ProductPage({
       }
     >
       <PageContainer className="py-0">
+        <JsonLd
+          data={buildProductJsonLd({
+            product,
+            brand,
+            category,
+            path: productPath,
+          })}
+        />
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
@@ -112,6 +127,7 @@ export default async function ProductPage({
             { label: category.name, href: `/supplements/${categorySlug}` },
             { label: product.name },
           ]}
+          currentPath={productPath}
         />
         {product.isPlaceholder && <PlaceholderBanner />}
         {!product.isPlaceholder && product.status === "review_ready" && (
@@ -149,6 +165,8 @@ export default async function ProductPage({
           lastUpdated={product.editorial.lastUpdated}
           lastReviewed={product.editorial.lastReviewed}
         />
+
+        <ProductEditorialReview product={product} sections="intro" />
 
         <section className="mt-6 rounded-lg border border-border bg-surface p-4 text-sm text-foreground">
           <h2 className="font-semibold text-heading">{displayLabels.exploreCategoryHeading}</h2>
@@ -215,6 +233,8 @@ export default async function ProductPage({
         <section className="mt-10">
           <ProsCons pros={product.pros} cons={product.cons} />
         </section>
+
+        <ProductEditorialReview product={product} sections="analysis" />
 
         {product.labelTransparencyNotes && (
           <section className="mt-10 rounded-lg border border-border bg-surface p-4 text-sm text-foreground">

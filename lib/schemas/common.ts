@@ -38,6 +38,7 @@ export const SourceTypeSchema = z.enum([
 export const EditorialFieldsSchema = z.object({
   lastUpdated: z.string(),
   lastReviewed: z.string(),
+  /** Editorial desk ID (currently `suppcheckr-editorial`). Named author records are not published yet. */
   reviewedBy: z.string(),
   updateLog: z
     .array(

@@ -70,6 +70,7 @@ export default async function HeadToHeadPage({
           { label: "Compare", href: "/compare" },
           { label: comparison.title },
         ]}
+        currentPath={`/compare/${comparisonSlug}`}
       />
       {comparison.isPlaceholder && <PlaceholderBanner />}
       <h1 className="text-3xl font-bold text-heading">{comparison.title}</h1>

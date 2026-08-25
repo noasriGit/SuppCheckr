@@ -4,7 +4,8 @@ name: NOW Foods
 website: https://www.nowfoods.com
 description: >
   NOW Foods manufactures dietary supplements and natural products, including NOW Sports creatine capsules and powders
-  sold through health retailers.
+  sold through health retailers. SuppCheckr's dedicated creatine capsule review is
+  [NOW Sports Creatine Monohydrate 750 mg Veg Capsules](/supplements/creatine/products/now-sports-creatine-monohydrate-capsules-120).
 logo: /images/brands/placeholder.svg
 categories:
   - creatine
@@ -32,8 +33,8 @@ isPlaceholder: false
 noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-08-25'
+  lastReviewed: '2026-08-25'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
@@ -44,3 +45,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 2F-2B creatine cluster publication
+    - date: '2026-08-25'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Growth Pass 1 — linked brand profile to the 750 mg veg capsules review

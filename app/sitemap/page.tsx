@@ -8,37 +8,40 @@ import {
 } from "@/components/sitemap/SitemapSections";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { getSitemapSections } from "@/lib/seo/htmlSitemap";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { type JsonLdObject } from "@/lib/seo/jsonld";
+import { canonicalUrl } from "@/lib/seo/canonical";
 
 export const metadata = buildPageMetadata({
-  title: "Site Map | SuppCheckr",
+  title: "Site Map",
   description:
     "Browse all indexable SuppCheckr pages — supplement categories, product reviews, guides, ingredients, brands, and trust pages.",
   path: "/sitemap",
 });
 
-function StructuredData({ sections }: { sections: ReturnType<typeof getSitemapSections> }) {
-  const pageUrl = `${siteConfig.url}/sitemap`;
+function sitemapJsonLd(sections: ReturnType<typeof getSitemapSections>): JsonLdObject {
+  const pageUrl = canonicalUrl("/sitemap");
   const itemList = sections.all.map((record, index) => ({
     "@type": "ListItem",
     position: index + 1,
     name: record.title,
-    url: `${siteConfig.url}${record.url}`,
+    url: canonicalUrl(record.url),
   }));
 
-  const jsonLd = {
+  return {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "CollectionPage",
         "@id": `${pageUrl}#webpage`,
         url: pageUrl,
-        name: "Site Map | SuppCheckr",
+        name: "Site Map",
         description:
           "Browse all indexable SuppCheckr pages — supplement categories, product reviews, guides, ingredients, brands, and trust pages.",
         isPartOf: {
           "@type": "WebSite",
           name: siteConfig.name,
-          url: siteConfig.url,
+          url: canonicalUrl("/"),
         },
       },
       {
@@ -48,7 +51,7 @@ function StructuredData({ sections }: { sections: ReturnType<typeof getSitemapSe
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: siteConfig.url,
+            item: canonicalUrl("/"),
           },
           {
             "@type": "ListItem",
@@ -66,13 +69,6 @@ function StructuredData({ sections }: { sections: ReturnType<typeof getSitemapSe
       },
     ],
   };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-    />
-  );
 }
 
 export default function HtmlSitemapPage() {
@@ -80,13 +76,14 @@ export default function HtmlSitemapPage() {
 
   return (
     <PageContainer>
-      <StructuredData sections={sections} />
+      <JsonLd data={sitemapJsonLd(sections)} />
 
       <Breadcrumbs
         items={[
           { label: "Home", href: "/" },
           { label: "Site Map" },
         ]}
+        currentPath="/sitemap"
       />
 
       <h1 className="text-3xl font-bold text-heading">Site map</h1>

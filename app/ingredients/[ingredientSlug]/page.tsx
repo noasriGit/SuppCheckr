@@ -13,6 +13,8 @@ import {
 } from "@/components/trust/TrustModules";
 import { SourcesList } from "@/components/citations/ContentBlocks";
 import { ProductCard } from "@/components/product/ProductBlocks";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { buildIngredientArticleJsonLd } from "@/lib/seo/jsonld";
 import {
   getIngredients,
   getIngredientBySlug,
@@ -84,15 +86,18 @@ export default async function IngredientPage({
     .filter((p): p is NonNullable<typeof p> => Boolean(p && isActiveContent(p) && !p.isPlaceholder));
 
   const brands = getBrands();
+  const ingredientPath = `/ingredients/${ingredientSlug}`;
 
   return (
     <PageContainer>
+      <JsonLd data={buildIngredientArticleJsonLd(ingredient, ingredientPath)} />
       <Breadcrumbs
         items={[
           { label: "Home", href: "/" },
           { label: "Ingredients", href: "/ingredients" },
           { label: ingredient.name },
         ]}
+        currentPath={ingredientPath}
       />
       {ingredient.isPlaceholder && <PlaceholderBanner />}
       <h1 className="text-3xl font-bold text-heading">{ingredient.name}</h1>
@@ -125,6 +130,32 @@ export default async function IngredientPage({
       {relatedProducts.length > 0 && category && (
         <section className="mt-10">
           <h2 className="text-lg font-semibold text-heading">Related product reviews</h2>
+          {ingredient.slug === "creatine-monohydrate" && (
+            <p className="mt-2 text-sm text-foreground">
+              Label reviews in this cluster include the{" "}
+              <Link
+                href="/supplements/creatine/products/bulksupplements-creatine-monohydrate-1kg"
+                className="text-link hover:text-link-hover hover:underline"
+              >
+                1 kg BulkSupplements monohydrate powder
+              </Link>
+              ,{" "}
+              <Link
+                href="/supplements/creatine/products/nutricost-creatine-monohydrate-500g"
+                className="text-link hover:text-link-hover hover:underline"
+              >
+                Nutricost&apos;s 500 g unflavored powder
+              </Link>
+              , and the{" "}
+              <Link
+                href="/supplements/creatine/products/now-sports-creatine-monohydrate-capsules-120"
+                className="text-link hover:text-link-hover hover:underline"
+              >
+                NOW Sports 750 mg veg capsule bottle
+              </Link>
+              .
+            </p>
+          )}
           {!isIndexable(category) && (
             <p className="mt-2 text-sm text-muted">Draft reviews — not indexed until publication.</p>
           )}

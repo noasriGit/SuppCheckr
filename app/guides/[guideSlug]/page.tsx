@@ -10,6 +10,9 @@ import {
   AffiliateDisclosure,
 } from "@/components/trust/TrustModules";
 import { SourcesList } from "@/components/citations/ContentBlocks";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { InlineMarkdown } from "@/components/content/InlineMarkdown";
+import { buildGuideArticleJsonLd } from "@/lib/seo/jsonld";
 import {
   getGuides,
   getGuideBySlug,
@@ -53,7 +56,7 @@ function renderGuideBody(body: string) {
         <section key={index} className="mt-8">
           <h2 className="text-xl font-semibold text-heading">{heading}</h2>
           <div className="prose mt-3 max-w-3xl whitespace-pre-wrap text-sm leading-relaxed text-foreground">
-            {renderInlineMarkdown(content)}
+            <InlineMarkdown text={content} />
           </div>
         </section>
       );
@@ -64,29 +67,9 @@ function renderGuideBody(body: string) {
         key={index}
         className="prose mt-4 max-w-3xl whitespace-pre-wrap text-sm leading-relaxed text-foreground"
       >
-        {renderInlineMarkdown(block.trim())}
+        <InlineMarkdown text={block.trim()} />
       </div>
     );
-  });
-}
-
-function renderInlineMarkdown(text: string) {
-  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
-  return parts.map((part, i) => {
-    const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-    if (linkMatch) {
-      const [, label, href] = linkMatch;
-      return (
-        <Link
-          key={i}
-          href={href}
-          className="text-link underline hover:text-link-hover"
-        >
-          {label}
-        </Link>
-      );
-    }
-    return <span key={i}>{part}</span>;
   });
 }
 
@@ -103,9 +86,11 @@ export default async function GuidePage({
   const relatedGuides = guide.relatedGuideSlugs
     .map((slug) => getGuideBySlug(slug))
     .filter((g) => g && g.slug !== guide.slug && g.status !== "archived");
+  const guidePath = `/guides/${guideSlug}`;
 
   return (
     <PageContainer>
+      <JsonLd data={buildGuideArticleJsonLd(guide, guidePath)} />
       <Breadcrumbs
         items={[
           { label: "Home", href: "/" },
@@ -120,6 +105,7 @@ export default async function GuidePage({
             : []),
           { label: guide.title },
         ]}
+        currentPath={guidePath}
       />
       {guide.isPlaceholder && <PlaceholderBanner />}
       <h1 className="text-3xl font-bold text-heading">{guide.title}</h1>

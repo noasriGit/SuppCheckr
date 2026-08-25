@@ -8,7 +8,7 @@ import {
 } from "@/lib/content/loader";
 
 export const metadata = buildPageMetadata({
-  title: "Supplement Brands | SuppCheckr",
+  title: "Supplement Brands",
   description:
     "Brand profiles for supplements with published SuppCheckr product reviews in Creatine, Magnesium, Vitamin C, and Electrolytes categories.",
   path: "/brands",

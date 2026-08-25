@@ -37,8 +37,11 @@ body: |
   SuppCheckr compares publicly available label information for creatine monohydrate products in our
   [creatine category hub](/supplements/creatine): form disclosure, grams per serving, other ingredients,
   third-party testing documentation, and dated manual price context. See the
-  [comparison table](/supplements/creatine/compare) for side-by-side published reviews. Scores reflect
-  transparency and value — not proof that a product will work for you.
+  [  comparison table](/supplements/creatine/compare) for side-by-side published reviews. Scores reflect
+  transparency and value — not proof that a product will work for you. Examples include the
+  [1 kg BulkSupplements powder](/supplements/creatine/products/bulksupplements-creatine-monohydrate-1kg),
+  [Nutricost 500 g unflavored powder](/supplements/creatine/products/nutricost-creatine-monohydrate-500g),
+  and [NOW Sports 750 mg veg capsules](/supplements/creatine/products/now-sports-creatine-monohydrate-capsules-120).
 
   ## Related reading
 
@@ -77,8 +80,8 @@ isPlaceholder: false
 noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-08-25'
+  lastReviewed: '2026-08-25'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
@@ -89,3 +92,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 2F-2B creatine cluster publication
+    - date: '2026-08-25'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Growth Pass 1 — added natural links to published creatine product reviews

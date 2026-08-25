@@ -35,6 +35,10 @@ body: |
   If creatine is listed inside a proprietary blend without a specific amount, dose
   transparency is limited — SuppCheckr flags that in reviews.
 
+  Capsule labels can look different from powders. [NOW Sports Creatine Monohydrate 750 mg Veg Capsules](/supplements/creatine/products/now-sports-creatine-monohydrate-capsules-120)
+  list 4.5 g per six capsules, while several published powders list 5 g per scoop. Compare grams of creatine, not
+  capsule count or bag weight alone.
+
   ## Loading vs. maintenance on product labels
 
   Some labels describe a loading phase and a maintenance phase; others list one serving size
@@ -77,8 +81,8 @@ isPlaceholder: false
 noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-08-25'
+  lastReviewed: '2026-08-25'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
@@ -89,3 +93,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 2F-2B creatine cluster publication
+    - date: '2026-08-25'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Growth Pass 1 — added capsule vs powder serving comparison with NOW Sports review link

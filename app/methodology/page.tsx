@@ -9,7 +9,7 @@ import {
 } from "@/lib/content/loader";
 
 export const metadata = buildPageMetadata({
-  title: "Review Methodology | SuppCheckr",
+  title: "Review Methodology",
   description:
     "How SuppCheckr scores supplements using transparent, category-aware criteria including label clarity, testing, and value.",
   path: "/methodology",

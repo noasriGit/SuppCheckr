@@ -8,7 +8,7 @@ import {
 } from "@/lib/content/loader";
 
 export const metadata = buildPageMetadata({
-  title: "Supplement Comparisons | SuppCheckr",
+  title: "Supplement Comparisons",
   description:
     "Published Creatine, Magnesium, Vitamin C, and Electrolytes comparison tables by label transparency, dosage clarity, testing, and dated value.",
   path: "/compare",

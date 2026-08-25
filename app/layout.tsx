@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Header, Footer } from "@/components/layout/SiteChrome";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { siteConfig, shouldBlockAllCrawlers } from "@/config/site";
+import { buildGlobalGraphJsonLd } from "@/lib/seo/jsonld";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -50,6 +52,7 @@ export default function RootLayout({
         />
       </head>
       <body className="flex min-h-full flex-col antialiased">
+        <JsonLd data={buildGlobalGraphJsonLd()} />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-primary-muted focus:px-3 focus:py-2 focus:text-heading"

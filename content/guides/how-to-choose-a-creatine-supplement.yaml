@@ -27,7 +27,9 @@ body: |
   - **Servings per container**
 
   SuppCheckr weights dose transparency heavily in creatine scoring because value and
-  usefulness depend on knowing how much creatine each serving provides.
+  usefulness depend on knowing how much creatine each serving provides. Powder labels in this
+  cluster often list 5 g per scoop, while [NOW Sports 750 mg veg capsules](/supplements/creatine/products/now-sports-creatine-monohydrate-capsules-120)
+  list 4.5 g per six capsules — compare grams, not container size.
 
   ## Review other ingredients and additives
 
@@ -49,6 +51,8 @@ body: |
   - **Price per serving**
   - **Price per 5 g creatine equivalent** (when grams per serving are clear)
 
+  Dated examples in published reviews include the [1 kg BulkSupplements powder](/supplements/creatine/products/bulksupplements-creatine-monohydrate-1kg)
+  and [Nutricost 500 g unflavored powder](/supplements/creatine/products/nutricost-creatine-monohydrate-500g).
   Retail prices change. Always check the retailer for the current price before purchasing.
 
   ## What to be cautious about on listings
@@ -71,6 +75,8 @@ body: |
   - [What is creatine?](/guides/what-is-creatine)
   - [Creatine dosage guide](/guides/creatine-dosage-guide)
   - [Creatine category overview](/supplements/creatine)
+  - [1 kg BulkSupplements powder review](/supplements/creatine/products/bulksupplements-creatine-monohydrate-1kg)
+  - [Nutricost 500 g powder review](/supplements/creatine/products/nutricost-creatine-monohydrate-500g)
 relatedGuideSlugs:
   - what-is-creatine
   - creatine-dosage-guide
@@ -102,8 +108,8 @@ isPlaceholder: false
 noindex: false
 claimRiskLevel: low
 editorial:
-  lastUpdated: '2026-06-26'
-  lastReviewed: '2026-06-26'
+  lastUpdated: '2026-08-25'
+  lastReviewed: '2026-08-25'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-06-26'
@@ -114,3 +120,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 2F-2B creatine cluster publication
+    - date: '2026-08-25'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Growth Pass 1 — added natural links to published creatine powder and capsule reviews

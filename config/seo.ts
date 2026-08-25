@@ -6,33 +6,33 @@ export const seoTemplates = {
     description: siteConfig.description,
   },
   supplementsIndex: {
-    title: "Supplement Categories | SuppCheckr",
+    title: "Supplement Categories",
     description:
       "Browse published Creatine, Magnesium, Vitamin C, and Electrolytes categories with ingredient references, guides, product reviews, and comparison tables.",
   },
   guidesIndex: {
-    title: "Supplement Guides | SuppCheckr",
+    title: "Supplement Guides",
     description:
       "Educational guides for Creatine, Magnesium, Vitamin C, and Electrolytes — forms, label reading, dosage context, and safety notes.",
   },
   category: (name: string) => ({
-    title: `${name} Supplements — Compare & Review | SuppCheckr`,
+    title: `${name} Supplements — Compare & Review`,
     description: `Compare ${name.toLowerCase()} supplements by label transparency, dosage clarity, testing, and value on SuppCheckr.`,
   }),
   product: (product: string, brand: string) => ({
-    title: `${product} Review — ${brand} | SuppCheckr`,
+    title: `${product} Review — ${brand}`,
     description: `SuppCheckr review of ${product} by ${brand}.`,
   }),
   comparison: (title: string) => ({
-    title: `${title} | SuppCheckr`,
+    title,
     description: `Supplement comparison on SuppCheckr: ${title}.`,
   }),
   ingredient: (name: string) => ({
-    title: `${name}: Forms, Dosage & Safety Notes | SuppCheckr`,
+    title: `${name}: Forms, Dosage & Safety Notes`,
     description: `Ingredient reference for ${name} on SuppCheckr.`,
   }),
   brand: (name: string) => ({
-    title: `${name} Supplements — Products & Transparency | SuppCheckr`,
+    title: `${name} Supplements — Products & Transparency`,
     description: `Brand profile for ${name} on SuppCheckr.`,
   }),
 } as const;

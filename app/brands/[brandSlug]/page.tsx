@@ -10,6 +10,7 @@ import {
 } from "@/components/trust/TrustModules";
 import { SourcesList } from "@/components/citations/ContentBlocks";
 import { ProductCard } from "@/components/product/ProductBlocks";
+import { InlineMarkdown } from "@/components/content/InlineMarkdown";
 import {
   getBrands,
   getBrandBySlug,
@@ -61,6 +62,7 @@ export default async function BrandPage({
           { label: "Brands", href: "/brands" },
           { label: brand.name },
         ]}
+        currentPath={`/brands/${brandSlug}`}
       />
       {!isIndexable(brand) && (
         <p className="mb-4 rounded-lg border border-warning-border bg-warning-bg px-4 py-2 text-sm text-warning-text">
@@ -68,7 +70,9 @@ export default async function BrandPage({
         </p>
       )}
       <h1 className="text-3xl font-bold text-heading">{brand.name}</h1>
-      <p className="mt-3 text-foreground">{brand.description}</p>
+      <p className="mt-3 text-foreground">
+        <InlineMarkdown text={brand.description} />
+      </p>
       <EditorialDates
         lastUpdated={brand.editorial.lastUpdated}
         lastReviewed={brand.editorial.lastReviewed}

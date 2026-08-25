@@ -22,6 +22,7 @@ import {
   getComparisons,
 } from "@/lib/content/loader";
 import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
+import { InlineMarkdown } from "@/components/content/InlineMarkdown";
 
 export async function generateStaticParams() {
   const comparisons = getComparisons().filter(
@@ -87,6 +88,7 @@ export default async function CategoryComparePage({
             { label: category.name, href: `/supplements/${categorySlug}` },
             { label: "Compare" },
           ]}
+          currentPath={`/supplements/${categorySlug}/compare`}
         />
         {comparison.isPlaceholder && <PlaceholderBanner />}
         {!comparison.isPlaceholder && comparison.status === "review_ready" && (
@@ -148,7 +150,9 @@ export default async function CategoryComparePage({
             <h2 className="text-sm font-semibold text-heading">Comparison caveats</h2>
             <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-foreground">
               {comparison.caveats.map((caveat) => (
-                <li key={caveat}>{caveat}</li>
+                <li key={caveat}>
+                  <InlineMarkdown text={caveat} />
+                </li>
               ))}
             </ul>
           </section>
@@ -168,16 +172,24 @@ export default async function CategoryComparePage({
         <section className="mt-8">
           <h2 className="text-lg font-semibold text-heading">Individual product reviews</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-foreground">
-            {products.map((product) => (
-              <li key={product.id}>
-                <Link
-                  href={`/supplements/${categorySlug}/products/${product.slug}`}
-                  className="text-link hover:text-link-hover hover:underline"
-                >
-                  {product.name}
-                </Link>
-              </li>
-            ))}
+            {products.map((product) => {
+              const serving = product.supplementFacts.servingSize;
+              const formatHint = /capsule|veg cap/i.test(`${product.name} ${serving}`)
+                ? "capsule review"
+                : /kg|500 g|600 g|powder/i.test(`${product.name} ${serving}`)
+                  ? "powder review"
+                  : "label review";
+              return (
+                <li key={product.id}>
+                  <Link
+                    href={`/supplements/${categorySlug}/products/${product.slug}`}
+                    className="text-link hover:text-link-hover hover:underline"
+                  >
+                    {product.name} {formatHint}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </section>
 
