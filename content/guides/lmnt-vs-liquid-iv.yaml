@@ -1,15 +1,15 @@
 slug: lmnt-vs-liquid-iv
-title: 'LMNT vs Liquid I.V.: Electrolyte Label Comparison'
+title: 'LMNT vs Liquid I.V.: Electrolyte Labels'
 categoryId: electrolytes
 excerpt: >
-  LMNT vs Liquid I.V. compared on publicly available label facts — sodium, potassium, magnesium disclosure, sugar,
-  sweeteners, serving format, and dated price per serving. Educational only; no medical recommendations or outcome claims.
+  LMNT vs Liquid I.V. compared on cited labels: sodium, potassium, magnesium disclosure, sugar, sweeteners,
+  serving format, and dated price per serving.
 body: |
   ## Introduction
 
   LMNT and Liquid I.V. are two widely compared electrolyte drink mixes sold as stick packs. This guide compares
-  **publicly available label information** from Phase 14C draft product research — sodium, potassium, magnesium
-  disclosure, sugar, sweeteners, serving format, and dated price per serving — not medical hydration outcomes.
+  **publicly available label information** — sodium, potassium, magnesium disclosure, sugar, sweeteners, serving
+  format, and dated price per serving — not medical hydration outcomes.
 
   SuppCheckr does not endorse either product for dehydration treatment, hangover-recovery, cramp-prevention, or medical
   superiority claims.
@@ -18,8 +18,8 @@ body: |
 
   ## Quick comparison table
 
-  Label facts below are for locked SKUs researched in Phase 14C (Citrus Salt 30-count LMNT; Lemon Lime 16-count Liquid
-  I.V. Hydration Multiplier). Confirm flavor and count before purchase.
+  Label facts below are for the cited SKUs (Citrus Salt 30-count LMNT; Lemon Lime 16-count Liquid I.V. Hydration
+  Multiplier). Confirm flavor and count before purchase.
 
   | Factor | LMNT Citrus Salt (30 sticks) | Liquid I.V. HM Lemon Lime (16 sticks) |
   | --- | --- | --- |
@@ -31,10 +31,9 @@ body: |
   | Sweeteners | Stevia leaf extract | Cane sugar, dextrose; trace rebiana (stevia) |
   | Serving format | 1 stick pack (~6 g) in 16–32 fl oz water | 1 stick (16 g) in ~16 fl oz water |
   | Price per serving (2026-07-15) | $1.50 ($45.00 ÷ 30) | $1.56 ($24.99 ÷ 16) |
-  | SuppCheckr draft score | 77 | 61 |
+  | SuppCheckr score | 77 | 61 |
 
-  Scores reflect label transparency and sourcing — not personal medical suitability. Both product reviews remain
-  `draft` / `noindex` until the Electrolytes cluster is published.
+  Scores reflect label transparency and sourcing — not personal medical suitability.
 
   ## Sodium difference
 
@@ -81,7 +80,7 @@ body: |
   - Liquid I.V.: clear sodium, potassium, and sugar disclosure; magnesium absent from US panel; **Hydration Multiplier**
     and faster-hydration marketing — higher claim-risk; SuppCheckr does not endorse hydration outcome claims
 
-  Neither product had verified NSF Certified for Sport or similar program listing matched in Phase 14C research. Thorne
+  Neither product had a verified NSF Certified for Sport or similar program listing matched in the cited review. Thorne
   Catalyte is the only shortlist product with verified NSF documentation — see the
   [electrolyte supplements comparison](/supplements/electrolytes/compare) for the full five-product table.
 
@@ -98,7 +97,7 @@ body: |
 
   According to NIH materials, high sodium intake may be a concern for some people. LMNT's 1,000 mg sodium per stick is
   materially higher than many daily-hydration formulas (for example, Ultima Replenisher lists 55 mg sodium per stick in
-  Phase 14C research).
+  the cited product review).
 
   SuppCheckr does not recommend high-sodium or lower-sodium products for any medical condition. People managing blood
   pressure, kidney disease, heart disease, fluid restrictions, or prescription medications should consult a qualified
@@ -113,35 +112,41 @@ body: |
   Electrolyte drink mixes are not oral rehydration therapy, IV fluids, or treatment for dehydration, electrolyte
   imbalance, illness-related fluid loss, heat illness, or hangover recovery.
 
-  ## How SuppCheckr will compare them once product reviews publish
+  ## How SuppCheckr scores them
 
-  When the Electrolytes cluster publishes, SuppCheckr product reviews and the
-  [comparison table](/supplements/electrolytes/compare) will score both products using the electrolytes scoring profile:
+  SuppCheckr product reviews and the
+  [comparison table](/supplements/electrolytes/compare) score both products using the electrolytes scoring profile:
   sodium/potassium/magnesium dose transparency, sugar and sweetener disclosure, label clarity, third-party testing
   documentation, dated price per serving, formula quality, and claim conservatism.
 
-  Draft Phase 14C scores: LMNT **77**, Liquid I.V. **61**. Scores are not medical recommendations.
+  Published scores for the cited SKUs: LMNT **77**, Liquid I.V. **61**. Scores are not medical recommendations.
 
   ## Frequently asked questions
 
   **Which has more sodium — LMNT or Liquid I.V.?**
+
   On cited Nutrition Facts for the locked SKUs, LMNT lists 1,000 mg sodium per stick; Liquid I.V. lists 500 mg per stick.
 
   **Which has more sugar?**
+
   Liquid I.V. lists 11 g total sugars per stick; LMNT lists 0 g total sugars per stick on cited materials.
 
   **Does Liquid I.V. contain magnesium?**
+
   Magnesium is not listed on the cited US Nutrition Facts panel for Hydration Multiplier Lemon Lime sticks. Do not treat
   absent lines as zero without label confirmation.
 
   **Is LMNT better than Liquid I.V.?**
+
   Neither is universally better. Labels differ in sodium, potassium, magnesium disclosure, sugar, sweeteners, and
   marketing claim risk. Compare label facts to your own priorities — not medical outcome promises.
 
   **Is Liquid I.V. an ORS or medical treatment product?**
+
   No. SuppCheckr compares retail electrolyte drink mixes as labeled products — not clinical oral rehydration therapy.
 
   **Which is cheaper per serving?**
+
   At the 2026-07-15 cited check, LMNT was $1.50/serving and Liquid I.V. was $1.56/serving. Verify current retailer
   prices before purchase.
 
@@ -206,8 +211,8 @@ isPlaceholder: false
 noindex: false
 claimRiskLevel: medium
 editorial:
-  lastUpdated: '2026-07-15'
-  lastReviewed: '2026-07-15'
+  lastUpdated: '2026-09-16'
+  lastReviewed: '2026-09-16'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-07-15'
@@ -218,3 +223,7 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: published
       summary: Phase 14F Electrolytes cluster publication
+    - date: '2026-09-16'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Removed stale prepublication language; scores described as published label scores

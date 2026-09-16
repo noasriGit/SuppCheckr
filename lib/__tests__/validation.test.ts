@@ -159,6 +159,7 @@ describe("comparison publication gate", () => {
         reviewedBy: "editor",
         updateLog: [],
       },
+      seo: {},
     } satisfies Comparison;
 
     const errors = validatePublishedComparison(comparison, []);

@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
 import sitemap from "@/app/sitemap";
+import robots from "@/app/robots";
+import { canonicalHostRedirects } from "@/lib/seo/hostRedirects";
 import {
   getSitemapRecords,
   validateSitemapRecords,
@@ -72,6 +74,26 @@ describe("xml sitemap canonicalization and dates", () => {
     expect(result.valid).toBe(true);
     const urls = getSitemapRecords().map((record) => record.url);
     expect(new Set(urls).size).toBe(urls.length);
+  });
+});
+
+describe("robots.txt and host redirects", () => {
+  it("references only the canonical www sitemap", () => {
+    const manifest = robots();
+    expect(manifest.sitemap).toBe(`${CANONICAL_ORIGIN}/sitemap.xml`);
+    expect(JSON.stringify(manifest)).not.toContain("https://suppcheckr.com/sitemap.xml");
+  });
+
+  it("permanently redirects the apex host to www", () => {
+    const redirects = canonicalHostRedirects();
+    expect(redirects).toEqual([
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "suppcheckr.com" }],
+        destination: `${CANONICAL_ORIGIN}/:path*`,
+        permanent: true,
+      },
+    ]);
   });
 });
 

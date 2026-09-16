@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { buildPageMetadata, entityNoindex } from "@/lib/seo/metadata";
-import { seoTemplates } from "@/config/seo";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { PageContainer } from "@/components/layout/SiteChrome";
 import { SidebarLayout } from "@/components/layout/SiteChrome";
@@ -35,6 +34,7 @@ import {
 import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 import { ProductEditorialReview } from "@/components/product/ProductEditorialReview";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { resolveProductSeo } from "@/lib/seo/entityMetadata";
 import { buildProductJsonLd, resolveIndexableProductImageSrc } from "@/lib/seo/jsonld";
 
 export async function generateStaticParams() {
@@ -56,7 +56,7 @@ export async function generateMetadata({
   const product = getProductBySlug(category, productSlug);
   if (!product) return {};
   const brand = getBrands().find((b) => b.id === product.brandId);
-  const seo = seoTemplates.product(product.name, brand?.name ?? "Brand");
+  const seo = resolveProductSeo(product, brand?.name ?? "Brand");
   const imageSrc = resolveIndexableProductImageSrc(product);
   return buildPageMetadata({
     title: product.seo.title ?? seo.title,

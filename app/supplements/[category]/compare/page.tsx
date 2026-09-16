@@ -22,6 +22,7 @@ import {
   getComparisons,
 } from "@/lib/content/loader";
 import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
+import { resolveComparisonSeo } from "@/lib/seo/entityMetadata";
 import { InlineMarkdown } from "@/components/content/InlineMarkdown";
 
 export async function generateStaticParams() {
@@ -44,9 +45,10 @@ export async function generateMetadata({
   const { category: categorySlug } = await params;
   const comparison = getCategoryComparison(categorySlug);
   if (!comparison) return { robots: { index: false } };
+  const seo = resolveComparisonSeo(comparison);
   return buildPageMetadata({
-    title: comparison.title,
-    description: comparison.subtitle,
+    title: seo.title,
+    description: seo.description,
     path: `/supplements/${categorySlug}/compare`,
     noindex: entityNoindex(comparison),
   });

@@ -120,3 +120,19 @@ a {
 .prose a:hover {
   color: var(--link-hover);
 }
+
+.guide-markdown > :first-child {
+  margin-top: 0;
+}
+
+.guide-markdown ul {
+  list-style: disc;
+}
+
+.guide-markdown ol {
+  list-style: decimal;
+}
+
+.guide-markdown table {
+  border-collapse: collapse;
+}

@@ -2,7 +2,6 @@ import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { buildPageMetadata, entityNoindex } from "@/lib/seo/metadata";
-import { seoTemplates } from "@/config/seo";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { PageContainer } from "@/components/layout/SiteChrome";
 import {
@@ -14,6 +13,7 @@ import {
 import { SourcesList } from "@/components/citations/ContentBlocks";
 import { ProductCard } from "@/components/product/ProductBlocks";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { resolveIngredientSeo } from "@/lib/seo/entityMetadata";
 import { buildIngredientArticleJsonLd } from "@/lib/seo/jsonld";
 import {
   getIngredients,
@@ -40,7 +40,7 @@ export async function generateMetadata({
   const { ingredientSlug } = await params;
   const ingredient = getIngredientBySlug(ingredientSlug);
   if (!ingredient) return {};
-  const seo = seoTemplates.ingredient(ingredient.name);
+  const seo = resolveIngredientSeo(ingredient);
   return buildPageMetadata({
     title: seo.title,
     description: seo.description,

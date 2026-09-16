@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { buildPageMetadata, entityNoindex } from "@/lib/seo/metadata";
-import { seoTemplates } from "@/config/seo";
+import { resolveCategorySeo } from "@/lib/seo/entityMetadata";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { PageContainer } from "@/components/layout/SiteChrome";
 import { SidebarLayout } from "@/components/layout/SiteChrome";
@@ -42,10 +42,10 @@ export async function generateMetadata({
   const { category: categorySlug } = await params;
   const category = getCategoryBySlug(categorySlug);
   if (!category) return {};
-  const seo = seoTemplates.category(category.name);
+  const seo = resolveCategorySeo(category);
   return buildPageMetadata({
-    title: category.seo.title ?? seo.title,
-    description: category.seo.description ?? category.shortDescription ?? seo.description,
+    title: seo.title,
+    description: seo.description,
     path: `/supplements/${categorySlug}`,
     noindex: entityNoindex(category),
   });

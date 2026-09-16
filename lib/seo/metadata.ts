@@ -4,6 +4,7 @@ import { shouldNoindexStaticPath } from "@/lib/seo/indexing";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { resolveDocumentTitle } from "@/lib/seo/titles";
 import { isPlaceholderProductImage } from "@/lib/product/productImageContext";
+import { collapseWhitespace } from "@/lib/seo/text";
 
 export function buildRobots(noindex: boolean): NonNullable<Metadata["robots"]> {
   if (shouldBlockAllCrawlers()) {
@@ -24,6 +25,7 @@ export function buildPageMetadata(options: {
 }): Metadata {
   const url = canonicalUrl(options.path);
   const title = resolveDocumentTitle(options.title);
+  const description = collapseWhitespace(options.description);
   const noindex =
     options.noindex ??
     (shouldBlockAllCrawlers() || shouldNoindexStaticPath(options.path));
@@ -38,11 +40,11 @@ export function buildPageMetadata(options: {
 
   return {
     title: { absolute: title },
-    description: options.description,
+    description,
     alternates: { canonical: url },
     openGraph: {
       title,
-      description: options.description,
+      description,
       url,
       siteName: siteConfig.name,
       type: "website",
