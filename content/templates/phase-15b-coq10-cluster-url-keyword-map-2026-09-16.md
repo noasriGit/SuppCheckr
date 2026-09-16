@@ -10,21 +10,23 @@ Titles below are **recommended** strings for a future `seo.title` field (layout 
 
 ---
 
-## Cluster inventory (10 URLs)
+## Cluster inventory
 
-1. `/supplements/coq10`  
-2. `/ingredients/coq10`  
-3. `/supplements/coq10/compare`  
-4. `/supplements/coq10/products/doctors-best-ubiquinol-kaneka-100-mg-60-softgels`  
-5. `/supplements/coq10/products/doctors-best-high-absorption-coq10-100-mg-120-softgels`  
-6. `/supplements/coq10/products/nutricost-coq10-200-mg-60-capsules`  
-7. `/supplements/coq10/products/kirkland-signature-coq10-300-mg-100-softgels`  
-8. `/guides/ubiquinol-vs-ubiquinone`  
-9. `/guides/how-to-choose-a-coq10-supplement`  
+Non-product URLs (intent plan unchanged; **do not create in this phase**):
 
-Wave-1 **does not** include dedicated `/guides/coq10-100mg-vs-200mg` or `/guides/coq10-softgels-vs-capsules` (15A had those as later options). Cover dose/format on the how-to guide until a KE pull proves separate intent.
+1. `/supplements/coq10` — owns `best coq10` / `best coq10 supplement` / `coq10 supplements`
+2. `/ingredients/coq10`
+3. `/supplements/coq10/compare`
+4. `/guides/ubiquinol-vs-ubiquinone` — owns form-comparison intent
+5. `/guides/how-to-choose-a-coq10-supplement` — owns `coq10 dosage` / `how to choose coq10` without medical dosing
 
-If a shortlist SKU is swapped, replace only that product URL; keep the eight non-product URLs.
+**Locked product URL (provisional slug only; no YAML):**
+
+6. `/supplements/coq10/products/life-extension-super-ubiquinol-coq10-100-mg-60-softgels`
+
+Product URLs for Doctor's Best, Nutricost, and Kirkland remain **unassigned** until those SKUs pass the launch gates (see blocker-resolution report). Wave 1 may ship with fewer than four reviews rather than filling slots with unverified SKUs.
+
+Wave-1 **does not** include dedicated `/guides/coq10-100mg-vs-200mg` or `/guides/coq10-softgels-vs-capsules`. No disease, statin, fertility, migraine, blood-pressure, or heart-treatment pages.
 
 ---
 
@@ -67,17 +69,18 @@ If a shortlist SKU is swapped, replace only that product URL; keep the eight non
 | Claim-risk | Sort by SuppCheckr score ≠ medical ranking. Disclose BioPerine / soy / gelatin as label facts. |
 | Required sources | Four product labels; USP directory URL for Kirkland; methodology |
 
-### 4. Product — Doctor's Best Ubiquinol 100 mg 60 softgels
+### 4. Product — Life Extension Super Ubiquinol 100 mg 60 softgels (locked SKU)
 
 | Field | Recommendation |
 |-------|----------------|
-| Primary keyword | doctors best ubiquinol (branded) |
-| Secondary | kaneka ubiquinol 100 mg (supporting) |
+| Primary keyword | life extension ubiquinol (branded; `best ubiquinol supplement` stays supporting on the form guide) |
+| Secondary | kaneka ubiquinol 100 mg |
 | Intent | Commercial product review |
-| Title | Doctor's Best Ubiquinol 100 mg Review |
-| Meta description | Label review of Doctor's Best Ubiquinol 100 mg (60 softgels): Kaneka ubiquinol, olive oil base, dated price per 100 mg. Not medical advice. |
-| Internal links | Hub; compare; form guide; ubiquinone DB sibling |
-| Claim-risk | Do not argue ubiquinol is “always better.” |
+| Title | Life Extension Ubiquinol 100 mg Review |
+| Meta description | Label review of Life Extension Super Ubiquinol CoQ10 100 mg (60 softgels, item 01929): Kaneka ubiquinol, olive oil base, dated price per 100 mg. Not medical advice. |
+| Internal links | Hub; compare; form guide |
+| Claim-risk | Do not argue ubiquinol is “always better.” Do not treat AutoShip price as the list price. |
+| Required sources | https://www.lifeextension.com/vitamins-supplements/item01929/super-ubiquinol-coq10 ; NCCIH for form context |
 | Required sources | https://www.doctorsbest.com/products/doctor-s-best-ubiquinol-100-mg-60-softgels-17133 ; NCCIH for form context |
 
 ### 5. Product — Doctor's Best High Absorption 100 mg 120 softgels

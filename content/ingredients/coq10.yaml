@@ -89,5 +89,5 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: >-
-        Phase 15B research refresh — still draft/noindex; no product or guide links; NIH ODS CoQ10 HP URL
-        404 documented in 2026-09-16 source-gap checklist (citation not changed in this shell)
+        Phase 15B evening blocker-resolution — still draft/noindex; NIH ODS CoQ10 HP URL documented
+        as 404/retired in research templates (citation URL not silently replaced in this shell)

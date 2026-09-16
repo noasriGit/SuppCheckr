@@ -6,7 +6,9 @@
 **Git baseline:** `a90281d` (`main` after PR #4) → branch `research/coq10-phase-15b`
 
 See also (historical, not current): [`phase-8a-keyword-sorting-report-2026-07-07.md`](./phase-8a-keyword-sorting-report-2026-07-07.md), [`phase-8a-keyword-sorted-output-2026-07-07.csv`](./phase-8a-keyword-sorted-output-2026-07-07.csv), [`phase-15a-coq10-category-blueprint-2026-07-07.md`](./phase-15a-coq10-category-blueprint-2026-07-07.md).  
-Companion 15B files: [`coq10-product-longlist-research-2026-09-16.md`](./coq10-product-longlist-research-2026-09-16.md), [`phase-15b-coq10-shortlist-decision-2026-09-16.md`](./phase-15b-coq10-shortlist-decision-2026-09-16.md), [`phase-15b-coq10-cluster-url-keyword-map-2026-09-16.md`](./phase-15b-coq10-cluster-url-keyword-map-2026-09-16.md), [`phase-15b-coq10-source-gap-claim-risk-checklist-2026-09-16.md`](./phase-15b-coq10-source-gap-claim-risk-checklist-2026-09-16.md), [`phase-15b-coq10-phase-15c-readiness-2026-09-16.md`](./phase-15b-coq10-phase-15c-readiness-2026-09-16.md).
+Companion 15B files: [`coq10-product-longlist-research-2026-09-16.md`](./coq10-product-longlist-research-2026-09-16.md), [`phase-15b-coq10-shortlist-decision-2026-09-16.md`](./phase-15b-coq10-shortlist-decision-2026-09-16.md), [`phase-15b-coq10-cluster-url-keyword-map-2026-09-16.md`](./phase-15b-coq10-cluster-url-keyword-map-2026-09-16.md), [`phase-15b-coq10-source-gap-claim-risk-checklist-2026-09-16.md`](./phase-15b-coq10-source-gap-claim-risk-checklist-2026-09-16.md), [`phase-15b-coq10-blocker-resolution-2026-09-16.md`](./phase-15b-coq10-blocker-resolution-2026-09-16.md), [`phase-15b-coq10-phase-15c-readiness-2026-09-16.md`](./phase-15b-coq10-phase-15c-readiness-2026-09-16.md).
+
+**Evening re-check (same date):** Authenticated Ahrefs remained unavailable. The ten-keyword snapshot and remaining KE gate live in the blocker-resolution report. This file does **not** treat 2026-07-07 volumes or KD as current.
 
 ---
 
