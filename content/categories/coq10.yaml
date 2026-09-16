@@ -36,11 +36,23 @@ isPlaceholder: false
 noindex: true
 claimRiskLevel: medium
 editorial:
-  lastUpdated: '2026-07-15'
-  lastReviewed: '2026-07-15'
+  lastUpdated: '2026-09-16'
+  lastReviewed: '2026-09-16'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-07-15'
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 15A draft/noindex category shell — no products, guides, comparison, or affiliate links
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 15B product longlist research completed — 22 candidates screened; 5-product shortlist recommended;
+        still draft/noindex; no product or guide links added
+    - date: '2026-09-16'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 15B keyword/SKU refresh (2026-09-16) — four-role shortlist recommended in research templates;
+        still draft/noindex; no product, guide, comparison, or affiliate links added

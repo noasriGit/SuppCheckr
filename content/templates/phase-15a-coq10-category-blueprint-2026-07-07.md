@@ -1,5 +1,7 @@
 # Phase 15A — CoQ10 Category Blueprint
 
+> **Later keyword refresh:** Phase 8A / 15A KD and volume figures below are historical (Ahrefs export dated 2026-07-07). Current planning should use [`phase-15b-coq10-keyword-refresh-2026-09-16.md`](./phase-15b-coq10-keyword-refresh-2026-09-16.md) and must not treat `best coq10 supplement` KD 3 as a current ranking-difficulty input.
+
 **Date:** 2026-07-07  
 **Project:** SuppCheckr.com (prelaunch)  
 **Phase type:** Planning only — no live CoQ10 pages, products, or category publication in this phase
