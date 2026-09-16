@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { CitationSchema, GovernanceFieldsSchema } from "./common";
+import { CitationSchema, GovernanceFieldsSchema, SeoFieldsSchema } from "./common";
 
 export const ComparisonSchema = GovernanceFieldsSchema.extend({
   id: z.string(),
@@ -25,6 +25,7 @@ export const ComparisonSchema = GovernanceFieldsSchema.extend({
     .default([]),
   caveats: z.array(z.string()).default([]),
   sources: z.array(CitationSchema).default([]),
+  seo: SeoFieldsSchema.default({}),
 });
 
 export type Comparison = z.output<typeof ComparisonSchema>;

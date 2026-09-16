@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
-import { siteConfig, shouldBlockAllCrawlers } from "@/config/site";
+import { shouldBlockAllCrawlers } from "@/config/site";
+import { CANONICAL_ORIGIN } from "@/lib/seo/canonical";
 
 export default function robots(): MetadataRoute.Robots {
   if (shouldBlockAllCrawlers()) {
@@ -14,6 +15,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: `${siteConfig.url}/sitemap.xml`,
+    sitemap: `${CANONICAL_ORIGIN}/sitemap.xml`,
   };
 }

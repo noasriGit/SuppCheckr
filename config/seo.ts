@@ -21,18 +21,18 @@ export const seoTemplates = {
   }),
   product: (product: string, brand: string) => ({
     title: `${product} Review — ${brand}`,
-    description: `SuppCheckr review of ${product} by ${brand}.`,
+    description: `Label review of ${product} by ${brand}: serving facts, testing documentation, and dated price context. Educational only — not medical advice.`,
   }),
   comparison: (title: string) => ({
     title,
-    description: `Supplement comparison on SuppCheckr: ${title}.`,
+    description: `Side-by-side ${title.toLowerCase()} by label facts, testing documentation, and dated prices. Scores are editorial — not medical advice.`,
   }),
   ingredient: (name: string) => ({
     title: `${name}: Forms, Dosage & Safety Notes`,
-    description: `Ingredient reference for ${name} on SuppCheckr.`,
+    description: `${name} ingredient reference covering common forms, typical dosage context, and safety notes. Educational only — not medical advice.`,
   }),
   brand: (name: string) => ({
     title: `${name} Supplements — Products & Transparency`,
-    description: `Brand profile for ${name} on SuppCheckr.`,
+    description: `${name} brand profile: published product reviews, testing notes, and label transparency. Not a manufacturer website.`,
   }),
 } as const;

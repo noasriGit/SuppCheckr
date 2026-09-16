@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Header, Footer } from "@/components/layout/SiteChrome";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { siteConfig, shouldBlockAllCrawlers } from "@/config/site";
 import { buildGlobalGraphJsonLd } from "@/lib/seo/jsonld";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,6 +18,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  themeColor: "#0b1120",
+};
+
 export const metadata: Metadata = {
   title: {
     default: "SuppCheckr | Check the Supplement Before You Buy",
@@ -24,7 +29,6 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
-  themeColor: "#0b1120",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
@@ -65,6 +69,7 @@ export default function RootLayout({
         </div>
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

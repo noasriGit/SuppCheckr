@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { buildPageMetadata, entityNoindex } from "@/lib/seo/metadata";
-import { seoTemplates } from "@/config/seo";
+import { resolveBrandSeo } from "@/lib/seo/entityMetadata";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { PageContainer } from "@/components/layout/SiteChrome";
 import {
@@ -34,7 +34,7 @@ export async function generateMetadata({
   const { brandSlug } = await params;
   const brand = getBrandBySlug(brandSlug);
   if (!brand) return {};
-  const seo = seoTemplates.brand(brand.name);
+  const seo = resolveBrandSeo(brand);
   return buildPageMetadata({
     title: seo.title,
     description: seo.description,

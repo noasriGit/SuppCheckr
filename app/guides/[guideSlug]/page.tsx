@@ -11,7 +11,8 @@ import {
 } from "@/components/trust/TrustModules";
 import { SourcesList } from "@/components/citations/ContentBlocks";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { InlineMarkdown } from "@/components/content/InlineMarkdown";
+import { GuideMarkdown } from "@/components/content/GuideMarkdown";
+import { resolveGuideSeo } from "@/lib/seo/entityMetadata";
 import { buildGuideArticleJsonLd } from "@/lib/seo/jsonld";
 import {
   getGuides,
@@ -34,42 +35,12 @@ export async function generateMetadata({
   const { guideSlug } = await params;
   const guide = getGuideBySlug(guideSlug);
   if (!guide) return {};
+  const seo = resolveGuideSeo(guide);
   return buildPageMetadata({
-    title: guide.title,
-    description: guide.excerpt,
+    title: seo.title,
+    description: seo.description,
     path: `/guides/${guideSlug}`,
     noindex: entityNoindex(guide),
-  });
-}
-
-function renderGuideBody(body: string) {
-  const blocks = body.trim().split(/\n(?=## )/);
-
-  return blocks.map((block, index) => {
-    const lines = block.split("\n");
-    const firstLine = lines[0]?.trim() ?? "";
-
-    if (firstLine.startsWith("## ")) {
-      const heading = firstLine.replace(/^## /, "");
-      const content = lines.slice(1).join("\n").trim();
-      return (
-        <section key={index} className="mt-8">
-          <h2 className="text-xl font-semibold text-heading">{heading}</h2>
-          <div className="prose mt-3 max-w-3xl whitespace-pre-wrap text-sm leading-relaxed text-foreground">
-            <InlineMarkdown text={content} />
-          </div>
-        </section>
-      );
-    }
-
-    return (
-      <div
-        key={index}
-        className="prose mt-4 max-w-3xl whitespace-pre-wrap text-sm leading-relaxed text-foreground"
-      >
-        <InlineMarkdown text={block.trim()} />
-      </div>
-    );
   });
 }
 
@@ -114,7 +85,9 @@ export default async function GuidePage({
         lastUpdated={guide.editorial.lastUpdated}
         lastReviewed={guide.editorial.lastReviewed}
       />
-      <article className="mt-4">{renderGuideBody(guide.body)}</article>
+      <article className="mt-4">
+        <GuideMarkdown markdown={guide.body} />
+      </article>
 
       {(relatedGuides.length > 0 || category) && (
         <section className="mt-10 rounded-lg border border-border bg-surface p-4">
