@@ -11,18 +11,22 @@ See also: [`coq10-claim-language-guide.md`](./coq10-claim-language-guide.md), [`
 
 ---
 
-## V1 bucket slots (planning — map each shortlist product to one slot)
+## V1 launch mix (updated 2026-09-17)
+
+Wave 1 is a **minimum of three** evidence-complete products with distinct comparison purposes. Preferred later expansion is four or more. Do **not** fill empty testing or budget roles.
+
+Current locked purposes (research only; no YAML in 15B): ubiquinol softgel; mainstream 100 mg ubiquinone softgel; higher-dose dry veg capsule. See [`phase-15b-coq10-final-sourcing-2026-09-17.md`](./phase-15b-coq10-final-sourcing-2026-09-17.md).
+
+Historical planning buckets (not a forced launch roster):
 
 | Slot | Bucket | Notes |
 |------|--------|-------|
-| 1 | **Ubiquinol softgel (premium form)** | e.g., Qunol Mega Ubiquinol, Doctor's Best Ubiquinol — verify locked SKU |
-| 2 | **Ubiquinone softgel (mainstream)** | e.g., Doctor's Best Ubiquinone, NOW CoQ10 — verify oil base |
-| 3 | **100 mg dose anchor** | Common retail dose — form may vary |
-| 4 | **200 mg dose anchor** | Higher dose — serving count and price/100 mg context |
-| 5 | **Budget/value ubiquinone** | Price-per-100-mg anchor |
-| 6 | **Combo / defer** (PQQ, omega-3, high claim-risk) | Defer unless strong label case — document complexity |
-
-*Final slot count and bucket mix subject to user approval before shortlist lock.*
+| 1 | **Ubiquinol softgel (premium form)** | Locked: Life Extension 01929 |
+| 2 | **Ubiquinone softgel (mainstream)** | Locked: Jarrow Q-absorb 100 mg 60ct |
+| 3 | **100 mg dose anchor** | Covered by SKUs 1–2 |
+| 4 | **200 mg dose anchor** | Locked: NOW 200 mg 60 veg caps |
+| 5 | **Budget/value ubiquinone** | Optional later — do not fill with incomplete facts |
+| 6 | **Combo / defer** (PQQ, omega-3, high claim-risk) | Defer unless strong label case |
 
 ---
 

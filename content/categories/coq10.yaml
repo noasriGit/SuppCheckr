@@ -36,11 +36,29 @@ isPlaceholder: false
 noindex: true
 claimRiskLevel: medium
 editorial:
-  lastUpdated: '2026-07-15'
-  lastReviewed: '2026-07-15'
+  lastUpdated: '2026-09-17'
+  lastReviewed: '2026-09-17'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-07-15'
       authorId: suppcheckr-editorial
       changeType: created
       summary: Phase 15A draft/noindex category shell — no products, guides, comparison, or affiliate links
+    - date: '2026-07-15'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 15B product longlist research completed — 22 candidates screened; 5-product shortlist recommended;
+        still draft/noindex; no product or guide links added
+    - date: '2026-09-16'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 15B evening blocker-resolution — still draft/noindex; no product or guide links;
+        NIH ODS CoQ10 HP URL documented as 404/retired (citation not silently replaced)
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 15B final sourcing — still draft/noindex; no product or guide links; limited 15C
+        three-SKU research lock recorded without creating product YAML
