@@ -2,6 +2,7 @@
 
 **Date:** 2026-09-16  
 **Phase:** 15B — research/planning only  
+**Superseded for launch SKUs by:** [`phase-15b-coq10-final-sourcing-2026-09-17.md`](./phase-15b-coq10-final-sourcing-2026-09-17.md) (three-product limited 15C lock). This file remains the 2026-09-16 longlist refresh.  
 **Price-check date:** 2026-09-16 (official brand or named retailer; **not Amazon live price, reviews, Q&A, ratings, or images**)  
 **Historical companion:** [`coq10-product-longlist-research-2026-07-07.md`](./coq10-product-longlist-research-2026-07-07.md) (July 15 pass; do not treat as current)
 

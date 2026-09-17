@@ -5,7 +5,9 @@
 **Status:** Research planning document — not published content  
 **Purpose:** Pin authoritative references and document source rules before CoQ10 guide drafting and product YAML (later phases).
 
-See also: [`coq10-claim-language-guide.md`](./coq10-claim-language-guide.md), [`coq10-product-research-checklist.md`](./coq10-product-research-checklist.md), [`phase-15a-coq10-category-blueprint-2026-07-07.md`](./phase-15a-coq10-category-blueprint-2026-07-07.md), [`ubiquinol-vs-ubiquinone-guide-blueprint-2026-07-07.md`](./ubiquinol-vs-ubiquinone-guide-blueprint-2026-07-07.md), [`citation-id-conventions.md`](./citation-id-conventions.md).
+See also: [`coq10-claim-language-guide.md`](./coq10-claim-language-guide.md), [`coq10-product-research-checklist.md`](./coq10-product-research-checklist.md), [`phase-15a-coq10-category-blueprint-2026-07-07.md`](./phase-15a-coq10-category-blueprint-2026-07-07.md), [`ubiquinol-vs-ubiquinone-guide-blueprint-2026-07-07.md`](./ubiquinol-vs-ubiquinone-guide-blueprint-2026-07-07.md), [`citation-id-conventions.md`](./citation-id-conventions.md), [`phase-15b-coq10-final-sourcing-2026-09-17.md`](./phase-15b-coq10-final-sourcing-2026-09-17.md).
+
+**2026-09-17 source repair:** The NIH ODS CoQ10 Health Professional URL is **not** a live citation. Use NCCIH + FDA. Preserve the dead ODS URL and 404 finding below.
 
 ---
 
@@ -26,17 +28,22 @@ See also: [`coq10-claim-language-guide.md`](./coq10-claim-language-guide.md), [`
 
 ## A. Core authoritative sources
 
-### `nih-coq10-hp` (recommended — primary)
+### `nih-coq10-hp` (retired — do not cite as live)
 
 | Field | Value |
 |-------|-------|
 | **Citation ID** | `nih-coq10-hp` |
 | **URL** | https://ods.od.nih.gov/factsheets/CoenzymeQ10-HealthProfessional/ |
 | **Source type** | `NIH` |
-| **Access date** | 2026-07-07 |
+| **Access date** | 2026-07-07 (planning); live-fetch **HTTP 404** on 2026-09-16; automated re-check **HTTP 403** on 2026-09-17 |
 | **Publisher** | NIH Office of Dietary Supplements |
+| **Disposition** | **Retired / removed** as a standalone ODS Health Professional fact sheet. Preserve this URL and the 404 finding in research history. Do **not** use as a live ingredient or guide citation. ODS `list-all` pointed CoQ10 to NCCIH. |
 
-**Can support (`health_context`, `safety_context`):**
+**Historical can-support list (do not use this URL for new copy):** general CoQ10 description, food sources, overview-level safety, interaction notes, cautious form wording when the live sheet supported it.
+
+**Do not use this URL for new copy.** The list below is the historical 15A planning intent only.
+
+**Historical planning notes (`health_context`, `safety_context`):**
 
 - General description of CoQ10 and its role in normal cellular processes
 - Food sources of CoQ10 (conservative summary)
@@ -55,7 +62,7 @@ See also: [`coq10-claim-language-guide.md`](./coq10-claim-language-guide.md), [`
 
 ---
 
-### `nih-coq10-consumer` (optional)
+### `nih-coq10-consumer` (do not treat as live unless re-verified)
 
 | Field | Value |
 |-------|-------|
@@ -64,21 +71,22 @@ See also: [`coq10-claim-language-guide.md`](./coq10-claim-language-guide.md), [`
 | **Source type** | `NIH` |
 | **Access date** | 2026-07-07 |
 
-**Can support:** Consumer-facing general context when HP sheet is too dense; same claim boundaries as HP sheet.
+The Health Professional sibling URL 404'd on 2026-09-16. Do not assume the consumer sheet remains a live CoQ10 ODS page. Use NCCIH for general background.
 
 **Cannot support:** Disease-treatment or medication advice.
 
 ---
 
-### `nccih-coq10-overview` (recommended)
+### `nccih-coq10-overview` (recommended — primary live background)
 
 | Field | Value |
 |-------|-------|
 | **Citation ID** | `nccih-coq10-overview` |
 | **URL** | https://www.nccih.nih.gov/health/coenzyme-q10 |
 | **Source type** | `NIH` |
-| **Access date** | 2026-07-07 |
+| **Access date** | 2026-07-07; re-verified live **2026-09-17** |
 | **Publisher** | National Center for Complementary and Integrative Health |
+| **Page note** | Last Updated: January 2019 (as displayed on the live page) |
 
 **Can support:**
 
@@ -101,7 +109,7 @@ See also: [`coq10-claim-language-guide.md`](./coq10-claim-language-guide.md), [`
 | **Citation ID** | `fda-dietary-supplements-overview` |
 | **URL** | https://www.fda.gov/food/dietary-supplements |
 | **Source type** | `FDA` |
-| **Access date** | 2026-07-07 |
+| **Access date** | 2026-07-07; re-verified live **2026-09-17** |
 
 **Same citation ID and URL as Creatine, Magnesium, Vitamin C, and Electrolytes clusters.**
 
@@ -164,8 +172,8 @@ See also: [`coq10-claim-language-guide.md`](./coq10-claim-language-guide.md), [`
 
 | Source type | Use | Caution |
 |-------------|-----|---------|
-| NIH ODS CoQ10 fact sheets | Form overview, general safety, research summary | No disease-treatment framing |
-| NCCIH CoQ10 page | Conservative use-context overview | No product picks |
+| NIH ODS CoQ10 HP fact sheet (historical URL) | **Retired/404** — keep in research history only | Do not cite as live |
+| NCCIH CoQ10 page | Conservative use-context, safety, and limited-evidence overview | No product picks; do not convert bottom-line bullets into shopping claims |
 | PubMed / consensus reviews | Background only when cited conservatively | Not primary ranking evidence |
 | Official brand Supplement Facts | Primary product evidence | Mirror marketing as `brand_claim` only |
 

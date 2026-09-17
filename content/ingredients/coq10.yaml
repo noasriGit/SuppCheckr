@@ -16,54 +16,47 @@ aliases:
   - Ubiquinone
   - Ubiquinol
 evidenceSummary: >
-  Coenzyme Q10 (CoQ10) is a compound involved in normal cellular energy processes. According to NIH Office of Dietary
-  Supplements and NCCIH materials, CoQ10 is found in some foods and is also sold in dietary supplements, commonly as
-  ubiquinone or ubiquinol in softgel or capsule forms. Supplement labels may list different CoQ10 forms, doses per
-  serving, carrier oils, and added ingredients. Research has examined CoQ10 in various health contexts; individual needs
-  and medication use vary. SuppCheckr summarizes label and product-comparison information — not medical advice.
-  SuppCheckr does not rank CoQ10 products for heart disease, blood pressure, cholesterol, statin use, fertility,
+  Coenzyme Q10 (CoQ10) is a compound involved in normal cellular energy processes. According to NCCIH materials, CoQ10
+  is naturally present in the body, is found in some foods, and is sold in the United States as a dietary supplement,
+  commonly as ubiquinone or ubiquinol in softgel or capsule forms. Supplement labels may list different CoQ10 forms,
+  doses per serving, carrier oils, and added ingredients. Research has examined CoQ10 in various health contexts;
+  individual needs and medication use vary. SuppCheckr summarizes label and product-comparison information — not medical
+  advice. SuppCheckr does not rank CoQ10 products for heart disease, blood pressure, cholesterol, statin use, fertility,
   migraine, Parkinson's disease, anti-aging, or guaranteed energy outcomes.
 typicalDosageRange: >
-  NIH and NCCIH materials describe that supplemental CoQ10 doses in research and retail products vary widely (commonly
-  discussed ranges include roughly 30–200 mg per day in general supplement contexts, with higher doses appearing in some
-  products and studies). Product serving sizes and CoQ10 mg per serving differ by brand, form, and softgel count. Dietary
-  intake from food plus supplemental intake should be considered together. This page does not prescribe a dose. Consult a
-  qualified healthcare professional before starting or changing CoQ10 supplements, especially if pregnant, nursing, under
-  18, taking medications (including blood thinners), preparing for surgery, managing a heart condition, liver or kidney
+  NCCIH materials describe CoQ10 as a dietary supplement with doses that vary across products and studies. Product
+  serving sizes and CoQ10 mg per serving differ by brand, form, and capsule or softgel count. Dietary intake from food
+  plus supplemental intake should be considered together. This page does not prescribe a dose. Consult a qualified
+  healthcare professional before starting or changing CoQ10 supplements, especially if pregnant, nursing, under 18,
+  taking medications (including blood thinners), preparing for surgery, managing a heart condition, liver or kidney
   disease, or another medical condition.
 safetyNotes: >
-  According to NIH and NCCIH materials, CoQ10 supplements have been studied in various populations, but evidence for
-  routine use in specific medical conditions is limited and context-dependent. CoQ10 may interact with anticoagulant and
-  antiplatelet medications (e.g., warfarin) and other prescriptions — consult a pharmacist or qualified healthcare
-  professional. CoQ10 supplements are not a substitute for medical care or prescribed cardiovascular treatment. Product
-  labels, warnings, formulas, and softgel materials can change — verify the current label before use.
+  According to NCCIH materials, no serious side effects of CoQ10 have been reported, though mild effects such as
+  insomnia or digestive upsets may occur. NCCIH notes that CoQ10 may interact with the anticoagulant warfarin and the
+  diabetes drug insulin, and it may not be compatible with some types of cancer treatment — consult a pharmacist or
+  qualified healthcare professional. CoQ10 supplements are not a substitute for medical care or prescribed
+  cardiovascular treatment. Product labels, warnings, formulas, and capsule or softgel materials can change — verify the
+  current label before use.
 interactions: >
-  NIH and NCCIH materials note potential interactions with anticoagulant/antiplatelet drugs and other medications. This
-  summary is not a complete interaction list. Do not start, stop, or change medications based on supplement marketing.
-  Consult a qualified healthcare professional or pharmacist if you take prescription medications or manage a chronic
-  medical condition.
+  NCCIH materials note potential interactions with warfarin and insulin, and possible incompatibility with some cancer
+  treatments. This summary is not a complete interaction list. Do not start, stop, or change medications based on
+  supplement marketing. Consult a qualified healthcare professional or pharmacist if you take prescription medications
+  or manage a chronic medical condition.
 relatedProductIds: []
 relatedGuideSlugs: []
 sources:
-  - id: nih-coq10-hp
-    title: Coenzyme Q10 — Health Professional Fact Sheet
-    publisher: NIH Office of Dietary Supplements
-    url: https://ods.od.nih.gov/factsheets/CoenzymeQ10-HealthProfessional/
-    accessDate: '2026-07-15'
-    sourceType: NIH
-    supportsClaimIds: []
   - id: nccih-coq10-overview
     title: Coenzyme Q10 — NCCIH Overview
     publisher: National Center for Complementary and Integrative Health
     url: https://www.nccih.nih.gov/health/coenzyme-q10
-    accessDate: '2026-07-15'
+    accessDate: '2026-09-17'
     sourceType: NIH
     supportsClaimIds: []
   - id: fda-dietary-supplements-overview
     title: FDA — Dietary Supplements
     publisher: U.S. Food and Drug Administration
     url: https://www.fda.gov/food/dietary-supplements
-    accessDate: '2026-07-15'
+    accessDate: '2026-09-17'
     sourceType: FDA
     supportsClaimIds: []
 status: draft
@@ -71,8 +64,8 @@ isPlaceholder: false
 noindex: true
 claimRiskLevel: medium
 editorial:
-  lastUpdated: '2026-09-16'
-  lastReviewed: '2026-09-16'
+  lastUpdated: '2026-09-17'
+  lastReviewed: '2026-09-17'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-07-15'
@@ -91,3 +84,11 @@ editorial:
       summary: >-
         Phase 15B evening blocker-resolution — still draft/noindex; NIH ODS CoQ10 HP URL documented
         as 404/retired in research templates (citation URL not silently replaced in this shell)
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 15B final sourcing — still draft/noindex; removed retired NIH ODS CoQ10 Health
+        Professional URL (404 on 2026-09-16) from the live source list; NCCIH overview is the live
+        general background/safety citation; FDA dietary-supplements page retained; dead ODS URL
+        preserved in research history only

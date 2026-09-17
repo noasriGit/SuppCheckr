@@ -1,6 +1,6 @@
 # Phase 15A — CoQ10 Category Blueprint
 
-> **Later keyword refresh:** Phase 8A / 15A KD and volume figures below are historical (Ahrefs export dated 2026-07-07). Current planning should use [`phase-15b-coq10-keyword-refresh-2026-09-16.md`](./phase-15b-coq10-keyword-refresh-2026-09-16.md) and must not treat `best coq10 supplement` KD 3 as a current ranking-difficulty input.
+> **Later keyword refresh:** Phase 8A / 15A KD and volume figures below are historical (Ahrefs export dated 2026-07-07). Current planning should use [`phase-15b-coq10-keyword-refresh-2026-09-16.md`](./phase-15b-coq10-keyword-refresh-2026-09-16.md). Do **not** treat `best coq10 supplement` as KD 3; the 2026-09-16 Ahrefs US figure is **KD 46**. Hub primary is `best coq10`.
 
 **Date:** 2026-07-07  
 **Project:** SuppCheckr.com (prelaunch)  
@@ -144,8 +144,8 @@ See [`coq10-source-inventory-2026-07-07.md`](./coq10-source-inventory-2026-07-07
 
 | Source | Use for |
 |--------|---------|
-| NIH ODS CoQ10 HP/consumer sheets | Nutrient context, safety caveats |
-| NCCIH CoQ10 overview | Conservative use-context |
+| NIH ODS CoQ10 HP/consumer sheets | **Retired/404 as live HP citation** — historical planning only |
+| NCCIH CoQ10 overview | Conservative use-context and safety |
 | FDA dietary supplements overview | Regulatory framing |
 | FTC endorsement + health products guidance | Affiliate and claim substantiation |
 | NSF / USP / Informed Choice/Sport | Third-party testing verification |

@@ -1,8 +1,10 @@
 # Phase 15B — Blocker-resolution report (2026-09-16, evening pass)
 
+> **Superseded for launch-readiness by** [`phase-15b-coq10-final-sourcing-2026-09-17.md`](./phase-15b-coq10-final-sourcing-2026-09-17.md) (**READY FOR LIMITED 15C**, three SKUs). This evening file remains the 2026-09-16 **NOT READY** evidence lock.
+
 **Retrieval date:** 2026-09-16  
 **Branch / PR:** `research/coq10-phase-15b` / [#5](https://github.com/noasriGit/SuppCheckr/pull/5)  
-**Verdict (authoritative):** **NOT READY FOR 15C** — also recorded in [`phase-15b-coq10-phase-15c-readiness-2026-09-16.md`](./phase-15b-coq10-phase-15c-readiness-2026-09-16.md).
+**Verdict (this evening pass only):** **NOT READY FOR 15C** — superseded 2026-09-17.
 
 No product YAML, live CoQ10 pages, affiliate mappings, or sitemap inclusion in this pass. Category and ingredient shells remain `draft` / `noindex: true`.
 
@@ -10,7 +12,7 @@ No product YAML, live CoQ10 pages, affiliate mappings, or sitemap inclusion in t
 
 ## 1. Keyword evidence
 
-**Authenticated Ahrefs US Keywords Explorer data was not available on 2026-09-16.** No MCP, no API credentials, and the Keywords Explorer app redirected to a public marketing page with **Sign in**.
+**Authenticated Ahrefs US Keywords Explorer data for seven exact keywords was retrieved in the main 2026-09-16 audit** (Volume + KD only). A later agent pass the same evening lacked Ahrefs access and incorrectly left this table blank. See [`phase-15b-coq10-keyword-refresh-2026-09-16.md`](./phase-15b-coq10-keyword-refresh-2026-09-16.md) and [`phase-15b-coq10-final-sourcing-2026-09-17.md`](./phase-15b-coq10-final-sourcing-2026-09-17.md). The evening table below is the **historical later-pass gap record**, not the current keyword lock.
 
 Google Search Console was **not** used as a substitute for market-wide volume. GSC can only describe existing SuppCheckr URLs.
 
@@ -115,7 +117,7 @@ Contains soy; gelatin; EVOO. URL: https://www.doctorsbest.com/products/doctor-s-
 | Optional later (not shopping claims) | NCI PDQ CoQ10 (patient), updated **2024-05-28**: https://www.cancer.gov/about-cancer/treatment/cam/patient/coenzyme-q10-pdq — cancer-context only; do not build treatment pages |
 | Do not use | Brand sites for medical/safety guidance; ODS primary-mitochondrial-disorder CoQ10 **dosing** as consumer advice |
 
-Draft ingredient YAML still cites the 404 URL (`nih-coq10-hp`). **Replace at 15C citation lock; do not publish the ingredient page until then.**
+Draft ingredient YAML still cited the 404 URL (`nih-coq10-hp`) after this evening pass. **Replaced 2026-09-17** with live NCCIH + FDA in `content/ingredients/coq10.yaml` while shells remain draft/noindex. Dead URL and 404 finding stay in this file and the source inventory.
 
 ---
 

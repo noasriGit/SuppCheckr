@@ -1,6 +1,6 @@
 # Phase 15B — CoQ10 source-gap and claim-risk checklist (2026-09-16)
 
-Use before any Phase 15C product YAML. Claim language: [`coq10-claim-language-guide.md`](./coq10-claim-language-guide.md). Sources: [`coq10-source-inventory-2026-07-07.md`](./coq10-source-inventory-2026-07-07.md). SKUs: [`coq10-product-longlist-research-2026-09-16.md`](./coq10-product-longlist-research-2026-09-16.md). Evening lock: [`phase-15b-coq10-blocker-resolution-2026-09-16.md`](./phase-15b-coq10-blocker-resolution-2026-09-16.md).
+Use before any Phase 15C product YAML. Claim language: [`coq10-claim-language-guide.md`](./coq10-claim-language-guide.md). Sources: [`coq10-source-inventory-2026-07-07.md`](./coq10-source-inventory-2026-07-07.md). SKUs: [`phase-15b-coq10-final-sourcing-2026-09-17.md`](./phase-15b-coq10-final-sourcing-2026-09-17.md). Evening lock (historical): [`phase-15b-coq10-blocker-resolution-2026-09-16.md`](./phase-15b-coq10-blocker-resolution-2026-09-16.md).
 
 ---
 
@@ -8,28 +8,32 @@ Use before any Phase 15C product YAML. Claim language: [`coq10-claim-language-gu
 
 | Source | 2026-09-16 status | Required action |
 |--------|-------------------|-----------------|
-| NIH ODS Coenzyme Q10 Health Professional fact sheet (`https://ods.od.nih.gov/factsheets/CoenzymeQ10-HealthProfessional/`) | **HTTP 404.** ODS `list-all` now points CoQ10 to **NCCIH**, not an ODS HP sheet. **Disposition: retired/removed standalone ODS CoQ10 HP page** — documented, not silently replaced in YAML. | Keep citing NCCIH + FDA in new copy. Replace `nih-coq10-hp` at 15C citation lock. Do not publish the ingredient shell while this URL is the primary NIH citation. |
-| NCCIH CoQ10 overview | Live (`https://www.nccih.nih.gov/health/coenzyme-q10`, last updated January 2019) | Primary ingredient/safety context. Do not convert bottom-line disease-research bullets into shopping claims. |
-| FDA dietary supplements | Live (`https://www.fda.gov/food/dietary-supplements`) | Keep |
+| NIH ODS Coenzyme Q10 Health Professional fact sheet (`https://ods.od.nih.gov/factsheets/CoenzymeQ10-HealthProfessional/`) | **HTTP 404** on 2026-09-16. Automated re-check 2026-09-17 returned **403**, not a restored sheet. ODS `list-all` pointed CoQ10 to **NCCIH**. | **Done 2026-09-17:** removed `nih-coq10-hp` from the live ingredient source list. Keep citing NCCIH + FDA. Preserve the dead URL and 404 in research history. Shells remain draft/noindex. |
+| NCCIH CoQ10 overview | Live (`https://www.nccih.nih.gov/health/coenzyme-q10`, last updated January 2019; re-verified 2026-09-17) | Primary ingredient/safety context. Do not convert bottom-line disease-research bullets into shopping claims. |
+| FDA dietary supplements | Live (`https://www.fda.gov/food/dietary-supplements`, re-verified 2026-09-17) | Keep |
 | NCI PDQ CoQ10 (patient) | Live, updated 2024-05-28 | Optional cancer-context citation only — **no** treatment pages |
 | USP Verified directory | CoQ10 search listed Kirkland 300 mg, Nature Made 100/200/400 mg, Nature Made + black pepper, Member's Mark 200 mg | Product verification only with name **and** current label/price. Doctor's Best “USP Verified fermented CoQ10” is **not** this list. |
 | NSF Certified for Sport | Not re-queried for CoQ10 SKUs today | July: no Thorne CoQ10 NSF listing. Re-search before calling any SKU NSF. |
 
-Draft ingredient YAML still points at the 404 ODS URL. **Do not publish that shell until the citation is replaced.**
+Draft ingredient YAML no longer points at the 404 ODS URL (repaired 2026-09-17). **Do not publish that shell until a later publication phase.**
 
 ---
 
-## B. Label / SKU gaps (shortlist)
+## B. Label / SKU gaps (limited launch lock 2026-09-17)
 
 | SKU | Gap | YAML gate |
 |-----|-----|-----------|
-| Life Extension Super Ubiquinol 100 mg 60 sg (01929) | Testing unknown; brand bioavailability copy | Eligible for later YAML **after** cluster/keyword gates; not 15C-authorized alone |
-| Doctor's Best Ubiquinol 100 mg 60 sg | Brand **sold out**; Vitacost temporarily unavailable | Do not select for launch |
-| Doctor's Best HA 100 mg 120 sg | Brand sold out; USP **ingredient** vs **product** | In-stock + wording lock |
-| Nutricost 200 mg 60 caps | Form word missing on DSLD (2022-08-23) | **Reject** until ubiquinone/ubiquinol is on the label |
-| Kirkland 300 mg 100 sg | Current Costco facts/price missing (2019 DSLD only) | Current facts + dated price |
-| Member's Mark 200 mg | 180 ct search vs old 75 ct DSLD; no official facts | Exact count + official panel |
-| Sports Research 100 mg 120 Plantgel | Not verified ubiquinol; no brand facts table | Official facts; wrong slot |
+| Life Extension Super Ubiquinol 100 mg 60 sg (01929) | Testing unknown; brand bioavailability copy | **Pass** — eligible for limited 15C YAML |
+| Jarrow Q-absorb 100 mg 60 sg | Testing unknown; 1–3×/day directions; soy | **Pass** — lock 60ct not 120ct |
+| NOW Foods CoQ10 200 mg 60 veg caps (3176) | Testing claimed (GMP), not USP product | **Pass** |
+| Qunol Ultra 100 mg 90ct | Facts panel does not name ubiquinone; very high attributed claims | Not wave 1 |
+| NOW 100 mg 50 sg (3208) | Facts row does not say ubiquinone | Alternate only |
+| Doctor's Best HA 100/200 mg | Brand sold out | Do not select |
+| Nutricost 200 mg 60 caps | Form word missing | Reject |
+| Kirkland 300 mg 100 sg | Current Costco facts/price missing | Reject until current facts + dated price |
+| Member's Mark 200 mg | Count/facts not locked to USP row | Reject |
+| Thorne CoQ10 SP624 | Facts table says Coenzyme Q10 100 mg; form in details copy | Alternate / future branded review |
+| Sports Research 100 mg 120 Plantgel | No brand facts table | Reject |
 
 ---
 
@@ -59,15 +63,15 @@ Allowed: label comparison; dated price per 100 mg; “consult a qualified health
 | `unknown` | No usable testing statement |
 | `not_claimed` | Explicitly no testing claim |
 
-Kirkland 300 mg: `verified` **after** YAML includes the 2026-09-16 USP directory URL.  
+Kirkland 300 mg: `verified` **only after** YAML includes a current USP directory URL **and** current facts/price. Not a wave-1 SKU.  
 Doctor's Best HA: `claimed` unless a product-row is found.  
-Nutricost / Qunol / Jarrow / LE: `claimed` or `unknown` as in the longlist — never `verified` from marketing.
+Jarrow / LE: `unknown`. NOW 200 mg: `claimed`. Qunol: `unknown` / high attributed-claim caution.
 
 ---
 
 ## E. Keyword / SERP gaps
 
-Live US Ahrefs Volume, Global volume, KD, CPS, TP, parent topic, and SERP features were **not** retrieved 2026-09-16. Title/meta lock is blocked until [`phase-15b-coq10-keyword-refresh-2026-09-16.md`](./phase-15b-coq10-keyword-refresh-2026-09-16.md) §G is completed. Phase 8A KD 3 is **not** current.
+Seven exact keywords have 2026-09-16 Ahrefs US Volume + KD in [`phase-15b-coq10-keyword-refresh-2026-09-16.md`](./phase-15b-coq10-keyword-refresh-2026-09-16.md). Remaining seed terms are marked **unavailable**. A full ten-keyword export is desirable, not an absolute blocker to limited 15C YAML drafts. Phase 8A KD 3 is **not** current; `best coq10 supplement` is KD **46**.
 
 ---
 

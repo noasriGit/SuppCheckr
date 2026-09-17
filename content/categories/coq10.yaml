@@ -36,8 +36,8 @@ isPlaceholder: false
 noindex: true
 claimRiskLevel: medium
 editorial:
-  lastUpdated: '2026-09-16'
-  lastReviewed: '2026-09-16'
+  lastUpdated: '2026-09-17'
+  lastReviewed: '2026-09-17'
   reviewedBy: suppcheckr-editorial
   updateLog:
     - date: '2026-07-15'
@@ -56,3 +56,9 @@ editorial:
       summary: >-
         Phase 15B evening blocker-resolution — still draft/noindex; no product or guide links;
         NIH ODS CoQ10 HP URL documented as 404/retired (citation not silently replaced)
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 15B final sourcing — still draft/noindex; no product or guide links; limited 15C
+        three-SKU research lock recorded without creating product YAML

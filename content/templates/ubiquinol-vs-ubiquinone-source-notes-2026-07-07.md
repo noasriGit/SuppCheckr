@@ -27,12 +27,12 @@ See also: [`ubiquinol-vs-ubiquinone-guide-blueprint-2026-07-07.md`](./ubiquinol-
 
 | Citation ID | Source | Use in form comparison |
 |-------------|--------|------------------------|
-| `nih-coq10-hp` | [NIH ODS CoQ10 — Health Professional](https://ods.od.nih.gov/factsheets/CoenzymeQ10-HealthProfessional/) | General CoQ10 context; conservative description of supplemental forms; safety/interaction overview |
-| `nih-coq10-consumer` | [NIH ODS CoQ10 — Consumer](https://ods.od.nih.gov/factsheets/CoenzymeQ10-Consumer/) | Optional consumer-facing parallel |
-| `nccih-coq10-overview` | [NCCIH CoQ10](https://www.nccih.nih.gov/health/coenzyme-q10) | Limited-evidence framing for condition-specific uses |
+| `nih-coq10-hp` | [NIH ODS CoQ10 — Health Professional](https://ods.od.nih.gov/factsheets/CoenzymeQ10-HealthProfessional/) | **Retired/404** (2026-09-16). Preserve URL in history. Do not use as a live citation. |
+| `nih-coq10-consumer` | [NIH ODS CoQ10 — Consumer](https://ods.od.nih.gov/factsheets/CoenzymeQ10-Consumer/) | Do not assume live after the HP sibling 404'd. Use NCCIH. |
+| `nccih-coq10-overview` | [NCCIH CoQ10](https://www.nccih.nih.gov/health/coenzyme-q10) | Live general background, limited-evidence framing, safety |
 | `fda-dietary-supplements-overview` | [FDA Dietary Supplements](https://www.fda.gov/food/dietary-supplements) | Supplements not FDA-approved to treat disease |
 
-**NIH/NCCIH conservative framing (paraphrase for editorial — cite in YAML):**
+**NIH/NCCIH conservative framing (paraphrase for editorial — cite live NCCIH in YAML):**
 
 - CoQ10 exists in the body and in foods; supplements commonly provide **ubiquinone** or **ubiquinol** forms.
 - Research has examined CoQ10 in various contexts; evidence is **limited and not uniform** across uses.

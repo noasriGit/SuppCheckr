@@ -5,7 +5,7 @@ Editorial reference for CoQ10 guides, ingredient pages, category hub, product re
 **Phase:** 15A (planning) — apply during future CoQ10 content drafts and all later phases.  
 **Positioning:** SuppCheckr is an evidence-aware supplement comparison site, not a medical authority.
 
-See also: [`coq10-product-research-checklist.md`](./coq10-product-research-checklist.md), [`coq10-source-inventory-2026-07-07.md`](./coq10-source-inventory-2026-07-07.md), NIH ODS CoQ10 fact sheet and NCCIH overview (cite in YAML — do not treat this doc as a medical source).
+See also: [`coq10-product-research-checklist.md`](./coq10-product-research-checklist.md), [`coq10-source-inventory-2026-07-07.md`](./coq10-source-inventory-2026-07-07.md), NIH ODS CoQ10 Health Professional URL (historical; **404** on 2026-09-16 — do not cite as live), and NCCIH overview (cite in YAML — do not treat this doc as a medical source).
 
 ---
 
@@ -28,7 +28,7 @@ See also: [`coq10-product-research-checklist.md`](./coq10-product-research-check
 | Form variability | "CoQ10 products vary by ubiquinone/ubiquinol form, capsule/softgel format, carrier oils, and testing transparency" |
 | Label literacy | "label clarity matters because CoQ10 products often differ in dose and form" |
 | Non-medical scope | "this comparison is not medical advice and does not rank products for heart disease or medication-related use" |
-| Nutrient context | "CoQ10 is a compound involved in normal cellular energy processes" — with NIH/NCCIH citation |
+| Nutrient context | "CoQ10 is a compound involved in normal cellular energy processes" — with NCCIH citation |
 | Label grounding | "based on the product label," "the Supplement Facts panel lists," "according to publicly available information" |
 | Form comparison | "one product lists ubiquinol; another lists ubiquinone — compare label facts, not assumed medical superiority" |
 | Price/value | "dated manual price," "price per 100 mg CoQ10," "check current price at the retailer" |
