@@ -1,0 +1,41 @@
+id: life-extension
+slug: life-extension
+name: Life Extension
+website: https://www.lifeextension.com
+description: >
+  Life Extension is a dietary-supplement brand with a public product catalog. SuppCheckr currently has a draft CoQ10
+  product record only. This brand profile is draft/noindex and is not a manufacturer website.
+logo: /images/brands/placeholder.svg
+categories:
+  - coq10
+transparencyNotes: >
+  Life Extension publishes product pages with Supplement Facts for locked SKUs. SuppCheckr cites those pages as brand
+  sources and does not treat brand marketing as independent verification.
+testingNotes: >
+  No product-specific USP, NSF, or Informed Sport listing was captured for the locked Super Ubiquinol CoQ10 SKU in
+  Phase 15C. Brand quality language is not independent certification.
+certifications: []
+controversyNotes: null
+transparencyScore: null
+affiliateDisclosure: false
+sources:
+  - id: brand-life-extension-home
+    title: Life Extension — official website
+    publisher: Life Extension
+    url: https://www.lifeextension.com
+    accessDate: '2026-09-17'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-09-17'
+  lastReviewed: '2026-09-17'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: Phase 15C draft/noindex brand record required for Life Extension CoQ10 product YAML

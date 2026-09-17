@@ -60,7 +60,8 @@ export function ProductCard({
           Demo product
         </span>
       )}
-      {!product.isPlaceholder && product.status === "review_ready" && (
+      {!product.isPlaceholder &&
+        (product.status === "review_ready" || product.status === "draft") && (
         <span className="mt-2 inline-block rounded bg-warning-bg px-2 py-0.5 text-xs text-warning-text">
           Draft review
         </span>

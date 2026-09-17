@@ -126,6 +126,23 @@ describe("productImageContext", () => {
     expect(context.primaryFormLabel).toBe("Magnesium oxide");
   });
 
+  it("derives CoQ10 softgel ubiquinol context", () => {
+    const context = resolveProductImageContext({
+      ...baseProduct,
+      categoryId: "coq10",
+      name: "Life Extension Super Ubiquinol CoQ10 100 mg Softgels (60 Softgels)",
+      supplementFacts: {
+        ...baseProduct.supplementFacts,
+        servingSize: "1 softgel",
+        ingredients: [{ name: "Ubiquinol (as Kaneka Ubiquinol)", amount: "100 mg" }],
+      },
+    });
+    expect(context.categoryLabel).toBe("CoQ10");
+    expect(context.format).toBe("softgel");
+    expect(context.formatLabel).toBe("Softgel");
+    expect(context.primaryFormLabel).toBe("Ubiquinol");
+  });
+
   it("uses honest placeholder alt text", () => {
     const alt = resolveProductImageAlt(baseProduct, true);
     expect(alt).toContain("Label-first review illustration");

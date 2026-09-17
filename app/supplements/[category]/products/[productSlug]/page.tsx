@@ -30,6 +30,7 @@ import {
   getCategoryComparison,
   getGuideBySlug,
   isActiveContent,
+  isIndexable,
 } from "@/lib/content/loader";
 import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 import { ProductEditorialReview } from "@/components/product/ProductEditorialReview";
@@ -130,9 +131,9 @@ export default async function ProductPage({
           currentPath={productPath}
         />
         {product.isPlaceholder && <PlaceholderBanner />}
-        {!product.isPlaceholder && product.status === "review_ready" && (
+        {!product.isPlaceholder && !isIndexable(product) && (
           <p className="mb-4 rounded-lg border border-warning-border bg-warning-bg px-4 py-2 text-sm text-warning-text">
-            Draft product review — not indexed until Phase 2F QA and publication.
+            Draft product review — not indexed. This page is a preview only.
           </p>
         )}
         <div className="flex flex-wrap items-start justify-between gap-4">

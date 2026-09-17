@@ -1,6 +1,6 @@
 import type { Product } from "@/lib/schemas/product";
 
-export type ProductFormat = "powder" | "capsule" | "tablet";
+export type ProductFormat = "powder" | "capsule" | "tablet" | "softgel";
 
 export type ProductImageContext = {
   categoryLabel: string | null;
@@ -12,6 +12,7 @@ export type ProductImageContext = {
 const CATEGORY_LABELS: Record<string, string> = {
   creatine: "Creatine",
   magnesium: "Magnesium",
+  coq10: "CoQ10",
 };
 
 const PRIMARY_FORM_PATTERNS: { pattern: RegExp; label: string }[] = [
@@ -21,6 +22,8 @@ const PRIMARY_FORM_PATTERNS: { pattern: RegExp; label: string }[] = [
   { pattern: /magnesium malate|as magnesium malate/i, label: "Magnesium malate" },
   { pattern: /magnesium oxide|as magnesium oxide/i, label: "Magnesium oxide" },
   { pattern: /creatine monohydrate/i, label: "Creatine monohydrate" },
+  { pattern: /ubiquinol/i, label: "Ubiquinol" },
+  { pattern: /ubiquinone/i, label: "Ubiquinone" },
 ];
 
 export function isPlaceholderProductImage(src: string): boolean {
@@ -31,6 +34,7 @@ function detectFormat(product: Product): ProductFormat | null {
   const haystack = `${product.name} ${product.supplementFacts.servingSize}`.toLowerCase();
 
   if (/\btablet/i.test(haystack)) return "tablet";
+  if (/\bsoftgel/i.test(haystack)) return "softgel";
   if (/\bcapsule|\bcaps\b|\bveg cap/i.test(haystack)) return "capsule";
   if (/\bpowder|\bscoop\b|\bunflavored\b|\b1\.1 lb\b|\b500 g\b|\b600 g\b|\b1 kg\b/i.test(haystack)) {
     return "powder";
@@ -54,6 +58,7 @@ function formatLabel(format: ProductFormat | null): string | null {
   if (!format) return null;
   if (format === "powder") return "Powder";
   if (format === "capsule") return "Capsule";
+  if (format === "softgel") return "Softgel";
   return "Tablet";
 }
 

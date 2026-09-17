@@ -62,3 +62,9 @@ editorial:
       summary: >-
         Phase 15B final sourcing — still draft/noindex; no product or guide links; limited 15C
         three-SKU research lock recorded without creating product YAML
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 15C draft product YAML added for three SKUs; category remains draft/noindex;
+        featuredProductIds still empty; not added to sitemap or published hubs

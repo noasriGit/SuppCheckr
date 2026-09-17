@@ -1,0 +1,271 @@
+id: coq10-life-extension-super-ubiquinol-01929
+slug: life-extension-super-ubiquinol-coq10-100-mg-60-softgels
+name: Life Extension Super Ubiquinol CoQ10 100 mg Softgels (60 Softgels, Item 01929)
+brandId: life-extension
+categoryId: coq10
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: Life Extension Super Ubiquinol CoQ10 100 mg 60 softgels — product photo pending
+    attribution: >
+      Placeholder image only. TODO: source a licensed pack shot or documented reuse-rights photograph before any
+      publication; do not reuse manufacturer artwork without rights.
+  label:
+    src: null
+    attribution: https://www.lifeextension.com/vitamins-supplements/item01929/super-ubiquinol-coq10
+supplementFacts:
+  servingSize: 1 softgel
+  servingsPerContainer: 60
+  ingredients:
+    - name: Ubiquinol (as Kaneka Ubiquinol)
+      amount: 100 mg
+      dailyValue: null
+    - name: Calories
+      amount: '5'
+      dailyValue: null
+    - name: Total Fat
+      amount: 0.5 g
+      dailyValue: null
+  otherIngredients:
+    - Extra virgin olive oil
+    - Gelatin
+    - Glycerin
+    - Beeswax
+    - Purified water
+    - Sunflower lecithin
+    - Ascorbyl palmitate
+    - Annatto color
+  allergens: []
+pricing:
+  msrp: 37.5
+  currency: USD
+  pricePerServing: 0.63
+  pricePerActiveDose: 0.63
+  lastManualUpdate: '2026-09-17'
+  lastPriceCheckedAt: '2026-09-17'
+retailers:
+  - retailerId: life-extension
+    url: https://www.lifeextension.com/vitamins-supplements/item01929/super-ubiquinol-coq10
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: unknown
+  details: >
+    No product-specific USP Verified, NSF, Informed Sport, or other recognized program listing was captured for item
+    01929 / UPC 737870192961. SuppCheckr does not describe this SKU as independently certified or independently tested.
+  sources: []
+additives:
+  - Extra virgin olive oil
+  - Gelatin
+  - Glycerin
+  - Beeswax
+  - Sunflower lecithin
+  - Ascorbyl palmitate
+  - Annatto color
+flags:
+  thirdPartyTested: false
+  additiveFree: false
+rating:
+  profileId: coq10
+  criteriaScores:
+    ingredientTransparency: 100
+    doseTransparency: 100
+    evidenceAlignment: 50
+    formulaQuality: 100
+    thirdPartyTesting: 0
+    priceValue: 50
+    additives: 100
+    labelClarity: 100
+    brandTransparency: 85
+  overallScore: 74
+pros:
+  - Official Supplement Facts name ubiquinol (as Kaneka Ubiquinol) at 100 mg per 1 softgel.
+  - Locked item 01929 / 60-softgel count with a one-softgel serving for straightforward price-per-100-mg math.
+  - Carrier oil (extra virgin olive oil) and gelatin softgel materials are listed on the official other-ingredients line.
+cons:
+  - No product-specific third-party certification or COA was captured for this SKU.
+  - Official one-time price per 100 mg CoQ10 is higher than the 200 mg dry-capsule SKU in this draft set.
+  - Brand page copy includes bioavailability-versus-ubiquinone and heart-health marketing — cited as brand claims only.
+bestFor:
+  - Shoppers comparing a named-ubiquinol 100 mg softgel with official brand Supplement Facts and a dated one-time price.
+avoidIf:
+  - You require verified third-party certification documentation before purchase.
+  - You avoid gelatin softgels or prefer a dry vegetarian capsule.
+labelTransparencyNotes: >
+  Locked Life Extension item 01929, 60 softgels; UPC 737870192961 is retained from Phase 15B research (item number
+  01929 was re-confirmed on the official PDP on 2026-09-17; the fetched PDP HTML did not print the UPC). Official
+  facts list ubiquinol 100 mg per 1 softgel, extra virgin olive oil, gelatin, glycerin, beeswax, purified water,
+  sunflower lecithin, ascorbyl palmitate, and annatto color. Label directions say one softgel with food once or twice
+  daily; SuppCheckr price math uses the 1-softgel Supplement Facts serving (one per day). Image TODO: keep
+  /images/products/placeholder.svg until licensed reuse rights are documented.
+evidenceNotes: >
+  SuppCheckr score uses the CoQ10 scoring profile (Phase 15C). Key drivers: named ubiquinol, 100 mg per softgel, and
+  official item 01929 facts — offset by unknown testing, brand bioavailability/heart-health marketing, and a mid-range
+  dated $0.63 per 100 mg. The 74 total ties Jarrow Q-absorb; that is a format distinction, not a winner label.
+editorialReview:
+  summary: >
+    This draft page reviews Life Extension Super Ubiquinol CoQ10, 100 mg, 60 softgels (item 01929) from the official
+    brand product page. The Supplement Facts list ubiquinol as Kaneka Ubiquinol at 100 mg per softgel. The 74/100
+    CoQ10-profile score reflects clear form and dose disclosure with unknown testing and a mid-range dated price per
+    100 mg. It is not a category-wide winner label and not medical advice.
+  verified:
+    - Official Supplement Facts list Ubiquinol (as Kaneka Ubiquinol) 100 mg per 1 softgel.
+    - The 60-softgel bottle provides 60 servings on the cited label.
+    - LifeExtension.com listed the one-time price at $37.50 on 2026-09-17 (AutoShip $31.00 was not used).
+    - Price per serving and per 100 mg CoQ10 is $0.63 based on $37.50 ÷ 60.
+    - No SKU-matched USP, NSF, or Informed Sport listing was captured.
+  brandOrRetailerClaims:
+    - The brand page states that ubiquinol is more bioavailable than standard ubiquinone CoQ10. SuppCheckr records
+      that as a manufacturer claim, not an independent finding that ubiquinol is universally superior.
+    - Brand copy discusses heart health, cellular energy, and fatigue. Those statements are not SuppCheckr conclusions
+      and are not disease-treatment claims.
+    - Suggested use is one softgel with food once or twice daily, or as recommended by a healthcare practitioner.
+  labelAndDose: >
+    The locked SKU is 100 mg ubiquinol per 1 softgel and 60 servings. Calories (5) and total fat (0.5 g) also appear
+    on the official facts panel. Price normalization uses one labeled serving per day even though directions allow
+    once or twice daily. Confirm item 01929 and the 60-softgel count before purchase; other Life Extension CoQ10 SKUs
+    are different products.
+  testing: >
+    Testing status is unknown. SuppCheckr did not capture a product-specific certificate or recognized program listing
+    for item 01929. Absence of a captured listing is not proof that no program exists; it means this draft does not
+    treat the SKU as independently tested. Criterion scores used for the 74 total: ingredientTransparency 100,
+    doseTransparency 100, labelClarity 100, thirdPartyTesting 0, priceValue 50, evidenceAlignment 50, additives 100,
+    formulaQuality 100, brandTransparency 85 (weights 16/14/12/12/12/14/8/6/6; 74.1 rounds to 74).
+  value: >
+    The official one-time price was $37.50 on 2026-09-17. $37.50 ÷ 60 servings = $0.63 per serving. Because the serving
+    provides 100 mg CoQ10, price per 100 mg is also $0.63. AutoShip $31.00 is a different purchase type and was not
+    used. Dated prices change — verify on the brand page.
+  format: >
+    This SKU is an oil-based gelatin softgel containing named ubiquinol. That is a format fact for comparison with
+    Jarrow's 100 mg ubiquinone soy-containing softgel and NOW's 200 mg dry vegetarian ubiquinone capsule — not a
+    ranking of which form is better absorbed or medically preferable.
+  bottomLine: >
+    On cited label facts and dated one-time price math, this is the named-ubiquinol option in the draft CoQ10 set.
+    The 74 score is not a category-wide winner label, not proof of independent testing, and not a personal
+    recommendation.
+  faq:
+    - question: Is Life Extension Super Ubiquinol independently tested?
+      answer: >
+        SuppCheckr recorded testing as unknown for item 01929. No SKU-matched third-party certification was captured.
+        Brand marketing is not the same as a captured USP, NSF, or Informed Sport listing.
+    - question: Is ubiquinol better than ubiquinone?
+      answer: >
+        The manufacturer claims greater bioavailability than standard ubiquinone. SuppCheckr does not treat ubiquinol
+        as universally superior or ubiquinone as inferior. Form is a label fact for comparison.
+    - question: What price did SuppCheckr use?
+      answer: >
+        The official one-time price of $37.50 on 2026-09-17, equal to $0.63 per 100 mg at one softgel per day. AutoShip
+        pricing was not used.
+relatedProductIds:
+  - coq10-jarrow-q-absorb-100-60
+  - coq10-now-foods-coq10-200-3176
+comparisonGroupIds: []
+claims:
+  - id: le-coq10-label-form-ubiquinol
+    text: The Life Extension Supplement Facts list Ubiquinol (as Kaneka Ubiquinol) 100 mg per 1 softgel.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-life-extension-super-ubiquinol-01929
+  - id: le-coq10-label-serving-60
+    text: The cited label serving size is 1 softgel with 60 servings per 60-softgel container.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-life-extension-super-ubiquinol-01929
+  - id: le-coq10-price-brand
+    text: LifeExtension.com listed Super Ubiquinol CoQ10 100 mg 60 softgels (item 01929) at $37.50 one-time on 2026-09-17.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-life-extension-super-ubiquinol-01929
+  - id: le-coq10-price-per-serving
+    text: Price per serving is $0.63 based on $37.50 divided by 60 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-life-extension-super-ubiquinol-01929
+      - editorial-price-per-100mg-life-extension-super-ubiquinol-01929
+  - id: le-coq10-price-per-100mg
+    text: >
+      Price per 100 mg CoQ10 is $0.63 based on $0.63 per serving and 100 mg CoQ10 per serving (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-life-extension-super-ubiquinol-01929
+      - editorial-price-per-100mg-life-extension-super-ubiquinol-01929
+  - id: le-coq10-brand-bioavailability
+    text: >
+      The Life Extension product page states that ubiquinol is more bioavailable than standard ubiquinone CoQ10.
+      SuppCheckr records this as a manufacturer claim, not an independent finding.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - label-life-extension-super-ubiquinol-01929
+  - id: le-coq10-nccih-safety
+    text: >
+      According to NCCIH materials, CoQ10 is sold as a dietary supplement in the United States and may interact with
+      warfarin and insulin. This is general background, not product-specific medical advice.
+    claimType: safety_context
+    claimRiskLevel: medium
+    citationIds:
+      - nccih-coq10-life-extension-super-ubiquinol-01929
+sources:
+  - id: label-life-extension-super-ubiquinol-01929
+    title: Life Extension Super Ubiquinol CoQ10 100 mg 60 softgels — Supplement Facts (item 01929)
+    publisher: Life Extension
+    url: https://www.lifeextension.com/vitamins-supplements/item01929/super-ubiquinol-coq10
+    accessDate: '2026-09-17'
+    sourceType: brand_label
+    supportsClaimIds:
+      - le-coq10-label-form-ubiquinol
+      - le-coq10-label-serving-60
+      - le-coq10-brand-bioavailability
+  - id: retailer-life-extension-super-ubiquinol-01929
+    title: Life Extension Super Ubiquinol CoQ10 100 mg 60 softgels — official one-time price
+    publisher: Life Extension
+    url: https://www.lifeextension.com/vitamins-supplements/item01929/super-ubiquinol-coq10
+    accessDate: '2026-09-17'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - le-coq10-price-brand
+      - le-coq10-price-per-serving
+      - le-coq10-price-per-100mg
+  - id: editorial-price-per-100mg-life-extension-super-ubiquinol-01929
+    title: SuppCheckr price-per-serving and price-per-100-mg CoQ10 calculation
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-09-17'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - le-coq10-price-per-serving
+      - le-coq10-price-per-100mg
+  - id: nccih-coq10-life-extension-super-ubiquinol-01929
+    title: Coenzyme Q10 — NCCIH Overview
+    publisher: National Center for Complementary and Integrative Health
+    url: https://www.nccih.nih.gov/health/coenzyme-q10
+    accessDate: '2026-09-17'
+    sourceType: NIH
+    supportsClaimIds:
+      - le-coq10-nccih-safety
+affiliate:
+  enabled: false
+seo:
+  title: Life Extension Super Ubiquinol CoQ10 100 mg Review
+  description: >
+    Draft label review of Life Extension Super Ubiquinol CoQ10 100 mg (60 softgels, item 01929) with named ubiquinol
+    facts and dated official one-time price per 100 mg.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-09-17'
+  lastReviewed: '2026-09-17'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: >
+        Phase 15C draft/noindex product YAML for item 01929; placeholder image TODO; affiliate disabled; unknown testing
