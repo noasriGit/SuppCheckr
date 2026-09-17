@@ -10,7 +10,8 @@ notes: >
   doseClarity → doseTransparency; testingTransparency → thirdPartyTesting; claimConservatism +
   general evidence alignment → evidenceAlignment; additiveAndAllergenProfile → additives;
   servingPracticality → formulaQuality. See content/scoring/rubrics/coq10.yaml for editor rubric anchors.
-  Do not score products until Phase 15B+ product research is complete.
+  Manufacturer-claimed testing is not independent certification. Higher milligrams per serving are not
+  automatically better.
 criteriaWeights:
   ingredientTransparency: 16
   doseTransparency: 14

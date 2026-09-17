@@ -64,9 +64,9 @@ sources:
     accessDate: '2026-09-17'
     sourceType: FDA
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-09-17'
@@ -109,3 +109,9 @@ editorial:
       summary: >
         Phase 15D linked three draft CoQ10 product IDs and two draft guide slugs; ingredient remains
         draft/noindex so published hubs still do not list CoQ10
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: >
+        Phase 15E publication candidate — indexable CoQ10 ingredient reference; NCCIH remains the live general
+        source; official product pages re-verified; no disease-treatment ranking

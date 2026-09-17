@@ -25,7 +25,7 @@ body: |
   product reviews when facts are incomplete.
 
   This page does **not** tell you whether 100 mg or 200 mg is the right personal dose. Those strengths appear on locked
-  labels in this draft cluster as **shopping facts**. Individual needs vary. Ask a qualified healthcare professional
+  labels in this cluster as **shopping facts**. Individual needs vary. Ask a qualified healthcare professional
   before starting or changing a supplement.
 
   ## Identify the form
@@ -43,7 +43,7 @@ body: |
 
   Look for:
 
-  - **Serving size** — usually 1 softgel or 1 capsule in this draft set
+  - **Serving size** — usually 1 softgel or 1 capsule in this set
   - **CoQ10 (mg) per serving**
   - **Servings per container**
 
@@ -59,7 +59,7 @@ body: |
   - **Dry capsules** may use hypromellose and powders such as rice flour, with no carrier oil
 
   Read other ingredients for **soy**, **gelatin**, colors (for example caramel or carob), and mixed tocopherols. In this
-  draft cluster, Jarrow Q-absorb discloses **Contains: Soy**; NOW’s locked veg-cap SKU is a dry hypromellose capsule;
+  cluster, Jarrow Q-absorb discloses **Contains: Soy**; NOW’s locked veg-cap SKU is a dry hypromellose capsule;
   Life Extension’s locked SKU is an olive-oil ubiquinol softgel. Those are label facts for people comparing allergens
   and vegetarian status — not medical suitability rankings.
 
@@ -72,7 +72,7 @@ body: |
   - **Claimed** — manufacturer quality language without a captured SKU-matched listing
   - **Unknown** — no usable testing documentation captured
 
-  In this three-SKU draft set, Life Extension and Jarrow are **unknown**; NOW is **claimed** (GMP / quality language,
+  In this three-SKU set, Life Extension and Jarrow are **unknown**; NOW is **claimed** (GMP / quality language,
   not a captured USP/NSF/Informed product listing). Claimed is not the same as independently certified.
 
   ## Compare dated price per 100 mg
@@ -84,7 +84,7 @@ body: |
   - **Price per serving** = dated one-time price ÷ servings per container
   - **Price per 100 mg CoQ10** = dated one-time price ÷ (total CoQ10 mg in the bottle / 100)
 
-  Official one-time prices locked on 2026-09-17 for this draft set:
+  Official one-time prices re-verified on 2026-09-17 for this set:
 
   - Life Extension Super Ubiquinol 100 mg / 60 softgels: **$37.50** → **$0.63** per serving and per 100 mg
   - Jarrow Q-absorb 100 mg / 60 softgels: **$34.99** → **$0.58** per serving and per 100 mg
@@ -118,7 +118,7 @@ body: |
   documentation, dated price per 100 mg, additives, formula practicality, evidence/claim conservatism, and brand
   transparency. Scores help compare labels. They do not prove effectiveness for any individual.
 
-  Draft reviews in this cluster:
+  Reviews in this cluster:
 
   - [Life Extension Super Ubiquinol CoQ10 100 mg](/supplements/coq10/products/life-extension-super-ubiquinol-coq10-100-mg-60-softgels)
   - [Jarrow Q-absorb CoQ10 100 mg](/supplements/coq10/products/jarrow-q-absorb-coq10-100-mg-60-softgels)
@@ -193,9 +193,9 @@ sources:
     accessDate: '2026-09-17'
     sourceType: brand_label
     supportsClaimIds: []
-status: draft
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-09-17'
@@ -208,3 +208,9 @@ editorial:
       summary: >
         Phase 15D draft/noindex CoQ10 buyer-education guide; dosage intent stays here (no standalone dosage page); no
         product rankings; no affiliate links
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: >
+        Phase 15E publication candidate — indexable selection/label-reading guide; no standalone dosage page; official
+        prices re-verified unchanged

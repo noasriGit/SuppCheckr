@@ -24,6 +24,13 @@ export const ComparisonSchema = GovernanceFieldsSchema.extend({
     )
     .default([]),
   caveats: z.array(z.string()).default([]),
+  /**
+   * When true, this category table is a locked limited SKU set rather than a
+   * complete market ranking. Published comparisons still require every listed
+   * product to be published, plus an explicit "not a complete market ranking"
+   * disclosure. The default five-product floor remains for full category tables.
+   */
+  lockedReviewSet: z.boolean().default(false),
   sources: z.array(CitationSchema).default([]),
   seo: SeoFieldsSchema.default({}),
 });

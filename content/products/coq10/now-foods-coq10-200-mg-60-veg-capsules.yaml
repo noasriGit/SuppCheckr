@@ -73,7 +73,7 @@ rating:
   overallScore: 86
 pros:
   - Official Supplement Facts name Coenzyme Q10 (CoQ10) (Ubiquinone) at 200 mg per 1 veg capsule.
-  - Dry hypromellose capsule with no carrier oil, which is a distinct format versus the two oil softgels in this draft set.
+  - Dry hypromellose capsule with no carrier oil, which is a distinct format versus the two oil softgels in this set.
   - Dated official one-time price per 100 mg CoQ10 is the lowest of the three locked SKUs ($0.32).
 cons:
   - Manufacturer GMP / pharmaceutical-grade language is not a captured USP, NSF, or Informed Sport product listing.
@@ -94,12 +94,12 @@ labelTransparencyNotes: >
   rights are documented.
 evidenceNotes: >
   SuppCheckr score uses the CoQ10 scoring profile (Phase 15C). Key drivers: named ubiquinone, 200 mg per veg capsule,
-  and the lowest dated price per 100 mg in this draft set ($0.32) — offset by manufacturer quality claims that are not
+  and the lowest dated price per 100 mg in this set ($0.32) — offset by manufacturer quality claims that are not
   independent certification, plus brand cardiovascular structure/function copy. The 86 total is not a category-wide
   winner label.
 editorialReview:
   summary: >
-    This draft page reviews NOW Foods CoQ10 200 mg Veg Capsules (60 count, SKU 3176) from official brand facts locked
+    This page reviews NOW Foods CoQ10 200 mg Veg Capsules (60 count, SKU 3176) from official brand facts re-verified
     on 2026-09-17. The Supplement Facts list ubiquinone at 200 mg per vegetarian capsule. The 86/100 CoQ10-profile
     score is driven by clear dose/form disclosure and a lower dated price per 100 mg, plus manufacturer quality-claim
     credit at the "claimed" rubric anchor. It is not independent certification and not a category-wide winner label.
@@ -136,7 +136,7 @@ editorialReview:
     winner label.
   bottomLine: >
     On cited label facts and dated one-time price math, this is the 200 mg dry vegetarian ubiquinone option in the
-    draft CoQ10 set. The 86 score is the highest of the three drafts because of price per 100 mg and claimed (not
+    CoQ10 set. The 86 score is the highest of the three reviews because of price per 100 mg and claimed (not
     verified) testing — not a category-wide winner label, not independent lab proof, and not a personal recommendation.
   faq:
     - question: Is NOW CoQ10 200 mg independently tested?
@@ -250,11 +250,11 @@ affiliate:
 seo:
   title: NOW Foods CoQ10 200 mg Veg Capsules Review
   description: >
-    Draft label review of NOW Foods CoQ10 200 mg veg capsules (60 count, SKU 3176) with named ubiquinone facts and
-    dated official one-time price per 100 mg.
-status: draft
+    Label review of NOW Foods CoQ10 200 mg veg capsules (60 count, SKU 3176) with named ubiquinone facts, claimed
+    manufacturer testing, and dated official one-time price per 100 mg. Not medical advice.
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-09-17'
@@ -271,3 +271,9 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 15D linked comparisonGroupIds to coq10-supplements-compared; product remains draft/noindex
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: >
+        Phase 15E publication candidate — official PDP re-verified; one-time price still $37.99; testing remains
+        manufacturer-claimed only; placeholder image retained; affiliate disabled

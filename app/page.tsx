@@ -86,7 +86,7 @@ export default function HomePage() {
             {siteConfig.description}
           </p>
           <p className="mt-3 max-w-2xl text-sm text-muted">
-            Published Creatine monohydrate, Magnesium, Vitamin C, and Electrolytes coverage includes
+            Published Creatine, Magnesium, Vitamin C, Electrolytes, and CoQ10 coverage includes
             product reviews, guides, ingredient references, and comparison tables. Product images use
             label-first placeholders where brand product photos are not shown.
           </p>
@@ -129,7 +129,7 @@ export default function HomePage() {
         <section className="mb-10">
           <h2 className="text-xl font-semibold text-heading">Find supplements</h2>
           <p className="mt-2 text-sm text-foreground">
-            Search published SuppCheckr pages, including Creatine, Magnesium, Vitamin C, and Electrolytes
+            Search published SuppCheckr pages, including Creatine, Magnesium, Vitamin C, Electrolytes, and CoQ10
             reviews, guides, comparisons, and category hubs.
           </p>
           <Link
@@ -143,7 +143,7 @@ export default function HomePage() {
         <section className="mb-10">
           <h2 className="text-xl font-semibold text-heading">Supplement categories</h2>
           <p className="mt-2 text-sm text-muted">
-            Creatine monohydrate, Magnesium, Vitamin C, and Electrolytes include ingredient references,
+            Creatine monohydrate, Magnesium, Vitamin C, Electrolytes, and CoQ10 include ingredient references,
             guides, product reviews, and comparison tables.
           </p>
           <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

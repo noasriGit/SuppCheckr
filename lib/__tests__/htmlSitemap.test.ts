@@ -56,7 +56,7 @@ describe("html sitemap records", () => {
 
   it("organizes category groups with nested products and guides", () => {
     const sections = getSitemapSections();
-    expect(sections.categoryGroups.length).toBe(4);
+    expect(sections.categoryGroups.length).toBe(5);
     expect(sections.categoryGroups.every((g) => g.products.length > 0)).toBe(true);
     expect(sections.categoryGroups.every((g) => g.guides.length > 0)).toBe(true);
     expect(sections.categoryGroups.every((g) => g.compare)).toBe(true);

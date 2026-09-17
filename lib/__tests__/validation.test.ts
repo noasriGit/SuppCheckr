@@ -146,6 +146,7 @@ describe("comparison publication gate", () => {
       priceCheckedAt: "",
       productCriterionLabels: [],
       caveats: [],
+      lockedReviewSet: false,
       filtersEnabled: true,
       defaultSort: "overallScore",
       sources: [],
@@ -164,6 +165,60 @@ describe("comparison publication gate", () => {
 
     const errors = validatePublishedComparison(comparison, []);
     expect(errors.some((e) => e.includes("at least 5 products"))).toBe(true);
+  });
+
+  it("allows a locked three-SKU set when it discloses it is not a complete market ranking", () => {
+    const comparison = {
+      id: "cmp-locked",
+      slug: "coq10-supplements-compared",
+      type: "category_ranking" as const,
+      title: "Compare",
+      categoryId: "coq10",
+      subtitle: "",
+      productIds: ["a", "b", "c"],
+      comparisonFields: [],
+      methodologyNote: "",
+      orderingNote: "",
+      priceCheckedAt: "2026-09-17",
+      productCriterionLabels: [],
+      caveats: ["This table is not a complete market ranking."],
+      lockedReviewSet: true,
+      filtersEnabled: true,
+      defaultSort: "overallScore",
+      sources: [
+        {
+          id: "src-1",
+          title: "NCCIH CoQ10",
+          publisher: "NCCIH",
+          url: "https://www.nccih.nih.gov/health/coenzyme-q10",
+          accessDate: "2026-09-17",
+          sourceType: "NIH" as const,
+          supportsClaimIds: [],
+        },
+      ],
+      status: "published" as const,
+      isPlaceholder: false,
+      noindex: false,
+      claimRiskLevel: "medium" as const,
+      editorial: {
+        lastUpdated: "2026-09-17",
+        lastReviewed: "2026-09-17",
+        reviewedBy: "editor",
+        updateLog: [],
+      },
+      seo: {},
+    } satisfies Comparison;
+
+    const products = ["a", "b", "c"].map((id) => ({
+      id,
+      status: "published",
+      isPlaceholder: false,
+    })) as Product[];
+
+    const errors = validatePublishedComparison(comparison, products);
+    expect(errors.some((e) => e.includes("at least 5 products"))).toBe(false);
+    expect(errors.some((e) => e.includes("at least 3 products"))).toBe(false);
+    expect(errors.some((e) => e.includes("not a complete market ranking"))).toBe(false);
   });
 });
 

@@ -100,7 +100,7 @@ evidenceNotes: >
   per 100 mg. The 74 total ties Life Extension Super Ubiquinol; that is a format distinction, not a winner label.
 editorialReview:
   summary: >
-    This draft page reviews Jarrow Formulas Q-absorb, 100 mg, 60 softgels from the official brand product page. The
+    This page reviews Jarrow Formulas Q-absorb, 100 mg, 60 softgels from the official brand product page. The
     Supplement Facts list Coenzyme Q10 (Ubiquinone) 100 mg per softgel and disclose soy. The 74/100 CoQ10-profile score
     reflects clear form, dose, and allergen disclosure with unknown testing. Brand absorption claims are attributed to
     the manufacturer and are not SuppCheckr conclusions.
@@ -138,7 +138,7 @@ editorialReview:
     ubiquinone is inferior or superior.
   bottomLine: >
     On cited label facts and dated 60ct one-time price math, this is the 100 mg ubiquinone soy-containing softgel in
-    the draft CoQ10 set. The 74 score is not a category-wide winner label and not a personal recommendation.
+    the CoQ10 set. The 74 score is not a category-wide winner label and not a personal recommendation.
   faq:
     - question: Does Jarrow Q-absorb contain soy?
       answer: >
@@ -256,11 +256,11 @@ affiliate:
 seo:
   title: Jarrow Q-absorb CoQ10 100 mg Softgels Review
   description: >
-    Draft label review of Jarrow Q-absorb CoQ10 100 mg (60 softgels) with named ubiquinone facts, soy disclosure, and
-    dated official 60ct one-time price per 100 mg.
-status: draft
+    Label review of Jarrow Q-absorb CoQ10 100 mg (60 softgels) with named ubiquinone facts, soy disclosure, and dated
+    official 60ct one-time price per 100 mg. Not medical advice.
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-09-17'
@@ -277,3 +277,9 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 15D linked comparisonGroupIds to coq10-supplements-compared; product remains draft/noindex
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: >
+        Phase 15E publication candidate — official 60ct PDP re-verified; one-time price still $34.99; soy disclosure
+        preserved; testing unknown; placeholder image retained; affiliate disabled

@@ -3,12 +3,12 @@ slug: coq10
 name: CoQ10
 pluralName: CoQ10 Supplements
 description: >
-  Draft hub for CoQ10 (coenzyme Q10) supplement label comparisons: ubiquinone vs ubiquinol form, dose per serving,
-  softgel or capsule format, carrier oils, testing transparency, and dated official price per 100 mg — not medical or
+  CoQ10 (coenzyme Q10) supplement label comparisons: ubiquinone vs ubiquinol form, dose per serving, softgel or
+  capsule format, carrier oils, testing transparency, and dated official price per 100 mg — not medical or
   cardiovascular outcome claims.
 shortDescription: >
-  Draft/noindex CoQ10 hub with three locked product reviews, a comparison table, a form guide, and a how-to guide.
-  Not published and not a medical ranking.
+  Three CoQ10 product reviews, a comparison table, a form guide, and a how-to guide. Label and sourcing comparison —
+  not a medical ranking and not a universal winner.
 featured: false
 relatedCategories: []
 relatedGuides:
@@ -41,12 +41,12 @@ evaluationSummary: >
   — not personal outcomes. Ubiquinol is not automatically better than ubiquinone. A higher milligram line is not a
   dosing recommendation. A higher SuppCheckr score is not a medical ranking.
 clusterScopeNote: >
-  This draft CoQ10 cluster includes three product reviews with distinct comparison purposes: a named-ubiquinol oil
+  This CoQ10 cluster includes three product reviews with distinct comparison purposes: a named-ubiquinol oil
   softgel (Life Extension Super Ubiquinol 100 mg, item 01929), a 100 mg ubiquinone soy-containing softgel (Jarrow
   Q-absorb 100 mg, 60 count), and a 200 mg dry vegetarian ubiquinone capsule (NOW Foods SKU 3176). Two educational
   guides (ubiquinol vs ubiquinone; how to choose a CoQ10 supplement) and one category comparison table
-  (coq10-supplements-compared) are linked. A fourth product review remains deferred. No Amazon affiliate links. All
-  CoQ10 routes stay draft/noindex until a later publication decision.
+  (coq10-supplements-compared) are linked. A fourth product review remains deferred. This is not a complete market
+  ranking. No Amazon affiliate links.
 buyingConsiderations:
   - >-
     Confirm Supplement Facts name the CoQ10 form (ubiquinone or ubiquinol) and list milligrams per serving — unnamed
@@ -82,11 +82,11 @@ faq:
       No. SuppCheckr does not rank CoQ10 products for heart disease, blood pressure, cholesterol, or statin-related use.
       Dietary supplements are not a substitute for prescribed cardiovascular treatment. Do not start, stop, or change
       medications based on this site.
-  - question: Which products are in this draft cluster?
+  - question: Which products are in this cluster?
     answer: >
       Life Extension Super Ubiquinol CoQ10 100 mg (60 softgels, item 01929), Jarrow Formulas Q-absorb CoQ10 100 mg
       (60 softgels), and NOW Foods CoQ10 200 mg veg capsules (60 count, SKU 3176). See the CoQ10 comparison table for
-      side-by-side label context. A fourth review is deferred.
+      side-by-side label context. A fourth review is deferred. This is not a complete market ranking.
   - question: Does CoQ10 interact with medications?
     answer: >
       NCCIH materials note potential interactions with warfarin and insulin, and possible incompatibility with some
@@ -119,13 +119,13 @@ sources:
     sourceType: internal_editorial
     supportsClaimIds: []
 seo:
-  title: CoQ10 Supplements Compared by Label
+  title: Best CoQ10 Supplements Compared by Label
   description: >
-    Compare CoQ10 supplements by ubiquinone vs ubiquinol, dose per serving, testing documentation, and dated price per
-    100 mg. Not medical advice.
-status: draft
+    Compare three CoQ10 products by ubiquinone vs ubiquinol, dose, testing notes, and dated price per 100 mg. No
+    universal winner. Not medical advice.
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-09-17'
@@ -166,3 +166,9 @@ editorial:
       summary: >
         Phase 15D draft hub copy, featuredProductIds, two guides, and comparison linked; status remains draft/noindex;
         not added to sitemap or published hubs
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: >
+        Phase 15E publication candidate — indexable CoQ10 hub; three locked SKUs re-verified on official brand pages;
+        prices unchanged; Life Extension and Jarrow brand pages remain draft/noindex

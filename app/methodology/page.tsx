@@ -27,7 +27,7 @@ const CRITERIA_DESCRIPTIONS: Record<keyof typeof CRITERIA_LABELS, string> = {
   thirdPartyTesting:
     "Whether third-party testing or certification is verified, claimed only, or unknown based on public sources.",
   priceValue:
-    "Dated manual price checks compared on a category-normalized basis (for example, price per 5 g creatine, per 100 mg elemental magnesium, per 500 mg vitamin C, or per labeled serving for electrolyte products).",
+    "Dated manual price checks compared on a category-normalized basis (for example, price per 5 g creatine, per 100 mg elemental magnesium, per 500 mg vitamin C, per labeled serving for electrolyte products, or per 100 mg CoQ10).",
   additives:
     "Presence and disclosure of fillers, sweeteners, artificial colors, and other non-active ingredients.",
   labelClarity:
@@ -75,7 +75,7 @@ export default function MethodologyPage() {
         <h2 className="text-xl font-semibold text-heading">How scoring works</h2>
         <ul className="mt-3 max-w-3xl list-disc space-y-2 pl-5 text-sm text-foreground">
           <li>
-            Category-specific scoring profiles exist. Creatine, Magnesium, Vitamin C, and Electrolytes can use
+            Category-specific scoring profiles exist. Creatine, Magnesium, Vitamin C, Electrolytes, and CoQ10 can use
             different criterion weights because label priorities differ by supplement type.
           </li>
           <li>
@@ -225,7 +225,7 @@ export default function MethodologyPage() {
         <h2 className="text-xl font-semibold text-heading">Category-specific scoring</h2>
         <p className="mt-3 max-w-3xl text-sm text-foreground">
           Weights can vary by supplement category because label priorities differ. Published
-          profiles currently include Creatine, Magnesium, Vitamin C, and Electrolytes:
+          profiles currently include Creatine, Magnesium, Vitamin C, Electrolytes, and CoQ10:
         </p>
         {profiles.map((profile) => (
           <div key={profile.id} className="mt-6 rounded-lg border border-border bg-surface p-4">
@@ -264,6 +264,15 @@ export default function MethodologyPage() {
                 tablet, or scoop), testing transparency, conservative hydration marketing claims, and
                 competitive price per labeled serving from dated manual price checks — not medical
                 rehydration positioning or high-sodium marketing alone.
+              </p>
+            )}
+            {profile.id === "coq10" && (
+              <p className="mt-3 text-sm text-foreground">
+                CoQ10 scoring rewards named ubiquinone or ubiquinol disclosure, milligrams per serving, label
+                clarity, conservative absorption and structure/function claims, dated official price per 100 mg
+                CoQ10, and additive/allergen/oil disclosure. Manufacturer-claimed GMP or pharmaceutical-grade
+                language is not independent certification. Ubiquinol is not scored as universally superior to
+                ubiquinone. A higher milligram line is not automatically better.
               </p>
             )}
             <div className="mt-4 overflow-x-auto">

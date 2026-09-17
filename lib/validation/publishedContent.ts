@@ -10,6 +10,8 @@ import { computeWeightedScore } from "@/lib/scoring/computeScore";
 import { resolveScoringProfile } from "@/lib/content/loader";
 
 export const MIN_PUBLISHED_COMPARISON_PRODUCTS = 5;
+export const MIN_LOCKED_REVIEW_SET_PRODUCTS = 3;
+const LOCKED_REVIEW_SET_DISCLOSURE = /not a complete market ranking/i;
 export const MIN_PUBLISHED_INGREDIENT_SOURCES = 2;
 export const MIN_PUBLISHED_CATEGORY_SOURCES = 3;
 export const MIN_PUBLISHED_GUIDE_SOURCES = 2;
@@ -235,10 +237,25 @@ export function validatePublishedComparison(
   ];
 
   if (comparison.type === "category_ranking") {
-    if (comparison.productIds.length < MIN_PUBLISHED_COMPARISON_PRODUCTS) {
+    const minProducts = comparison.lockedReviewSet
+      ? MIN_LOCKED_REVIEW_SET_PRODUCTS
+      : MIN_PUBLISHED_COMPARISON_PRODUCTS;
+    if (comparison.productIds.length < minProducts) {
       errors.push(
-        `${label}: published category comparison requires at least ${MIN_PUBLISHED_COMPARISON_PRODUCTS} products`,
+        `${label}: published category comparison requires at least ${minProducts} products`,
       );
+    }
+    if (comparison.lockedReviewSet) {
+      const disclosure = [
+        comparison.methodologyNote,
+        comparison.orderingNote,
+        ...comparison.caveats,
+      ].join(" ");
+      if (!LOCKED_REVIEW_SET_DISCLOSURE.test(disclosure)) {
+        errors.push(
+          `${label}: lockedReviewSet comparisons must disclose they are not a complete market ranking`,
+        );
+      }
     }
 
     const productById = new Map(products.map((p) => [p.id, p]));
