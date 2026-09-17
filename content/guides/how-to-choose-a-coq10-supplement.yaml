@@ -1,0 +1,210 @@
+slug: how-to-choose-a-coq10-supplement
+title: How to Choose a CoQ10 Supplement
+categoryId: coq10
+excerpt: >
+  How to read a CoQ10 label: form, mg per serving, softgel vs capsule, oils, testing marks, and dated price per 100 mg.
+  Not a medical dosing guide.
+body: |
+  ## Introduction
+
+  CoQ10 supplements differ in form name, milligrams per serving, softgel versus capsule format, oils, allergen lines,
+  testing documentation, and price. This guide explains **what to read on a label** using publicly available
+  information. It does **not** rank products, prescribe a milligram amount per day, or recommend a product for any
+  person or condition.
+
+  For form names, see [ubiquinol vs ubiquinone](/guides/ubiquinol-vs-ubiquinone). For side-by-side scores, see the
+  [CoQ10 comparison table](/supplements/coq10/compare). For general safety background, see the
+  [CoQ10 ingredient reference](/ingredients/coq10).
+
+  ## Start with CoQ10 (mg) on the label
+
+  The most useful comparison number is usually **CoQ10 milligrams per serving** on Supplement Facts — not bottle count
+  alone, not a proprietary blend weight, and not marketing “high potency” language without a milligram line.
+
+  If CoQ10 mg is missing or the form is unnamed, dose and form transparency are limited. SuppCheckr flags that in
+  product reviews when facts are incomplete.
+
+  This page does **not** tell you whether 100 mg or 200 mg is the right personal dose. Those strengths appear on locked
+  labels in this draft cluster as **shopping facts**. Individual needs vary. Ask a qualified healthcare professional
+  before starting or changing a supplement.
+
+  ## Identify the form
+
+  Check whether Supplement Facts name:
+
+  - **Ubiquinone** (oxidized CoQ10)
+  - **Ubiquinol** (reduced CoQ10)
+  - **Coenzyme Q10** without a form word — then the form is unspecified on that panel
+
+  Different forms may use different oils, capsules, and price per 100 mg. Brand “active form” or “high absorption”
+  language is not an independent finding. Compare the form word you can cite from the label.
+
+  ## Check serving size and servings per container
+
+  Look for:
+
+  - **Serving size** — usually 1 softgel or 1 capsule in this draft set
+  - **CoQ10 (mg) per serving**
+  - **Servings per container**
+
+  Those fields are required for **price per serving** and **price per 100 mg CoQ10**. If directions allow more than one
+  serving per day, SuppCheckr still uses the labeled serving for price math unless a review says otherwise.
+
+  ## Softgel versus capsule, oils, and allergens
+
+  Format is a separate decision from form:
+
+  - **Oil softgels** often list a carrier oil (olive oil, MCT glycerides, soybean oil) and gelatin or a vegetarian
+    shell
+  - **Dry capsules** may use hypromellose and powders such as rice flour, with no carrier oil
+
+  Read other ingredients for **soy**, **gelatin**, colors (for example caramel or carob), and mixed tocopherols. In this
+  draft cluster, Jarrow Q-absorb discloses **Contains: Soy**; NOW’s locked veg-cap SKU is a dry hypromellose capsule;
+  Life Extension’s locked SKU is an olive-oil ubiquinol softgel. Those are label facts for people comparing allergens
+  and vegetarian status — not medical suitability rankings.
+
+  ## Look for third-party testing statements
+
+  Some brands publish USP, NSF, Informed Sport, or similar listings. Others use in-house GMP or “pharmaceutical grade”
+  language. SuppCheckr records testing as:
+
+  - **Verified** — citable program listing or certificate for the exact SKU
+  - **Claimed** — manufacturer quality language without a captured SKU-matched listing
+  - **Unknown** — no usable testing documentation captured
+
+  In this three-SKU draft set, Life Extension and Jarrow are **unknown**; NOW is **claimed** (GMP / quality language,
+  not a captured USP/NSF/Informed product listing). Claimed is not the same as independently certified.
+
+  ## Compare dated price per 100 mg
+
+  Bottle price hides dose differences. A 200 mg capsule and a 100 mg softgel are not the same milligram total.
+
+  Use:
+
+  - **Price per serving** = dated one-time price ÷ servings per container
+  - **Price per 100 mg CoQ10** = dated one-time price ÷ (total CoQ10 mg in the bottle / 100)
+
+  Official one-time prices locked on 2026-09-17 for this draft set:
+
+  - Life Extension Super Ubiquinol 100 mg / 60 softgels: **$37.50** → **$0.63** per serving and per 100 mg
+  - Jarrow Q-absorb 100 mg / 60 softgels: **$34.99** → **$0.58** per serving and per 100 mg
+  - NOW Foods CoQ10 200 mg / 60 veg capsules: **$37.99** → **$0.63** per serving and **$0.32** per 100 mg
+
+  AutoShip, subscribe-and-save, and other counts (for example Jarrow 120ct) are different variants. Dated prices change
+  — verify the current one-time price on the brand page.
+
+  ## 100 mg versus 200 mg is not a treatment protocol
+
+  This cluster includes 100 mg and 200 mg labeled servings so shoppers can compare **label strength and price per
+  100 mg**. It is not a protocol that 200 mg is “for seniors,” “for heart patients,” or “for statin users.” SuppCheckr
+  does not publish a standalone CoQ10 dosage page in this wave for that reason.
+
+  ## Read marketing claims conservatively
+
+  Be skeptical of listings that imply disease outcomes, guaranteed energy, universal absorption superiority, or
+  medication-replacement advice. According to [FDA dietary-supplement overview materials](https://www.fda.gov/food/dietary-supplements),
+  dietary supplements are not FDA-approved drugs.
+
+  Structure/function copy such as cardiovascular-health language on a brand page is **brand text**. SuppCheckr cites
+  label facts and dated prices; we do not repeat disease-treatment claims as editorial conclusions.
+
+  Consult a qualified healthcare professional if you have medical questions, especially if pregnant, nursing, under 18,
+  taking medications (including blood thinners), preparing for surgery, managing a heart condition, liver or kidney
+  disease, or another medical condition.
+
+  ## How SuppCheckr compares products
+
+  Our [methodology](/methodology) page explains scoring: form and dose transparency, label clarity, testing
+  documentation, dated price per 100 mg, additives, formula practicality, evidence/claim conservatism, and brand
+  transparency. Scores help compare labels. They do not prove effectiveness for any individual.
+
+  Draft reviews in this cluster:
+
+  - [Life Extension Super Ubiquinol CoQ10 100 mg](/supplements/coq10/products/life-extension-super-ubiquinol-coq10-100-mg-60-softgels)
+  - [Jarrow Q-absorb CoQ10 100 mg](/supplements/coq10/products/jarrow-q-absorb-coq10-100-mg-60-softgels)
+  - [NOW Foods CoQ10 200 mg veg capsules](/supplements/coq10/products/now-foods-coq10-200-mg-60-veg-capsules)
+
+  ## Frequently asked questions
+
+  **Does a higher SuppCheckr score mean a CoQ10 product will work for me?**
+  No. Scores summarize label transparency, testing documentation, and dated price context — not personal medical
+  suitability.
+
+  **Should I choose ubiquinol for better absorption?**
+  Not automatically. Compare the form word, mg per serving, oils, testing status, and dated price per 100 mg. See the
+  [form comparison guide](/guides/ubiquinol-vs-ubiquinone).
+
+  **Is 200 mg better than 100 mg?**
+  A 200 mg labeled serving is a higher milligram line and changes price-per-100-mg math. It is not a SuppCheckr dosing
+  recommendation.
+
+  **Can I take CoQ10 with statins?**
+  This guide does not advise starting, stopping, or combining CoQ10 with prescription drugs. Ask the clinician who
+  manages your medications.
+
+  ## Related reading
+
+  - [CoQ10 category hub](/supplements/coq10)
+  - [CoQ10 ingredient reference](/ingredients/coq10)
+  - [Ubiquinol vs ubiquinone](/guides/ubiquinol-vs-ubiquinone)
+  - [CoQ10 products compared](/supplements/coq10/compare)
+relatedGuideSlugs:
+  - ubiquinol-vs-ubiquinone
+sources:
+  - id: nccih-coq10-overview-howto
+    title: Coenzyme Q10 — NCCIH Overview
+    publisher: National Center for Complementary and Integrative Health
+    url: https://www.nccih.nih.gov/health/coenzyme-q10
+    accessDate: '2026-09-17'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: fda-dietary-supplements-howto
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-09-17'
+    sourceType: FDA
+    supportsClaimIds: []
+  - id: editorial-suppcheckr-methodology-howto
+    title: SuppCheckr methodology (editorial framework)
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-09-17'
+    sourceType: internal_editorial
+    supportsClaimIds: []
+  - id: label-life-extension-howto
+    title: Life Extension Super Ubiquinol CoQ10 100 mg 60 softgels — official product page
+    publisher: Life Extension
+    url: https://www.lifeextension.com/vitamins-supplements/item01929/super-ubiquinol-coq10
+    accessDate: '2026-09-17'
+    sourceType: brand_label
+    supportsClaimIds: []
+  - id: label-jarrow-howto
+    title: Jarrow Q-absorb CoQ10 100 mg 60 softgels — official product page
+    publisher: Jarrow Formulas
+    url: https://jarrow.com/products/q-absorb-100-mg-softgels
+    accessDate: '2026-09-17'
+    sourceType: brand_label
+    supportsClaimIds: []
+  - id: label-now-howto
+    title: NOW Foods CoQ10 200 mg veg capsules — official product page
+    publisher: NOW Foods
+    url: https://www.nowfoods.com/products/supplements/coq10-200-mg-veg-capsules
+    accessDate: '2026-09-17'
+    sourceType: brand_label
+    supportsClaimIds: []
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-09-17'
+  lastReviewed: '2026-09-17'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: >
+        Phase 15D draft/noindex CoQ10 buyer-education guide; dosage intent stays here (no standalone dosage page); no
+        product rankings; no affiliate links

@@ -154,7 +154,8 @@ editorialReview:
 relatedProductIds:
   - coq10-life-extension-super-ubiquinol-01929
   - coq10-now-foods-coq10-200-3176
-comparisonGroupIds: []
+comparisonGroupIds:
+  - coq10-supplements-compared
 claims:
   - id: jarrow-coq10-label-form-ubiquinone
     text: The Jarrow Q-absorb Supplement Facts list Coenzyme Q10 (Ubiquinone) 100 mg per 1 softgel.
@@ -272,3 +273,7 @@ editorial:
       summary: >
         Phase 15C draft/noindex product YAML for Q-absorb 100 mg 60ct; soy disclosure preserved; placeholder image TODO;
         affiliate disabled; unknown testing
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 15D linked comparisonGroupIds to coq10-supplements-compared; product remains draft/noindex

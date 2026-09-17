@@ -20,6 +20,7 @@ import {
   getBrands,
   getCategoryComparison,
   getComparisons,
+  isIndexable,
 } from "@/lib/content/loader";
 import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 import { resolveComparisonSeo } from "@/lib/seo/entityMetadata";
@@ -93,9 +94,9 @@ export default async function CategoryComparePage({
           currentPath={`/supplements/${categorySlug}/compare`}
         />
         {comparison.isPlaceholder && <PlaceholderBanner />}
-        {!comparison.isPlaceholder && comparison.status === "review_ready" && (
+        {!comparison.isPlaceholder && !isIndexable(comparison) && (
           <p className="mb-4 rounded-lg border border-warning-border bg-warning-bg px-4 py-2 text-sm text-warning-text">
-            Draft comparison — not indexed until Phase 2F QA and publication.
+            Draft comparison — not indexed. This page is a preview only.
           </p>
         )}
         <h1 className="text-3xl font-bold text-heading">{comparison.title}</h1>

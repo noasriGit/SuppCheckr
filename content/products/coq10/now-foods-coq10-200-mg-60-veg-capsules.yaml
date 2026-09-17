@@ -154,7 +154,8 @@ editorialReview:
 relatedProductIds:
   - coq10-life-extension-super-ubiquinol-01929
   - coq10-jarrow-q-absorb-100-60
-comparisonGroupIds: []
+comparisonGroupIds:
+  - coq10-supplements-compared
 claims:
   - id: now-coq10-label-form-ubiquinone
     text: The NOW Foods Supplement Facts list Coenzyme Q10 (CoQ10) (Ubiquinone) 200 mg per 1 veg capsule.
@@ -266,3 +267,7 @@ editorial:
       summary: >
         Phase 15C draft/noindex product YAML for SKU 3176; manufacturer quality claims not treated as independent
         testing; placeholder image TODO; affiliate disabled
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 15D linked comparisonGroupIds to coq10-supplements-compared; product remains draft/noindex

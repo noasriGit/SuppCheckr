@@ -159,7 +159,8 @@ editorialReview:
 relatedProductIds:
   - coq10-jarrow-q-absorb-100-60
   - coq10-now-foods-coq10-200-3176
-comparisonGroupIds: []
+comparisonGroupIds:
+  - coq10-supplements-compared
 claims:
   - id: le-coq10-label-form-ubiquinol
     text: The Life Extension Supplement Facts list Ubiquinol (as Kaneka Ubiquinol) 100 mg per 1 softgel.
@@ -269,3 +270,7 @@ editorial:
       changeType: created
       summary: >
         Phase 15C draft/noindex product YAML for item 01929; placeholder image TODO; affiliate disabled; unknown testing
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: Phase 15D linked comparisonGroupIds to coq10-supplements-compared; product remains draft/noindex

@@ -42,8 +42,13 @@ interactions: >
   treatments. This summary is not a complete interaction list. Do not start, stop, or change medications based on
   supplement marketing. Consult a qualified healthcare professional or pharmacist if you take prescription medications
   or manage a chronic medical condition.
-relatedProductIds: []
-relatedGuideSlugs: []
+relatedProductIds:
+  - coq10-now-foods-coq10-200-3176
+  - coq10-life-extension-super-ubiquinol-01929
+  - coq10-jarrow-q-absorb-100-60
+relatedGuideSlugs:
+  - how-to-choose-a-coq10-supplement
+  - ubiquinol-vs-ubiquinone
 sources:
   - id: nccih-coq10-overview
     title: Coenzyme Q10 — NCCIH Overview
@@ -98,3 +103,9 @@ editorial:
       summary: >-
         Phase 15C draft CoQ10 product YAML exists; ingredient shell remains draft/noindex with
         empty relatedProductIds so published pages do not link here as a product hub
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >
+        Phase 15D linked three draft CoQ10 product IDs and two draft guide slugs; ingredient remains
+        draft/noindex so published hubs still do not list CoQ10

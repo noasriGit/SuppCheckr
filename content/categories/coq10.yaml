@@ -3,15 +3,18 @@ slug: coq10
 name: CoQ10
 pluralName: CoQ10 Supplements
 description: >
-  Phase 15A draft category shell — not published. Future hub for CoQ10 (coenzyme Q10) supplement label comparisons:
-  ubiquinone vs ubiquinol form, dose per serving, softgel/capsule format, carrier oils, testing transparency, and
-  dated manual price per 100 mg — not medical or cardiovascular outcome claims.
+  Draft hub for CoQ10 (coenzyme Q10) supplement label comparisons: ubiquinone vs ubiquinol form, dose per serving,
+  softgel or capsule format, carrier oils, testing transparency, and dated official price per 100 mg — not medical or
+  cardiovascular outcome claims.
 shortDescription: >
-  Draft/noindex category shell for future CoQ10 cluster planning. No product reviews or guides linked in Phase 15A.
+  Draft/noindex CoQ10 hub with three locked product reviews, a comparison table, a form guide, and a how-to guide.
+  Not published and not a medical ranking.
 featured: false
 relatedCategories: []
-relatedGuides: []
-buyersGuideSlug: null
+relatedGuides:
+  - how-to-choose-a-coq10-supplement
+  - ubiquinol-vs-ubiquinone
+buyersGuideSlug: how-to-choose-a-coq10-supplement
 scoringProfileId: coq10
 ingredientSlug: coq10
 activeDoseLabel: CoQ10 per serving
@@ -23,14 +26,103 @@ ingredientReferenceLabel: CoQ10 ingredient reference
 ingredientPageLinkLabel: CoQ10 ingredient reference
 comparisonCtaLabel: Compare CoQ10 supplements
 exploreCategoryHeading: Explore CoQ10 content
-intro: ''
-evaluationSummary: ''
-clusterScopeNote: ''
-buyingConsiderations: []
-faq: []
-featuredProductIds: []
-sources: []
-seo: {}
+intro: >
+  CoQ10 (coenzyme Q10) supplements are sold in the United States as dietary supplements, commonly as ubiquinone or
+  ubiquinol in softgels or capsules. According to NCCIH materials, CoQ10 is naturally present in the body and in some
+  foods; product labels still differ in form name, milligrams per serving, oils, capsule materials, testing
+  documentation, and price. SuppCheckr compares those label and sourcing facts across three locked SKUs. We do not rank
+  CoQ10 products for heart disease, blood pressure, cholesterol, statin use, fertility, migraine, Parkinson's disease,
+  anti-aging, or guaranteed energy outcomes.
+evaluationSummary: >
+  SuppCheckr scores CoQ10 products using the CoQ10 scoring profile: form and ingredient transparency, dose transparency
+  (mg per serving), label clarity, evidence alignment and claim conservatism, third-party testing documentation
+  (verified vs claimed vs unknown), dated official price per 100 mg CoQ10, formula quality including serving
+  practicality, additives and allergen/oil disclosure, and brand transparency. Scores reflect label and sourcing quality
+  — not personal outcomes. Ubiquinol is not automatically better than ubiquinone. A higher milligram line is not a
+  dosing recommendation. A higher SuppCheckr score is not a medical ranking.
+clusterScopeNote: >
+  This draft CoQ10 cluster includes three product reviews with distinct comparison purposes: a named-ubiquinol oil
+  softgel (Life Extension Super Ubiquinol 100 mg, item 01929), a 100 mg ubiquinone soy-containing softgel (Jarrow
+  Q-absorb 100 mg, 60 count), and a 200 mg dry vegetarian ubiquinone capsule (NOW Foods SKU 3176). Two educational
+  guides (ubiquinol vs ubiquinone; how to choose a CoQ10 supplement) and one category comparison table
+  (coq10-supplements-compared) are linked. A fourth product review remains deferred. No Amazon affiliate links. All
+  CoQ10 routes stay draft/noindex until a later publication decision.
+buyingConsiderations:
+  - >-
+    Confirm Supplement Facts name the CoQ10 form (ubiquinone or ubiquinol) and list milligrams per serving — unnamed
+    “CoQ10 complex” lines are harder to compare.
+  - >-
+    Note serving format: oil softgel versus dry capsule, gelatin versus hypromellose, and any carrier oil.
+  - >-
+    Read allergen and other-ingredient lines, including soy lecithin, gelatin, colors, and mixed tocopherols.
+  - >-
+    Check whether third-party testing is verified (SKU-matched USP/NSF/Informed listing), only claimed in manufacturer
+    quality language, or unknown.
+  - >-
+    Compare value using dated official one-time price per 100 mg CoQ10, not bottle price alone; do not mix counts or
+    AutoShip prices.
+  - >-
+    Treat 100 mg versus 200 mg as a label and price-math difference, not a personal dosing protocol.
+  - >-
+    Consult a qualified healthcare professional before starting or changing CoQ10 supplements, especially if pregnant,
+    nursing, under 18, taking medications (including blood thinners), preparing for surgery, managing a heart
+    condition, liver or kidney disease, or another medical condition.
+faq:
+  - question: Does a higher SuppCheckr score mean a CoQ10 product will work for me?
+    answer: >
+      No. Scores summarize label transparency, testing documentation, and dated price context using our methodology —
+      not personal medical suitability or outcome guarantees.
+  - question: Is ubiquinol always better than ubiquinone?
+    answer: >
+      No. They are different labeled forms. Compare the form word, milligrams per serving, oils, testing status, and
+      dated price per 100 mg. Brand absorption claims are manufacturer text unless independently sourced. See the
+      ubiquinol vs ubiquinone guide.
+  - question: Can CoQ10 supplements treat heart disease or replace statins?
+    answer: >
+      No. SuppCheckr does not rank CoQ10 products for heart disease, blood pressure, cholesterol, or statin-related use.
+      Dietary supplements are not a substitute for prescribed cardiovascular treatment. Do not start, stop, or change
+      medications based on this site.
+  - question: Which products are in this draft cluster?
+    answer: >
+      Life Extension Super Ubiquinol CoQ10 100 mg (60 softgels, item 01929), Jarrow Formulas Q-absorb CoQ10 100 mg
+      (60 softgels), and NOW Foods CoQ10 200 mg veg capsules (60 count, SKU 3176). See the CoQ10 comparison table for
+      side-by-side label context. A fourth review is deferred.
+  - question: Does CoQ10 interact with medications?
+    answer: >
+      NCCIH materials note potential interactions with warfarin and insulin, and possible incompatibility with some
+      cancer treatments. That is general background, not a complete interaction list. Ask a pharmacist or qualified
+      clinician about your medications.
+featuredProductIds:
+  - coq10-now-foods-coq10-200-3176
+  - coq10-life-extension-super-ubiquinol-01929
+  - coq10-jarrow-q-absorb-100-60
+sources:
+  - id: cat-nccih-coq10-overview
+    title: Coenzyme Q10 — NCCIH Overview
+    publisher: National Center for Complementary and Integrative Health
+    url: https://www.nccih.nih.gov/health/coenzyme-q10
+    accessDate: '2026-09-17'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cat-fda-dietary-supplements
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-09-17'
+    sourceType: FDA
+    supportsClaimIds: []
+  - id: cat-editorial-suppcheckr-methodology
+    title: SuppCheckr scoring methodology
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-09-17'
+    sourceType: internal_editorial
+    supportsClaimIds: []
+seo:
+  title: CoQ10 Supplements Compared by Label
+  description: >
+    Compare CoQ10 supplements by ubiquinone vs ubiquinol, dose per serving, testing documentation, and dated price per
+    100 mg. Not medical advice.
 status: draft
 isPlaceholder: false
 noindex: true
@@ -68,3 +160,9 @@ editorial:
       summary: >-
         Phase 15C draft product YAML added for three SKUs; category remains draft/noindex;
         featuredProductIds still empty; not added to sitemap or published hubs
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >
+        Phase 15D draft hub copy, featuredProductIds, two guides, and comparison linked; status remains draft/noindex;
+        not added to sitemap or published hubs

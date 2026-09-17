@@ -20,6 +20,7 @@ import {
   getIngredientBySlug,
   getGuideBySlug,
   getCategoryBySlug,
+  getCategoryComparison,
   getProducts,
   getBrands,
   isIndexable,
@@ -100,6 +101,11 @@ export default async function IngredientPage({
         currentPath={ingredientPath}
       />
       {ingredient.isPlaceholder && <PlaceholderBanner />}
+      {!ingredient.isPlaceholder && !isIndexable(ingredient) && (
+        <p className="mb-4 rounded-lg border border-warning-border bg-warning-bg px-4 py-2 text-sm text-warning-text">
+          Draft ingredient reference — not indexed. This page is a preview only.
+        </p>
+      )}
       <h1 className="text-3xl font-bold text-heading">{ingredient.name}</h1>
       <p className="mt-2 text-sm text-muted">
         Educational ingredient reference — not medical advice.
@@ -189,7 +195,9 @@ export default async function IngredientPage({
                 )}
               </li>
             )}
-            {category && isIndexable(category) && (
+            {category &&
+              getCategoryComparison(category.slug) &&
+              (isIndexable(category) || !isIndexable(ingredient)) && (
               <li>
                 <Link
                   href={`/supplements/${category.slug}/compare`}
@@ -197,9 +205,13 @@ export default async function IngredientPage({
                 >
                   {category.comparisonCtaLabel ?? `${category.name} product comparison`}
                 </Link>
+                {!isIndexable(category) && (
+                  <span className="text-muted"> (draft — not indexed)</span>
+                )}
               </li>
             )}
-            {category?.buyersGuideSlug && (
+            {category?.buyersGuideSlug &&
+              !relatedGuides.some((guide) => guide?.slug === category.buyersGuideSlug) && (
               <li>
                 <Link
                   href={`/guides/${category.buyersGuideSlug}`}
