@@ -92,3 +92,9 @@ editorial:
         Professional URL (404 on 2026-09-16) from the live source list; NCCIH overview is the live
         general background/safety citation; FDA dietary-supplements page retained; dead ODS URL
         preserved in research history only
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >-
+        Phase 15C draft CoQ10 product YAML exists; ingredient shell remains draft/noindex with
+        empty relatedProductIds so published pages do not link here as a product hub

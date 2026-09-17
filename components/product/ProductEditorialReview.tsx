@@ -88,7 +88,7 @@ export function ProductEditorialReview({
 
           {review.value && (
             <section className="rounded-lg border border-border bg-surface p-4">
-              <h2 className="text-lg font-semibold text-heading">Value and price per 5 g</h2>
+              <h2 className="text-lg font-semibold text-heading">Value and dated price</h2>
               <p className="mt-2 text-sm leading-relaxed text-foreground">
                 <InlineMarkdown text={review.value} />
               </p>

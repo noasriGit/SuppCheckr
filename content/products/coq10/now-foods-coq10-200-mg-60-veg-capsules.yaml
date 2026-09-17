@@ -1,0 +1,268 @@
+id: coq10-now-foods-coq10-200-3176
+slug: now-foods-coq10-200-mg-60-veg-capsules
+name: NOW Foods CoQ10 200 mg Veg Capsules (60 Veg Capsules, SKU 3176)
+brandId: now-foods
+categoryId: coq10
+images:
+  product:
+    src: /images/products/placeholder.svg
+    alt: NOW Foods CoQ10 200 mg 60 veg capsules — product photo pending
+    attribution: >
+      Placeholder image only. TODO: source a licensed pack shot or documented reuse-rights photograph before any
+      publication; do not reuse manufacturer artwork without rights.
+  label:
+    src: null
+    attribution: https://www.nowfoods.com/products/supplements/coq10-200-mg-veg-capsules
+supplementFacts:
+  servingSize: 1 veg capsule
+  servingsPerContainer: 60
+  ingredients:
+    - name: Coenzyme Q10 (CoQ10) (Ubiquinone)
+      amount: 200 mg
+      dailyValue: null
+  otherIngredients:
+    - Rice flour
+    - Hypromellose (cellulose capsule)
+    - Ascorbyl palmitate
+    - Magnesium stearate (vegetable source)
+    - Silicon dioxide
+  allergens: []
+pricing:
+  msrp: 37.99
+  currency: USD
+  pricePerServing: 0.63
+  pricePerActiveDose: 0.32
+  lastManualUpdate: '2026-09-17'
+  lastPriceCheckedAt: '2026-09-17'
+retailers:
+  - retailerId: now-foods
+    url: https://www.nowfoods.com/products/supplements/coq10-200-mg-veg-capsules
+    isPrimary: true
+certifications: []
+thirdPartyTesting:
+  status: claimed
+  details: >
+    NOW brand materials for this SKU include GMP / "pharmaceutical grade" / all-trans fermented CoQ10 quality language.
+    That is a manufacturer-reported quality claim. No SKU-matched USP Verified, NSF, or Informed Sport product listing
+    was captured for SKU 3176 / UPC 733739031761. SuppCheckr does not describe this product as independently certified
+    or independently tested. The 50 testing-criterion score is the rubric "claimed without a captured certificate"
+    anchor — not independent-certification credit (verified would be 100).
+  sources:
+    - label-now-foods-coq10-200-3176
+flags:
+  thirdPartyTested: false
+  additiveFree: false
+additives:
+  - Rice flour
+  - Hypromellose
+  - Ascorbyl palmitate
+  - Magnesium stearate
+  - Silicon dioxide
+rating:
+  profileId: coq10
+  criteriaScores:
+    ingredientTransparency: 100
+    doseTransparency: 100
+    evidenceAlignment: 50
+    formulaQuality: 100
+    thirdPartyTesting: 50
+    priceValue: 100
+    additives: 100
+    labelClarity: 100
+    brandTransparency: 85
+  overallScore: 86
+pros:
+  - Official Supplement Facts name Coenzyme Q10 (CoQ10) (Ubiquinone) at 200 mg per 1 veg capsule.
+  - Dry hypromellose capsule with no carrier oil, which is a distinct format versus the two oil softgels in this draft set.
+  - Dated official one-time price per 100 mg CoQ10 is the lowest of the three locked SKUs ($0.32).
+cons:
+  - Manufacturer GMP / pharmaceutical-grade language is not a captured USP, NSF, or Informed Sport product listing.
+  - Brand page uses cardiovascular-health structure/function marketing — cited as brand claims only.
+  - 200 mg per capsule is a higher labeled dose than the 100 mg softgels; that is a label difference, not medical dosing advice.
+bestFor:
+  - Shoppers comparing a higher-dose dry vegetarian ubiquinone capsule with official brand Supplement Facts.
+avoidIf:
+  - You require verified third-party certification documentation before purchase.
+  - You specifically want a named-ubiquinol or oil-softgel format.
+labelTransparencyNotes: >
+  Locked NOW SKU 3176 / UPC 733739031761 — 60 veg capsules. Official facts list Coenzyme Q10 (CoQ10) (Ubiquinone)
+  200 mg per 1 veg capsule. Other ingredients: rice flour, hypromellose (cellulose capsule), ascorbyl palmitate,
+  magnesium stearate (vegetable source), silicon dioxide. Brand allergen language states the product is not
+  manufactured with wheat, gluten, soy, milk, egg, fish, shellfish, tree nut, or sesame, with a facility-allergen
+  caveat; confirm the current label. A 15C re-fetch of the NOW PDP was Cloudflare-blocked; label facts follow the
+  2026-09-17 Phase 15B official-page lock. Image TODO: keep /images/products/placeholder.svg until licensed reuse
+  rights are documented.
+evidenceNotes: >
+  SuppCheckr score uses the CoQ10 scoring profile (Phase 15C). Key drivers: named ubiquinone, 200 mg per veg capsule,
+  and the lowest dated price per 100 mg in this draft set ($0.32) — offset by manufacturer quality claims that are not
+  independent certification, plus brand cardiovascular structure/function copy. The 86 total is not a category-wide
+  winner label.
+editorialReview:
+  summary: >
+    This draft page reviews NOW Foods CoQ10 200 mg Veg Capsules (60 count, SKU 3176) from official brand facts locked
+    on 2026-09-17. The Supplement Facts list ubiquinone at 200 mg per vegetarian capsule. The 86/100 CoQ10-profile
+    score is driven by clear dose/form disclosure and a lower dated price per 100 mg, plus manufacturer quality-claim
+    credit at the "claimed" rubric anchor. It is not independent certification and not a category-wide winner label.
+  verified:
+    - Official Supplement Facts list Coenzyme Q10 (CoQ10) (Ubiquinone) 200 mg per 1 veg capsule.
+    - The 60-capsule bottle provides 60 servings on the cited label.
+    - NOWFoods.com listed the one-time price at $37.99 on 2026-09-17.
+    - Price per serving is $0.63 ($37.99 ÷ 60). Price per 100 mg CoQ10 is $0.32 ($37.99 ÷ 120, because 60 × 200 mg =
+      12,000 mg).
+    - No SKU-matched USP, NSF, or Informed Sport product listing was captured.
+  brandOrRetailerClaims:
+    - NOW quality language for this SKU includes GMP / pharmaceutical-grade / all-trans fermented CoQ10 wording.
+      SuppCheckr records that as a manufacturer quality claim, not independent product certification.
+    - Brand copy includes cardiovascular-health structure/function marketing. That is not a SuppCheckr conclusion and
+      is not a disease-treatment claim.
+  labelAndDose: >
+    The locked SKU is 200 mg ubiquinone per 1 veg capsule and 60 servings. This is a dry capsule (rice flour and
+    hypromellose; no carrier oil on the cited other-ingredients list). Confirm SKU 3176 and the 60-count bottle; NOW
+    sells other CoQ10 strengths and formats as different products. This page does not recommend an individualized dose.
+  testing: >
+    Testing status is claimed, not verified. Facility GMP or "pharmaceutical grade" language is not a captured
+    product-specific USP, NSF, or Informed Sport listing. SuppCheckr does not mark this SKU as independently tested.
+    Do not read the 50 testing score as independent-certification credit. Criterion scores used for the 86 total:
+    ingredientTransparency 100, doseTransparency 100, labelClarity 100, thirdPartyTesting 50, priceValue 100,
+    evidenceAlignment 50, additives 100, formulaQuality 100, brandTransparency 85 (weights 16/14/12/12/12/14/8/6/6;
+    86.1 rounds to 86).
+  value: >
+    The official one-time price was $37.99 on 2026-09-17. $37.99 ÷ 60 servings = $0.63 per serving. Total CoQ10 is
+    12,000 mg, so $37.99 ÷ 120 = $0.32 per 100 mg. That lower per-100-mg figure reflects the 200 mg labeled serving,
+    not a judgment that this SKU is the best product. Dated prices change — verify on the brand page.
+  format: >
+    This SKU is a higher-dose dry vegetarian ubiquinone capsule. Compare that as a format fact with Life Extension's
+    100 mg ubiquinol softgel and Jarrow's 100 mg ubiquinone soy-containing softgel. Capsule versus softgel is not a
+    winner label.
+  bottomLine: >
+    On cited label facts and dated one-time price math, this is the 200 mg dry vegetarian ubiquinone option in the
+    draft CoQ10 set. The 86 score is the highest of the three drafts because of price per 100 mg and claimed (not
+    verified) testing — not a category-wide winner label, not independent lab proof, and not a personal recommendation.
+  faq:
+    - question: Is NOW CoQ10 200 mg independently tested?
+      answer: >
+        NOW uses manufacturer quality language. SuppCheckr records testing as claimed, not verified, because no
+        SKU-matched third-party product listing was captured for SKU 3176.
+    - question: Why is the score higher than the 100 mg softgels?
+      answer: >
+        The 86 total follows the CoQ10 rubric math: lower dated price per 100 mg (200 mg per serving) and the claimed
+        testing anchor (50), versus 0 for unknown testing on the other two SKUs. SuppCheckr does not treat the highest
+        score as a category-wide winner.
+    - question: What price did SuppCheckr use?
+      answer: >
+        The official one-time price of $37.99 on 2026-09-17, equal to $0.63 per serving and $0.32 per 100 mg CoQ10.
+relatedProductIds:
+  - coq10-life-extension-super-ubiquinol-01929
+  - coq10-jarrow-q-absorb-100-60
+comparisonGroupIds: []
+claims:
+  - id: now-coq10-label-form-ubiquinone
+    text: The NOW Foods Supplement Facts list Coenzyme Q10 (CoQ10) (Ubiquinone) 200 mg per 1 veg capsule.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-now-foods-coq10-200-3176
+  - id: now-coq10-label-serving-60
+    text: The cited label serving size is 1 veg capsule with 60 servings per 60-capsule container.
+    claimType: label_fact
+    claimRiskLevel: medium
+    citationIds:
+      - label-now-foods-coq10-200-3176
+  - id: now-coq10-price-brand
+    text: NOWFoods.com listed CoQ10 200 mg Veg Capsules (60 count, SKU 3176) at $37.99 one-time on 2026-09-17.
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-now-foods-coq10-200-3176
+  - id: now-coq10-price-per-serving
+    text: Price per serving is $0.63 based on $37.99 divided by 60 servings (editorial calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-now-foods-coq10-200-3176
+      - editorial-price-per-100mg-now-foods-coq10-200-3176
+  - id: now-coq10-price-per-100mg
+    text: >
+      Price per 100 mg CoQ10 is $0.32 based on $37.99 divided by 120 (60 servings × 200 mg = 12,000 mg) (editorial
+      calculation).
+    claimType: price_fact
+    claimRiskLevel: low
+    citationIds:
+      - retailer-now-foods-coq10-200-3176
+      - editorial-price-per-100mg-now-foods-coq10-200-3176
+  - id: now-coq10-brand-quality-claim
+    text: >
+      NOW quality language for this SKU includes GMP / pharmaceutical-grade / all-trans fermented CoQ10 wording.
+      SuppCheckr records this as a manufacturer quality claim, not independent product certification.
+    claimType: brand_claim
+    claimRiskLevel: medium
+    citationIds:
+      - label-now-foods-coq10-200-3176
+  - id: now-coq10-nccih-safety
+    text: >
+      According to NCCIH materials, CoQ10 is sold as a dietary supplement in the United States and may interact with
+      warfarin and insulin. This is general background, not product-specific medical advice.
+    claimType: safety_context
+    claimRiskLevel: medium
+    citationIds:
+      - nccih-coq10-now-foods-coq10-200-3176
+sources:
+  - id: label-now-foods-coq10-200-3176
+    title: NOW Foods CoQ10 200 mg Veg Capsules — Supplement Facts (SKU 3176)
+    publisher: NOW Foods
+    url: https://www.nowfoods.com/products/supplements/coq10-200-mg-veg-capsules
+    accessDate: '2026-09-17'
+    sourceType: brand_label
+    supportsClaimIds:
+      - now-coq10-label-form-ubiquinone
+      - now-coq10-label-serving-60
+      - now-coq10-brand-quality-claim
+  - id: retailer-now-foods-coq10-200-3176
+    title: NOW Foods CoQ10 200 mg Veg Capsules 60 count — product page (price)
+    publisher: NOW Foods
+    url: https://www.nowfoods.com/products/supplements/coq10-200-mg-veg-capsules
+    accessDate: '2026-09-17'
+    sourceType: retailer_listing
+    supportsClaimIds:
+      - now-coq10-price-brand
+      - now-coq10-price-per-serving
+      - now-coq10-price-per-100mg
+  - id: editorial-price-per-100mg-now-foods-coq10-200-3176
+    title: SuppCheckr price-per-serving and price-per-100-mg CoQ10 calculation
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-09-17'
+    sourceType: internal_editorial
+    supportsClaimIds:
+      - now-coq10-price-per-serving
+      - now-coq10-price-per-100mg
+  - id: nccih-coq10-now-foods-coq10-200-3176
+    title: Coenzyme Q10 — NCCIH Overview
+    publisher: National Center for Complementary and Integrative Health
+    url: https://www.nccih.nih.gov/health/coenzyme-q10
+    accessDate: '2026-09-17'
+    sourceType: NIH
+    supportsClaimIds:
+      - now-coq10-nccih-safety
+affiliate:
+  enabled: false
+seo:
+  title: NOW Foods CoQ10 200 mg Veg Capsules Review
+  description: >
+    Draft label review of NOW Foods CoQ10 200 mg veg capsules (60 count, SKU 3176) with named ubiquinone facts and
+    dated official one-time price per 100 mg.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-09-17'
+  lastReviewed: '2026-09-17'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: >
+        Phase 15C draft/noindex product YAML for SKU 3176; manufacturer quality claims not treated as independent
+        testing; placeholder image TODO; affiliate disabled
