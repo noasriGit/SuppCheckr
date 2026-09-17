@@ -1,0 +1,140 @@
+id: coq10-supplements-compared
+slug: coq10-supplements-compared
+type: category_ranking
+title: CoQ10 Products Compared
+categoryId: coq10
+subtitle: >
+  This comparison looks at CoQ10 form (ubiquinone vs ubiquinol), milligrams per serving, softgel vs capsule format,
+  testing documentation, soy/gelatin disclosure, and dated official price per 100 mg CoQ10 across three locked draft
+  reviews. Default sort reflects SuppCheckr weighted scores — not medical recommendations and not suitability for any
+  specific condition.
+productIds:
+  - coq10-now-foods-coq10-200-3176
+  - coq10-life-extension-super-ubiquinol-01929
+  - coq10-jarrow-q-absorb-100-60
+comparisonFields:
+  - overallScore
+  - pricePerActiveDose
+  - pricePerServing
+  - thirdPartyTesting
+  - servingSize
+methodologyNote: >
+  Scores use the CoQ10 scoring profile (form/ingredient transparency, dose transparency, label clarity, evidence
+  alignment and claim conservatism, third-party testing documentation, dated price per 100 mg CoQ10, formula quality
+  including serving practicality, additives, and brand transparency). Table order defaults to overall score high to low.
+  Life Extension and Jarrow both score 74; that tie is a format distinction, not a winner label. NOW's 86 total is the
+  highest of these three drafts because of dated price per 100 mg and a claimed (not verified) testing anchor — not a
+  category-wide winner label. Narrow criterion labels below each product name reflect specific supported
+  label attributes. Scores are not medical recommendations and do not determine which product is suitable for heart
+  disease, statin use, fertility, migraine, or any medical condition. Consult a qualified healthcare professional
+  before using CoQ10 supplements, especially if pregnant, nursing, under 18, taking medications (including blood
+  thinners), preparing for surgery, managing a heart condition, liver or kidney disease, or another medical condition.
+  See /methodology for weight details.
+orderingNote: >
+  Default table order is based on SuppCheckr weighted criteria scores, not a ranking of which product is right for every
+  person or any medical use case. SuppCheckr does not rank CoQ10 products for heart disease, blood pressure, cholesterol,
+  statin use, fertility, migraine, Parkinson's disease, anti-aging, guaranteed energy, or any medical condition. Filter
+  and re-sort by price per 100 mg CoQ10 or testing status to match your own label and sourcing priorities.
+priceCheckedAt: '2026-09-17'
+productCriterionLabels:
+  - productId: coq10-now-foods-coq10-200-3176
+    labels:
+      - 200 mg ubiquinone veg capsule
+      - claimed manufacturer testing
+      - dated $0.32 per 100 mg
+  - productId: coq10-life-extension-super-ubiquinol-01929
+    labels:
+      - Kaneka ubiquinol 100 mg
+      - olive oil softgel
+      - unknown testing
+  - productId: coq10-jarrow-q-absorb-100-60
+    labels:
+      - ubiquinone 100 mg softgel
+      - contains soy
+      - unknown testing
+caveats:
+  - >-
+    NOW Foods CoQ10 200 mg (SKU 3176) scores 86 in this three-SKU draft set. The testing criterion is the rubric
+    **claimed** anchor (50), not independent-certification credit. No SKU-matched USP, NSF, or Informed Sport listing
+    was captured. Brand cardiovascular-health copy is manufacturer text, not a SuppCheckr conclusion.
+  - >-
+    Life Extension Super Ubiquinol 100 mg (item 01929) and Jarrow Q-absorb 100 mg (60ct) both score 74. That tie is not
+    a winner label. Life Extension testing status is unknown. Brand bioavailability copy is attributed, not independently
+    confirmed. AutoShip pricing was not used; the dated one-time price was $37.50 on 2026-09-17 ($0.63 per 100 mg).
+  - >-
+    Jarrow Q-absorb 100 mg 60-softgel facts disclose soy lecithin and state Contains: Soy. Caramel and carob are listed
+    as color agents. The 120-count offer is a different variant and was not used for price math. Testing status is
+    unknown. Brand "high absorption" / proliposome language is a manufacturer claim.
+  - >-
+    All three reviews use `/images/products/placeholder.svg` pending licensed pack shots. Affiliate mappings are
+    disabled. Official brand URLs are direct retailer links, not Amazon affiliate links.
+  - >-
+    Phase 15C dated official one-time prices (2026-09-17): Life Extension $37.50, Jarrow 60ct $34.99, NOW $37.99.
+    Verify the current one-time price on the brand page before purchase.
+  - >-
+    A fourth product review remains deferred. This table is not a complete market ranking.
+filtersEnabled: true
+defaultSort: overallScore
+sources:
+  - id: cmp-coq10-suppcheckr-methodology
+    title: SuppCheckr scoring methodology
+    publisher: SuppCheckr
+    url: https://www.suppcheckr.com/methodology
+    accessDate: '2026-09-17'
+    sourceType: internal_editorial
+    supportsClaimIds: []
+  - id: cmp-coq10-nccih
+    title: Coenzyme Q10 — NCCIH Overview
+    publisher: National Center for Complementary and Integrative Health
+    url: https://www.nccih.nih.gov/health/coenzyme-q10
+    accessDate: '2026-09-17'
+    sourceType: NIH
+    supportsClaimIds: []
+  - id: cmp-coq10-fda
+    title: FDA — Dietary Supplements
+    publisher: U.S. Food and Drug Administration
+    url: https://www.fda.gov/food/dietary-supplements
+    accessDate: '2026-09-17'
+    sourceType: FDA
+    supportsClaimIds: []
+  - id: cmp-coq10-label-life-extension
+    title: Life Extension Super Ubiquinol CoQ10 100 mg 60 softgels — official product page
+    publisher: Life Extension
+    url: https://www.lifeextension.com/vitamins-supplements/item01929/super-ubiquinol-coq10
+    accessDate: '2026-09-17'
+    sourceType: brand_label
+    supportsClaimIds: []
+  - id: cmp-coq10-label-jarrow
+    title: Jarrow Q-absorb CoQ10 100 mg 60 softgels — official product page
+    publisher: Jarrow Formulas
+    url: https://jarrow.com/products/q-absorb-100-mg-softgels
+    accessDate: '2026-09-17'
+    sourceType: brand_label
+    supportsClaimIds: []
+  - id: cmp-coq10-label-now
+    title: NOW Foods CoQ10 200 mg veg capsules — official product page
+    publisher: NOW Foods
+    url: https://www.nowfoods.com/products/supplements/coq10-200-mg-veg-capsules
+    accessDate: '2026-09-17'
+    sourceType: brand_label
+    supportsClaimIds: []
+seo:
+  title: CoQ10 Products Compared
+  description: >
+    Side-by-side CoQ10 comparison of three locked SKUs by form, dose, testing documentation, and dated price per 100 mg.
+    Scores are not medical advice.
+status: draft
+isPlaceholder: false
+noindex: true
+claimRiskLevel: medium
+editorial:
+  lastUpdated: '2026-09-17'
+  lastReviewed: '2026-09-17'
+  reviewedBy: suppcheckr-editorial
+  updateLog:
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: created
+      summary: >
+        Phase 15D draft/noindex three-SKU CoQ10 category comparison; NOW 86 / Life Extension 74 / Jarrow 74; no
+        affiliate links; not a market-wide ranking

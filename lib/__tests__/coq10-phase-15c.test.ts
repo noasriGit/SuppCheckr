@@ -61,7 +61,7 @@ describe("CoQ10 Phase 15C draft products", () => {
       expect(product.images.product.attribution.toLowerCase()).toContain("todo");
       expect(product.certifications).toEqual([]);
       expect(product.flags.thirdPartyTested).toBe(false);
-      expect(product.comparisonGroupIds).toEqual([]);
+      expect(product.comparisonGroupIds).toEqual(["coq10-supplements-compared"]);
       expect(product.pricing.lastPriceCheckedAt).toBe("2026-09-17");
     }
   });
