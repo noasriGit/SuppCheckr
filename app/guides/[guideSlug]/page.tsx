@@ -18,8 +18,9 @@ import {
   getGuides,
   getGuideBySlug,
   getCategoryBySlug,
+  getCategoryComparison,
+  isIndexable,
 } from "@/lib/content/loader";
-import { isIndexable } from "@/lib/content/loader";
 
 export async function generateStaticParams() {
   return getGuides()
@@ -79,6 +80,11 @@ export default async function GuidePage({
         currentPath={guidePath}
       />
       {guide.isPlaceholder && <PlaceholderBanner />}
+      {!guide.isPlaceholder && !isIndexable(guide) && (
+        <p className="mb-4 rounded-lg border border-warning-border bg-warning-bg px-4 py-2 text-sm text-warning-text">
+          Draft guide — not indexed. This page is a preview only.
+        </p>
+      )}
       <h1 className="text-3xl font-bold text-heading">{guide.title}</h1>
       <p className="mt-3 text-foreground">{guide.excerpt}</p>
       <EditorialDates
@@ -116,7 +122,9 @@ export default async function GuidePage({
                 </Link>
               </li>
             )}
-            {category && isIndexable(category) && (
+            {category &&
+              getCategoryComparison(category.slug) &&
+              (isIndexable(category) || !isIndexable(guide)) && (
               <li>
                 <Link
                   href={`/supplements/${category.slug}/compare`}
@@ -124,9 +132,13 @@ export default async function GuidePage({
                 >
                   {category.comparisonCtaLabel ?? `${category.name} comparison table`}
                 </Link>
+                {!isIndexable(category) && (
+                  <span className="text-muted"> (draft — not indexed)</span>
+                )}
               </li>
             )}
-            {category?.buyersGuideSlug && (
+            {category?.buyersGuideSlug &&
+              !relatedGuides.some((related) => related?.slug === category.buyersGuideSlug) && (
               <li>
                 <Link
                   href={`/guides/${category.buyersGuideSlug}`}

@@ -52,8 +52,13 @@ const markdownComponents: Components = {
   li: ({ children }) => <li>{children}</li>,
   br: () => <br />,
   table: ({ children }) => (
-    <div className="mt-4 overflow-x-auto rounded-lg border border-border">
-      <table className="min-w-full text-sm">{children}</table>
+    <div
+      className="mt-4 overflow-x-auto rounded-lg border border-border"
+      role="region"
+      aria-label="Guide comparison table"
+      tabIndex={0}
+    >
+      <table className="min-w-[36rem] w-full text-sm">{children}</table>
     </div>
   ),
   thead: ({ children }) => <thead className="bg-table-header text-left">{children}</thead>,

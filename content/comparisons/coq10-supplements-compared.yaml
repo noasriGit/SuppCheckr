@@ -55,7 +55,7 @@ productCriterionLabels:
 caveats:
   - >-
     NOW Foods CoQ10 200 mg (SKU 3176) scores 86 in this three-SKU draft set. The testing criterion is the rubric
-    **claimed** anchor (50), not independent-certification credit. No SKU-matched USP, NSF, or Informed Sport listing
+    "claimed" anchor (50), not independent-certification credit. No SKU-matched USP, NSF, or Informed Sport listing
     was captured. Brand cardiovascular-health copy is manufacturer text, not a SuppCheckr conclusion.
   - >-
     Life Extension Super Ubiquinol 100 mg (item 01929) and Jarrow Q-absorb 100 mg (60ct) both score 74. That tie is not
@@ -66,7 +66,7 @@ caveats:
     as color agents. The 120-count offer is a different variant and was not used for price math. Testing status is
     unknown. Brand "high absorption" / proliposome language is a manufacturer claim.
   - >-
-    All three reviews use `/images/products/placeholder.svg` pending licensed pack shots. Affiliate mappings are
+    All three reviews use a placeholder product image pending licensed pack shots. Affiliate mappings are
     disabled. Official brand URLs are direct retailer links, not Amazon affiliate links.
   - >-
     Phase 15C dated official one-time prices (2026-09-17): Life Extension $37.50, Jarrow 60ct $34.99, NOW $37.99.

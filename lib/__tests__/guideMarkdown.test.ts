@@ -53,6 +53,8 @@ describe("GuideMarkdown", () => {
     expect(html).toContain("<th scope=\"col\"");
     expect(html).toContain("<td");
     expect(html).toContain("1,000 mg");
+    expect(html).toContain('role="region"');
+    expect(html).toContain("overflow-x-auto");
     expect(html).not.toContain("| Factor |");
   });
 

@@ -87,6 +87,7 @@ export function ComparisonTable({
             value={sortKey}
             onChange={(e) => setSortKey(e.target.value as SortKey)}
             className={selectClass}
+            aria-label="Sort comparison table"
           >
             <option value="overallScore">SuppCheckr score</option>
             <option value="pricePerActiveDose">{displayLabels.priceNormalizationSortLabel}</option>
@@ -99,6 +100,7 @@ export function ComparisonTable({
             value={sortAsc ? "asc" : "desc"}
             onChange={(e) => setSortAsc(e.target.value === "asc")}
             className={selectClass}
+            aria-label="Sort order"
           >
             <option value="desc">High to low</option>
             <option value="asc">Low to high</option>
@@ -110,6 +112,7 @@ export function ComparisonTable({
             value={thirdPartyFilter}
             onChange={(e) => setThirdPartyFilter(e.target.value as FilterThirdParty)}
             className={selectClass}
+            aria-label="Filter by third-party testing"
           >
             <option value="all">All</option>
             <option value="verified">Verified</option>
@@ -119,11 +122,25 @@ export function ComparisonTable({
         </label>
       </div>
 
-      <div className="overflow-x-auto rounded-lg border border-border">
-        <table className="min-w-full text-sm">
+      <p className="mb-2 text-xs text-muted md:hidden">
+        Scroll sideways to see score, price, and testing columns.
+      </p>
+      <div
+        className="overflow-x-auto rounded-lg border border-border"
+        role="region"
+        aria-label="Product comparison table"
+        tabIndex={0}
+      >
+        <table className="min-w-[40rem] w-full text-sm">
+          <caption className="sr-only">
+            Side-by-side product comparison of score, dated price, and testing status. Scroll horizontally on small
+            screens.
+          </caption>
           <thead className="bg-table-header text-left">
             <tr>
-              <th scope="col" className="px-4 py-3 font-medium text-heading">Product</th>
+              <th scope="col" className="sticky left-0 z-10 bg-table-header px-4 py-3 font-medium text-heading">
+                Product
+              </th>
               <th scope="col" className="px-4 py-3 font-medium text-heading">Brand</th>
               <th scope="col" className="px-4 py-3 font-medium text-heading">Score</th>
               <th scope="col" className="px-4 py-3 font-medium text-heading">
@@ -145,7 +162,7 @@ export function ComparisonTable({
 
               return (
                 <tr key={product.id} className="border-t border-table-row-border">
-                  <td className="px-4 py-3">
+                  <td className="sticky left-0 z-10 bg-surface px-4 py-3">
                     <Link
                       href={href}
                       className="font-medium text-link hover:text-link-hover hover:underline"
@@ -157,7 +174,8 @@ export function ComparisonTable({
                         Demo
                       </span>
                     )}
-                    {!product.isPlaceholder && product.status === "review_ready" && (
+                    {!product.isPlaceholder &&
+                      (product.status === "review_ready" || product.status === "draft") && (
                       <span className="ml-2 rounded bg-warning-bg px-1.5 py-0.5 text-xs text-warning-text">
                         Draft
                       </span>

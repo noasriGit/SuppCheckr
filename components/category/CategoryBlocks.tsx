@@ -52,8 +52,13 @@ export function CategoryProductTable({
   );
 
   return (
-    <div className="overflow-x-auto rounded-lg border border-border">
-      <table className="min-w-full text-sm">
+    <div
+      className="overflow-x-auto rounded-lg border border-border"
+      role="region"
+      aria-label="Category product table"
+      tabIndex={0}
+    >
+      <table className="min-w-[32rem] w-full text-sm">
         <thead className="bg-table-header text-left">
           <tr>
             <th scope="col" className="px-4 py-3 font-medium text-heading">Product</th>
@@ -80,7 +85,8 @@ export function CategoryProductTable({
                       Demo
                     </span>
                   )}
-                  {!p.isPlaceholder && p.status === "review_ready" && (
+                  {!p.isPlaceholder &&
+                    (p.status === "review_ready" || p.status === "draft") && (
                     <span className="ml-2 rounded bg-warning-bg px-1.5 py-0.5 text-xs text-warning-text">
                       Draft
                     </span>
