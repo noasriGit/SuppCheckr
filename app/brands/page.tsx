@@ -10,7 +10,7 @@ import {
 export const metadata = buildPageMetadata({
   title: "Supplement Brands",
   description:
-    "Brand profiles for supplements with published SuppCheckr product reviews in Creatine, Magnesium, Vitamin C, and Electrolytes categories.",
+    "Brand profiles for supplements with published SuppCheckr product reviews in Creatine, Magnesium, Vitamin C, Electrolytes, and CoQ10 categories.",
   path: "/brands",
   noindex: true,
 });
@@ -32,7 +32,7 @@ export default function BrandsIndexPage() {
         published product reviews and notes transparency or testing context where available.
       </p>
       <p className="mt-3 max-w-2xl text-sm text-muted">
-        Profiles reflect our published Creatine, Magnesium, Vitamin C, and Electrolytes coverage — not a complete
+        Profiles reflect our published Creatine, Magnesium, Vitamin C, Electrolytes, and CoQ10 coverage — not a complete
         catalog of every product a brand sells.
       </p>
 

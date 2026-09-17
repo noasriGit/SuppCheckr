@@ -4,17 +4,13 @@ import {
   getBrandBySlug,
   getBrandPageProducts,
   getBrands,
-  getCategories,
   getCategoryBySlug,
-  getComparisons,
-  getGuides,
   getIndexableBrands,
   getIndexableCategories,
   getIndexableComparisons,
   getIndexableIngredients,
   getIndexableProducts,
   getIngredientBySlug,
-  getIngredients,
   getProductBySlug,
   getProducts,
   getScoringProfile,
@@ -41,8 +37,8 @@ function coq10Product(slug: (typeof COQ10_SLUGS)[number]) {
   return product!;
 }
 
-describe("CoQ10 Phase 15C draft products", () => {
-  it("loads three unique draft records with the locked slugs", () => {
+describe("CoQ10 Phase 15C product records", () => {
+  it("loads three unique published records with the locked slugs", () => {
     const products = COQ10_SLUGS.map((slug) => coq10Product(slug));
     expect(products).toHaveLength(3);
 
@@ -53,8 +49,8 @@ describe("CoQ10 Phase 15C draft products", () => {
     expect(new Set(ids).size).toBe(ids.length);
 
     for (const product of products) {
-      expect(product.status).toBe("draft");
-      expect(product.noindex).toBe(true);
+      expect(product.status).toBe("published");
+      expect(product.noindex).toBe(false);
       expect(product.isPlaceholder).toBe(false);
       expect(product.affiliate.enabled).toBe(false);
       expect(product.images.product.src).toBe("/images/products/placeholder.svg");
@@ -154,11 +150,12 @@ describe("CoQ10 Phase 15C draft products", () => {
     expect(coq10Product(NOW_SLUG).rating.overallScore).toBe(86);
   });
 
-  it("uses draft robots, www canonicals, and no Product JSON-LD", () => {
+  it("uses index, follow robots, www canonicals, and Product JSON-LD without placeholder images", () => {
     for (const slug of COQ10_SLUGS) {
       const product = coq10Product(slug);
       const path = `/supplements/coq10/products/${slug}`;
-      expect(entityNoindex(product)).toBe(true);
+      expect(entityNoindex(product)).toBe(false);
+      expect(isIndexable(product)).toBe(true);
 
       const metadata = buildPageMetadata({
         title: product.seo.title ?? product.name,
@@ -167,83 +164,65 @@ describe("CoQ10 Phase 15C draft products", () => {
         noindex: entityNoindex(product),
       });
       expect(metadata.alternates?.canonical).toBe(`${CANONICAL_ORIGIN}${path}`);
-      expect(metadata.robots).toEqual({ index: false, follow: true });
+      expect(metadata.robots).toEqual({ index: true, follow: true });
 
-      expect(
-        buildProductJsonLd({
-          product,
-          path,
-        }),
-      ).toBeNull();
+      const jsonLd = buildProductJsonLd({
+        product,
+        path,
+      });
+      expect(jsonLd).not.toBeNull();
+      const serialized = JSON.stringify(jsonLd);
+      expect(serialized).toContain('"Product"');
+      expect(serialized).toContain('"Review"');
+      expect(serialized).not.toContain("placeholder.svg");
+      expect(serialized).not.toContain('"image"');
+      expect(serialized).not.toContain("aggregateRating");
+      expect(serialized).not.toContain('"offers"');
     }
   });
 
-  it("keeps draft CoQ10 URLs out of the sitemap and indexable registries", () => {
+  it("includes the three CoQ10 product URLs in the 85-URL sitemap", () => {
     const xml = sitemap();
-    expect(xml).toHaveLength(77);
-    expect(getSitemapRecords()).toHaveLength(77);
+    expect(xml).toHaveLength(85);
+    expect(getSitemapRecords()).toHaveLength(85);
 
     for (const entry of xml) {
-      expect(entry.url.toLowerCase()).not.toContain("coq10");
       expect(entry.url.startsWith(CANONICAL_ORIGIN)).toBe(true);
     }
 
     const indexableSlugs = new Set(getIndexableProducts().map((product) => product.slug));
     for (const slug of COQ10_SLUGS) {
-      expect(indexableSlugs.has(slug)).toBe(false);
-      expect(isIndexable(coq10Product(slug))).toBe(false);
+      expect(indexableSlugs.has(slug)).toBe(true);
+      expect(isIndexable(coq10Product(slug))).toBe(true);
     }
 
-    expect(isIndexable(getCategoryBySlug("coq10")!)).toBe(false);
-    expect(isIndexable(getIngredientBySlug("coq10")!)).toBe(false);
-    expect(getIndexableCategories().some((category) => category.slug === "coq10")).toBe(false);
+    expect(isIndexable(getCategoryBySlug("coq10")!)).toBe(true);
+    expect(isIndexable(getIngredientBySlug("coq10")!)).toBe(true);
+    expect(getIndexableCategories().some((category) => category.slug === "coq10")).toBe(true);
     expect(getIndexableIngredients().some((ingredient) => ingredient.slug === "coq10")).toBe(
-      false,
+      true,
     );
 
     const indexablePaths = collectIndexablePageMetadata().map((page) => page.path);
     for (const slug of COQ10_SLUGS) {
-      expect(indexablePaths).not.toContain(`/supplements/coq10/products/${slug}`);
+      expect(indexablePaths).toContain(`/supplements/coq10/products/${slug}`);
     }
-    expect(indexablePaths).not.toContain("/supplements/coq10");
-    expect(indexablePaths).not.toContain("/ingredients/coq10");
+    expect(indexablePaths).toContain("/supplements/coq10");
+    expect(indexablePaths).toContain("/ingredients/coq10");
   });
 
-  it("does not expose draft CoQ10 products from published pages or affiliate mappings", () => {
-    const coq10Ids = new Set(COQ10_SLUGS.map((slug) => coq10Product(slug).id));
-
-    for (const product of getProducts().filter(isIndexable)) {
-      expect(product.relatedProductIds.some((id) => coq10Ids.has(id))).toBe(false);
-      expect(COQ10_SLUGS.includes(product.slug as (typeof COQ10_SLUGS)[number])).toBe(false);
-    }
-
-    for (const category of getCategories().filter(isIndexable)) {
-      expect(category.featuredProductIds.some((id) => coq10Ids.has(id))).toBe(false);
-    }
-
-    for (const ingredient of getIngredients().filter(isIndexable)) {
-      expect(ingredient.relatedProductIds.some((id) => coq10Ids.has(id))).toBe(false);
-    }
-
-    for (const comparison of getComparisons().filter(isIndexable)) {
-      expect(comparison.productIds.some((id) => coq10Ids.has(id))).toBe(false);
-    }
-
-    for (const guide of getGuides().filter(isIndexable)) {
-      expect(JSON.stringify(guide).toLowerCase()).not.toContain("coq10");
-    }
-
+  it("does not enable affiliate mappings and keeps Life Extension and Jarrow brands draft", () => {
     const nowBrand = getBrandBySlug("now-foods");
     expect(nowBrand).toBeDefined();
     expect(isIndexable(nowBrand!)).toBe(true);
     expect(getBrandPageProducts(nowBrand!).some((product) => product.categoryId === "coq10")).toBe(
-      false,
+      true,
     );
 
     expect(getIndexableBrands().some((brand) => brand.slug === "life-extension")).toBe(false);
     expect(getIndexableBrands().some((brand) => brand.slug === "jarrow-formulas")).toBe(false);
     expect(getIndexableComparisons().some((comparison) => comparison.categoryId === "coq10")).toBe(
-      false,
+      true,
     );
 
     for (const slug of COQ10_SLUGS) {

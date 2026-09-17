@@ -84,7 +84,7 @@ pros:
   - Carrier oil (extra virgin olive oil) and gelatin softgel materials are listed on the official other-ingredients line.
 cons:
   - No product-specific third-party certification or COA was captured for this SKU.
-  - Official one-time price per 100 mg CoQ10 is higher than the 200 mg dry-capsule SKU in this draft set.
+  - Official one-time price per 100 mg CoQ10 is higher than the 200 mg dry-capsule SKU in this set.
   - Brand page copy includes bioavailability-versus-ubiquinone and heart-health marketing — cited as brand claims only.
 bestFor:
   - Shoppers comparing a named-ubiquinol 100 mg softgel with official brand Supplement Facts and a dated one-time price.
@@ -104,7 +104,7 @@ evidenceNotes: >
   dated $0.63 per 100 mg. The 74 total ties Jarrow Q-absorb; that is a format distinction, not a winner label.
 editorialReview:
   summary: >
-    This draft page reviews Life Extension Super Ubiquinol CoQ10, 100 mg, 60 softgels (item 01929) from the official
+    This page reviews Life Extension Super Ubiquinol CoQ10, 100 mg, 60 softgels (item 01929) from the official
     brand product page. The Supplement Facts list ubiquinol as Kaneka Ubiquinol at 100 mg per softgel. The 74/100
     CoQ10-profile score reflects clear form and dose disclosure with unknown testing and a mid-range dated price per
     100 mg. It is not a category-wide winner label and not medical advice.
@@ -127,7 +127,7 @@ editorialReview:
     are different products.
   testing: >
     Testing status is unknown. SuppCheckr did not capture a product-specific certificate or recognized program listing
-    for item 01929. Absence of a captured listing is not proof that no program exists; it means this draft does not
+    for item 01929. Absence of a captured listing is not proof that no program exists; it means this review does not
     treat the SKU as independently tested. Criterion scores used for the 74 total: ingredientTransparency 100,
     doseTransparency 100, labelClarity 100, thirdPartyTesting 0, priceValue 50, evidenceAlignment 50, additives 100,
     formulaQuality 100, brandTransparency 85 (weights 16/14/12/12/12/14/8/6/6; 74.1 rounds to 74).
@@ -140,7 +140,7 @@ editorialReview:
     Jarrow's 100 mg ubiquinone soy-containing softgel and NOW's 200 mg dry vegetarian ubiquinone capsule — not a
     ranking of which form is better absorbed or medically preferable.
   bottomLine: >
-    On cited label facts and dated one-time price math, this is the named-ubiquinol option in the draft CoQ10 set.
+    On cited label facts and dated one-time price math, this is the named-ubiquinol option in the CoQ10 set.
     The 74 score is not a category-wide winner label, not proof of independent testing, and not a personal
     recommendation.
   faq:
@@ -254,11 +254,11 @@ affiliate:
 seo:
   title: Life Extension Super Ubiquinol CoQ10 100 mg Review
   description: >
-    Draft label review of Life Extension Super Ubiquinol CoQ10 100 mg (60 softgels, item 01929) with named ubiquinol
-    facts and dated official one-time price per 100 mg.
-status: draft
+    Label review of Life Extension Super Ubiquinol CoQ10 100 mg (60 softgels, item 01929) with named Kaneka ubiquinol
+    facts and dated official one-time price per 100 mg. Not medical advice.
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-09-17'
@@ -274,3 +274,9 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Phase 15D linked comparisonGroupIds to coq10-supplements-compared; product remains draft/noindex
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: >
+        Phase 15E publication candidate — official PDP re-verified; one-time price still $37.50; testing unknown;
+        placeholder image retained; affiliate disabled

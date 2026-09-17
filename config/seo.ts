@@ -8,12 +8,12 @@ export const seoTemplates = {
   supplementsIndex: {
     title: "Supplement Categories",
     description:
-      "Browse published Creatine, Magnesium, Vitamin C, and Electrolytes categories with ingredient references, guides, product reviews, and comparison tables.",
+      "Browse published Creatine, Magnesium, Vitamin C, Electrolytes, and CoQ10 categories with ingredient references, guides, product reviews, and comparison tables.",
   },
   guidesIndex: {
     title: "Supplement Guides",
     description:
-      "Educational guides for Creatine, Magnesium, Vitamin C, and Electrolytes — forms, label reading, dosage context, and safety notes.",
+      "Educational guides for Creatine, Magnesium, Vitamin C, Electrolytes, and CoQ10 — forms, label reading, dosage context, and safety notes.",
   },
   category: (name: string) => ({
     title: `${name} Supplements — Compare & Review`,

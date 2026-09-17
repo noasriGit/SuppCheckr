@@ -5,7 +5,7 @@ title: CoQ10 Products Compared
 categoryId: coq10
 subtitle: >
   This comparison looks at CoQ10 form (ubiquinone vs ubiquinol), milligrams per serving, softgel vs capsule format,
-  testing documentation, soy/gelatin disclosure, and dated official price per 100 mg CoQ10 across three locked draft
+  testing documentation, soy/gelatin disclosure, and dated official price per 100 mg CoQ10 across three locked product
   reviews. Default sort reflects SuppCheckr weighted scores — not medical recommendations and not suitability for any
   specific condition.
 productIds:
@@ -23,7 +23,7 @@ methodologyNote: >
   alignment and claim conservatism, third-party testing documentation, dated price per 100 mg CoQ10, formula quality
   including serving practicality, additives, and brand transparency). Table order defaults to overall score high to low.
   Life Extension and Jarrow both score 74; that tie is a format distinction, not a winner label. NOW's 86 total is the
-  highest of these three drafts because of dated price per 100 mg and a claimed (not verified) testing anchor — not a
+  highest of these three reviews because of dated price per 100 mg and a claimed (not verified) testing anchor — not a
   category-wide winner label. Narrow criterion labels below each product name reflect specific supported
   label attributes. Scores are not medical recommendations and do not determine which product is suitable for heart
   disease, statin use, fertility, migraine, or any medical condition. Consult a qualified healthcare professional
@@ -54,7 +54,7 @@ productCriterionLabels:
       - unknown testing
 caveats:
   - >-
-    NOW Foods CoQ10 200 mg (SKU 3176) scores 86 in this three-SKU draft set. The testing criterion is the rubric
+    NOW Foods CoQ10 200 mg (SKU 3176) scores 86 in this three-SKU set. The testing criterion is the rubric
     "claimed" anchor (50), not independent-certification credit. No SKU-matched USP, NSF, or Informed Sport listing
     was captured. Brand cardiovascular-health copy is manufacturer text, not a SuppCheckr conclusion.
   - >-
@@ -69,12 +69,13 @@ caveats:
     All three reviews use a placeholder product image pending licensed pack shots. Affiliate mappings are
     disabled. Official brand URLs are direct retailer links, not Amazon affiliate links.
   - >-
-    Phase 15C dated official one-time prices (2026-09-17): Life Extension $37.50, Jarrow 60ct $34.99, NOW $37.99.
+    Phase 15E re-verified official one-time prices on 2026-09-17: Life Extension $37.50, Jarrow 60ct $34.99, NOW $37.99.
     Verify the current one-time price on the brand page before purchase.
   - >-
     A fourth product review remains deferred. This table is not a complete market ranking.
 filtersEnabled: true
 defaultSort: overallScore
+lockedReviewSet: true
 sources:
   - id: cmp-coq10-suppcheckr-methodology
     title: SuppCheckr scoring methodology
@@ -121,11 +122,11 @@ sources:
 seo:
   title: CoQ10 Products Compared
   description: >
-    Side-by-side CoQ10 comparison of three locked SKUs by form, dose, testing documentation, and dated price per 100 mg.
-    Scores are not medical advice.
-status: draft
+    Three-SKU CoQ10 table: form, mg per serving, soy/gelatin notes, testing status, and dated official price per
+    100 mg. Scores are not medical advice.
+status: published
 isPlaceholder: false
-noindex: true
+noindex: false
 claimRiskLevel: medium
 editorial:
   lastUpdated: '2026-09-17'
@@ -138,3 +139,9 @@ editorial:
       summary: >
         Phase 15D draft/noindex three-SKU CoQ10 category comparison; NOW 86 / Life Extension 74 / Jarrow 74; no
         affiliate links; not a market-wide ranking
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: published
+      summary: >
+        Phase 15E publication candidate — indexable three-SKU comparison; lockedReviewSet true; official one-time
+        prices re-verified unchanged; not a complete market ranking

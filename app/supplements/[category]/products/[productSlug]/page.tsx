@@ -31,6 +31,7 @@ import {
   getGuideBySlug,
   isActiveContent,
   isIndexable,
+  publishedBrandHref,
 } from "@/lib/content/loader";
 import { resolveCategoryDisplayLabels } from "@/lib/content/categoryDisplayLabels";
 import { ProductEditorialReview } from "@/components/product/ProductEditorialReview";
@@ -102,6 +103,7 @@ export default async function ProductPage({
   const displayLabels = resolveCategoryDisplayLabels(category);
   const productPath = `/supplements/${categorySlug}/products/${productSlug}`;
   const affiliateCta = resolveProductAffiliateCta(product, productPath);
+  const brandHref = publishedBrandHref(brand);
 
   return (
     <SidebarLayout
@@ -141,15 +143,15 @@ export default async function ProductPage({
             <h1 className="text-3xl font-bold text-heading">{product.name}</h1>
             <p className="mt-2 text-foreground">
               by{" "}
-              {brand ? (
+              {brand && brandHref ? (
                 <Link
-                  href={`/brands/${brand.slug}`}
+                  href={brandHref}
                   className="text-link hover:text-link-hover hover:underline"
                 >
                   {brand.name}
                 </Link>
               ) : (
-                "Unknown brand"
+                brand?.name ?? "Unknown brand"
               )}
             </p>
           </div>

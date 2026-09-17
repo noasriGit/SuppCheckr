@@ -23,7 +23,7 @@ export function SearchClient({ index }: { index: SearchIndexEntry[] }) {
     <PageContainer>
       <h1 className="text-3xl font-bold text-heading">Search</h1>
       <p className="mt-3 text-sm text-foreground">
-        Search published SuppCheckr pages, including Creatine, Magnesium, Vitamin C, and Electrolytes
+        Search published SuppCheckr pages, including Creatine, Magnesium, Vitamin C, Electrolytes, and CoQ10
         product reviews, guides, comparisons, and ingredient references. Legal pages in review are excluded.
       </p>
       <div className="mt-6">

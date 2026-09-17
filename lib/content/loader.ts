@@ -216,3 +216,9 @@ export function getBrandPageProducts(brand: Brand): Product[] {
     return isIndexable(brand) ? isIndexable(p) : isActiveContent(p);
   });
 }
+
+/** Published product pages may link brand hubs only when the brand itself is indexable. */
+export function publishedBrandHref(brand: Brand | undefined): string | null {
+  if (!brand || !isIndexable(brand)) return null;
+  return `/brands/${brand.slug}`;
+}

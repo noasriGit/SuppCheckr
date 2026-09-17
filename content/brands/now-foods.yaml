@@ -3,18 +3,22 @@ slug: now-foods
 name: NOW Foods
 website: https://www.nowfoods.com
 description: >
-  NOW Foods manufactures dietary supplements and natural products, including NOW Sports creatine capsules and powders
-  sold through health retailers. SuppCheckr's dedicated creatine capsule review is
-  [NOW Sports Creatine Monohydrate 750 mg Veg Capsules](/supplements/creatine/products/now-sports-creatine-monohydrate-capsules-120).
+  NOW Foods manufactures dietary supplements and natural products. Published SuppCheckr reviews currently include
+  [NOW Sports Creatine Monohydrate 750 mg Veg Capsules](/supplements/creatine/products/now-sports-creatine-monohydrate-capsules-120)
+  and [NOW Foods CoQ10 200 mg Veg Capsules](/supplements/coq10/products/now-foods-coq10-200-mg-60-veg-capsules).
+  This brand profile is not a manufacturer website and is not a complete NOW catalog.
 logo: /images/brands/placeholder.svg
 categories:
   - creatine
+  - coq10
 transparencyNotes: >
   NOW publishes Supplement Facts panels on product pages and documents quality seals such as Informed Sport for selected
-  sports products.
+  sports products. CoQ10 SKU 3176 uses manufacturer GMP / pharmaceutical-grade language; SuppCheckr records that as
+  claimed testing, not independent product certification.
 testingNotes: >
   NOW Sports Creatine Monohydrate 750 mg veg capsules are marketed with Informed Sport certification on the brand
-  product page cited in Phase 2D.
+  product page cited in Phase 2D. NOW Foods CoQ10 200 mg veg capsules (SKU 3176) have manufacturer quality language
+  only — not a captured USP, NSF, or Informed Sport product listing.
 certifications:
   - Informed Sport
 controversyNotes: null
@@ -49,3 +53,9 @@ editorial:
       authorId: suppcheckr-editorial
       changeType: updated
       summary: Growth Pass 1 — linked brand profile to the 750 mg veg capsules review
+    - date: '2026-09-17'
+      authorId: suppcheckr-editorial
+      changeType: updated
+      summary: >
+        Phase 15E — added published CoQ10 200 mg veg capsules review; Informed Sport remains creatine-specific;
+        CoQ10 testing stays manufacturer-claimed only
